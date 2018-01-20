@@ -1,0 +1,24 @@
+[rospy.client][INFO] 2017-10-18 07:48:42,209: init_node, name[/camera/dynparam_32343_1508338121714], pid[32343]
+[xmlrpc][INFO] 2017-10-18 07:48:42,212: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2017-10-18 07:48:42,215: ROS Slave URI: [http://10.0.0.116:38715/]
+[xmlrpc][INFO] 2017-10-18 07:48:42,216: Started XML-RPC server [http://10.0.0.116:38715/]
+[rospy.impl.masterslave][INFO] 2017-10-18 07:48:42,222: _ready: http://10.0.0.116:38715/
+[rospy.registration][INFO] 2017-10-18 07:48:42,229: Registering with master node http://10.0.0.116:11311
+[xmlrpc][INFO] 2017-10-18 07:48:42,231: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2017-10-18 07:48:42,321: registered with master
+[rospy.rosout][INFO] 2017-10-18 07:48:42,322: initializing /rosout core topic
+[rospy.rosout][INFO] 2017-10-18 07:48:42,344: connected to core topic /rosout
+[rospy.simtime][INFO] 2017-10-18 07:48:42,365: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2017-10-18 07:48:42,542: topic[/camera/driver/parameter_updates] adding connection to [http://10.0.0.116:34585/], count 0
+[rospy.internal][INFO] 2017-10-18 07:48:42,549: topic[/camera/driver/parameter_descriptions] adding connection to [http://10.0.0.116:34585/], count 0
+[rospy.internal][INFO] 2017-10-18 07:48:42,598: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2017-10-18 07:48:42,935: signal_shutdown [atexit]
+[rospy.internal][INFO] 2017-10-18 07:48:42,973: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2017-10-18 07:48:42,980: topic[/camera/driver/parameter_updates] removing connection to http://10.0.0.116:34585/
+[rospy.internal][INFO] 2017-10-18 07:48:42,985: topic[/camera/driver/parameter_descriptions] removing connection to http://10.0.0.116:34585/
+[rospy.impl.masterslave][INFO] 2017-10-18 07:48:42,990: atexit
+[rospy.internal][WARNING] 2017-10-18 07:48:42,996: Unknown error initiating TCP/IP socket to 10.0.0.116:49117 (http://10.0.0.116:34585/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+

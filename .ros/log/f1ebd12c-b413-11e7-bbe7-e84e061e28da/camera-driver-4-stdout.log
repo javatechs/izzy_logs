@@ -1,0 +1,8 @@
+[0m[ INFO] [1508338344.565381049]: Loading nodelet /camera/driver of type realsense_camera/R200Nodelet to manager camera_nodelet_manager with the following remappings:[0m
+[0m[ INFO] [1508338344.565553628]: /camera/color -> /camera/color[0m
+[0m[ INFO] [1508338344.565599901]: /camera/depth -> /camera/depth[0m
+[0m[ INFO] [1508338344.565638374]: /camera/ir -> /camera/ir[0m
+[0m[ INFO] [1508338344.565684734]: /camera/ir2 -> /camera/ir2[0m
+[0m[ INFO] [1508338344.611030087]: waitForService: Service [/camera/camera_nodelet_manager/load_nodelet] has not been advertised, waiting...[0m
+[0m[ INFO] [1508338345.044456449]: waitForService: Service [/camera/camera_nodelet_manager/load_nodelet] is now available.[0m
+[0m[ INFO] [1508339033.168697832]: Bond broken, exiting[0m

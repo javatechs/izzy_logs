@@ -1,0 +1,31 @@
+[rospy.client][INFO] 2017-10-18 07:52:28,946: init_node, name[/state_driving_to_cone], pid[10273]
+[xmlrpc][INFO] 2017-10-18 07:52:28,948: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2017-10-18 07:52:28,949: Started XML-RPC server [http://10.0.0.116:41545/]
+[rospy.impl.masterslave][INFO] 2017-10-18 07:52:28,950: _ready: http://10.0.0.116:41545/
+[rospy.init][INFO] 2017-10-18 07:52:28,953: ROS Slave URI: [http://10.0.0.116:41545/]
+[rospy.registration][INFO] 2017-10-18 07:52:28,955: Registering with master node http://10.0.0.116:11311
+[xmlrpc][INFO] 2017-10-18 07:52:28,957: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2017-10-18 07:52:29,054: registered with master
+[rospy.rosout][INFO] 2017-10-18 07:52:29,055: initializing /rosout core topic
+[rospy.rosout][INFO] 2017-10-18 07:52:29,070: connected to core topic /rosout
+[rospy.simtime][INFO] 2017-10-18 07:52:29,084: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2017-10-18 07:52:29,169: topic[/state_command] adding connection to [/state_avoiding_obstacle], count 0
+[rospy.internal][INFO] 2017-10-18 07:52:29,173: topic[/state_command] adding connection to [/state_driving_away], count 1
+[rospy.internal][INFO] 2017-10-18 07:52:29,198: topic[/state_command] adding connection to [/state_follow_waypoint], count 2
+[rospy.internal][INFO] 2017-10-18 07:52:29,231: topic[/state_command] adding connection to [http://10.0.0.116:34377/], count 0
+[rospy.internal][INFO] 2017-10-18 07:52:29,242: topic[/state_command] adding connection to [http://10.0.0.116:36270/], count 1
+[rospy.internal][INFO] 2017-10-18 07:52:29,256: topic[/state_command] adding connection to [http://10.0.0.116:40377/], count 2
+[rospy.internal][INFO] 2017-10-18 07:52:29,260: topic[/state_command] adding connection to [http://10.0.0.116:41545/], count 3
+[rospy.internal][INFO] 2017-10-18 07:52:29,278: topic[/state_command] adding connection to [/state_driving_to_cone], count 3
+[rospy.internal][INFO] 2017-10-18 07:52:29,381: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2017-10-18 07:52:30,643: topic[/mavros/local_position/pose] adding connection to [http://10.0.0.116:42172/], count 0
+[rospy.internal][INFO] 2017-10-18 07:52:30,716: topic[/mavros/setpoint_raw/target_local] adding connection to [http://10.0.0.116:42172/], count 0
+[rospy.internal][INFO] 2017-10-18 07:52:30,788: topic[/mavros/state] adding connection to [http://10.0.0.116:42172/], count 0
+[rospy.internal][INFO] 2017-10-18 07:52:30,879: topic[/mavlink/from] adding connection to [http://10.0.0.116:42172/], count 0
+[rospy.internal][INFO] 2017-10-18 07:52:30,885: topic[/mavros/battery] adding connection to [http://10.0.0.116:42172/], count 0
+[rospy.internal][INFO] 2017-10-18 07:52:31,093: topic[/mavros/mission/waypoints] adding connection to [http://10.0.0.116:42172/], count 0
+[rospy.internal][INFO] 2017-10-18 07:52:31,137: topic[/state_command] adding connection to [http://10.0.0.116:37964/], count 4
+[rospy.internal][INFO] 2017-10-18 07:52:31,212: topic[/exec_command] adding connection to [/exec], count 0
+[rospy.internal][INFO] 2017-10-18 07:52:31,227: topic[/mavros/rc/override] adding connection to [/mavros], count 0
+[rosout][INFO] 2017-10-18 07:52:31,482: /state_driving_to_cone msgid 180 detected
+[rospy.internal][INFO] 2017-10-18 08:02:02,651: topic[/rosout] removing connection to /rosout

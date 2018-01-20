@@ -1,0 +1,171 @@
+[rospy.client][INFO] 2017-10-18 07:46:02,926: init_node, name[/exec], pid[27575]
+[xmlrpc][INFO] 2017-10-18 07:46:02,936: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2017-10-18 07:46:02,937: ROS Slave URI: [http://10.0.0.116:34779/]
+[xmlrpc][INFO] 2017-10-18 07:46:02,938: Started XML-RPC server [http://10.0.0.116:34779/]
+[rospy.impl.masterslave][INFO] 2017-10-18 07:46:02,938: _ready: http://10.0.0.116:34779/
+[rospy.registration][INFO] 2017-10-18 07:46:02,940: Registering with master node http://10.0.0.116:11311
+[rospy.registration][INFO] 2017-10-18 07:46:02,941: Registering publisher topic [/play] type [std_msgs/String] with master
+[xmlrpc][INFO] 2017-10-18 07:46:02,944: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2017-10-18 07:46:03,038: registered with master
+[rospy.rosout][INFO] 2017-10-18 07:46:03,039: initializing /rosout core topic
+[rospy.rosout][INFO] 2017-10-18 07:46:03,058: connected to core topic /rosout
+[rospy.simtime][INFO] 2017-10-18 07:46:03,083: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2017-10-18 07:46:03,333: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2017-10-18 07:46:04,698: topic[/play] adding connection to [/chatty], count 0
+[rospy.internal][INFO] 2017-10-18 07:46:05,461: topic[/mavros/local_position/pose] adding connection to [http://10.0.0.116:35943/], count 0
+[rospy.internal][INFO] 2017-10-18 07:46:05,508: topic[/mavros/setpoint_raw/target_local] adding connection to [http://10.0.0.116:35943/], count 0
+[rospy.internal][INFO] 2017-10-18 07:46:05,584: topic[/mavros/state] adding connection to [http://10.0.0.116:35943/], count 0
+[rospy.internal][INFO] 2017-10-18 07:46:05,668: topic[/mavros/battery] adding connection to [http://10.0.0.116:35943/], count 0
+[rospy.internal][INFO] 2017-10-18 07:46:05,678: topic[/mavlink/from] adding connection to [http://10.0.0.116:35943/], count 0
+[rospy.internal][INFO] 2017-10-18 07:46:06,035: topic[/mavros/mission/waypoints] adding connection to [http://10.0.0.116:35943/], count 0
+[rospy.internal][INFO] 2017-10-18 07:46:06,044: topic[/mavros/rc/override] adding connection to [/mavros], count 0
+[rospy.internal][INFO] 2017-10-18 07:46:06,218: topic[/state_command] adding connection to [/state_avoiding_obstacle], count 0
+[rospy.internal][INFO] 2017-10-18 07:46:06,235: topic[/state_command] adding connection to [/state_driving_away], count 1
+[rospy.internal][INFO] 2017-10-18 07:46:06,242: topic[/state_command] adding connection to [/state_driving_to_cone], count 2
+[rospy.internal][INFO] 2017-10-18 07:46:06,287: topic[/exec_command] adding connection to [http://10.0.0.116:33171/], count 0
+[rospy.internal][INFO] 2017-10-18 07:46:06,299: topic[/exec_command] adding connection to [http://10.0.0.116:37475/], count 1
+[rosout][INFO] 2017-10-18 07:46:06,267: Exec is starting
+[rospy.internal][INFO] 2017-10-18 07:46:06,312: topic[/exec_command] adding connection to [http://10.0.0.116:40658/], count 2
+[rospy.internal][INFO] 2017-10-18 07:46:06,325: topic[/exec_command] adding connection to [http://10.0.0.116:43499/], count 3
+[rospy.internal][INFO] 2017-10-18 07:46:06,334: topic[/exec_command] adding connection to [http://10.0.0.116:34779/], count 4
+[rospy.internal][INFO] 2017-10-18 07:46:06,335: topic[/state_command] adding connection to [/state_follow_waypoint], count 3
+[rospy.internal][INFO] 2017-10-18 07:46:06,344: topic[/exec_command] adding connection to [/exec], count 0
+[rospy.internal][INFO] 2017-10-18 07:46:20,543: topic[/play] adding connection to [/chatty], count 1
+[rospy.internal][INFO] 2017-10-18 07:46:20,544: topic[/play] removing connection to /chatty
+[rospy.core][INFO] 2017-10-18 07:46:20,557: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2017-10-18 07:46:20,598: topic[/play] removing connection to /chatty
+[rospy.internal][INFO] 2017-10-18 07:46:20,744: topic[/mavros/rc/override] removing connection to /mavros
+[rospy.internal][ERROR] 2017-10-18 07:46:20,746: Unable to initiate TCP/IP socket to 10.0.0.116:42912 (http://10.0.0.116:40658/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][INFO] 2017-10-18 07:46:20,747: topic[/exec_command] removing connection to /exec
+[rospy.internal][INFO] 2017-10-18 07:46:20,750: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2017-10-18 07:46:20,751: topic[/state_command] removing connection to /state_avoiding_obstacle
+[rospy.internal][INFO] 2017-10-18 07:46:20,752: topic[/state_command] removing connection to /state_driving_away
+[rospy.internal][ERROR] 2017-10-18 07:46:20,759: Unable to initiate TCP/IP socket to 10.0.0.116:42387 (http://10.0.0.116:34779/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][ERROR] 2017-10-18 07:46:20,759: Unable to initiate TCP/IP socket to 10.0.0.116:39276 (http://10.0.0.116:37475/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][INFO] 2017-10-18 07:46:20,768: topic[/state_command] removing connection to /state_driving_to_cone
+[rospy.internal][INFO] 2017-10-18 07:46:20,773: topic[/state_command] removing connection to /state_follow_waypoint
+[rospy.internal][ERROR] 2017-10-18 07:46:20,775: Unable to initiate TCP/IP socket to 10.0.0.116:36615 (http://10.0.0.116:43499/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][WARNING] 2017-10-18 07:46:20,776: Unknown error initiating TCP/IP socket to 10.0.0.116:35884 (http://10.0.0.116:35943/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.internal][INFO] 2017-10-18 07:46:20,777: topic[/mavros/mission/waypoints] removing connection to http://10.0.0.116:35943/
+[rospy.topics][ERROR] 2017-10-18 07:46:20,780: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 326, in close
+    c.close()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 838, in close
+    self.socket.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+
+[rospy.internal][INFO] 2017-10-18 07:46:20,781: topic[/exec_command] removing connection to http://10.0.0.116:33171/
+[rospy.internal][INFO] 2017-10-18 07:46:20,782: topic[/exec_command] removing connection to http://10.0.0.116:37475/
+[rospy.internal][INFO] 2017-10-18 07:46:20,783: topic[/exec_command] removing connection to http://10.0.0.116:40658/
+[rospy.internal][ERROR] 2017-10-18 07:46:20,784: Unable to initiate TCP/IP socket to 10.0.0.116:33101 (http://10.0.0.116:33171/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][INFO] 2017-10-18 07:46:20,785: topic[/exec_command] removing connection to http://10.0.0.116:43499/
+[rospy.internal][INFO] 2017-10-18 07:46:20,789: topic[/exec_command] removing connection to http://10.0.0.116:34779/
+[rospy.internal][INFO] 2017-10-18 07:46:20,790: topic[/mavros/state] removing connection to http://10.0.0.116:35943/
+[rospy.topics][ERROR] 2017-10-18 07:46:20,792: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 326, in close
+    c.close()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 838, in close
+    self.socket.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+
+[rospy.internal][WARNING] 2017-10-18 07:46:20,793: Unknown error initiating TCP/IP socket to 10.0.0.116:35884 (http://10.0.0.116:35943/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.internal][INFO] 2017-10-18 07:46:20,795: topic[/mavlink/from] removing connection to http://10.0.0.116:35943/
+[rospy.internal][WARNING] 2017-10-18 07:46:20,797: Unknown error initiating TCP/IP socket to 10.0.0.116:35884 (http://10.0.0.116:35943/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.topics][ERROR] 2017-10-18 07:46:20,798: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 326, in close
+    c.close()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 838, in close
+    self.socket.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+
+[rospy.internal][INFO] 2017-10-18 07:46:20,799: topic[/mavros/local_position/pose] removing connection to http://10.0.0.116:35943/
+[rospy.topics][ERROR] 2017-10-18 07:46:20,801: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 326, in close
+    c.close()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 838, in close
+    self.socket.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+
+[rospy.internal][INFO] 2017-10-18 07:46:20,802: topic[/mavros/battery] removing connection to http://10.0.0.116:35943/
+[rospy.internal][WARNING] 2017-10-18 07:46:20,803: Unknown error initiating TCP/IP socket to 10.0.0.116:35884 (http://10.0.0.116:35943/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.topics][ERROR] 2017-10-18 07:46:20,804: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 326, in close
+    c.close()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 838, in close
+    self.socket.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+
+[rospy.internal][WARNING] 2017-10-18 07:46:20,805: Unknown error initiating TCP/IP socket to 10.0.0.116:35884 (http://10.0.0.116:35943/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.internal][INFO] 2017-10-18 07:46:20,806: topic[/mavros/setpoint_raw/target_local] removing connection to http://10.0.0.116:35943/
+[rospy.impl.masterslave][INFO] 2017-10-18 07:46:20,807: signal-2
+[rospy.core][INFO] 2017-10-18 07:46:21,228: signal_shutdown [atexit]

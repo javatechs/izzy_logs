@@ -1,0 +1,33 @@
+[rospy.client][INFO] 2017-10-18 07:34:22,371: init_node, name[/monitor], pid[9328]
+[xmlrpc][INFO] 2017-10-18 07:34:22,373: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2017-10-18 07:34:22,374: Started XML-RPC server [http://10.0.0.116:39295/]
+[rospy.impl.masterslave][INFO] 2017-10-18 07:34:22,374: _ready: http://10.0.0.116:39295/
+[rospy.init][INFO] 2017-10-18 07:34:22,375: ROS Slave URI: [http://10.0.0.116:39295/]
+[rospy.registration][INFO] 2017-10-18 07:34:22,377: Registering with master node http://10.0.0.116:11311
+[xmlrpc][INFO] 2017-10-18 07:34:22,380: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2017-10-18 07:34:22,476: registered with master
+[rospy.rosout][INFO] 2017-10-18 07:34:22,476: initializing /rosout core topic
+[rospy.rosout][INFO] 2017-10-18 07:34:22,483: connected to core topic /rosout
+[rospy.simtime][INFO] 2017-10-18 07:34:22,490: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2017-10-18 07:34:22,734: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2017-10-18 07:34:23,340: topic[/mavros/setpoint_raw/target_local] adding connection to [http://10.0.0.116:34225/], count 0
+[rospy.internal][INFO] 2017-10-18 07:34:23,390: topic[/mavros/state] adding connection to [http://10.0.0.116:34225/], count 0
+[rospy.internal][INFO] 2017-10-18 07:34:23,437: topic[/mavros/battery] adding connection to [http://10.0.0.116:34225/], count 0
+[rospy.internal][INFO] 2017-10-18 07:34:23,461: topic[/mavlink/from] adding connection to [http://10.0.0.116:34225/], count 0
+[rospy.internal][INFO] 2017-10-18 07:34:23,487: topic[/mavros/local_position/pose] adding connection to [http://10.0.0.116:34225/], count 0
+[rospy.internal][INFO] 2017-10-18 07:34:23,542: topic[/playfile] adding connection to [/chatty], count 0
+[rospy.internal][INFO] 2017-10-18 07:34:23,608: topic[/play] adding connection to [/chatty], count 0
+[rosout][INFO] 2017-10-18 07:34:23,807: 
+[rosout][INFO] 2017-10-18 07:34:23,808: Arm state: DISARMED
+[rosout][INFO] 2017-10-18 07:34:25,482: HOLD
+[rospy.core][INFO] 2017-10-18 07:35:11,591: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2017-10-18 07:35:11,643: topic[/play] removing connection to /chatty
+[rospy.internal][INFO] 2017-10-18 07:35:11,644: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2017-10-18 07:35:11,645: topic[/playfile] removing connection to /chatty
+[rospy.internal][INFO] 2017-10-18 07:35:11,646: topic[/mavros/setpoint_raw/target_local] removing connection to http://10.0.0.116:34225/
+[rospy.internal][INFO] 2017-10-18 07:35:11,646: topic[/mavros/state] removing connection to http://10.0.0.116:34225/
+[rospy.internal][INFO] 2017-10-18 07:35:11,647: topic[/mavros/local_position/pose] removing connection to http://10.0.0.116:34225/
+[rospy.internal][INFO] 2017-10-18 07:35:11,653: topic[/mavros/battery] removing connection to http://10.0.0.116:34225/
+[rospy.internal][INFO] 2017-10-18 07:35:11,654: topic[/mavlink/from] removing connection to http://10.0.0.116:34225/
+[rospy.impl.masterslave][INFO] 2017-10-18 07:35:11,654: signal-2
+[rospy.core][INFO] 2017-10-18 07:35:12,235: signal_shutdown [atexit]

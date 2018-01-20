@@ -1,0 +1,9 @@
+/home/robot/catkin_ws/src/robo_magellan/scripts/soundmapfiles.yaml
+[INFO] [1508338222.748727]: /chatty Play token: HOLD
+[INFO] [1508338222.750242]: Path: /home/robot/catkin_ws/src/robo_magellan/scripts/sounds/hold.wav
+[INFO] [1508338222.751383]: H1
+[INFO] [1508338222.752478]: No enum named: HOLD
+[INFO] [1508338222.753689]: /chatty Play token: DISARMED
+[INFO] [1508338222.754735]: Path: /home/robot/catkin_ws/src/robo_magellan/scripts/sounds/disarmed.wav
+[INFO] [1508338222.755655]: H1
+[INFO] [1508338222.756724]: No enum named: DISARMED

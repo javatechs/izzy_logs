@@ -1,0 +1,7 @@
+[0m[ INFO] [1508338105.425490318]: Loading nodelet /camera/color_debayer of type image_proc/debayer to manager camera_nodelet_manager with the following remappings:[0m
+[0m[ INFO] [1508338105.425693483]: /camera/image_color -> /camera/color/image_color[0m
+[0m[ INFO] [1508338105.425744718]: /camera/image_mono -> /camera/color/image_mono[0m
+[0m[ INFO] [1508338105.425789054]: /camera/image_raw -> /camera/color/image_raw[0m
+[0m[ INFO] [1508338105.497610792]: waitForService: Service [/camera/camera_nodelet_manager/load_nodelet] has not been advertised, waiting...[0m
+[0m[ INFO] [1508338105.920126968]: waitForService: Service [/camera/camera_nodelet_manager/load_nodelet] is now available.[0m
+[0m[ INFO] [1508338141.033745816]: Unloading nodelet /camera/color_debayer from manager camera_nodelet_manager[0m

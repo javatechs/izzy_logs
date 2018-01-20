@@ -1,0 +1,48 @@
+[rospy.client][INFO] 2017-10-18 07:49:36,388: init_node, name[/chatty], pid[2357]
+[xmlrpc][INFO] 2017-10-18 07:49:36,390: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2017-10-18 07:49:36,391: Started XML-RPC server [http://10.0.0.116:42302/]
+[rospy.impl.masterslave][INFO] 2017-10-18 07:49:36,394: _ready: http://10.0.0.116:42302/
+[rospy.registration][INFO] 2017-10-18 07:49:36,396: Registering with master node http://10.0.0.116:11311
+[rospy.init][INFO] 2017-10-18 07:49:36,392: ROS Slave URI: [http://10.0.0.116:42302/]
+[xmlrpc][INFO] 2017-10-18 07:49:36,398: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2017-10-18 07:49:36,400: registered with master
+[rospy.rosout][INFO] 2017-10-18 07:49:36,402: initializing /rosout core topic
+[rospy.rosout][INFO] 2017-10-18 07:49:36,412: connected to core topic /rosout
+[rospy.simtime][INFO] 2017-10-18 07:49:36,435: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2017-10-18 07:49:36,662: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2017-10-18 07:49:36,880: topic[/play] adding connection to [http://10.0.0.116:36232/], count 0
+[rospy.internal][INFO] 2017-10-18 07:49:38,053: topic[/play] adding connection to [http://10.0.0.116:42804/], count 1
+[rospy.internal][INFO] 2017-10-18 07:49:38,057: topic[/playfile] adding connection to [http://10.0.0.116:42804/], count 0
+[rosout][INFO] 2017-10-18 07:49:38,853: /chatty Play token: HOLD
+[rosout][INFO] 2017-10-18 07:49:38,855: Path: /home/robot/catkin_ws/src/robo_magellan/scripts/sounds/hold.wav
+[rosout][INFO] 2017-10-18 07:49:38,856: H1
+[rosout][INFO] 2017-10-18 07:49:38,857: No enum named: HOLD
+[rosout][INFO] 2017-10-18 07:49:38,858: /chatty Play token: DISARMED
+[rosout][INFO] 2017-10-18 07:49:38,860: Path: /home/robot/catkin_ws/src/robo_magellan/scripts/sounds/disarmed.wav
+[rosout][INFO] 2017-10-18 07:49:38,861: H1
+[rosout][INFO] 2017-10-18 07:49:38,863: No enum named: DISARMED
+[rospy.core][INFO] 2017-10-18 07:49:47,852: signal_shutdown [signal-2]
+[rospy.internal][ERROR] 2017-10-18 07:49:47,868: Unable to initiate TCP/IP socket to 10.0.0.116:43895 (http://10.0.0.116:42804/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][ERROR] 2017-10-18 07:49:47,890: Unable to initiate TCP/IP socket to 10.0.0.116:43895 (http://10.0.0.116:42804/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][INFO] 2017-10-18 07:49:48,073: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2017-10-18 07:49:48,074: topic[/play] removing connection to http://10.0.0.116:36232/
+[rospy.internal][INFO] 2017-10-18 07:49:48,075: topic[/play] removing connection to http://10.0.0.116:42804/
+[rospy.internal][INFO] 2017-10-18 07:49:48,075: topic[/playfile] removing connection to http://10.0.0.116:42804/
+[rospy.impl.masterslave][INFO] 2017-10-18 07:49:48,075: signal-2
+[rospy.core][INFO] 2017-10-18 07:49:48,544: signal_shutdown [atexit]
