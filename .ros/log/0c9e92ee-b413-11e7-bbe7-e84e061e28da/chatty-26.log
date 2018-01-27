@@ -1,0 +1,32 @@
+[rospy.client][INFO] 2017-10-18 07:46:04,030: init_node, name[/chatty], pid[27681]
+[xmlrpc][INFO] 2017-10-18 07:46:04,031: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2017-10-18 07:46:04,033: Started XML-RPC server [http://10.0.0.116:33233/]
+[rospy.impl.masterslave][INFO] 2017-10-18 07:46:04,033: _ready: http://10.0.0.116:33233/
+[xmlrpc][INFO] 2017-10-18 07:46:04,037: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2017-10-18 07:46:04,037: ROS Slave URI: [http://10.0.0.116:33233/]
+[rospy.registration][INFO] 2017-10-18 07:46:04,039: Registering with master node http://10.0.0.116:11311
+[rospy.init][INFO] 2017-10-18 07:46:04,139: registered with master
+[rospy.rosout][INFO] 2017-10-18 07:46:04,139: initializing /rosout core topic
+[rospy.rosout][INFO] 2017-10-18 07:46:04,160: connected to core topic /rosout
+[rospy.simtime][INFO] 2017-10-18 07:46:04,188: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2017-10-18 07:46:04,431: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2017-10-18 07:46:04,689: topic[/play] adding connection to [http://10.0.0.116:34779/], count 0
+[rospy.internal][INFO] 2017-10-18 07:46:05,963: topic[/playfile] adding connection to [http://10.0.0.116:35314/], count 0
+[rospy.internal][INFO] 2017-10-18 07:46:06,012: topic[/play] adding connection to [http://10.0.0.116:35314/], count 1
+[rosout][INFO] 2017-10-18 07:46:06,307: /chatty Play token: 
+[rosout][INFO] 2017-10-18 07:46:06,308: No enum named: 
+[rosout][INFO] 2017-10-18 07:46:06,313: /chatty Play token: DISARMED
+[rosout][INFO] 2017-10-18 07:46:06,314: Path: /home/robot/catkin_ws/src/robo_magellan/scripts/sounds/disarmed.wav
+[rosout][INFO] 2017-10-18 07:46:06,319: H1
+[rosout][INFO] 2017-10-18 07:46:06,324: No enum named: DISARMED
+[rosout][INFO] 2017-10-18 07:46:09,963: /chatty Play token: HOLD
+[rosout][INFO] 2017-10-18 07:46:09,969: Path: /home/robot/catkin_ws/src/robo_magellan/scripts/sounds/hold.wav
+[rosout][INFO] 2017-10-18 07:46:09,971: H1
+[rosout][INFO] 2017-10-18 07:46:09,972: No enum named: HOLD
+[rospy.core][INFO] 2017-10-18 07:46:20,494: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2017-10-18 07:46:20,539: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2017-10-18 07:46:20,552: topic[/play] removing connection to http://10.0.0.116:34779/
+[rospy.internal][INFO] 2017-10-18 07:46:20,553: topic[/play] removing connection to http://10.0.0.116:35314/
+[rospy.internal][INFO] 2017-10-18 07:46:20,554: topic[/playfile] removing connection to http://10.0.0.116:35314/
+[rospy.impl.masterslave][INFO] 2017-10-18 07:46:20,555: signal-2
+[rospy.core][INFO] 2017-10-18 07:46:21,131: signal_shutdown [atexit]

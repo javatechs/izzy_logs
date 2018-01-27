@@ -1,0 +1,30 @@
+[rospy.client][INFO] 2017-10-18 07:50:20,786: init_node, name[/chatty], pid[5177]
+[xmlrpc][INFO] 2017-10-18 07:50:20,787: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2017-10-18 07:50:20,789: Started XML-RPC server [http://10.0.0.116:39458/]
+[rospy.impl.masterslave][INFO] 2017-10-18 07:50:20,789: _ready: http://10.0.0.116:39458/
+[rospy.registration][INFO] 2017-10-18 07:50:20,791: Registering with master node http://10.0.0.116:11311
+[xmlrpc][INFO] 2017-10-18 07:50:20,792: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2017-10-18 07:50:20,797: ROS Slave URI: [http://10.0.0.116:39458/]
+[rospy.init][INFO] 2017-10-18 07:50:20,797: registered with master
+[rospy.rosout][INFO] 2017-10-18 07:50:20,798: initializing /rosout core topic
+[rospy.rosout][INFO] 2017-10-18 07:50:20,807: connected to core topic /rosout
+[rospy.simtime][INFO] 2017-10-18 07:50:20,821: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2017-10-18 07:50:21,150: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2017-10-18 07:50:21,418: topic[/play] adding connection to [http://10.0.0.116:42545/], count 0
+[rospy.internal][INFO] 2017-10-18 07:50:22,482: topic[/playfile] adding connection to [http://10.0.0.116:42221/], count 0
+[rospy.internal][INFO] 2017-10-18 07:50:22,502: topic[/play] adding connection to [http://10.0.0.116:42221/], count 1
+[rosout][INFO] 2017-10-18 07:50:22,748: /chatty Play token: HOLD
+[rosout][INFO] 2017-10-18 07:50:22,750: Path: /home/robot/catkin_ws/src/robo_magellan/scripts/sounds/hold.wav
+[rosout][INFO] 2017-10-18 07:50:22,751: H1
+[rosout][INFO] 2017-10-18 07:50:22,752: No enum named: HOLD
+[rosout][INFO] 2017-10-18 07:50:22,753: /chatty Play token: DISARMED
+[rosout][INFO] 2017-10-18 07:50:22,754: Path: /home/robot/catkin_ws/src/robo_magellan/scripts/sounds/disarmed.wav
+[rosout][INFO] 2017-10-18 07:50:22,755: H1
+[rosout][INFO] 2017-10-18 07:50:22,756: No enum named: DISARMED
+[rospy.core][INFO] 2017-10-18 07:51:05,675: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2017-10-18 07:51:05,701: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2017-10-18 07:51:05,702: topic[/play] removing connection to http://10.0.0.116:42545/
+[rospy.internal][INFO] 2017-10-18 07:51:05,703: topic[/play] removing connection to http://10.0.0.116:42221/
+[rospy.internal][INFO] 2017-10-18 07:51:05,704: topic[/playfile] removing connection to http://10.0.0.116:42221/
+[rospy.impl.masterslave][INFO] 2017-10-18 07:51:05,706: signal-2
+[rospy.core][INFO] 2017-10-18 07:51:05,818: signal_shutdown [atexit]

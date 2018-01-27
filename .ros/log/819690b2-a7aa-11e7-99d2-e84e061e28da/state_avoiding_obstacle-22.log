@@ -1,0 +1,48 @@
+[rospy.client][INFO] 2017-10-02 12:54:41,321: init_node, name[/state_avoiding_obstacle], pid[6434]
+[xmlrpc][INFO] 2017-10-02 12:54:41,329: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2017-10-02 12:54:41,331: ROS Slave URI: [http://10.0.0.116:44619/]
+[xmlrpc][INFO] 2017-10-02 12:54:41,332: Started XML-RPC server [http://10.0.0.116:44619/]
+[rospy.impl.masterslave][INFO] 2017-10-02 12:54:41,332: _ready: http://10.0.0.116:44619/
+[rospy.registration][INFO] 2017-10-02 12:54:41,342: Registering with master node http://10.0.0.116:11311
+[xmlrpc][INFO] 2017-10-02 12:54:41,343: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2017-10-02 12:54:41,432: registered with master
+[rospy.rosout][INFO] 2017-10-02 12:54:41,432: initializing /rosout core topic
+[rospy.rosout][INFO] 2017-10-02 12:54:41,456: connected to core topic /rosout
+[rospy.simtime][INFO] 2017-10-02 12:54:41,529: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2017-10-02 12:54:41,669: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2017-10-02 12:54:41,737: topic[/state_command] adding connection to [http://10.0.0.116:44619/], count 0
+[rospy.internal][INFO] 2017-10-02 12:54:41,745: topic[/state_command] adding connection to [http://10.0.0.116:37656/], count 1
+[rospy.internal][INFO] 2017-10-02 12:54:41,764: topic[/state_command] adding connection to [/state_driving_away], count 0
+[rospy.internal][INFO] 2017-10-02 12:54:41,819: topic[/state_command] adding connection to [/state_avoiding_obstacle], count 1
+[rospy.internal][INFO] 2017-10-02 12:54:42,254: topic[/state_command] adding connection to [/state_follow_waypoint], count 2
+[rospy.internal][INFO] 2017-10-02 12:54:42,303: topic[/state_command] adding connection to [http://10.0.0.116:45876/], count 2
+[rospy.core][INFO] 2017-10-02 12:54:42,408: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2017-10-02 12:54:42,423: topic[/state_command] adding connection to [http://10.0.0.116:44767/], count 3
+[rospy.internal][ERROR] 2017-10-02 12:54:42,561: Unable to initiate TCP/IP socket to 10.0.0.116:41536 (http://10.0.0.116:37656/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][INFO] 2017-10-02 12:54:42,594: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2017-10-02 12:54:42,595: topic[/state_command] removing connection to /state_driving_away
+[rospy.internal][INFO] 2017-10-02 12:54:42,596: topic[/state_command] removing connection to /state_avoiding_obstacle
+[rospy.internal][INFO] 2017-10-02 12:54:42,597: topic[/state_command] removing connection to /state_follow_waypoint
+[rospy.internal][INFO] 2017-10-02 12:54:42,599: topic[/state_command] removing connection to http://10.0.0.116:44619/
+[rospy.internal][INFO] 2017-10-02 12:54:42,600: topic[/state_command] removing connection to http://10.0.0.116:37656/
+[rospy.internal][ERROR] 2017-10-02 12:54:42,601: Unable to initiate TCP/IP socket to 10.0.0.116:34017 (http://10.0.0.116:44619/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][INFO] 2017-10-02 12:54:42,602: topic[/state_command] removing connection to http://10.0.0.116:45876/
+[rospy.internal][INFO] 2017-10-02 12:54:42,607: topic[/state_command] removing connection to http://10.0.0.116:44767/
+[rospy.impl.masterslave][INFO] 2017-10-02 12:54:42,608: signal-2
+[rospy.core][INFO] 2017-10-02 12:54:43,024: signal_shutdown [atexit]

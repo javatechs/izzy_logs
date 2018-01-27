@@ -1,0 +1,26 @@
+[rospy.client][INFO] 2017-10-18 07:32:49,016: init_node, name[/touch_detector], pid[5285]
+[xmlrpc][INFO] 2017-10-18 07:32:49,018: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2017-10-18 07:32:49,019: ROS Slave URI: [http://10.0.0.116:39898/]
+[xmlrpc][INFO] 2017-10-18 07:32:49,019: Started XML-RPC server [http://10.0.0.116:39898/]
+[rospy.impl.masterslave][INFO] 2017-10-18 07:32:49,034: _ready: http://10.0.0.116:39898/
+[rospy.registration][INFO] 2017-10-18 07:32:49,036: Registering with master node http://10.0.0.116:11311
+[xmlrpc][INFO] 2017-10-18 07:32:49,041: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2017-10-18 07:32:49,134: registered with master
+[rospy.rosout][INFO] 2017-10-18 07:32:49,134: initializing /rosout core topic
+[rospy.rosout][INFO] 2017-10-18 07:32:49,145: connected to core topic /rosout
+[rospy.simtime][INFO] 2017-10-18 07:32:49,160: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2017-10-18 07:32:49,261: topic[/mavlink/from] adding connection to [http://10.0.0.116:42365/], count 0
+[rospy.internal][INFO] 2017-10-18 07:32:49,441: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2017-10-18 07:32:50,997: topic[/mavros/local_position/pose] adding connection to [http://10.0.0.116:42365/], count 0
+[rospy.internal][INFO] 2017-10-18 07:32:51,042: topic[/mavros/setpoint_raw/target_local] adding connection to [http://10.0.0.116:42365/], count 0
+[rospy.internal][INFO] 2017-10-18 07:32:51,098: topic[/mavros/state] adding connection to [http://10.0.0.116:42365/], count 0
+[rospy.internal][INFO] 2017-10-18 07:32:51,102: topic[/mavros/battery] adding connection to [http://10.0.0.116:42365/], count 0
+[rospy.core][INFO] 2017-10-18 07:33:29,886: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2017-10-18 07:33:30,063: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2017-10-18 07:33:30,064: topic[/mavros/setpoint_raw/target_local] removing connection to http://10.0.0.116:42365/
+[rospy.internal][INFO] 2017-10-18 07:33:30,069: topic[/mavlink/from] removing connection to http://10.0.0.116:42365/
+[rospy.internal][INFO] 2017-10-18 07:33:30,070: topic[/mavros/local_position/pose] removing connection to http://10.0.0.116:42365/
+[rospy.internal][INFO] 2017-10-18 07:33:30,071: topic[/mavros/state] removing connection to http://10.0.0.116:42365/
+[rospy.internal][INFO] 2017-10-18 07:33:30,072: topic[/mavros/battery] removing connection to http://10.0.0.116:42365/
+[rospy.impl.masterslave][INFO] 2017-10-18 07:33:30,073: signal-2
+[rospy.core][INFO] 2017-10-18 07:33:30,545: signal_shutdown [atexit]

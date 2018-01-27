@@ -1,0 +1,46 @@
+[rospy.client][INFO] 2017-10-18 07:39:27,364: init_node, name[/touch_detector], pid[13677]
+[xmlrpc][INFO] 2017-10-18 07:39:27,366: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2017-10-18 07:39:27,367: Started XML-RPC server [http://10.0.0.116:41771/]
+[rospy.impl.masterslave][INFO] 2017-10-18 07:39:27,367: _ready: http://10.0.0.116:41771/
+[rospy.registration][INFO] 2017-10-18 07:39:27,369: Registering with master node http://10.0.0.116:11311
+[xmlrpc][INFO] 2017-10-18 07:39:27,371: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2017-10-18 07:39:27,377: ROS Slave URI: [http://10.0.0.116:41771/]
+[rospy.init][INFO] 2017-10-18 07:39:27,378: registered with master
+[rospy.rosout][INFO] 2017-10-18 07:39:27,378: initializing /rosout core topic
+[rospy.rosout][INFO] 2017-10-18 07:39:27,424: connected to core topic /rosout
+[rospy.simtime][INFO] 2017-10-18 07:39:27,445: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2017-10-18 07:39:27,567: topic[/mavlink/from] adding connection to [http://10.0.0.116:35438/], count 0
+[rospy.internal][INFO] 2017-10-18 07:39:27,627: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2017-10-18 07:39:28,831: topic[/mavros/setpoint_raw/target_local] adding connection to [http://10.0.0.116:35438/], count 0
+[rospy.internal][INFO] 2017-10-18 07:39:28,853: topic[/mavros/battery] adding connection to [http://10.0.0.116:35438/], count 0
+[rospy.internal][INFO] 2017-10-18 07:39:28,856: topic[/mavros/state] adding connection to [http://10.0.0.116:35438/], count 0
+[rospy.internal][INFO] 2017-10-18 07:39:28,857: topic[/mavros/local_position/pose] adding connection to [http://10.0.0.116:35438/], count 0
+[rosout][INFO] 2017-10-18 07:39:33,134: /touch_detector MsgId 46 detected. WP item # 185
+[rospy.core][INFO] 2017-10-18 07:41:28,146: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2017-10-18 07:41:28,297: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2017-10-18 07:41:28,298: topic[/mavros/setpoint_raw/target_local] removing connection to http://10.0.0.116:35438/
+[rospy.internal][WARNING] 2017-10-18 07:41:28,301: Unknown error initiating TCP/IP socket to 10.0.0.116:45044 (http://10.0.0.116:35438/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.topics][ERROR] 2017-10-18 07:41:28,303: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 326, in close
+    c.close()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 838, in close
+    self.socket.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+
+[rospy.internal][INFO] 2017-10-18 07:41:28,304: topic[/mavlink/from] removing connection to http://10.0.0.116:35438/
+[rospy.internal][INFO] 2017-10-18 07:41:28,305: topic[/mavros/local_position/pose] removing connection to http://10.0.0.116:35438/
+[rospy.internal][INFO] 2017-10-18 07:41:28,306: topic[/mavros/state] removing connection to http://10.0.0.116:35438/
+[rospy.internal][INFO] 2017-10-18 07:41:28,308: topic[/mavros/battery] removing connection to http://10.0.0.116:35438/
+[rospy.internal][WARNING] 2017-10-18 07:41:28,310: Unknown error initiating TCP/IP socket to 10.0.0.116:45044 (http://10.0.0.116:35438/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.impl.masterslave][INFO] 2017-10-18 07:41:28,311: signal-2
+[rospy.core][INFO] 2017-10-18 07:41:28,785: signal_shutdown [atexit]
