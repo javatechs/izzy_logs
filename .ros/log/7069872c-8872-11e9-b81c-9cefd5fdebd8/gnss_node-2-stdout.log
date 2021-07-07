@@ -1,0 +1,298 @@
+[INFO] [1559836075.825795]: Serial connected: /dev/c94-m8p
+Transmitting
+06 01
+[INFO] [1559836076.032672]: Sent Disable U-blox RTCM 1005
+Transmitting
+06 01
+[INFO] [1559836076.041309]: Sent Enable U-blox NAV-SOL
+Transmitting
+06 01
+[INFO] [1559836076.049898]: Sent Enable U-blox NAV-PVT
+Transmitting
+06 01
+[INFO] [1559836076.060346]: Sent Enable U-blox NAV-DOP
+Transmitting
+06 01
+[INFO] [1559836076.068962]: Sent Enable U-blox NAV-STATUS
+Transmitting
+06 01
+[INFO] [1559836076.078082]: Sent Enable U-blox NAV-SVIN
+Transmitting
+06 01
+[INFO] [1559836076.086596]: Sent Enable GGA
+Transmitting
+06 01
+[INFO] [1559836076.095707]: Sent Disable GLL
+Transmitting
+06 01
+[INFO] [1559836076.104570]: Sent Disable GSA
+Transmitting
+06 01
+[INFO] [1559836076.113056]: Sent Disable GSV
+Transmitting
+06 01
+[INFO] [1559836076.121789]: Sent Disable RMC
+Transmitting
+06 01
+[INFO] [1559836076.130255]: Sent Disable VTG
+Transmitting
+06 01
+[INFO] [1559836076.138724]: Sent Disable DTM
+Transmitting
+06 01
+[INFO] [1559836076.147230]: Sent Disable GNS
+Transmitting
+06 01
+[INFO] [1559836076.156265]: Sent Disable GRS
+Transmitting
+06 01
+[INFO] [1559836076.165174]: Sent Disable GST
+Transmitting
+06 01
+[INFO] [1559836076.173837]: Sent Disable ZDA
+Transmitting
+06 01
+[INFO] [1559836076.182509]: Sent Disable GBS
+Transmitting
+06 01
+[INFO] [1559836076.191350]: Sent Disable VLW
+Transmitting
+06 01
+[INFO] [1559836076.199816]: Sent F5-05 RTCM 1005
+Transmitting
+06 01
+[INFO] [1559836076.208073]: Sent F5-4D RTCM 1077
+Transmitting
+06 01
+[INFO] [1559836076.220144]: Sent F5-57 RTCM 1087
+Transmitting
+06 01
+[INFO] [1559836076.228756]: Sent F5-E6 RTCM 1230
+Transmitting
+06 00
+[INFO] [1559836076.237922]: Sent UBX-CFG-PRT
+[INFO] [1559836076.244330]: Payload missing
+[INFO] [1559836076.250745]: Payload missing
+[INFO] [1559836076.257485]: Payload missing
+[INFO] [1559836076.264250]: Payload missing
+[INFO] [1559836076.270911]: Payload missing
+[INFO] [1559836076.277189]: Payload missing
+[INFO] [1559836076.283863]: Payload missing
+[INFO] [1559836076.290136]: Payload missing
+[INFO] [1559836076.296492]: Payload missing
+[INFO] [1559836076.302534]: Payload missing
+[INFO] [1559836076.308920]: Payload missing
+[INFO] [1559836076.315419]: Payload missing
+[INFO] [1559836076.321684]: Payload missing
+[INFO] [1559836076.328198]: Payload missing
+[INFO] [1559836076.334556]: Payload missing
+[INFO] [1559836076.340767]: Payload missing
+[INFO] [1559836076.347594]: Payload missing
+[INFO] [1559836076.353729]: Payload missing
+[INFO] [1559836076.359631]: Payload missing
+[INFO] [1559836076.366067]: Payload missing
+[INFO] [1559836076.372252]: Payload missing
+[INFO] [1559836076.379808]: Payload missing
+[INFO] [1559836076.386768]: Payload missing
+[INFO] [1559836076.393121]: Payload missing
+[INFO] [1559836076.395337]: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[INFO] [1559836076.396325]: ACK. Class: 0x6  Message ID: 0x1
+[INFO] [1559836076.398630]: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[INFO] [1559836076.399688]: ACK. Class: 0x6  Message ID: 0x1
+[INFO] [1559836076.401954]: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[INFO] [1559836076.403071]: ACK. Class: 0x6  Message ID: 0x1
+[INFO] [1559836076.405307]: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[INFO] [1559836076.406588]: ACK. Class: 0x6  Message ID: 0x1
+[INFO] [1559836076.408727]: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[INFO] [1559836076.409879]: ACK. Class: 0x6  Message ID: 0x1
+[INFO] [1559836076.411986]: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[INFO] [1559836076.412922]: ACK. Class: 0x6  Message ID: 0x1
+[INFO] [1559836076.415137]: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[INFO] [1559836076.416387]: ACK. Class: 0x6  Message ID: 0x1
+[INFO] [1559836076.422282]: 
+Class: 0x1  ID: 0x6  Len:52 [0x34]
+000: b5 62 01 06 34 00 30 92  fd 17 c8 cd 04 00 08 08 
+010: 03 dd 95 b5 9d ef 82 61  89 e7 b8 19 f8 17 b1 03 
+020: 00 00 f6 ff ff ff f5 ff  ff ff 00 00 00 00 43 00 
+030: 00 00 da 00 02 0a 12 19  b6 03 49 1e 
+[INFO] [1559836076.423504]: !!!NEW CYCLE!!!
+[INFO] [1559836076.424675]: {'week': 2056}
+[INFO] [1559836076.433465]: 
+Class: 0x1  ID: 0x7  Len:92 [0x5c]
+000: b5 62 01 07 5c 00 30 92  fd 17 e3 07 06 06 0f 2f 
+010: 38 37 11 00 00 00 ca cd  04 00 03 01 ea 0a 4e da 
+020: 33 b6 71 5e 72 17 8a 80  00 00 91 f2 00 00 14 14 
+030: 00 00 fd 1e 00 00 a3 ff  ff ff ee ff ff ff 91 ff 
+040: ff ff 5f 00 00 00 c7 38  03 00 9b 02 00 00 b3 39 
+050: 76 00 da 00 00 00 12 19  26 3b 00 00 00 00 00 00 
+060: 00 00 99 a5 
+[INFO] [1559836076.434819]: {'year': 2019, 'velD': -0.111, 'velE': -0.018000000000000002, 'iTOW': 402494000, 'week': 2056, 'lon': -1238115762, 'hAcc': 5.14, 'vAcc': 7.933, 'lat': 393371249, 'sAcc': 0.667, 'velN': -0.093, 'fixType': 3}
+[INFO] [1559836076.438027]: 
+Class: 0x1  ID: 0x3  Len:16 [0x10]
+000: b5 62 01 03 10 00 30 92  fd 17 03 dd 00 08 71 4f 
+010: 06 00 b1 59 53 05 fa 36 
+[INFO] [1559836076.439375]: {'diffSoln': 0, 'diffCorr': 0, 'gpsFix': 3}
+[INFO] [1559836076.442673]: 
+Class: 0x1  ID: 0x4  Len:18 [0x12]
+000: b5 62 01 04 12 00 30 92  fd 17 fb 00 da 00 7b 00 
+010: c0 00 68 00 59 00 35 00  f3 0b 
+[INFO] [1559836076.443947]: {'year': 2019, 'velD': -0.111, 'hDop': 1.04, 'velE': -0.018000000000000002, 'iTOW': 402494000, 'week': 2056, 'lon': -1238115762, 'hAcc': 5.14, 'vAcc': 7.933, 'lat': 393371249, 'sAcc': 0.667, 'vDop': 1.92, 'velN': -0.093, 'fixType': 3}
+[INFO] [1559836076.448945]: 
+Class: 0x1  ID: 0x3b  Len:40 [0x28]
+000: b5 62 01 3b 28 00 00 00  00 00 30 92 fd 17 00 00 
+010: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00 
+020: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 3a ec 
+[INFO] [1559836076.450295]: {'valid': 0, 'meanAcc': 0.0, 'active': 0}
+[INFO] [1559836076.456239]: undef $GNRMC
+[INFO] [1559836076.459996]: undef $GNVTG
+[INFO] [1559836076.466543]: 
+{'year': 2019, 'alt': 62.1, 'velD': -0.111, 'hDop': 1.04, 'velE': -0.018000000000000002, 'iTOW': 402494000, 'week': 2056, 'lon': -1238115762, 'hAcc': 5.14, 'sats': 11, 'vAcc': 7.933, 'lat': 393371249, 'sAcc': 0.667, 'vDop': 1.92, 'velN': -0.093, 'fixType': 3}
+[INFO] [1559836076.468785]: {'year': 2019, 'alt': 62.1, 'velD': -0.111, 'hDop': 1.04, 'velE': -0.018000000000000002, 'iTOW': 402494000, 'week': 2056, 'lon': -1238115762, 'hAcc': 5.14, 'sats': 11, 'vAcc': 7.933, 'lat': 393371249, 'sAcc': 0.667, 'vDop': 1.92, 'velN': -0.093, 'fixType': 3}
+[INFO] [1559836076.469935]: Wrote GPS_INPUT message
+
+[INFO] [1559836076.475151]: undef $GNGSA
+[INFO] [1559836076.479825]: undef $GNGSA
+[INFO] [1559836076.485383]: undef $GPGSV
+[INFO] [1559836076.491254]: undef $GPGSV
+[INFO] [1559836076.497103]: undef $GPGSV
+[INFO] [1559836076.501671]: undef $GPGSV
+[INFO] [1559836076.507642]: undef $GLGSV
+[INFO] [1559836076.513630]: undef $GLGSV
+[INFO] [1559836076.517972]: undef $GLGSV
+[INFO] [1559836076.522767]: undef $GNGLL
+[INFO] [1559836076.524754]: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[INFO] [1559836076.525910]: ACK. Class: 0x6  Message ID: 0x1
+[INFO] [1559836076.528041]: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[INFO] [1559836076.529027]: ACK. Class: 0x6  Message ID: 0x1
+[INFO] [1559836076.531166]: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[INFO] [1559836076.532171]: ACK. Class: 0x6  Message ID: 0x1
+[INFO] [1559836076.534119]: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[INFO] [1559836076.535264]: ACK. Class: 0x6  Message ID: 0x1
+[INFO] [1559836076.537207]: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[INFO] [1559836076.538402]: ACK. Class: 0x6  Message ID: 0x1
+[INFO] [1559836076.540464]: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[INFO] [1559836076.541441]: ACK. Class: 0x6  Message ID: 0x1
+[INFO] [1559836076.543597]: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[INFO] [1559836076.544751]: ACK. Class: 0x6  Message ID: 0x1
+[INFO] [1559836076.546869]: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[INFO] [1559836076.547880]: ACK. Class: 0x6  Message ID: 0x1
+[INFO] [1559836076.550212]: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[INFO] [1559836076.551367]: ACK. Class: 0x6  Message ID: 0x1
+[INFO] [1559836076.553411]: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[INFO] [1559836076.554524]: ACK. Class: 0x6  Message ID: 0x1
+[INFO] [1559836076.556586]: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[INFO] [1559836076.557633]: ACK. Class: 0x6  Message ID: 0x1
+[INFO] [1559836076.559798]: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[INFO] [1559836076.560825]: ACK. Class: 0x6  Message ID: 0x1
+[INFO] [1559836076.562911]: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[INFO] [1559836076.563930]: ACK. Class: 0x6  Message ID: 0x1
+[INFO] [1559836076.566342]: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[INFO] [1559836076.567935]: ACK. Class: 0x6  Message ID: 0x1
+[INFO] [1559836076.570458]: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[INFO] [1559836076.571586]: ACK. Class: 0x6  Message ID: 0x1
+[INFO] [1559836076.574415]: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[INFO] [1559836076.575882]: ACK. Class: 0x6  Message ID: 0x1
+[INFO] [1559836076.578334]: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 00  0e 37 
+[INFO] [1559836076.579490]: ACK. Class: 0x6  Message ID: 0x0
+[INFO] [1559836076.583882]: $GNTXT,01,01,02,u-blox AG - www.u-blox.com*4E
+[INFO] [1559836076.587901]: $GNTXT,01,01,02,HW UBX-M8030 00080000*60
+[INFO] [1559836076.592199]: $GNTXT,01,01,02,EXT CORE 3.01 (db0c89)*68
+[INFO] [1559836076.596468]: $GNTXT,01,01,02,ROM BASE 3.01 (107888)*25
+[INFO] [1559836076.600415]: $GNTXT,01,01,02,FWVER=HPG 1.40REF*0B
+[INFO] [1559836076.604003]: $GNTXT,01,01,02,PROTVER=20.30*19
+[INFO] [1559836076.607492]: $GNTXT,01,01,02,MOD=NEO-M8P-2*7B
+[INFO] [1559836076.611509]: $GNTXT,01,01,02,FIS=0xEF4015 (100111)*58
+[INFO] [1559836076.614928]: $GNTXT,01,01,02,GPS;GLO;BDS*06
+[INFO] [1559836076.617724]: $GNTXT,01,01,02,QZSS*58
+[INFO] [1559836076.621501]: $GNTXT,01,01,02,GNSS OTP=GPS;GLO*37
+[INFO] [1559836076.627767]: $GNTXT,01,01,02,LLC=FFFFFFFF-FFFFFFED-FFFFFFFF-FFFFF79E-FFFFFF69*2E
+[INFO] [1559836076.631941]: $GNTXT,01,01,02,ANTSUPERV=AC SD PDoS SR*3E
+[INFO] [1559836076.635366]: $GNTXT,01,01,02,ANTSTATUS=OK*25
+[INFO] [1559836076.638382]: $GNTXT,01,01,02,PF=300*4B
+[INFO] [1559836077.097250]: 
+Class: 0x1  ID: 0x6  Len:52 [0x34]
+000: b5 62 01 06 34 00 18 96  fd 17 77 ce 04 00 08 08 
+010: 03 dd 8e b5 9d ef 77 61  89 e7 ba 19 f8 17 cd 03 
+020: 00 00 fa ff ff ff f4 ff  ff ff 04 00 00 00 47 00 
+030: 00 00 da 00 02 0a 12 19  b6 03 fc 71 
+[INFO] [1559836077.098341]: !!!NEW CYCLE!!!
+[INFO] [1559836077.099613]: {'week': 2056}
+[INFO] [1559836077.114117]: 
+Class: 0x1  ID: 0x7  Len:92 [0x5c]
+000: b5 62 01 07 5c 00 18 96  fd 17 e3 07 06 06 0f 2f 
+010: 39 37 12 00 00 00 79 ce  04 00 03 01 ea 0a 4f da 
+020: 33 b6 6b 5e 72 17 06 81  00 00 0e f3 00 00 a6 14 
+030: 00 00 ef 1f 00 00 c7 ff  ff ff 12 00 00 00 83 ff 
+040: ff ff 3c 00 00 00 c7 38  03 00 c4 02 00 00 c1 49 
+050: 76 00 da 00 00 00 12 19  26 3b 00 00 00 00 00 00 
+060: 00 00 13 31 
+[INFO] [1559836077.115109]: {'year': 2019, 'velD': -0.125, 'velE': 0.018000000000000002, 'iTOW': 402495000, 'week': 2056, 'lon': -1238115761, 'hAcc': 5.2860000000000005, 'vAcc': 8.175, 'lat': 393371243, 'sAcc': 0.708, 'velN': -0.057, 'fixType': 3}
+[INFO] [1559836077.117737]: 
+Class: 0x1  ID: 0x3  Len:16 [0x10]
+000: b5 62 01 03 10 00 18 96  fd 17 03 dd 00 08 71 4f 
+010: 06 00 99 5d 53 05 d2 9e 
+[INFO] [1559836077.118415]: {'diffSoln': 0, 'diffCorr': 0, 'gpsFix': 3}
+[INFO] [1559836077.121064]: 
+Class: 0x1  ID: 0x4  Len:18 [0x12]
+000: b5 62 01 04 12 00 18 96  fd 17 fa 00 da 00 7b 00 
+010: c0 00 68 00 59 00 35 00  de 91 
+[INFO] [1559836077.121706]: {'year': 2019, 'velD': -0.125, 'hDop': 1.04, 'velE': 0.018000000000000002, 'iTOW': 402495000, 'week': 2056, 'lon': -1238115761, 'hAcc': 5.2860000000000005, 'vAcc': 8.175, 'lat': 393371243, 'sAcc': 0.708, 'vDop': 1.92, 'velN': -0.057, 'fixType': 3}
+[INFO] [1559836077.126043]: 
+Class: 0x1  ID: 0x3b  Len:40 [0x28]
+000: b5 62 01 3b 28 00 00 00  00 00 18 96 fd 17 00 00 
+010: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00 
+020: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 26 18 
+[INFO] [1559836077.126791]: {'valid': 0, 'meanAcc': 0.0, 'active': 0}
+[INFO] [1559836077.132665]: 
+{'year': 2019, 'alt': 62.2, 'velD': -0.125, 'hDop': 1.04, 'velE': 0.018000000000000002, 'iTOW': 402495000, 'week': 2056, 'lon': -1238115761, 'hAcc': 5.2860000000000005, 'sats': 11, 'vAcc': 8.175, 'lat': 393371243, 'sAcc': 0.708, 'vDop': 1.92, 'velN': -0.057, 'fixType': 3}
+[INFO] [1559836077.133860]: {'year': 2019, 'alt': 62.2, 'velD': -0.125, 'hDop': 1.04, 'velE': 0.018000000000000002, 'iTOW': 402495000, 'week': 2056, 'lon': -1238115761, 'hAcc': 5.2860000000000005, 'sats': 11, 'vAcc': 8.175, 'lat': 393371243, 'sAcc': 0.708, 'vDop': 1.92, 'velN': -0.057, 'fixType': 3}
+[INFO] [1559836077.134631]: Wrote GPS_INPUT message
+

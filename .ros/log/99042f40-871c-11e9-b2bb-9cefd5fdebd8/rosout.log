@@ -1,0 +1,156 @@
+
+
+1559689253.499457633  Node Startup
+1559689255.609181404 INFO [switch_thread.py:232(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Sent Disable GSA
+1559689255.615897178 WARN [switch_thread.py:209(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] {'desc': 'Disable GSV', 'class': '06', 'id': '01', 'msgId': 3, 'ioPorts': [0, 0, 0, 0, 0, 0], 'msgClass': 240}
+1559689255.617076635 INFO [switch_thread.py:232(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Sent Disable GSV
+1559689255.623264074 WARN [switch_thread.py:209(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] {'desc': 'Disable RMC', 'class': '06', 'id': '01', 'msgId': 4, 'ioPorts': [0, 0, 0, 0, 0, 0], 'msgClass': 240}
+1559689255.624842405 INFO [switch_thread.py:232(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Sent Disable RMC
+1559689255.630795955 WARN [switch_thread.py:209(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] {'desc': 'Disable VTG', 'class': '06', 'id': '01', 'msgId': 5, 'ioPorts': [0, 0, 0, 0, 0, 0], 'msgClass': 240}
+1559689255.632168769 INFO [switch_thread.py:232(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Sent Disable VTG
+1559689255.637704372 WARN [switch_thread.py:209(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] {'desc': 'Disable DTM', 'class': '06', 'id': '01', 'msgId': 10, 'ioPorts': [0, 0, 0, 0, 0, 0], 'msgClass': 240}
+1559689255.639353275 INFO [switch_thread.py:232(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Sent Disable DTM
+1559689255.644811153 WARN [switch_thread.py:209(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] {'desc': 'Disable GNS', 'class': '06', 'id': '01', 'msgId': 13, 'ioPorts': [0, 0, 0, 0, 0, 0], 'msgClass': 240}
+1559689255.646310329 INFO [switch_thread.py:232(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Sent Disable GNS
+1559689255.652402877 WARN [switch_thread.py:209(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] {'desc': 'Disable GRS', 'class': '06', 'id': '01', 'msgId': 6, 'ioPorts': [0, 0, 0, 0, 0, 0], 'msgClass': 240}
+1559689255.653729200 INFO [switch_thread.py:232(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Sent Disable GRS
+1559689255.659448862 WARN [switch_thread.py:209(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] {'desc': 'Disable GST', 'class': '06', 'id': '01', 'msgId': 7, 'ioPorts': [0, 0, 0, 0, 0, 0], 'msgClass': 240}
+1559689255.660632610 INFO [switch_thread.py:232(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Sent Disable GST
+1559689255.666144847 WARN [switch_thread.py:209(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] {'desc': 'Disable ZDA', 'class': '06', 'id': '01', 'msgId': 8, 'ioPorts': [0, 0, 0, 0, 0, 0], 'msgClass': 240}
+1559689255.667486429 INFO [switch_thread.py:232(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Sent Disable ZDA
+1559689255.672757863 WARN [switch_thread.py:209(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] {'desc': 'Disable GBS', 'class': '06', 'id': '01', 'msgId': 9, 'ioPorts': [0, 0, 0, 0, 0, 0], 'msgClass': 240}
+1559689255.674157857 INFO [switch_thread.py:232(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Sent Disable GBS
+1559689255.679753065 WARN [switch_thread.py:209(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] {'desc': 'Disable VLW', 'class': '06', 'id': '01', 'msgId': 15, 'ioPorts': [0, 0, 0, 0, 0, 0], 'msgClass': 240}
+1559689255.681047916 INFO [switch_thread.py:232(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Sent Disable VLW
+1559689255.686399698 WARN [switch_thread.py:209(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] {'desc': 'F5-05 RTCM 1005', 'class': '06', 'id': '01', 'msgId': 5, 'ioPorts': [0, 0, 0, 0, 0, 0], 'msgClass': 245}
+1559689255.687940120 INFO [switch_thread.py:232(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Sent F5-05 RTCM 1005
+1559689255.693523645 WARN [switch_thread.py:209(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] {'desc': 'F5-4D RTCM 1077', 'class': '06', 'id': '01', 'msgId': 77, 'ioPorts': [0, 0, 0, 0, 0, 0], 'msgClass': 245}
+1559689255.694866895 INFO [switch_thread.py:232(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Sent F5-4D RTCM 1077
+1559689255.700694799 WARN [switch_thread.py:209(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] {'desc': 'F5-57 RTCM 1087', 'class': '06', 'id': '01', 'msgId': 87, 'ioPorts': [0, 0, 0, 0, 0, 0], 'msgClass': 245}
+1559689255.702195882 INFO [switch_thread.py:232(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Sent F5-57 RTCM 1087
+1559689255.707854986 WARN [switch_thread.py:209(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] {'desc': 'F5-E6 RTCM 1230', 'class': '06', 'id': '01', 'msgId': 230, 'ioPorts': [0, 0, 0, 0, 0, 0], 'msgClass': 245}
+1559689255.709094047 INFO [switch_thread.py:232(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Sent F5-E6 RTCM 1230
+1559689255.714626550 WARN [switch_thread.py:209(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] {'prot_out': 0, 'class': '06', 'rate': 19200, 'id': '00', 'prot_in': 32, 'desc': 'UBX-CFG-PRT'}
+1559689255.716123580 INFO [switch_thread.py:232(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Sent UBX-CFG-PRT
+1559689255.720964431 INFO [switch_thread.py:237(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Payload missing
+1559689255.725562334 INFO [switch_thread.py:237(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Payload missing
+1559689255.730283498 INFO [switch_thread.py:237(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Payload missing
+1559689255.735241889 INFO [switch_thread.py:237(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Payload missing
+1559689255.739558935 INFO [switch_thread.py:237(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Payload missing
+1559689255.744277715 INFO [switch_thread.py:237(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Payload missing
+1559689255.748609066 INFO [switch_thread.py:237(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Payload missing
+1559689255.753335237 INFO [switch_thread.py:237(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Payload missing
+1559689255.757597684 INFO [switch_thread.py:237(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Payload missing
+1559689255.762548685 INFO [switch_thread.py:237(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Payload missing
+1559689255.767227411 INFO [switch_thread.py:237(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Payload missing
+1559689255.772262334 INFO [switch_thread.py:237(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Payload missing
+1559689255.776929616 INFO [switch_thread.py:237(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Payload missing
+1559689255.781670808 INFO [switch_thread.py:237(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Payload missing
+1559689255.787071943 INFO [switch_thread.py:237(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Payload missing
+1559689255.791752576 INFO [switch_thread.py:237(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Payload missing
+1559689255.796464920 INFO [switch_thread.py:237(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Payload missing
+1559689255.801405191 INFO [switch_thread.py:237(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Payload missing
+1559689255.806094646 INFO [switch_thread.py:237(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Payload missing
+1559689255.811475276 INFO [switch_thread.py:237(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Payload missing
+1559689255.816197156 INFO [switch_thread.py:237(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Payload missing
+1559689255.821427106 INFO [switch_thread.py:237(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Payload missing
+1559689255.826526403 INFO [switch_thread.py:237(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Payload missing
+1559689255.831658601 INFO [switch_thread.py:237(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Payload missing
+1559689255.835288047 ERROR [switch_thread.py:82(run) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Exception <class 'NameError'> on stream: /STM2
+Traceback (most recent call last):
+  File "/home/robot/catkin_ws/src/c94m8p/src/c94m8p/switch_thread.py", line 62, in run
+    self.run_ubx(strm, self.cfg_rtn)
+  File "/home/robot/catkin_ws/src/c94m8p/src/c94m8p/switch_thread.py", line 129, in run_ubx
+    rdr.read_msg(strm)
+  File "/home/robot/catkin_ws/src/c94m8p/src/c94m8p/gnss_message_parser.py", line 137, in read_msg
+    self.read_msg_ubx(abyte, thebyte)
+  File "/home/robot/catkin_ws/src/c94m8p/src/c94m8p/gnss_message_parser.py", line 292, in read_msg_ubx
+    + "\n" + tools.format_bytes(self.PARSED_BYTES)
+NameError: name 'tools' is not defined
+
+1559689265.534657955 ERROR [switch_thread.py:73(run) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Exception <class 'ConnectionRefusedError'> on stream: /STM1
+1559689265.887156724 INFO [StreamWrapper.py:87(connect) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Serial connected: /dev/c94-m8p
+1559689265.919500827 WARN [switch_thread.py:209(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] {'desc': 'Disable U-blox RTCM 1005', 'class': '06', 'id': '01', 'msgId': 5, 'ioPorts': [0, 0, 0, 0, 0, 0], 'msgClass': 245}
+1559689265.921429872 INFO [switch_thread.py:232(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Sent Disable U-blox RTCM 1005
+1559689265.928241252 WARN [switch_thread.py:209(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] {'desc': 'Enable U-blox NAV-SOL', 'class': '06', 'id': '01', 'msgId': 6, 'ioPorts': [0, 0, 0, 1, 0, 0], 'msgClass': 1}
+1559689265.930469036 INFO [switch_thread.py:232(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Sent Enable U-blox NAV-SOL
+1559689265.936395168 WARN [switch_thread.py:209(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] {'desc': 'Enable U-blox NAV-PVT', 'class': '06', 'id': '01', 'msgId': 7, 'ioPorts': [0, 0, 0, 1, 0, 0], 'msgClass': 1}
+1559689265.937850952 INFO [switch_thread.py:232(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Sent Enable U-blox NAV-PVT
+1559689265.943312168 WARN [switch_thread.py:209(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] {'desc': 'Enable U-blox NAV-DOP', 'class': '06', 'id': '01', 'msgId': 4, 'ioPorts': [0, 0, 0, 1, 0, 0], 'msgClass': 1}
+1559689265.944631338 INFO [switch_thread.py:232(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Sent Enable U-blox NAV-DOP
+1559689265.950343370 WARN [switch_thread.py:209(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] {'desc': 'Enable U-blox NAV-STATUS', 'class': '06', 'id': '01', 'msgId': 3, 'ioPorts': [0, 0, 0, 1, 0, 0], 'msgClass': 1}
+1559689265.951658725 INFO [switch_thread.py:232(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Sent Enable U-blox NAV-STATUS
+1559689265.958202123 WARN [switch_thread.py:209(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] {'desc': 'Enable U-blox NAV-SVIN', 'class': '06', 'id': '01', 'msgId': 59, 'ioPorts': [0, 0, 0, 1, 0, 0], 'msgClass': 1}
+1559689265.959939718 INFO [switch_thread.py:232(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Sent Enable U-blox NAV-SVIN
+1559689265.965245246 WARN [switch_thread.py:209(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] {'desc': 'Enable GGA', 'class': '06', 'id': '01', 'msgId': 0, 'ioPorts': [0, 0, 0, 1, 0, 0], 'msgClass': 240}
+1559689265.966573715 INFO [switch_thread.py:232(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Sent Enable GGA
+1559689265.971943378 WARN [switch_thread.py:209(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] {'desc': 'Disable GLL', 'class': '06', 'id': '01', 'msgId': 1, 'ioPorts': [0, 0, 0, 0, 0, 0], 'msgClass': 240}
+1559689265.973428249 INFO [switch_thread.py:232(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Sent Disable GLL
+1559689265.979735851 WARN [switch_thread.py:209(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] {'desc': 'Disable GSA', 'class': '06', 'id': '01', 'msgId': 2, 'ioPorts': [0, 0, 0, 0, 0, 0], 'msgClass': 240}
+1559689265.981183052 INFO [switch_thread.py:232(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Sent Disable GSA
+1559689265.987362861 WARN [switch_thread.py:209(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] {'desc': 'Disable GSV', 'class': '06', 'id': '01', 'msgId': 3, 'ioPorts': [0, 0, 0, 0, 0, 0], 'msgClass': 240}
+1559689265.988784790 INFO [switch_thread.py:232(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Sent Disable GSV
+1559689265.994564056 WARN [switch_thread.py:209(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] {'desc': 'Disable RMC', 'class': '06', 'id': '01', 'msgId': 4, 'ioPorts': [0, 0, 0, 0, 0, 0], 'msgClass': 240}
+1559689265.996015787 INFO [switch_thread.py:232(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Sent Disable RMC
+1559689266.002094507 WARN [switch_thread.py:209(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] {'desc': 'Disable VTG', 'class': '06', 'id': '01', 'msgId': 5, 'ioPorts': [0, 0, 0, 0, 0, 0], 'msgClass': 240}
+1559689266.003578186 INFO [switch_thread.py:232(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Sent Disable VTG
+1559689266.009018182 WARN [switch_thread.py:209(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] {'desc': 'Disable DTM', 'class': '06', 'id': '01', 'msgId': 10, 'ioPorts': [0, 0, 0, 0, 0, 0], 'msgClass': 240}
+1559689266.010359048 INFO [switch_thread.py:232(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Sent Disable DTM
+1559689266.015438079 WARN [switch_thread.py:209(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] {'desc': 'Disable GNS', 'class': '06', 'id': '01', 'msgId': 13, 'ioPorts': [0, 0, 0, 0, 0, 0], 'msgClass': 240}
+1559689266.016978025 INFO [switch_thread.py:232(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Sent Disable GNS
+1559689266.022371292 WARN [switch_thread.py:209(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] {'desc': 'Disable GRS', 'class': '06', 'id': '01', 'msgId': 6, 'ioPorts': [0, 0, 0, 0, 0, 0], 'msgClass': 240}
+1559689266.023885488 INFO [switch_thread.py:232(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Sent Disable GRS
+1559689266.029326438 WARN [switch_thread.py:209(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] {'desc': 'Disable GST', 'class': '06', 'id': '01', 'msgId': 7, 'ioPorts': [0, 0, 0, 0, 0, 0], 'msgClass': 240}
+1559689266.030727386 INFO [switch_thread.py:232(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Sent Disable GST
+1559689266.035841226 WARN [switch_thread.py:209(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] {'desc': 'Disable ZDA', 'class': '06', 'id': '01', 'msgId': 8, 'ioPorts': [0, 0, 0, 0, 0, 0], 'msgClass': 240}
+1559689266.037175416 INFO [switch_thread.py:232(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Sent Disable ZDA
+1559689266.042930364 WARN [switch_thread.py:209(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] {'desc': 'Disable GBS', 'class': '06', 'id': '01', 'msgId': 9, 'ioPorts': [0, 0, 0, 0, 0, 0], 'msgClass': 240}
+1559689266.044497489 INFO [switch_thread.py:232(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Sent Disable GBS
+1559689266.050210714 WARN [switch_thread.py:209(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] {'desc': 'Disable VLW', 'class': '06', 'id': '01', 'msgId': 15, 'ioPorts': [0, 0, 0, 0, 0, 0], 'msgClass': 240}
+1559689266.051422357 INFO [switch_thread.py:232(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Sent Disable VLW
+1559689266.058554410 WARN [switch_thread.py:209(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] {'desc': 'F5-05 RTCM 1005', 'class': '06', 'id': '01', 'msgId': 5, 'ioPorts': [0, 0, 0, 0, 0, 0], 'msgClass': 245}
+1559689266.060026884 INFO [switch_thread.py:232(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Sent F5-05 RTCM 1005
+1559689266.065585613 WARN [switch_thread.py:209(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] {'desc': 'F5-4D RTCM 1077', 'class': '06', 'id': '01', 'msgId': 77, 'ioPorts': [0, 0, 0, 0, 0, 0], 'msgClass': 245}
+1559689266.067297935 INFO [switch_thread.py:232(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Sent F5-4D RTCM 1077
+1559689266.072852611 WARN [switch_thread.py:209(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] {'desc': 'F5-57 RTCM 1087', 'class': '06', 'id': '01', 'msgId': 87, 'ioPorts': [0, 0, 0, 0, 0, 0], 'msgClass': 245}
+1559689266.074198961 INFO [switch_thread.py:232(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Sent F5-57 RTCM 1087
+1559689266.080070734 WARN [switch_thread.py:209(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] {'desc': 'F5-E6 RTCM 1230', 'class': '06', 'id': '01', 'msgId': 230, 'ioPorts': [0, 0, 0, 0, 0, 0], 'msgClass': 245}
+1559689266.081521749 INFO [switch_thread.py:232(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Sent F5-E6 RTCM 1230
+1559689266.087095260 WARN [switch_thread.py:209(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] {'prot_out': 0, 'class': '06', 'rate': 19200, 'id': '00', 'prot_in': 32, 'desc': 'UBX-CFG-PRT'}
+1559689266.088457584 INFO [switch_thread.py:232(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Sent UBX-CFG-PRT
+1559689266.093626737 INFO [switch_thread.py:237(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Payload missing
+1559689266.098664283 INFO [switch_thread.py:237(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Payload missing
+1559689266.103357553 INFO [switch_thread.py:237(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Payload missing
+1559689266.108369588 INFO [switch_thread.py:237(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Payload missing
+1559689266.113216161 INFO [switch_thread.py:237(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Payload missing
+1559689266.118103981 INFO [switch_thread.py:237(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Payload missing
+1559689266.122425556 INFO [switch_thread.py:237(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Payload missing
+1559689266.126746654 INFO [switch_thread.py:237(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Payload missing
+1559689266.131025075 INFO [switch_thread.py:237(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Payload missing
+1559689266.135344266 INFO [switch_thread.py:237(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Payload missing
+1559689266.139727354 INFO [switch_thread.py:237(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Payload missing
+1559689266.144898653 INFO [switch_thread.py:237(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Payload missing
+1559689266.149586439 INFO [switch_thread.py:237(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Payload missing
+1559689266.154561758 INFO [switch_thread.py:237(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Payload missing
+1559689266.160811424 INFO [switch_thread.py:237(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Payload missing
+1559689266.165504932 INFO [switch_thread.py:237(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Payload missing
+1559689266.170464754 INFO [switch_thread.py:237(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Payload missing
+1559689266.175008058 INFO [switch_thread.py:237(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Payload missing
+1559689266.180606126 INFO [switch_thread.py:237(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Payload missing
+1559689266.185773134 INFO [switch_thread.py:237(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Payload missing
+1559689266.191097259 INFO [switch_thread.py:237(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Payload missing
+1559689266.195735454 INFO [switch_thread.py:237(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Payload missing
+1559689266.200685739 INFO [switch_thread.py:237(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Payload missing
+1559689266.206198453 INFO [switch_thread.py:237(send_config) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Payload missing
+1559689266.208774566 ERROR [switch_thread.py:82(run) [topics: /STM2, /mavlink/to, /STM1, /STM4, /gnss_control, /gnss_status, /rosout] Exception <class 'NameError'> on stream: /STM2
+Traceback (most recent call last):
+  File "/home/robot/catkin_ws/src/c94m8p/src/c94m8p/switch_thread.py", line 62, in run
+    self.run_ubx(strm, self.cfg_rtn)
+  File "/home/robot/catkin_ws/src/c94m8p/src/c94m8p/switch_thread.py", line 129, in run_ubx
+    rdr.read_msg(strm)
+  File "/home/robot/catkin_ws/src/c94m8p/src/c94m8p/gnss_message_parser.py", line 137, in read_msg
+    self.read_msg_ubx(abyte, thebyte)
+  File "/home/robot/catkin_ws/src/c94m8p/src/c94m8p/gnss_message_parser.py", line 292, in read_msg_ubx
+    + "\n" + tools.format_bytes(self.PARSED_BYTES)
+NameError: name 'tools' is not defined
+

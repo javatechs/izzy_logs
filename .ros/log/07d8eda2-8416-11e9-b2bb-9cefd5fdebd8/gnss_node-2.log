@@ -1,0 +1,43 @@
+[rospy.client][INFO] 2019-05-31 19:36:21,192: init_node, name[/gnss_node], pid[6033]
+[xmlrpc][INFO] 2019-05-31 19:36:21,193: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-05-31 19:36:21,195: Started XML-RPC server [http://10.0.0.166:33375/]
+[rospy.impl.masterslave][INFO] 2019-05-31 19:36:21,196: _ready: http://10.0.0.166:33375/
+[rospy.init][INFO] 2019-05-31 19:36:21,196: ROS Slave URI: [http://10.0.0.166:33375/]
+[rospy.registration][INFO] 2019-05-31 19:36:21,200: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2019-05-31 19:36:21,201: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2019-05-31 19:36:21,301: registered with master
+[rospy.rosout][INFO] 2019-05-31 19:36:21,303: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-05-31 19:36:21,332: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-05-31 19:36:21,339: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][WARNING] 2019-05-31 19:36:21,417: 
+[rosout][ERROR] 2019-05-31 19:36:21,418: stream_name_data: {'GNSS': {'type': 'rtcm', 'queue': deque([], maxlen=10), 'lock': <unlocked _thread.lock object at 0x7f8ef8a04058>}, 'RTCM2': {'type': 'rtcm', 'queue': deque([], maxlen=10), 'lock': <unlocked _thread.lock object at 0x7f8ef8a041e8>}, 'RTCM1': {'type': 'rtcm', 'queue': deque([], maxlen=10), 'lock': <unlocked _thread.lock object at 0x7f8ef8a04260>}}
+[rosout][WARNING] 2019-05-31 19:36:21,419: 
+[rosout][ERROR] 2019-05-31 19:36:21,420: stream_queues: {'STM3/QUEUE2': {'rw': 'read', 'name': 'GNSS'}, 'STM2/QUEUE1': {'rw': 'read', 'name': 'RTCM1'}, 'STM3/QUEUE1': {'rw': 'read', 'name': 'RTCM2'}, 'STM1/QUEUE1': {'rw': 'write', 'name': 'RTCM1'}, 'STM1/QUEUE2': {'rw': 'write', 'name': 'RTCM2'}, 'STM2/QUEUE2': {'rw': 'write', 'name': 'GNSS'}}
+[rosout][WARNING] 2019-05-31 19:36:21,421: 
+[rosout][ERROR] 2019-05-31 19:36:21,421: queues: {'/STM2/QUEUE1': {'rw': 'read', 'name': 'RTCM1', 'type': 'rtcm', 'queue': deque([], maxlen=10), 'lock': <unlocked _thread.lock object at 0x7f8ef8a040a8>}, '/STM2/QUEUE2': {'rw': 'write', 'name': 'GNSS', 'type': 'nmea', 'queue': deque([], maxlen=10), 'lock': <unlocked _thread.lock object at 0x7f8ef8a04120>}, '/STM1/QUEUE2': {'rw': 'write', 'name': 'RTCM2', 'type': 'rtcm', 'queue': deque([], maxlen=10), 'lock': <unlocked _thread.lock object at 0x7f8ef8a040d0>}, '/STM1/QUEUE1': {'rw': 'write', 'name': 'RTCM1', 'type': 'rtcm', 'queue': deque([], maxlen=10), 'lock': <unlocked _thread.lock object at 0x7f8ef930ec88>}}
+[rosout][WARNING] 2019-05-31 19:36:21,436: Starting NTrip client [/STM1]
+[rosout][WARNING] 2019-05-31 19:36:21,464: Starting UBX device client [/STM2]
+[rosout][INFO] 2019-05-31 19:36:21,488: Serial connected: /dev/c94-m8p
+[rosout][ERROR] 2019-05-31 19:36:21,489: is not none
+[rosout][ERROR] 2019-05-31 19:36:21,490: HOHOHO
+[rosout][ERROR] 2019-05-31 19:36:21,492: Exception <class 'AttributeError'> on stream: /STM2
+Traceback (most recent call last):
+  File "/home/robot/catkin_ws/src/c94m8p/src/switch_thread.py", line 62, in run
+    self.run_ubx(strm, self.cfg_rtn)
+  File "/home/robot/catkin_ws/src/c94m8p/src/switch_thread.py", line 123, in run_ubx
+    cfg_rtn(rdr)
+  File "/home/robot/catkin_ws/src/c94m8p/nodes/gnss_node", line 87, in ubx_msg_hndlr
+    rdr.add_handler("$GLGSV",gmp.cb_undef)
+AttributeError: 'gnss_message_parser' object has no attribute 'add_handler'
+
+[rosout][ERROR] 2019-05-31 19:36:21,499: Exception <class 'ConnectionRefusedError'> on stream: /STM1
+[rosout][WARNING] 2019-05-31 19:36:21,507: Starting IP Listener connects UBlox device to client, e.g. u-center. [/STM4]
+[rosout][WARNING] 2019-05-31 19:36:21,527: Listening for connection on port: 2104
+[rospy.internal][INFO] 2019-05-31 19:36:21,582: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2019-05-31 19:36:26,566: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2019-05-31 19:36:26,588: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2019-05-31 19:36:26,589: signal-2
+[rosout][WARNING] 2019-05-31 19:36:31,505: Exiting  UBX device client
+[rosout][WARNING] 2019-05-31 19:36:31,510: Exiting  NTrip client
+[rospy.core][INFO] 2019-05-31 19:36:41,628: signal_shutdown [signal-15]
+[rospy.core][INFO] 2019-05-31 19:36:41,750: signal_shutdown [atexit]

@@ -1,5 +1,0 @@
-[0m[ INFO] [1508338217.328376452]: Loading nodelet /camera/disparity_registered_sw of type depth_image_proc/disparity to manager camera_nodelet_manager with the following remappings:[0m
-[0m[ INFO] [1508338217.328544356]: /camera/left/disparity -> /camera/depth_registered/disparity[0m
-[0m[ INFO] [1508338217.328639252]: /camera/left/image_rect -> /camera/depth_registered/sw_registered/image_rect_raw[0m
-[0m[ INFO] [1508338217.328681787]: /camera/right -> /camera/projector[0m
-[0m[ INFO] [1508338265.980644289]: Unloading nodelet /camera/disparity_registered_sw from manager camera_nodelet_manager[0m

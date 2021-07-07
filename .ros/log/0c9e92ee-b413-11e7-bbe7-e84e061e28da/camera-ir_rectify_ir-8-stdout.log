@@ -1,6 +1,0 @@
-[0m[ INFO] [1508337960.123515599]: Loading nodelet /camera/ir_rectify_ir of type image_proc/rectify to manager camera_nodelet_manager with the following remappings:[0m
-[0m[ INFO] [1508337960.123676491]: /camera/image_mono -> /camera/ir/image_raw[0m
-[0m[ INFO] [1508337960.123724113]: /camera/image_rect -> /camera/ir/image_rect_ir[0m
-[0m[ INFO] [1508337960.297672768]: waitForService: Service [/camera/camera_nodelet_manager/load_nodelet] has not been advertised, waiting...[0m
-[0m[ INFO] [1508337960.420750749]: waitForService: Service [/camera/camera_nodelet_manager/load_nodelet] is now available.[0m
-[0m[ INFO] [1508337981.550912893]: Unloading nodelet /camera/ir_rectify_ir from manager camera_nodelet_manager[0m

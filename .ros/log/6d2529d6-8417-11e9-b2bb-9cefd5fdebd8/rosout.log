@@ -1,0 +1,362 @@
+
+
+1559357178.935245348  Node Startup
+1559357180.921119213 INFO [switch_thread.py:232(send_config) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] Sent Disable GSV
+1559357180.927872896 WARN [switch_thread.py:209(send_config) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] {'desc': 'Disable RMC', 'msgId': 4, 'ioPorts': [0, 0, 0, 0, 0, 0], 'class': '06', 'msgClass': 240, 'id': '01'}
+1559357180.929476022 INFO [switch_thread.py:232(send_config) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] Sent Disable RMC
+1559357180.934665441 WARN [switch_thread.py:209(send_config) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] {'desc': 'Disable VTG', 'msgId': 5, 'ioPorts': [0, 0, 0, 0, 0, 0], 'class': '06', 'msgClass': 240, 'id': '01'}
+1559357180.936051130 INFO [switch_thread.py:232(send_config) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] Sent Disable VTG
+1559357180.941420793 WARN [switch_thread.py:209(send_config) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] {'desc': 'Disable DTM', 'msgId': 10, 'ioPorts': [0, 0, 0, 0, 0, 0], 'class': '06', 'msgClass': 240, 'id': '01'}
+1559357180.943402528 INFO [switch_thread.py:232(send_config) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] Sent Disable DTM
+1559357180.949204206 WARN [switch_thread.py:209(send_config) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] {'msgId': 13, 'class': '06', 'ioPorts': [0, 0, 0, 0, 0, 0], 'desc': 'Disable GNS', 'msgClass': 240, 'id': '01'}
+1559357180.950715780 INFO [switch_thread.py:232(send_config) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] Sent Disable GNS
+1559357180.956144809 WARN [switch_thread.py:209(send_config) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] {'msgId': 6, 'class': '06', 'ioPorts': [0, 0, 0, 0, 0, 0], 'desc': 'Disable GRS', 'msgClass': 240, 'id': '01'}
+1559357180.957426786 INFO [switch_thread.py:232(send_config) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] Sent Disable GRS
+1559357180.963849306 WARN [switch_thread.py:209(send_config) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] {'msgId': 7, 'class': '06', 'ioPorts': [0, 0, 0, 0, 0, 0], 'desc': 'Disable GST', 'msgClass': 240, 'id': '01'}
+1559357180.965358734 INFO [switch_thread.py:232(send_config) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] Sent Disable GST
+1559357180.971452474 WARN [switch_thread.py:209(send_config) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] {'msgId': 8, 'class': '06', 'ioPorts': [0, 0, 0, 0, 0, 0], 'desc': 'Disable ZDA', 'msgClass': 240, 'id': '01'}
+1559357180.972985744 INFO [switch_thread.py:232(send_config) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] Sent Disable ZDA
+1559357180.978350162 WARN [switch_thread.py:209(send_config) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] {'msgId': 9, 'class': '06', 'ioPorts': [0, 0, 0, 0, 0, 0], 'desc': 'Disable GBS', 'msgClass': 240, 'id': '01'}
+1559357180.979937314 INFO [switch_thread.py:232(send_config) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] Sent Disable GBS
+1559357180.985350847 WARN [switch_thread.py:209(send_config) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] {'msgId': 15, 'class': '06', 'ioPorts': [0, 0, 0, 0, 0, 0], 'desc': 'Disable VLW', 'msgClass': 240, 'id': '01'}
+1559357180.986758947 INFO [switch_thread.py:232(send_config) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] Sent Disable VLW
+1559357180.992161273 WARN [switch_thread.py:209(send_config) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] {'msgId': 5, 'class': '06', 'ioPorts': [0, 0, 0, 0, 0, 0], 'desc': 'F5-05 RTCM 1005', 'msgClass': 245, 'id': '01'}
+1559357180.993645668 INFO [switch_thread.py:232(send_config) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] Sent F5-05 RTCM 1005
+1559357180.999321460 WARN [switch_thread.py:209(send_config) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] {'msgId': 77, 'class': '06', 'ioPorts': [0, 0, 0, 0, 0, 0], 'desc': 'F5-4D RTCM 1077', 'msgClass': 245, 'id': '01'}
+1559357181.001005649 INFO [switch_thread.py:232(send_config) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] Sent F5-4D RTCM 1077
+1559357181.006877422 WARN [switch_thread.py:209(send_config) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] {'msgId': 87, 'class': '06', 'ioPorts': [0, 0, 0, 0, 0, 0], 'desc': 'F5-57 RTCM 1087', 'msgClass': 245, 'id': '01'}
+1559357181.008332252 INFO [switch_thread.py:232(send_config) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] Sent F5-57 RTCM 1087
+1559357181.014072895 WARN [switch_thread.py:209(send_config) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] {'msgId': 230, 'class': '06', 'ioPorts': [0, 0, 0, 0, 0, 0], 'desc': 'F5-E6 RTCM 1230', 'msgClass': 245, 'id': '01'}
+1559357181.015538454 INFO [switch_thread.py:232(send_config) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] Sent F5-E6 RTCM 1230
+1559357181.021405696 WARN [switch_thread.py:209(send_config) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] {'desc': 'UBX-CFG-PRT', 'prot_out': 0, 'class': '06', 'prot_in': 32, 'rate': 19200, 'id': '00'}
+1559357181.022969961 INFO [switch_thread.py:232(send_config) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] Sent UBX-CFG-PRT
+1559357181.027666568 INFO [switch_thread.py:237(send_config) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] Payload missing
+1559357181.032539844 INFO [switch_thread.py:237(send_config) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] Payload missing
+1559357181.037503480 INFO [switch_thread.py:237(send_config) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] Payload missing
+1559357181.042227506 INFO [switch_thread.py:237(send_config) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] Payload missing
+1559357181.047588348 INFO [switch_thread.py:237(send_config) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] Payload missing
+1559357181.053140640 INFO [switch_thread.py:237(send_config) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] Payload missing
+1559357181.059029817 INFO [switch_thread.py:237(send_config) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] Payload missing
+1559357181.063494205 INFO [switch_thread.py:237(send_config) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] Payload missing
+1559357181.069023370 INFO [switch_thread.py:237(send_config) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] Payload missing
+1559357181.074157953 INFO [switch_thread.py:237(send_config) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] Payload missing
+1559357181.078892707 INFO [switch_thread.py:237(send_config) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] Payload missing
+1559357181.084027528 INFO [switch_thread.py:237(send_config) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] Payload missing
+1559357181.089075803 INFO [switch_thread.py:237(send_config) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] Payload missing
+1559357181.094024419 INFO [switch_thread.py:237(send_config) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] Payload missing
+1559357181.099152326 INFO [switch_thread.py:237(send_config) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] Payload missing
+1559357181.103978872 INFO [switch_thread.py:237(send_config) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] Payload missing
+1559357181.109080314 INFO [switch_thread.py:237(send_config) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] Payload missing
+1559357181.114187955 INFO [switch_thread.py:237(send_config) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] Payload missing
+1559357181.118860721 INFO [switch_thread.py:237(send_config) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] Payload missing
+1559357181.123646497 INFO [switch_thread.py:237(send_config) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] Payload missing
+1559357181.128964662 INFO [switch_thread.py:237(send_config) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] Payload missing
+1559357181.133813858 INFO [switch_thread.py:237(send_config) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] Payload missing
+1559357181.148699283 INFO [switch_thread.py:237(send_config) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] Payload missing
+1559357181.153762817 INFO [switch_thread.py:237(send_config) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] Payload missing
+1559357181.158528089 INFO [switch_thread.py:301(handle_txt) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] $GNTXT,01,01,02,u-blox AG - www.u-blox.com*4E
+1559357181.162617683 INFO [switch_thread.py:301(handle_txt) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] $GNTXT,01,01,02,HW UBX-M8030 00080000*60
+1559357181.166956901 INFO [switch_thread.py:301(handle_txt) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] $GNTXT,01,01,02,EXT CORE 3.01 (db0c89)*68
+1559357181.171304941 INFO [switch_thread.py:301(handle_txt) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] $GNTXT,01,01,02,ROM BASE 3.01 (107888)*25
+1559357181.175009727 INFO [switch_thread.py:301(handle_txt) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] $GNTXT,01,01,02,FWVER=HPG 1.40REF*0B
+1559357181.178706884 INFO [switch_thread.py:301(handle_txt) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] $GNTXT,01,01,02,PROTVER=20.30*19
+1559357181.182100296 INFO [switch_thread.py:301(handle_txt) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] $GNTXT,01,01,02,MOD=NEO-M8P-2*7B
+1559357181.186377763 INFO [switch_thread.py:301(handle_txt) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] $GNTXT,01,01,02,FIS=0xEF4015 (100111)*58
+1559357181.189903259 INFO [switch_thread.py:301(handle_txt) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] $GNTXT,01,01,02,GPS;GLO;BDS*06
+1559357181.192751169 INFO [switch_thread.py:301(handle_txt) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] $GNTXT,01,01,02,QZSS*58
+1559357181.196440219 INFO [switch_thread.py:301(handle_txt) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] $GNTXT,01,01,02,GNSS OTP=GPS;GLO*37
+1559357181.202133893 INFO [switch_thread.py:301(handle_txt) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] $GNTXT,01,01,02,LLC=FFFFFFFF-FFFFFFED-FFFFFFFF-FFFFF79E-FFFFFF69*2E
+1559357181.206314325 INFO [switch_thread.py:301(handle_txt) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] $GNTXT,01,01,02,ANTSUPERV=AC SD PDoS SR*3E
+1559357181.209681749 INFO [switch_thread.py:301(handle_txt) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] $GNTXT,01,01,02,ANTSTATUS=OK*25
+1559357181.212587118 INFO [switch_thread.py:301(handle_txt) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] $GNTXT,01,01,02,PF=300*4B
+1559357181.214524269 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+1559357181.215491533 INFO [switch_thread.py:285(handle_050x) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] ACK. Class: 0x6  Message ID: 0x1
+1559357181.217376708 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+1559357181.218427658 INFO [switch_thread.py:285(handle_050x) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] ACK. Class: 0x6  Message ID: 0x1
+1559357181.220543384 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+1559357181.221462011 INFO [switch_thread.py:285(handle_050x) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] ACK. Class: 0x6  Message ID: 0x1
+1559357181.223462820 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+1559357181.224357128 INFO [switch_thread.py:285(handle_050x) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] ACK. Class: 0x6  Message ID: 0x1
+1559357181.226193189 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+1559357181.227086544 INFO [switch_thread.py:285(handle_050x) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] ACK. Class: 0x6  Message ID: 0x1
+1559357181.228977918 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+1559357181.229892969 INFO [switch_thread.py:285(handle_050x) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] ACK. Class: 0x6  Message ID: 0x1
+1559357181.231897830 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+1559357181.232901334 INFO [switch_thread.py:285(handle_050x) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] ACK. Class: 0x6  Message ID: 0x1
+1559357181.234730720 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+1559357181.235680580 INFO [switch_thread.py:285(handle_050x) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] ACK. Class: 0x6  Message ID: 0x1
+1559357181.237471103 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+1559357181.238456010 INFO [switch_thread.py:285(handle_050x) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] ACK. Class: 0x6  Message ID: 0x1
+1559357181.240441322 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+1559357181.241338014 INFO [switch_thread.py:285(handle_050x) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] ACK. Class: 0x6  Message ID: 0x1
+1559357181.243294239 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+1559357181.244140148 INFO [switch_thread.py:285(handle_050x) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] ACK. Class: 0x6  Message ID: 0x1
+1559357181.245914459 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+1559357181.246821165 INFO [switch_thread.py:285(handle_050x) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] ACK. Class: 0x6  Message ID: 0x1
+1559357181.248685598 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+1559357181.249591827 INFO [switch_thread.py:285(handle_050x) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] ACK. Class: 0x6  Message ID: 0x1
+1559357181.251435041 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+1559357181.252402544 INFO [switch_thread.py:285(handle_050x) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] ACK. Class: 0x6  Message ID: 0x1
+1559357181.254252195 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+1559357181.255152225 INFO [switch_thread.py:285(handle_050x) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] ACK. Class: 0x6  Message ID: 0x1
+1559357181.256976604 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+1559357181.257879972 INFO [switch_thread.py:285(handle_050x) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] ACK. Class: 0x6  Message ID: 0x1
+1559357181.259727954 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+1559357181.260626792 INFO [switch_thread.py:285(handle_050x) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] ACK. Class: 0x6  Message ID: 0x1
+1559357181.262589216 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+1559357181.263495206 INFO [switch_thread.py:285(handle_050x) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] ACK. Class: 0x6  Message ID: 0x1
+1559357181.265383481 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+1559357181.266331911 INFO [switch_thread.py:285(handle_050x) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] ACK. Class: 0x6  Message ID: 0x1
+1559357181.268224000 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+1559357181.269165992 INFO [switch_thread.py:285(handle_050x) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] ACK. Class: 0x6  Message ID: 0x1
+1559357181.271153211 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+1559357181.272139310 INFO [switch_thread.py:285(handle_050x) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] ACK. Class: 0x6  Message ID: 0x1
+1559357181.274084329 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+1559357181.275071144 INFO [switch_thread.py:285(handle_050x) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] ACK. Class: 0x6  Message ID: 0x1
+1559357181.277025938 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+1559357181.277902603 INFO [switch_thread.py:285(handle_050x) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] ACK. Class: 0x6  Message ID: 0x1
+1559357181.279932498 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 00  0e 37 
+1559357181.280890464 INFO [switch_thread.py:285(handle_050x) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] ACK. Class: 0x6  Message ID: 0x0
+1559357181.286653757 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] 
+Class: 0x1  ID: 0x6  Len:52 [0x34]
+000: b5 62 01 06 34 00 98 ba  7e 1f 37 61 02 00 07 08 
+010: 03 dd 7e b9 9d ef bc 69  89 e7 52 17 f8 17 a1 05 
+020: 00 00 e5 ff ff ff 16 00  00 00 37 00 00 00 70 00 
+030: 00 00 e8 00 02 09 12 19  b6 03 9f 49 
+1559357181.287615776 INFO [gnss_node:220(handle_0106) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] !!!NEW CYCLE!!!
+1559357181.288531780 INFO [gnss_node:224(handle_0106) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] {'week': 2055}
+1559357181.297712087 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] 
+Class: 0x1  ID: 0x7  Len:92 [0x5c]
+000: b5 62 01 07 5c 00 98 ba  7e 1f e3 07 06 01 02 2e 
+010: 15 37 17 00 00 00 37 61  02 00 03 01 ea 09 c4 d8 
+020: 33 b6 eb 61 72 17 ab 2b  00 00 b2 9d 00 00 d2 1f 
+030: 00 00 70 2e 00 00 b9 01  00 00 a4 fe ff ff bb fe 
+040: ff ff 32 02 00 00 ba 67  f6 01 64 04 00 00 13 30 
+050: 65 00 e8 00 00 00 12 19  26 3b 00 00 00 00 00 00 
+060: 00 00 57 10 
+1559357181.298864126 INFO [gnss_node:244(handle_0107) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] {'fixType': 3, 'hAcc': 8.146, 'lat': 393372139, 'iTOW': 528399000, 'lon': -1238116156, 'velN': 0.441, 'week': 2055, 'vAcc': 11.888, 'year': 2019, 'sAcc': 1.124, 'velD': -0.325, 'velE': -0.34800000000000003}
+1559357181.301759958 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] 
+Class: 0x1  ID: 0x3  Len:16 [0x10]
+000: b5 62 01 03 10 00 98 ba  7e 1f 03 dd 00 08 7e c7 
+010: 02 00 41 4e 66 02 29 5e 
+1559357181.302854061 INFO [gnss_node:205(handle_0103) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] {'diffSoln': 0, 'gpsFix': 3, 'diffCorr': 0}
+1559357181.306066513 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] 
+Class: 0x1  ID: 0x4  Len:18 [0x12]
+000: b5 62 01 04 12 00 98 ba  7e 1f 16 01 e8 00 99 00 
+010: c8 00 76 00 60 00 45 00  81 b6 
+1559357181.307049036 INFO [gnss_node:214(handle_0104) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] {'fixType': 3, 'hDop': 1.18, 'hAcc': 8.146, 'lat': 393372139, 'vDop': 2.0, 'iTOW': 528399000, 'lon': -1238116156, 'velN': 0.441, 'week': 2055, 'vAcc': 11.888, 'year': 2019, 'sAcc': 1.124, 'velD': -0.325, 'velE': -0.34800000000000003}
+1559357181.312058687 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] 
+Class: 0x1  ID: 0x3b  Len:40 [0x28]
+000: b5 62 01 3b 28 00 00 00  00 00 98 ba 7e 1f 00 00 
+010: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00 
+020: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 53 2e 
+1559357181.313058614 INFO [gnss_node:262(handle_013B) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] {'active': 0, 'valid': 0, 'meanAcc': 0.0}
+1559357181.319370746 INFO [mavlink_gps_input.py:62(fmt) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] 
+{'fixType': 3, 'hDop': 1.18, 'hAcc': 8.146, 'lat': 393372139, 'vDop': 2.0, 'iTOW': 528399000, 'lon': -1238116156, 'velN': 0.441, 'week': 2055, 'alt': 40.4, 'vAcc': 11.888, 'sats': 9, 'year': 2019, 'sAcc': 1.124, 'velD': -0.325, 'velE': -0.34800000000000003}
+1559357181.320937395 INFO [gnss_node:281(handle_gga) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] {'fixType': 3, 'hDop': 1.18, 'hAcc': 8.146, 'lat': 393372139, 'vDop': 2.0, 'iTOW': 528399000, 'lon': -1238116156, 'velN': 0.441, 'week': 2055, 'alt': 40.4, 'vAcc': 11.888, 'sats': 9, 'year': 2019, 'sAcc': 1.124, 'velD': -0.325, 'velE': -0.34800000000000003}
+1559357181.322083234 INFO [gnss_node:282(handle_gga) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] Wrote GPS_INPUT message
+
+1559357182.073718786 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] 
+Class: 0x1  ID: 0x6  Len:52 [0x34]
+000: b5 62 01 06 34 00 80 be  7e 1f e4 61 02 00 07 08 
+010: 03 dd 77 b9 9d ef dc 69  89 e7 64 17 f8 17 c2 05 
+020: 00 00 e6 ff ff ff fb ff  ff ff 0f 00 00 00 54 00 
+030: 00 00 e8 00 02 09 12 19  b6 03 23 df 
+1559357182.074691534 INFO [gnss_node:220(handle_0106) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] !!!NEW CYCLE!!!
+1559357182.075510501 INFO [gnss_node:224(handle_0106) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] {'week': 2055}
+1559357182.084298610 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] 
+Class: 0x1  ID: 0x7  Len:92 [0x5c]
+000: b5 62 01 07 5c 00 80 be  7e 1f e3 07 06 01 02 2e 
+010: 16 37 18 00 00 00 e4 61  02 00 03 01 ea 09 a8 d8 
+020: 33 b6 04 62 72 17 68 2b  00 00 6f 9d 00 00 7e 20 
+030: 00 00 89 2f 00 00 fd ff  ff ff 40 ff ff ff 14 ff 
+040: ff ff c0 00 00 00 ba 67  f6 01 44 03 00 00 3d 46 
+050: 65 00 e8 00 00 00 12 19  26 3b 00 00 00 00 00 00 
+060: 00 00 13 19 
+1559357182.085370779 INFO [gnss_node:244(handle_0107) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] {'fixType': 3, 'hAcc': 8.318, 'lat': 393372164, 'iTOW': 528400000, 'lon': -1238116184, 'velN': -0.003, 'week': 2055, 'vAcc': 12.169, 'year': 2019, 'sAcc': 0.836, 'velD': -0.23600000000000002, 'velE': -0.192}
+1559357182.088479757 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] 
+Class: 0x1  ID: 0x3  Len:16 [0x10]
+000: b5 62 01 03 10 00 80 be  7e 1f 03 dd 00 08 7e c7 
+010: 02 00 29 52 66 02 01 c6 
+1559357182.089464902 INFO [gnss_node:205(handle_0103) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] {'diffSoln': 0, 'gpsFix': 3, 'diffCorr': 0}
+1559357182.092499971 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] 
+Class: 0x1  ID: 0x4  Len:18 [0x12]
+000: b5 62 01 04 12 00 80 be  7e 1f 16 01 e8 00 99 00 
+010: c8 00 76 00 60 00 44 00  6c 48 
+1559357182.093511104 INFO [gnss_node:214(handle_0104) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] {'fixType': 3, 'hDop': 1.18, 'hAcc': 8.318, 'lat': 393372164, 'vDop': 2.0, 'iTOW': 528400000, 'lon': -1238116184, 'velN': -0.003, 'week': 2055, 'vAcc': 12.169, 'year': 2019, 'sAcc': 0.836, 'velD': -0.23600000000000002, 'velE': -0.192}
+1559357182.098299264 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] 
+Class: 0x1  ID: 0x3b  Len:40 [0x28]
+000: b5 62 01 3b 28 00 00 00  00 00 80 be 7e 1f 00 00 
+010: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00 
+020: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 3f 5a 
+1559357182.099303245 INFO [gnss_node:262(handle_013B) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] {'active': 0, 'valid': 0, 'meanAcc': 0.0}
+1559357182.105490922 INFO [mavlink_gps_input.py:62(fmt) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] 
+{'fixType': 3, 'hDop': 1.18, 'hAcc': 8.318, 'lat': 393372164, 'vDop': 2.0, 'iTOW': 528400000, 'lon': -1238116184, 'velN': -0.003, 'week': 2055, 'alt': 40.3, 'vAcc': 12.169, 'sats': 9, 'year': 2019, 'sAcc': 0.836, 'velD': -0.23600000000000002, 'velE': -0.192}
+1559357182.106975078 INFO [gnss_node:281(handle_gga) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] {'fixType': 3, 'hDop': 1.18, 'hAcc': 8.318, 'lat': 393372164, 'vDop': 2.0, 'iTOW': 528400000, 'lon': -1238116184, 'velN': -0.003, 'week': 2055, 'alt': 40.3, 'vAcc': 12.169, 'sats': 9, 'year': 2019, 'sAcc': 0.836, 'velD': -0.23600000000000002, 'velE': -0.192}
+1559357182.107916831 INFO [gnss_node:282(handle_gga) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] Wrote GPS_INPUT message
+
+1559357183.081456661 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] 
+Class: 0x1  ID: 0x6  Len:52 [0x34]
+000: b5 62 01 06 34 00 68 c2  7e 1f 91 62 02 00 07 08 
+010: 03 dd 6d b9 9d ef 09 6a  89 e7 a3 17 f8 17 e2 05 
+020: 00 00 f0 ff ff ff 12 00  00 00 2b 00 00 00 75 00 
+030: 00 00 e8 00 02 09 12 19  b6 03 a1 ef 
+1559357183.082431554 INFO [gnss_node:220(handle_0106) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] !!!NEW CYCLE!!!
+1559357183.083259344 INFO [gnss_node:224(handle_0106) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] {'week': 2055}
+1559357183.092052459 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] 
+Class: 0x1  ID: 0x7  Len:92 [0x5c]
+000: b5 62 01 07 5c 00 68 c2  7e 1f e3 07 06 01 02 2e 
+010: 17 37 18 00 00 00 90 62  02 00 03 01 ea 09 81 d8 
+020: 33 b6 43 62 72 17 06 2c  00 00 0d 9e 00 00 1f 21 
+030: 00 00 9f 30 00 00 71 01  00 00 15 ff ff ff 18 ff 
+040: ff ff b5 01 00 00 ba 67  f6 01 91 04 00 00 30 65 
+050: 65 00 e8 00 00 00 12 19  26 3b 00 00 00 00 00 00 
+060: 00 00 63 fe 
+1559357183.093018054 INFO [gnss_node:244(handle_0107) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] {'fixType': 3, 'hAcc': 8.479000000000001, 'lat': 393372227, 'iTOW': 528401000, 'lon': -1238116223, 'velN': 0.369, 'week': 2055, 'vAcc': 12.447000000000001, 'year': 2019, 'sAcc': 1.169, 'velD': -0.232, 'velE': -0.23500000000000001}
+1559357183.096069574 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] 
+Class: 0x1  ID: 0x3  Len:16 [0x10]
+000: b5 62 01 03 10 00 68 c2  7e 1f 03 dd 00 08 7e c7 
+010: 02 00 11 56 66 02 d9 2e 
+1559357183.097077846 INFO [gnss_node:205(handle_0103) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] {'diffSoln': 0, 'gpsFix': 3, 'diffCorr': 0}
+1559357183.100089788 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] 
+Class: 0x1  ID: 0x4  Len:18 [0x12]
+000: b5 62 01 04 12 00 68 c2  7e 1f 16 01 e8 00 99 00 
+010: c8 00 76 00 60 00 44 00  58 dc 
+1559357183.101080894 INFO [gnss_node:214(handle_0104) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] {'fixType': 3, 'hDop': 1.18, 'hAcc': 8.479000000000001, 'lat': 393372227, 'vDop': 2.0, 'iTOW': 528401000, 'lon': -1238116223, 'velN': 0.369, 'week': 2055, 'vAcc': 12.447000000000001, 'year': 2019, 'sAcc': 1.169, 'velD': -0.232, 'velE': -0.23500000000000001}
+1559357183.105781078 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] 
+Class: 0x1  ID: 0x3b  Len:40 [0x28]
+000: b5 62 01 3b 28 00 00 00  00 00 68 c2 7e 1f 00 00 
+010: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00 
+020: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 2b 86 
+1559357183.106808423 INFO [gnss_node:262(handle_013B) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] {'active': 0, 'valid': 0, 'meanAcc': 0.0}
+1559357183.113323450 INFO [mavlink_gps_input.py:62(fmt) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] 
+{'fixType': 3, 'hDop': 1.18, 'hAcc': 8.479000000000001, 'lat': 393372227, 'vDop': 2.0, 'iTOW': 528401000, 'lon': -1238116223, 'velN': 0.369, 'week': 2055, 'alt': 40.5, 'vAcc': 12.447000000000001, 'sats': 9, 'year': 2019, 'sAcc': 1.169, 'velD': -0.232, 'velE': -0.23500000000000001}
+1559357183.114805698 INFO [gnss_node:281(handle_gga) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] {'fixType': 3, 'hDop': 1.18, 'hAcc': 8.479000000000001, 'lat': 393372227, 'vDop': 2.0, 'iTOW': 528401000, 'lon': -1238116223, 'velN': 0.369, 'week': 2055, 'alt': 40.5, 'vAcc': 12.447000000000001, 'sats': 9, 'year': 2019, 'sAcc': 1.169, 'velD': -0.232, 'velE': -0.23500000000000001}
+1559357183.115757703 INFO [gnss_node:282(handle_gga) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] Wrote GPS_INPUT message
+
+1559357184.072034835 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] 
+Class: 0x1  ID: 0x6  Len:52 [0x34]
+000: b5 62 01 06 34 00 50 c6  7e 1f 3d 63 02 00 07 08 
+010: 03 dd 8d b9 9d ef 36 6a  89 e7 fa 17 f8 17 00 06 
+020: 00 00 19 00 00 00 1e 00  00 00 49 00 00 00 83 00 
+030: 00 00 e8 00 02 09 12 19  b6 03 61 73 
+1559357184.072904109 INFO [gnss_node:220(handle_0106) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] !!!NEW CYCLE!!!
+1559357184.073677301 INFO [gnss_node:224(handle_0106) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] {'week': 2055}
+1559357184.082417964 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] 
+Class: 0x1  ID: 0x7  Len:92 [0x5c]
+000: b5 62 01 07 5c 00 50 c6  7e 1f e3 07 06 01 02 2e 
+010: 18 37 19 00 00 00 3c 63  02 00 03 01 ea 09 84 d8 
+020: 33 b6 9f 62 72 17 7c 2c  00 00 83 9e 00 00 b0 21 
+030: 00 00 a6 31 00 00 2d 03  00 00 2a 00 00 00 60 ff 
+040: ff ff 2f 03 00 00 ba 67  f6 01 23 05 00 00 f2 87 
+050: 65 00 e8 00 00 00 12 19  26 3b 00 00 00 00 00 00 
+060: 00 00 f3 71 
+1559357184.083498001 INFO [gnss_node:244(handle_0107) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] {'fixType': 3, 'hAcc': 8.624, 'lat': 393372319, 'iTOW': 528402000, 'lon': -1238116220, 'velN': 0.8130000000000001, 'week': 2055, 'vAcc': 12.71, 'year': 2019, 'sAcc': 1.315, 'velD': -0.16, 'velE': 0.042}
+1559357184.086858034 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] 
+Class: 0x1  ID: 0x3  Len:16 [0x10]
+000: b5 62 01 03 10 00 50 c6  7e 1f 03 dd 00 08 7e c7 
+010: 02 00 f9 59 66 02 b0 93 
+1559357184.087870836 INFO [gnss_node:205(handle_0103) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] {'diffSoln': 0, 'gpsFix': 3, 'diffCorr': 0}
+1559357184.091088056 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] 
+Class: 0x1  ID: 0x4  Len:18 [0x12]
+000: b5 62 01 04 12 00 50 c6  7e 1f 16 01 e8 00 99 00 
+010: c8 00 76 00 60 00 44 00  44 70 
+1559357184.092081069 INFO [gnss_node:214(handle_0104) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] {'fixType': 3, 'hDop': 1.18, 'hAcc': 8.624, 'lat': 393372319, 'vDop': 2.0, 'iTOW': 528402000, 'lon': -1238116220, 'velN': 0.8130000000000001, 'week': 2055, 'vAcc': 12.71, 'year': 2019, 'sAcc': 1.315, 'velD': -0.16, 'velE': 0.042}
+1559357184.097156763 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] 
+Class: 0x1  ID: 0x3b  Len:40 [0x28]
+000: b5 62 01 3b 28 00 00 00  00 00 50 c6 7e 1f 00 00 
+010: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00 
+020: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 17 b2 
+1559357184.098274469 INFO [gnss_node:262(handle_013B) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] {'active': 0, 'valid': 0, 'meanAcc': 0.0}
+1559357184.104578495 INFO [mavlink_gps_input.py:62(fmt) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] 
+{'fixType': 3, 'hDop': 1.18, 'hAcc': 8.624, 'lat': 393372319, 'vDop': 2.0, 'iTOW': 528402000, 'lon': -1238116220, 'velN': 0.8130000000000001, 'week': 2055, 'alt': 40.6, 'vAcc': 12.71, 'sats': 9, 'year': 2019, 'sAcc': 1.315, 'velD': -0.16, 'velE': 0.042}
+1559357184.106152296 INFO [gnss_node:281(handle_gga) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] {'fixType': 3, 'hDop': 1.18, 'hAcc': 8.624, 'lat': 393372319, 'vDop': 2.0, 'iTOW': 528402000, 'lon': -1238116220, 'velN': 0.8130000000000001, 'week': 2055, 'alt': 40.6, 'vAcc': 12.71, 'sats': 9, 'year': 2019, 'sAcc': 1.315, 'velD': -0.16, 'velE': 0.042}
+1559357184.107255935 INFO [gnss_node:282(handle_gga) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] Wrote GPS_INPUT message
+
+1559357185.070712566 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] 
+Class: 0x1  ID: 0x6  Len:52 [0x34]
+000: b5 62 01 06 34 00 38 ca  7e 1f e8 63 02 00 07 08 
+010: 03 dd 75 b9 9d ef 26 6a  89 e7 5f 18 f8 17 0f 06 
+020: 00 00 03 00 00 00 0a 00  00 00 37 00 00 00 7d 00 
+030: 00 00 e8 00 02 09 12 19  b6 03 03 ca 
+1559357185.071582078 INFO [gnss_node:220(handle_0106) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] !!!NEW CYCLE!!!
+1559357185.072356462 INFO [gnss_node:224(handle_0106) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] {'week': 2055}
+1559357185.080932378 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] 
+Class: 0x1  ID: 0x7  Len:92 [0x5c]
+000: b5 62 01 07 5c 00 38 ca  7e 1f e3 07 06 01 02 2e 
+010: 19 37 19 00 00 00 e7 63  02 00 03 01 ea 09 76 d8 
+020: 33 b6 d6 62 72 17 cd 2f  00 00 d4 a1 00 00 1c 22 
+030: 00 00 18 32 00 00 e6 01  00 00 e5 ff ff ff ef fe 
+040: ff ff e7 01 00 00 ba 67  f6 01 e0 04 00 00 e6 a8 
+050: 65 00 e8 00 00 00 12 19  26 3b 00 00 00 00 00 00 
+060: 00 00 c0 32 
+1559357185.081877946 INFO [gnss_node:244(handle_0107) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] {'fixType': 3, 'hAcc': 8.732, 'lat': 393372374, 'iTOW': 528403000, 'lon': -1238116234, 'velN': 0.486, 'week': 2055, 'vAcc': 12.824, 'year': 2019, 'sAcc': 1.248, 'velD': -0.273, 'velE': -0.027}
+1559357185.085079669 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] 
+Class: 0x1  ID: 0x3  Len:16 [0x10]
+000: b5 62 01 03 10 00 38 ca  7e 1f 03 dd 00 08 7e c7 
+010: 02 00 e1 5d 66 02 88 fb 
+1559357185.086052179 INFO [gnss_node:205(handle_0103) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] {'diffSoln': 0, 'gpsFix': 3, 'diffCorr': 0}
+1559357185.089259386 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] 
+Class: 0x1  ID: 0x4  Len:18 [0x12]
+000: b5 62 01 04 12 00 38 ca  7e 1f 16 01 e8 00 99 00 
+010: c8 00 76 00 60 00 44 00  30 04 
+1559357185.090340375 INFO [gnss_node:214(handle_0104) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] {'fixType': 3, 'hDop': 1.18, 'hAcc': 8.732, 'lat': 393372374, 'vDop': 2.0, 'iTOW': 528403000, 'lon': -1238116234, 'velN': 0.486, 'week': 2055, 'vAcc': 12.824, 'year': 2019, 'sAcc': 1.248, 'velD': -0.273, 'velE': -0.027}
+1559357185.095223188 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] 
+Class: 0x1  ID: 0x3b  Len:40 [0x28]
+000: b5 62 01 3b 28 00 00 00  00 00 38 ca 7e 1f 00 00 
+010: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00 
+020: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 03 de 
+1559357185.096267938 INFO [gnss_node:262(handle_013B) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] {'active': 0, 'valid': 0, 'meanAcc': 0.0}
+1559357185.102782964 INFO [mavlink_gps_input.py:62(fmt) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] 
+{'fixType': 3, 'hDop': 1.18, 'hAcc': 8.732, 'lat': 393372374, 'vDop': 2.0, 'iTOW': 528403000, 'lon': -1238116234, 'velN': 0.486, 'week': 2055, 'alt': 41.4, 'vAcc': 12.824, 'sats': 9, 'year': 2019, 'sAcc': 1.248, 'velD': -0.273, 'velE': -0.027}
+1559357185.104212522 INFO [gnss_node:281(handle_gga) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] {'fixType': 3, 'hDop': 1.18, 'hAcc': 8.732, 'lat': 393372374, 'vDop': 2.0, 'iTOW': 528403000, 'lon': -1238116234, 'velN': 0.486, 'week': 2055, 'alt': 41.4, 'vAcc': 12.824, 'sats': 9, 'year': 2019, 'sAcc': 1.248, 'velD': -0.273, 'velE': -0.027}
+1559357185.105129241 INFO [gnss_node:282(handle_gga) [topics: /STM1, /gnss_control, /STM2, /mavlink/to, /rosout, /gnss_status, /STM4] Wrote GPS_INPUT message
+

@@ -1,0 +1,33 @@
+[rospy.client][INFO] 2016-02-11 18:37:44,683: init_node, name[/gnss_node], pid[4319]
+[xmlrpc][INFO] 2016-02-11 18:37:44,686: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2016-02-11 18:37:44,688: Started XML-RPC server [http://10.0.0.166:43534/]
+[rospy.init][INFO] 2016-02-11 18:37:44,692: ROS Slave URI: [http://10.0.0.166:43534/]
+[rospy.impl.masterslave][INFO] 2016-02-11 18:37:44,693: _ready: http://10.0.0.166:43534/
+[rospy.registration][INFO] 2016-02-11 18:37:44,697: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2016-02-11 18:37:44,698: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2016-02-11 18:37:44,796: registered with master
+[rospy.rosout][INFO] 2016-02-11 18:37:44,796: initializing /rosout core topic
+[rospy.rosout][INFO] 2016-02-11 18:37:44,813: connected to core topic /rosout
+[rospy.simtime][INFO] 2016-02-11 18:37:44,826: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][WARNING] 2016-02-11 18:37:44,927: 
+[rosout][ERROR] 2016-02-11 18:37:44,928: stream_name_data: {'GNSS': {'type': 'rtcm', 'lock': <unlocked _thread.lock object at 0x7f99dbc9c530>, 'queue': deque([], maxlen=10)}, 'RTCM2': {'type': 'rtcm', 'lock': <unlocked _thread.lock object at 0x7f99dbc9c5a8>, 'queue': deque([], maxlen=10)}, 'RTCM1': {'type': 'rtcm', 'lock': <unlocked _thread.lock object at 0x7f99dbc9c3c8>, 'queue': deque([], maxlen=10)}}
+[rosout][WARNING] 2016-02-11 18:37:44,929: 
+[rosout][ERROR] 2016-02-11 18:37:44,930: stream_queues: {'STM3/QUEUE1': {'name': 'RTCM2', 'rw': 'read'}, 'STM1/QUEUE1': {'name': 'RTCM1', 'rw': 'write'}, 'STM3/QUEUE2': {'name': 'GNSS', 'rw': 'read'}, 'STM2/QUEUE1': {'name': 'RTCM1', 'rw': 'read'}, 'STM1/QUEUE2': {'name': 'RTCM2', 'rw': 'write'}, 'STM2/QUEUE2': {'name': 'GNSS', 'rw': 'write'}}
+[rosout][WARNING] 2016-02-11 18:37:44,931: 
+[rosout][ERROR] 2016-02-11 18:37:44,932: queues: {'/STM2/QUEUE1': {'type': 'rtcm', 'name': 'RTCM1', 'rw': 'read', 'lock': <unlocked _thread.lock object at 0x7f99dbc9c580>, 'queue': deque([], maxlen=10)}, '/STM1/QUEUE2': {'type': 'rtcm', 'name': 'RTCM2', 'rw': 'write', 'lock': <unlocked _thread.lock object at 0x7f99dbc9c4e0>, 'queue': deque([], maxlen=10)}, '/STM1/QUEUE1': {'type': 'rtcm', 'name': 'RTCM1', 'rw': 'write', 'lock': <unlocked _thread.lock object at 0x7f99dbc9c418>, 'queue': deque([], maxlen=10)}, '/STM2/QUEUE2': {'type': 'nmea', 'name': 'GNSS', 'rw': 'write', 'lock': <unlocked _thread.lock object at 0x7f99dbd49210>, 'queue': deque([], maxlen=10)}}
+[rosout][WARNING] 2016-02-11 18:37:44,951: Starting NTrip client [/STM1]
+[rosout][WARNING] 2016-02-11 18:37:44,972: Starting UBX device client [/STM2]
+[rosout][ERROR] 2016-02-11 18:37:45,004: Exception <class 'ConnectionRefusedError'> on stream: /STM1
+[rosout][WARNING] 2016-02-11 18:37:45,011: Starting IP Listener connects UBlox device to client, e.g. u-center. [/STM4]
+[rospy.internal][INFO] 2016-02-11 18:37:45,037: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][ERROR] 2016-02-11 18:37:45,049: Exception <class 'serial.serialutil.SerialException'> on stream: /STM2
+[rosout][WARNING] 2016-02-11 18:37:45,061: Listening for connection on port: 2104
+[rosout][ERROR] 2016-02-11 18:37:55,024: Exception <class 'ConnectionRefusedError'> on stream: /STM1
+[rosout][ERROR] 2016-02-11 18:37:55,054: Exception <class 'serial.serialutil.SerialException'> on stream: /STM2
+[rospy.core][INFO] 2016-02-11 18:38:00,821: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2016-02-11 18:38:00,844: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2016-02-11 18:38:00,845: signal-2
+[rosout][WARNING] 2016-02-11 18:38:05,050: Exiting  NTrip client
+[rosout][WARNING] 2016-02-11 18:38:05,067: Exiting  UBX device client
+[rospy.core][INFO] 2016-02-11 18:38:15,923: signal_shutdown [signal-15]
+[rospy.core][INFO] 2016-02-11 18:38:16,430: signal_shutdown [atexit]

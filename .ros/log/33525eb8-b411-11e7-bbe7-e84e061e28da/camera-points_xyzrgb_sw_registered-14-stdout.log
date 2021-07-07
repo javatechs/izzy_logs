@@ -1,8 +1,0 @@
-[0m[ INFO] [1508337166.374169646]: Loading nodelet /camera/points_xyzrgb_sw_registered of type depth_image_proc/point_cloud_xyzrgb to manager camera_nodelet_manager with the following remappings:[0m
-[0m[ INFO] [1508337166.374345213]: /camera/depth_registered/image_rect -> /camera/depth_registered/sw_registered/image_rect_raw[0m
-[0m[ INFO] [1508337166.374395973]: /camera/depth_registered/points -> /camera/depth_registered/points[0m
-[0m[ INFO] [1508337166.374436546]: /camera/rgb/camera_info -> /camera/color/camera_info[0m
-[0m[ INFO] [1508337166.374475631]: /camera/rgb/image_rect_color -> /camera/color/image_rect_color[0m
-[0m[ INFO] [1508337166.611726085]: waitForService: Service [/camera/camera_nodelet_manager/load_nodelet] has not been advertised, waiting...[0m
-[0m[ INFO] [1508337166.836228229]: waitForService: Service [/camera/camera_nodelet_manager/load_nodelet] is now available.[0m
-[0m[ INFO] [1508337210.512181870]: Unloading nodelet /camera/points_xyzrgb_sw_registered from manager camera_nodelet_manager[0m

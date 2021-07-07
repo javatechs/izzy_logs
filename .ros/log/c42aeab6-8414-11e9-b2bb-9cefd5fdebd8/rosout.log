@@ -1,0 +1,286 @@
+
+
+1559356036.477249227  Node Startup
+1559356038.433094024 INFO [switch_thread.py:232(send_config) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] Sent Enable U-blox NAV-SVIN
+1559356038.439081192 WARN [switch_thread.py:209(send_config) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] {'id': '01', 'class': '06', 'msgId': 0, 'msgClass': 240, 'desc': 'Enable GGA', 'ioPorts': [0, 0, 0, 1, 0, 0]}
+1559356038.440500020 INFO [switch_thread.py:232(send_config) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] Sent Enable GGA
+1559356038.445562839 WARN [switch_thread.py:209(send_config) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] {'id': '01', 'class': '06', 'msgId': 1, 'msgClass': 240, 'desc': 'Disable GLL', 'ioPorts': [0, 0, 0, 0, 0, 0]}
+1559356038.447062253 INFO [switch_thread.py:232(send_config) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] Sent Disable GLL
+1559356038.452743530 WARN [switch_thread.py:209(send_config) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] {'id': '01', 'class': '06', 'msgId': 2, 'msgClass': 240, 'desc': 'Disable GSA', 'ioPorts': [0, 0, 0, 0, 0, 0]}
+1559356038.454134941 INFO [switch_thread.py:232(send_config) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] Sent Disable GSA
+1559356038.459629058 WARN [switch_thread.py:209(send_config) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] {'id': '01', 'class': '06', 'msgId': 3, 'msgClass': 240, 'desc': 'Disable GSV', 'ioPorts': [0, 0, 0, 0, 0, 0]}
+1559356038.460999250 INFO [switch_thread.py:232(send_config) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] Sent Disable GSV
+1559356038.466321706 WARN [switch_thread.py:209(send_config) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] {'id': '01', 'class': '06', 'msgId': 4, 'msgClass': 240, 'desc': 'Disable RMC', 'ioPorts': [0, 0, 0, 0, 0, 0]}
+1559356038.467529058 INFO [switch_thread.py:232(send_config) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] Sent Disable RMC
+1559356038.473021030 WARN [switch_thread.py:209(send_config) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] {'id': '01', 'class': '06', 'msgId': 5, 'msgClass': 240, 'desc': 'Disable VTG', 'ioPorts': [0, 0, 0, 0, 0, 0]}
+1559356038.474361181 INFO [switch_thread.py:232(send_config) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] Sent Disable VTG
+1559356038.479998588 WARN [switch_thread.py:209(send_config) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] {'id': '01', 'class': '06', 'msgId': 10, 'msgClass': 240, 'desc': 'Disable DTM', 'ioPorts': [0, 0, 0, 0, 0, 0]}
+1559356038.481301784 INFO [switch_thread.py:232(send_config) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] Sent Disable DTM
+1559356038.486483335 WARN [switch_thread.py:209(send_config) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] {'id': '01', 'class': '06', 'msgId': 13, 'msgClass': 240, 'desc': 'Disable GNS', 'ioPorts': [0, 0, 0, 0, 0, 0]}
+1559356038.487650156 INFO [switch_thread.py:232(send_config) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] Sent Disable GNS
+1559356038.493280649 WARN [switch_thread.py:209(send_config) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] {'id': '01', 'class': '06', 'msgId': 6, 'msgClass': 240, 'desc': 'Disable GRS', 'ioPorts': [0, 0, 0, 0, 0, 0]}
+1559356038.494747400 INFO [switch_thread.py:232(send_config) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] Sent Disable GRS
+1559356038.500671386 WARN [switch_thread.py:209(send_config) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] {'id': '01', 'class': '06', 'msgId': 7, 'msgClass': 240, 'desc': 'Disable GST', 'ioPorts': [0, 0, 0, 0, 0, 0]}
+1559356038.502044916 INFO [switch_thread.py:232(send_config) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] Sent Disable GST
+1559356038.507380723 WARN [switch_thread.py:209(send_config) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] {'id': '01', 'class': '06', 'msgId': 8, 'msgClass': 240, 'desc': 'Disable ZDA', 'ioPorts': [0, 0, 0, 0, 0, 0]}
+1559356038.508661985 INFO [switch_thread.py:232(send_config) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] Sent Disable ZDA
+1559356038.513880968 WARN [switch_thread.py:209(send_config) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] {'id': '01', 'class': '06', 'msgId': 9, 'msgClass': 240, 'desc': 'Disable GBS', 'ioPorts': [0, 0, 0, 0, 0, 0]}
+1559356038.515393972 INFO [switch_thread.py:232(send_config) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] Sent Disable GBS
+1559356038.521718263 WARN [switch_thread.py:209(send_config) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] {'id': '01', 'class': '06', 'msgId': 15, 'msgClass': 240, 'desc': 'Disable VLW', 'ioPorts': [0, 0, 0, 0, 0, 0]}
+1559356038.523205518 INFO [switch_thread.py:232(send_config) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] Sent Disable VLW
+1559356038.528960943 WARN [switch_thread.py:209(send_config) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] {'id': '01', 'class': '06', 'msgId': 5, 'msgClass': 245, 'desc': 'F5-05 RTCM 1005', 'ioPorts': [0, 0, 0, 0, 0, 0]}
+1559356038.530420064 INFO [switch_thread.py:232(send_config) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] Sent F5-05 RTCM 1005
+1559356038.536126375 WARN [switch_thread.py:209(send_config) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] {'id': '01', 'class': '06', 'msgId': 77, 'msgClass': 245, 'desc': 'F5-4D RTCM 1077', 'ioPorts': [0, 0, 0, 0, 0, 0]}
+1559356038.537535905 INFO [switch_thread.py:232(send_config) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] Sent F5-4D RTCM 1077
+1559356038.543230772 WARN [switch_thread.py:209(send_config) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] {'id': '01', 'class': '06', 'msgId': 87, 'msgClass': 245, 'desc': 'F5-57 RTCM 1087', 'ioPorts': [0, 0, 0, 0, 0, 0]}
+1559356038.544662475 INFO [switch_thread.py:232(send_config) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] Sent F5-57 RTCM 1087
+1559356038.550525665 WARN [switch_thread.py:209(send_config) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] {'id': '01', 'class': '06', 'msgId': 230, 'msgClass': 245, 'desc': 'F5-E6 RTCM 1230', 'ioPorts': [0, 0, 0, 0, 0, 0]}
+1559356038.552115440 INFO [switch_thread.py:232(send_config) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] Sent F5-E6 RTCM 1230
+1559356038.557413578 WARN [switch_thread.py:209(send_config) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] {'id': '00', 'prot_out': 0, 'rate': 19200, 'class': '06', 'desc': 'UBX-CFG-PRT', 'prot_in': 32}
+1559356038.558734178 INFO [switch_thread.py:232(send_config) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] Sent UBX-CFG-PRT
+1559356038.563627719 INFO [switch_thread.py:237(send_config) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] Payload missing
+1559356038.568323373 INFO [switch_thread.py:237(send_config) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] Payload missing
+1559356038.573191642 INFO [switch_thread.py:237(send_config) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] Payload missing
+1559356038.578691482 INFO [switch_thread.py:237(send_config) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] Payload missing
+1559356038.583225488 INFO [switch_thread.py:237(send_config) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] Payload missing
+1559356038.587760448 INFO [switch_thread.py:237(send_config) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] Payload missing
+1559356038.592115879 INFO [switch_thread.py:237(send_config) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] Payload missing
+1559356038.596696615 INFO [switch_thread.py:237(send_config) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] Payload missing
+1559356038.601684093 INFO [switch_thread.py:237(send_config) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] Payload missing
+1559356038.606544256 INFO [switch_thread.py:237(send_config) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] Payload missing
+1559356038.611696004 INFO [switch_thread.py:237(send_config) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] Payload missing
+1559356038.616731643 INFO [switch_thread.py:237(send_config) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] Payload missing
+1559356038.622549772 INFO [switch_thread.py:237(send_config) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] Payload missing
+1559356038.627472162 INFO [switch_thread.py:237(send_config) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] Payload missing
+1559356038.632064104 INFO [switch_thread.py:237(send_config) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] Payload missing
+1559356038.636697053 INFO [switch_thread.py:237(send_config) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] Payload missing
+1559356038.641733646 INFO [switch_thread.py:237(send_config) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] Payload missing
+1559356038.647328138 INFO [switch_thread.py:237(send_config) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] Payload missing
+1559356038.652761936 INFO [switch_thread.py:237(send_config) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] Payload missing
+1559356038.658185482 INFO [switch_thread.py:237(send_config) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] Payload missing
+1559356038.663087129 INFO [switch_thread.py:237(send_config) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] Payload missing
+1559356038.667880535 INFO [switch_thread.py:237(send_config) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] Payload missing
+1559356038.672932147 INFO [switch_thread.py:237(send_config) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] Payload missing
+1559356038.678203344 INFO [switch_thread.py:237(send_config) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] Payload missing
+1559356038.680345773 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+1559356038.681485176 WARN [gnss_message_parser.py:302(read_msg_ubx) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] No handler for: 0501
+1559356038.683450460 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+1559356038.684537410 WARN [gnss_message_parser.py:302(read_msg_ubx) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] No handler for: 0501
+1559356038.686530828 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+1559356038.687744855 WARN [gnss_message_parser.py:302(read_msg_ubx) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] No handler for: 0501
+1559356038.689706325 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+1559356038.691023588 WARN [gnss_message_parser.py:302(read_msg_ubx) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] No handler for: 0501
+1559356038.693109750 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+1559356038.694418668 WARN [gnss_message_parser.py:302(read_msg_ubx) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] No handler for: 0501
+1559356038.696365594 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+1559356038.697420358 WARN [gnss_message_parser.py:302(read_msg_ubx) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] No handler for: 0501
+1559356038.699374198 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+1559356038.700612068 WARN [gnss_message_parser.py:302(read_msg_ubx) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] No handler for: 0501
+1559356038.702743530 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+1559356038.703886985 WARN [gnss_message_parser.py:302(read_msg_ubx) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] No handler for: 0501
+1559356038.705843925 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+1559356038.706992864 WARN [gnss_message_parser.py:302(read_msg_ubx) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] No handler for: 0501
+1559356038.708814859 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+1559356038.709799051 WARN [gnss_message_parser.py:302(read_msg_ubx) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] No handler for: 0501
+1559356038.711797714 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+1559356038.712833404 WARN [gnss_message_parser.py:302(read_msg_ubx) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] No handler for: 0501
+1559356038.714882373 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+1559356038.715847730 WARN [gnss_message_parser.py:302(read_msg_ubx) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] No handler for: 0501
+1559356038.717821598 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+1559356038.719053745 WARN [gnss_message_parser.py:302(read_msg_ubx) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] No handler for: 0501
+1559356038.721033334 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+1559356038.722222805 WARN [gnss_message_parser.py:302(read_msg_ubx) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] No handler for: 0501
+1559356038.724277734 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+1559356038.725480318 WARN [gnss_message_parser.py:302(read_msg_ubx) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] No handler for: 0501
+1559356038.727577447 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+1559356038.728771448 WARN [gnss_message_parser.py:302(read_msg_ubx) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] No handler for: 0501
+1559356038.730684995 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+1559356038.731891632 WARN [gnss_message_parser.py:302(read_msg_ubx) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] No handler for: 0501
+1559356038.733814716 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+1559356038.735074043 WARN [gnss_message_parser.py:302(read_msg_ubx) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] No handler for: 0501
+1559356038.736974716 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+1559356038.738157033 WARN [gnss_message_parser.py:302(read_msg_ubx) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] No handler for: 0501
+1559356038.740121603 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+1559356038.741109848 WARN [gnss_message_parser.py:302(read_msg_ubx) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] No handler for: 0501
+1559356038.743290662 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+1559356038.744502305 WARN [gnss_message_parser.py:302(read_msg_ubx) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] No handler for: 0501
+1559356038.746411800 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+1559356038.747588157 WARN [gnss_message_parser.py:302(read_msg_ubx) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] No handler for: 0501
+1559356038.749468326 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+1559356038.750837087 WARN [gnss_message_parser.py:302(read_msg_ubx) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] No handler for: 0501
+1559356038.752989053 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 00  0e 37 
+1559356038.754306316 WARN [gnss_message_parser.py:302(read_msg_ubx) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] No handler for: 0501
+1559356038.826320648 WARN [gnss_message_parser.py:167(read_msg_ascii) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] No handler for: $GNTXT
+1559356038.831142902 WARN [gnss_message_parser.py:167(read_msg_ascii) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] No handler for: $GNTXT
+1559356038.835689544 WARN [gnss_message_parser.py:167(read_msg_ascii) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] No handler for: $GNTXT
+1559356038.840662479 WARN [gnss_message_parser.py:167(read_msg_ascii) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] No handler for: $GNTXT
+1559356038.845396280 WARN [gnss_message_parser.py:167(read_msg_ascii) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] No handler for: $GNTXT
+1559356038.849524259 WARN [gnss_message_parser.py:167(read_msg_ascii) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] No handler for: $GNTXT
+1559356038.853357315 WARN [gnss_message_parser.py:167(read_msg_ascii) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] No handler for: $GNTXT
+1559356038.857174158 WARN [gnss_message_parser.py:167(read_msg_ascii) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] No handler for: $GNTXT
+1559356038.861550569 WARN [gnss_message_parser.py:167(read_msg_ascii) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] No handler for: $GNTXT
+1559356038.865204095 WARN [gnss_message_parser.py:167(read_msg_ascii) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] No handler for: $GNTXT
+1559356038.868370771 WARN [gnss_message_parser.py:167(read_msg_ascii) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] No handler for: $GNTXT
+1559356038.872570276 WARN [gnss_message_parser.py:167(read_msg_ascii) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] No handler for: $GNTXT
+1559356038.878757715 WARN [gnss_message_parser.py:167(read_msg_ascii) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] No handler for: $GNTXT
+1559356038.883432865 WARN [gnss_message_parser.py:167(read_msg_ascii) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] No handler for: $GNTXT
+1559356038.887373447 WARN [gnss_message_parser.py:167(read_msg_ascii) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] No handler for: $GNTXT
+1559356038.890908956 WARN [gnss_message_parser.py:167(read_msg_ascii) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] No handler for: $GNTXT
+1559356039.071142196 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] 
+Class: 0x1  ID: 0x6  Len:52 [0x34]
+000: b5 62 01 06 34 00 a8 4d  6d 1f be 67 ff ff 07 08 
+010: 03 dd 9e ba 9d ef 5b 6b  89 e7 f2 13 f8 17 93 05 
+020: 00 00 0a 00 00 00 2d 00  00 00 08 00 00 00 6c 00 
+030: 00 00 d5 00 02 08 12 19  b6 03 02 c1 
+1559356039.072211503 WARN [gnss_message_parser.py:302(read_msg_ubx) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] No handler for: 0106
+1559356039.095871210 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] 
+Class: 0x1  ID: 0x7  Len:92 [0x5c]
+000: b5 62 01 07 5c 00 a8 4d  6d 1f e3 07 06 01 02 1b 
+010: 13 37 1a 00 00 00 be 67  ff ff 03 01 ea 08 cd d8 
+020: 33 b6 b1 60 72 17 01 07  00 00 09 79 00 00 88 24 
+030: 00 00 14 2a 00 00 4f 01  00 00 5a ff ff ff 1b 01 
+040: 00 00 76 01 00 00 5d 8b  db 00 33 04 00 00 c1 57 
+050: 4d 00 d5 00 00 00 12 19  26 3b 00 00 00 00 00 00 
+060: 00 00 06 26 
+1559356039.097466707 WARN [gnss_message_parser.py:302(read_msg_ubx) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] No handler for: 0107
+1559356039.101742267 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] 
+Class: 0x1  ID: 0x3  Len:16 [0x10]
+000: b5 62 01 03 10 00 a8 4d  6d 1f 03 dd 00 08 7e c7 
+010: 02 00 51 e1 54 02 4c e2 
+1559356039.103032588 WARN [gnss_message_parser.py:302(read_msg_ubx) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] No handler for: 0103
+1559356039.107385396 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] 
+Class: 0x1  ID: 0x4  Len:18 [0x12]
+000: b5 62 01 04 12 00 a8 4d  6d 1f fc 00 d5 00 85 00 
+010: a9 00 82 00 68 00 4e 00  cf e6 
+1559356039.108741998 WARN [gnss_message_parser.py:302(read_msg_ubx) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] No handler for: 0104
+1559356039.114179372 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] 
+Class: 0x1  ID: 0x3b  Len:40 [0x28]
+000: b5 62 01 3b 28 00 00 00  00 00 a8 4d 6d 1f 00 00 
+010: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00 
+020: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 e5 45 
+1559356039.115193605 WARN [gnss_message_parser.py:302(read_msg_ubx) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] No handler for: 013B
+1559356223.460717916 WARN [gnss_message_parser.py:167(read_msg_ascii) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] No handler for: $GNGGA
+1559356223.464699506 ERROR [switch_thread.py:73(run) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] Exception <class 'ConnectionRefusedError'> on stream: /STM1
+1559356223.482897281 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] 
+Class: 0x1  ID: 0x6  Len:52 [0x34]
+000: b5 62 01 06 34 00 90 51  6d 1f 63 68 ff ff 07 08 
+010: 03 dd 9f ba 9d ef 67 6b  89 e7 ef 13 f8 17 a3 05 
+020: 00 00 0d 00 00 00 1f 00  00 00 03 00 00 00 5a 00 
+030: 00 00 15 01 02 07 12 19  b6 03 cc 0e 
+1559356223.485102653 WARN [gnss_message_parser.py:302(read_msg_ubx) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] No handler for: 0106
+1559356223.497728347 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] 
+Class: 0x1  ID: 0x7  Len:92 [0x5c]
+000: b5 62 01 07 5c 00 90 51  6d 1f e3 07 06 01 02 1b 
+010: 14 37 1a 00 00 00 63 68  ff ff 03 01 ea 07 c6 d8 
+020: 33 b6 b5 60 72 17 9a 06  00 00 a1 78 00 00 29 25 
+030: 00 00 68 2a 00 00 ee 00  00 00 bd ff ff ff ed 00 
+040: 00 00 f7 00 00 00 5d 8b  db 00 83 03 00 00 ea 76 
+050: 4d 00 15 01 00 00 12 19  26 3b 00 00 00 00 00 00 
+060: 00 00 e4 bb 
+1559356223.498841047 WARN [gnss_message_parser.py:302(read_msg_ubx) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] No handler for: 0107
+1559356223.501919984 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] 
+Class: 0x1  ID: 0x3  Len:16 [0x10]
+000: b5 62 01 03 10 00 90 51  6d 1f 03 dd 00 08 7e c7 
+010: 02 00 39 e5 54 02 24 4a 
+1559356223.502878904 WARN [gnss_message_parser.py:302(read_msg_ubx) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] No handler for: 0103
+1559356223.506315946 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] 
+Class: 0x1  ID: 0x4  Len:18 [0x12]
+000: b5 62 01 04 12 00 90 51  6d 1f 4e 01 15 01 bb 00 
+010: e6 00 9a 00 84 00 50 00  f8 16 
+1559356223.507425785 WARN [gnss_message_parser.py:302(read_msg_ubx) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] No handler for: 0104
+1559356223.512897253 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] 
+Class: 0x1  ID: 0x3b  Len:40 [0x28]
+000: b5 62 01 3b 28 00 00 00  00 00 90 51 6d 1f 00 00 
+010: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00 
+020: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 d1 71 
+1559356223.514147520 WARN [gnss_message_parser.py:302(read_msg_ubx) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] No handler for: 013B
+1559356223.521216869 WARN [gnss_message_parser.py:167(read_msg_ascii) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] No handler for: $GNGGA
+1559356223.527339935 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] 
+Class: 0x1  ID: 0x6  Len:52 [0x34]
+000: b5 62 01 06 34 00 78 55  6d 1f 08 69 ff ff 07 08 
+010: 03 dd af ba 9d ef 82 6b  89 e7 d9 13 f8 17 ab 05 
+020: 00 00 0d 00 00 00 26 00  00 00 06 00 00 00 52 00 
+030: 00 00 d5 00 02 08 12 19  b6 03 3d df 
+1559356223.528388500 WARN [gnss_message_parser.py:302(read_msg_ubx) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] No handler for: 0106
+1559356223.538002967 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] 
+Class: 0x1  ID: 0x7  Len:92 [0x5c]
+000: b5 62 01 07 5c 00 78 55  6d 1f e3 07 06 01 02 1b 
+010: 15 37 1b 00 00 00 09 69  ff ff 03 01 ea 08 c5 d8 
+020: 33 b6 b8 60 72 17 1a 05  00 00 22 77 00 00 7b 25 
+030: 00 00 85 2a 00 00 21 01  00 00 94 ff ff ff 07 01 
+040: 00 00 35 01 00 00 5d 8b  db 00 34 03 00 00 4c 93 
+050: 4d 00 d5 00 00 00 12 19  26 3b 00 00 00 00 00 00 
+060: 00 00 3e e4 
+1559356223.538971424 WARN [gnss_message_parser.py:302(read_msg_ubx) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] No handler for: 0107
+1559356223.542312145 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] 
+Class: 0x1  ID: 0x3  Len:16 [0x10]
+000: b5 62 01 03 10 00 78 55  6d 1f 03 dd 00 08 7e c7 
+010: 02 00 21 e9 54 02 fc b2 
+1559356223.543363094 WARN [gnss_message_parser.py:302(read_msg_ubx) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] No handler for: 0103
+1559356223.546732425 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] 
+Class: 0x1  ID: 0x4  Len:18 [0x12]
+000: b5 62 01 04 12 00 78 55  6d 1f fc 00 d5 00 85 00 
+010: a9 00 82 00 68 00 4e 00  a7 0e 
+1559356223.547934293 WARN [gnss_message_parser.py:302(read_msg_ubx) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] No handler for: 0104
+1559356223.552748680 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] 
+Class: 0x1  ID: 0x3b  Len:40 [0x28]
+000: b5 62 01 3b 28 00 00 00  00 00 78 55 6d 1f 00 00 
+010: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00 
+020: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 bd 9d 
+1559356223.553835868 WARN [gnss_message_parser.py:302(read_msg_ubx) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] No handler for: 013B
+1559356223.565246105 WARN [gnss_message_parser.py:167(read_msg_ascii) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] No handler for: $GNGGA
+1559356223.571685791 INFO [gnss_message_parser.py:292(read_msg_ubx) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] 
+Class: 0x1  ID: 0x6  Len:52 [0x34]
+000: b5 62 01 06 34 00 60 59  6d 1f ad 69 ff ff 07 08 
+010: 03 dd b2 ba 9d ef 85 6b  89 e7 cc 13 f8 17 af 05 
+020: 00 00 0e 00 00 00 16 00  00 00 01 00 00 00 4c 00 
+030: 00 00 d5 00 02 08 12 19  b6 03 b1 af 
+1559356223.572764396 WARN [gnss_message_parser.py:302(read_msg_ubx) [topics: /STM1, /mavlink/to, /STM4, /STM2, /gnss_status, /rosout, /gnss_control] No handler for: 0106

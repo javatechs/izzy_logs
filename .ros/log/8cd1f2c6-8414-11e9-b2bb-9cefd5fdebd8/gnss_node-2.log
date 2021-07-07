@@ -1,0 +1,589 @@
+[rospy.client][INFO] 2019-05-31 19:25:45,300: init_node, name[/gnss_node], pid[4946]
+[xmlrpc][INFO] 2019-05-31 19:25:45,302: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-05-31 19:25:45,304: Started XML-RPC server [http://10.0.0.166:35833/]
+[rospy.init][INFO] 2019-05-31 19:25:45,307: ROS Slave URI: [http://10.0.0.166:35833/]
+[rospy.impl.masterslave][INFO] 2019-05-31 19:25:45,308: _ready: http://10.0.0.166:35833/
+[rospy.registration][INFO] 2019-05-31 19:25:45,312: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2019-05-31 19:25:45,313: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2019-05-31 19:25:45,410: registered with master
+[rospy.rosout][INFO] 2019-05-31 19:25:45,410: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-05-31 19:25:45,431: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-05-31 19:25:45,437: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][WARNING] 2019-05-31 19:25:45,513: 
+[rosout][ERROR] 2019-05-31 19:25:45,514: stream_name_data: {'RTCM2': {'type': 'rtcm', 'lock': <unlocked _thread.lock object at 0x7f13c68740f8>, 'queue': deque([], maxlen=10)}, 'RTCM1': {'type': 'rtcm', 'lock': <unlocked _thread.lock object at 0x7f13c68740d0>, 'queue': deque([], maxlen=10)}, 'GNSS': {'type': 'rtcm', 'lock': <unlocked _thread.lock object at 0x7f13c6874260>, 'queue': deque([], maxlen=10)}}
+[rosout][WARNING] 2019-05-31 19:25:45,515: 
+[rosout][ERROR] 2019-05-31 19:25:45,515: stream_queues: {'STM3/QUEUE1': {'rw': 'read', 'name': 'RTCM2'}, 'STM2/QUEUE2': {'rw': 'write', 'name': 'GNSS'}, 'STM1/QUEUE2': {'rw': 'write', 'name': 'RTCM2'}, 'STM1/QUEUE1': {'rw': 'write', 'name': 'RTCM1'}, 'STM3/QUEUE2': {'rw': 'read', 'name': 'GNSS'}, 'STM2/QUEUE1': {'rw': 'read', 'name': 'RTCM1'}}
+[rosout][WARNING] 2019-05-31 19:25:45,516: 
+[rosout][ERROR] 2019-05-31 19:25:45,517: queues: {'/STM2/QUEUE2': {'type': 'nmea', 'lock': <unlocked _thread.lock object at 0x7f13c6874080>, 'queue': deque([], maxlen=10), 'rw': 'write', 'name': 'GNSS'}, '/STM1/QUEUE1': {'type': 'rtcm', 'lock': <unlocked _thread.lock object at 0x7f13c717ffa8>, 'queue': deque([], maxlen=10), 'rw': 'write', 'name': 'RTCM1'}, '/STM1/QUEUE2': {'type': 'rtcm', 'lock': <unlocked _thread.lock object at 0x7f13c68741e8>, 'queue': deque([], maxlen=10), 'rw': 'write', 'name': 'RTCM2'}, '/STM2/QUEUE1': {'type': 'rtcm', 'lock': <unlocked _thread.lock object at 0x7f13c68740a8>, 'queue': deque([], maxlen=10), 'rw': 'read', 'name': 'RTCM1'}}
+[rosout][WARNING] 2019-05-31 19:25:45,533: Starting NTrip client [/STM1]
+[rosout][ERROR] 2019-05-31 19:25:45,559: Exception <class 'ConnectionRefusedError'> on stream: /STM1
+[rosout][WARNING] 2019-05-31 19:25:45,564: Starting UBX device client [/STM2]
+[rosout][WARNING] 2019-05-31 19:25:45,591: Starting IP Listener connects UBlox device to client, e.g. u-center. [/STM4]
+[rosout][INFO] 2019-05-31 19:25:45,600: Serial connected: /dev/c94-m8p
+[rosout][WARNING] 2019-05-31 19:25:45,625: {'ioPorts': [0, 0, 0, 0, 0, 0], 'id': '01', 'class': '06', 'desc': 'Disable U-blox RTCM 1005', 'msgClass': 245, 'msgId': 5}
+[rosout][INFO] 2019-05-31 19:25:45,627: Sent Disable U-blox RTCM 1005
+[rosout][WARNING] 2019-05-31 19:25:45,635: {'ioPorts': [0, 0, 0, 1, 0, 0], 'id': '01', 'class': '06', 'desc': 'Enable U-blox NAV-SOL', 'msgClass': 1, 'msgId': 6}
+[rosout][INFO] 2019-05-31 19:25:45,637: Sent Enable U-blox NAV-SOL
+[rosout][WARNING] 2019-05-31 19:25:45,644: Listening for connection on port: 2104
+[rosout][WARNING] 2019-05-31 19:25:45,650: {'ioPorts': [0, 0, 0, 1, 0, 0], 'id': '01', 'class': '06', 'desc': 'Enable U-blox NAV-PVT', 'msgClass': 1, 'msgId': 7}
+[rosout][INFO] 2019-05-31 19:25:45,651: Sent Enable U-blox NAV-PVT
+[rosout][WARNING] 2019-05-31 19:25:45,656: {'ioPorts': [0, 0, 0, 1, 0, 0], 'id': '01', 'class': '06', 'desc': 'Enable U-blox NAV-DOP', 'msgClass': 1, 'msgId': 4}
+[rosout][INFO] 2019-05-31 19:25:45,657: Sent Enable U-blox NAV-DOP
+[rosout][WARNING] 2019-05-31 19:25:45,662: {'ioPorts': [0, 0, 0, 1, 0, 0], 'id': '01', 'class': '06', 'desc': 'Enable U-blox NAV-STATUS', 'msgClass': 1, 'msgId': 3}
+[rosout][INFO] 2019-05-31 19:25:45,664: Sent Enable U-blox NAV-STATUS
+[rosout][WARNING] 2019-05-31 19:25:45,669: {'ioPorts': [0, 0, 0, 1, 0, 0], 'id': '01', 'class': '06', 'desc': 'Enable U-blox NAV-SVIN', 'msgClass': 1, 'msgId': 59}
+[rosout][INFO] 2019-05-31 19:25:45,670: Sent Enable U-blox NAV-SVIN
+[rosout][WARNING] 2019-05-31 19:25:45,675: {'ioPorts': [0, 0, 0, 1, 0, 0], 'id': '01', 'class': '06', 'desc': 'Enable GGA', 'msgClass': 240, 'msgId': 0}
+[rosout][INFO] 2019-05-31 19:25:45,677: Sent Enable GGA
+[rospy.internal][INFO] 2019-05-31 19:25:45,680: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][WARNING] 2019-05-31 19:25:45,684: {'ioPorts': [0, 0, 0, 0, 0, 0], 'id': '01', 'class': '06', 'desc': 'Disable GLL', 'msgClass': 240, 'msgId': 1}
+[rosout][INFO] 2019-05-31 19:25:45,685: Sent Disable GLL
+[rosout][WARNING] 2019-05-31 19:25:45,691: {'ioPorts': [0, 0, 0, 0, 0, 0], 'id': '01', 'class': '06', 'desc': 'Disable GSA', 'msgClass': 240, 'msgId': 2}
+[rosout][INFO] 2019-05-31 19:25:45,692: Sent Disable GSA
+[rosout][WARNING] 2019-05-31 19:25:45,697: {'ioPorts': [0, 0, 0, 0, 0, 0], 'id': '01', 'class': '06', 'desc': 'Disable GSV', 'msgClass': 240, 'msgId': 3}
+[rosout][INFO] 2019-05-31 19:25:45,699: Sent Disable GSV
+[rosout][WARNING] 2019-05-31 19:25:45,704: {'ioPorts': [0, 0, 0, 0, 0, 0], 'id': '01', 'class': '06', 'desc': 'Disable RMC', 'msgClass': 240, 'msgId': 4}
+[rosout][INFO] 2019-05-31 19:25:45,705: Sent Disable RMC
+[rosout][WARNING] 2019-05-31 19:25:45,710: {'ioPorts': [0, 0, 0, 0, 0, 0], 'id': '01', 'class': '06', 'desc': 'Disable VTG', 'msgClass': 240, 'msgId': 5}
+[rosout][INFO] 2019-05-31 19:25:45,712: Sent Disable VTG
+[rosout][WARNING] 2019-05-31 19:25:45,717: {'ioPorts': [0, 0, 0, 0, 0, 0], 'id': '01', 'class': '06', 'desc': 'Disable DTM', 'msgClass': 240, 'msgId': 10}
+[rosout][INFO] 2019-05-31 19:25:45,719: Sent Disable DTM
+[rosout][WARNING] 2019-05-31 19:25:45,724: {'ioPorts': [0, 0, 0, 0, 0, 0], 'id': '01', 'class': '06', 'desc': 'Disable GNS', 'msgClass': 240, 'msgId': 13}
+[rosout][INFO] 2019-05-31 19:25:45,726: Sent Disable GNS
+[rosout][WARNING] 2019-05-31 19:25:45,731: {'ioPorts': [0, 0, 0, 0, 0, 0], 'id': '01', 'class': '06', 'desc': 'Disable GRS', 'msgClass': 240, 'msgId': 6}
+[rosout][INFO] 2019-05-31 19:25:45,733: Sent Disable GRS
+[rosout][WARNING] 2019-05-31 19:25:45,739: {'ioPorts': [0, 0, 0, 0, 0, 0], 'id': '01', 'class': '06', 'desc': 'Disable GST', 'msgClass': 240, 'msgId': 7}
+[rosout][INFO] 2019-05-31 19:25:45,740: Sent Disable GST
+[rosout][WARNING] 2019-05-31 19:25:45,746: {'ioPorts': [0, 0, 0, 0, 0, 0], 'id': '01', 'class': '06', 'desc': 'Disable ZDA', 'msgClass': 240, 'msgId': 8}
+[rosout][INFO] 2019-05-31 19:25:45,747: Sent Disable ZDA
+[rosout][WARNING] 2019-05-31 19:25:45,753: {'ioPorts': [0, 0, 0, 0, 0, 0], 'id': '01', 'class': '06', 'desc': 'Disable GBS', 'msgClass': 240, 'msgId': 9}
+[rosout][INFO] 2019-05-31 19:25:45,755: Sent Disable GBS
+[rosout][WARNING] 2019-05-31 19:25:45,760: {'ioPorts': [0, 0, 0, 0, 0, 0], 'id': '01', 'class': '06', 'desc': 'Disable VLW', 'msgClass': 240, 'msgId': 15}
+[rosout][INFO] 2019-05-31 19:25:45,762: Sent Disable VLW
+[rosout][WARNING] 2019-05-31 19:25:45,768: {'ioPorts': [0, 0, 0, 0, 0, 0], 'id': '01', 'class': '06', 'desc': 'F5-05 RTCM 1005', 'msgClass': 245, 'msgId': 5}
+[rosout][INFO] 2019-05-31 19:25:45,770: Sent F5-05 RTCM 1005
+[rosout][WARNING] 2019-05-31 19:25:45,775: {'ioPorts': [0, 0, 0, 0, 0, 0], 'id': '01', 'class': '06', 'desc': 'F5-4D RTCM 1077', 'msgClass': 245, 'msgId': 77}
+[rosout][INFO] 2019-05-31 19:25:45,777: Sent F5-4D RTCM 1077
+[rosout][WARNING] 2019-05-31 19:25:45,783: {'ioPorts': [0, 0, 0, 0, 0, 0], 'id': '01', 'class': '06', 'desc': 'F5-57 RTCM 1087', 'msgClass': 245, 'msgId': 87}
+[rosout][INFO] 2019-05-31 19:25:45,784: Sent F5-57 RTCM 1087
+[rosout][WARNING] 2019-05-31 19:25:45,797: {'ioPorts': [0, 0, 0, 0, 0, 0], 'id': '01', 'class': '06', 'desc': 'F5-E6 RTCM 1230', 'msgClass': 245, 'msgId': 230}
+[rosout][INFO] 2019-05-31 19:25:45,799: Sent F5-E6 RTCM 1230
+[rosout][WARNING] 2019-05-31 19:25:45,804: {'rate': 19200, 'prot_out': 0, 'id': '00', 'class': '06', 'desc': 'UBX-CFG-PRT', 'prot_in': 32}
+[rosout][INFO] 2019-05-31 19:25:45,806: Sent UBX-CFG-PRT
+[rosout][INFO] 2019-05-31 19:25:45,811: Payload missing
+[rosout][INFO] 2019-05-31 19:25:45,816: Payload missing
+[rosout][INFO] 2019-05-31 19:25:45,821: Payload missing
+[rosout][INFO] 2019-05-31 19:25:45,826: Payload missing
+[rosout][INFO] 2019-05-31 19:25:45,832: Payload missing
+[rosout][INFO] 2019-05-31 19:25:45,837: Payload missing
+[rosout][INFO] 2019-05-31 19:25:45,843: Payload missing
+[rosout][INFO] 2019-05-31 19:25:45,847: Payload missing
+[rosout][INFO] 2019-05-31 19:25:45,852: Payload missing
+[rosout][INFO] 2019-05-31 19:25:45,857: Payload missing
+[rosout][INFO] 2019-05-31 19:25:45,862: Payload missing
+[rosout][INFO] 2019-05-31 19:25:45,866: Payload missing
+[rosout][INFO] 2019-05-31 19:25:45,871: Payload missing
+[rosout][INFO] 2019-05-31 19:25:45,876: Payload missing
+[rosout][INFO] 2019-05-31 19:25:45,882: Payload missing
+[rosout][INFO] 2019-05-31 19:25:45,886: Payload missing
+[rosout][INFO] 2019-05-31 19:25:45,891: Payload missing
+[rosout][INFO] 2019-05-31 19:25:45,896: Payload missing
+[rosout][INFO] 2019-05-31 19:25:45,900: Payload missing
+[rosout][INFO] 2019-05-31 19:25:45,906: Payload missing
+[rosout][INFO] 2019-05-31 19:25:45,911: Payload missing
+[rosout][INFO] 2019-05-31 19:25:45,915: Payload missing
+[rosout][INFO] 2019-05-31 19:25:45,920: Payload missing
+[rosout][INFO] 2019-05-31 19:25:45,925: Payload missing
+[rosout][INFO] 2019-05-31 19:25:45,927: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[rosout][WARNING] 2019-05-31 19:25:45,928: No handler for: 0501
+[rosout][INFO] 2019-05-31 19:25:45,931: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[rosout][WARNING] 2019-05-31 19:25:45,932: No handler for: 0501
+[rosout][INFO] 2019-05-31 19:25:45,934: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[rosout][WARNING] 2019-05-31 19:25:45,935: No handler for: 0501
+[rosout][INFO] 2019-05-31 19:25:45,937: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[rosout][WARNING] 2019-05-31 19:25:45,939: No handler for: 0501
+[rosout][INFO] 2019-05-31 19:25:45,941: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[rosout][WARNING] 2019-05-31 19:25:45,942: No handler for: 0501
+[rosout][INFO] 2019-05-31 19:25:45,944: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[rosout][WARNING] 2019-05-31 19:25:45,945: No handler for: 0501
+[rosout][INFO] 2019-05-31 19:25:45,947: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[rosout][WARNING] 2019-05-31 19:25:45,948: No handler for: 0501
+[rosout][INFO] 2019-05-31 19:25:45,951: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[rosout][WARNING] 2019-05-31 19:25:45,952: No handler for: 0501
+[rosout][INFO] 2019-05-31 19:25:45,954: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[rosout][WARNING] 2019-05-31 19:25:45,955: No handler for: 0501
+[rosout][INFO] 2019-05-31 19:25:45,957: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[rosout][WARNING] 2019-05-31 19:25:45,958: No handler for: 0501
+[rosout][INFO] 2019-05-31 19:25:45,960: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[rosout][WARNING] 2019-05-31 19:25:45,962: No handler for: 0501
+[rosout][INFO] 2019-05-31 19:25:45,964: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[rosout][WARNING] 2019-05-31 19:25:45,965: No handler for: 0501
+[rosout][INFO] 2019-05-31 19:25:45,967: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[rosout][WARNING] 2019-05-31 19:25:45,968: No handler for: 0501
+[rosout][INFO] 2019-05-31 19:25:45,970: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[rosout][WARNING] 2019-05-31 19:25:45,971: No handler for: 0501
+[rosout][INFO] 2019-05-31 19:25:45,974: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[rosout][WARNING] 2019-05-31 19:25:45,975: No handler for: 0501
+[rosout][INFO] 2019-05-31 19:25:45,978: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[rosout][WARNING] 2019-05-31 19:25:45,979: No handler for: 0501
+[rosout][INFO] 2019-05-31 19:25:45,981: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[rosout][WARNING] 2019-05-31 19:25:45,982: No handler for: 0501
+[rosout][INFO] 2019-05-31 19:25:45,985: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[rosout][WARNING] 2019-05-31 19:25:45,986: No handler for: 0501
+[rosout][INFO] 2019-05-31 19:25:45,988: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[rosout][WARNING] 2019-05-31 19:25:45,989: No handler for: 0501
+[rosout][INFO] 2019-05-31 19:25:45,992: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[rosout][WARNING] 2019-05-31 19:25:45,993: No handler for: 0501
+[rosout][INFO] 2019-05-31 19:25:45,995: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[rosout][WARNING] 2019-05-31 19:25:45,996: No handler for: 0501
+[rosout][INFO] 2019-05-31 19:25:45,999: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[rosout][WARNING] 2019-05-31 19:25:46,000: No handler for: 0501
+[rosout][INFO] 2019-05-31 19:25:46,002: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[rosout][WARNING] 2019-05-31 19:25:46,003: No handler for: 0501
+[rosout][INFO] 2019-05-31 19:25:46,006: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 00  0e 37 
+[rosout][WARNING] 2019-05-31 19:25:46,007: No handler for: 0501
+[rosout][WARNING] 2019-05-31 19:25:46,012: No handler for: $GNTXT
+[rosout][WARNING] 2019-05-31 19:25:46,017: No handler for: $GNTXT
+[rosout][WARNING] 2019-05-31 19:25:46,021: No handler for: $GNTXT
+[rosout][WARNING] 2019-05-31 19:25:46,026: No handler for: $GNTXT
+[rosout][WARNING] 2019-05-31 19:25:46,030: No handler for: $GNTXT
+[rosout][WARNING] 2019-05-31 19:25:46,034: No handler for: $GNTXT
+[rosout][WARNING] 2019-05-31 19:25:46,038: No handler for: $GNTXT
+[rosout][WARNING] 2019-05-31 19:25:46,042: No handler for: $GNTXT
+[rosout][WARNING] 2019-05-31 19:25:46,045: No handler for: $GNTXT
+[rosout][WARNING] 2019-05-31 19:25:46,048: No handler for: $GNTXT
+[rosout][WARNING] 2019-05-31 19:25:46,052: No handler for: $GNTXT
+[rosout][WARNING] 2019-05-31 19:25:46,059: No handler for: $GNTXT
+[rosout][WARNING] 2019-05-31 19:25:46,063: No handler for: $GNTXT
+[rosout][WARNING] 2019-05-31 19:25:46,067: No handler for: $GNTXT
+[rosout][WARNING] 2019-05-31 19:25:46,071: No handler for: $GNTXT
+[rosout][INFO] 2019-05-31 19:25:46,077: 
+Class: 0x1  ID: 0x6  Len:52 [0x34]
+000: b5 62 01 06 34 00 60 e2  6b 1f 68 2c ff ff 07 08 
+010: 03 dd a9 b8 9d ef 52 68  89 e7 78 12 f8 17 6a 06 
+020: 00 00 03 00 00 00 01 00  00 00 f9 ff ff ff 37 00 
+030: 00 00 c8 00 02 09 12 19  b6 03 90 63 
+[rosout][WARNING] 2019-05-31 19:25:46,078: No handler for: 0106
+[rosout][INFO] 2019-05-31 19:25:46,087: 
+Class: 0x1  ID: 0x7  Len:92 [0x5c]
+000: b5 62 01 07 5c 00 60 e2  6b 1f e3 07 06 01 02 19 
+010: 2e 37 1d 00 00 00 68 2c  ff ff 03 01 ea 09 e1 d8 
+020: 33 b6 9a 5d 72 17 90 19  00 00 97 8b 00 00 fb 21 
+030: 00 00 67 36 00 00 d8 ff  ff ff 12 00 00 00 3e 00 
+040: 00 00 2c 00 00 00 5d 8b  db 00 26 02 00 00 fe 38 
+050: 46 00 c8 00 00 00 12 19  26 3b 00 00 00 00 00 00 
+060: 00 00 f9 21 
+[rosout][WARNING] 2019-05-31 19:25:46,088: No handler for: 0107
+[rosout][INFO] 2019-05-31 19:25:46,091: 
+Class: 0x1  ID: 0x3  Len:16 [0x10]
+000: b5 62 01 03 10 00 60 e2  6b 1f 03 dd 00 08 7e c7 
+010: 02 00 09 76 53 02 e3 9e 
+[rosout][WARNING] 2019-05-31 19:25:46,092: No handler for: 0103
+[rosout][INFO] 2019-05-31 19:25:46,096: 
+Class: 0x1  ID: 0x4  Len:18 [0x12]
+000: b5 62 01 04 12 00 60 e2  6b 1f ea 00 c8 00 79 00 
+010: a4 00 73 00 55 00 4d 00  c7 bb 
+[rosout][WARNING] 2019-05-31 19:25:46,097: No handler for: 0104
+[rosout][INFO] 2019-05-31 19:25:46,102: 
+Class: 0x1  ID: 0x3b  Len:40 [0x28]
+000: b5 62 01 3b 28 00 00 00  00 00 60 e2 6b 1f 00 00 
+010: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00 
+020: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 30 40 
+[rosout][WARNING] 2019-05-31 19:25:46,103: No handler for: 013B
+[rosout][WARNING] 2019-05-31 19:25:46,109: No handler for: $GNGGA
+[rosout][INFO] 2019-05-31 19:25:47,063: 
+Class: 0x1  ID: 0x6  Len:52 [0x34]
+000: b5 62 01 06 34 00 48 e6  6b 1f 07 2d ff ff 07 08 
+010: 03 dd 77 b8 9d ef 31 68  89 e7 8a 12 f8 17 54 06 
+020: 00 00 01 00 00 00 01 00  00 00 02 00 00 00 32 00 
+030: 00 00 c6 00 02 0a 12 19  b6 03 c9 f5 
+[rosout][WARNING] 2019-05-31 19:25:47,064: No handler for: 0106
+[rosout][INFO] 2019-05-31 19:25:47,073: 
+Class: 0x1  ID: 0x7  Len:92 [0x5c]
+000: b5 62 01 07 5c 00 48 e6  6b 1f e3 07 06 01 02 19 
+010: 2f 37 1d 00 00 00 07 2d  ff ff 03 01 ea 0a c5 d8 
+020: 33 b6 87 5d 72 17 b7 1b  00 00 bf 8d 00 00 61 21 
+030: 00 00 c2 35 00 00 18 00  00 00 04 00 00 00 01 00 
+040: 00 00 18 00 00 00 5d 8b  db 00 f2 01 00 00 02 4c 
+050: 46 00 c6 00 00 00 12 19  26 3b 00 00 00 00 00 00 
+060: 00 00 30 23 
+[rosout][WARNING] 2019-05-31 19:25:47,074: No handler for: 0107
+[rosout][INFO] 2019-05-31 19:25:47,078: 
+Class: 0x1  ID: 0x3  Len:16 [0x10]
+000: b5 62 01 03 10 00 48 e6  6b 1f 03 dd 00 08 7e c7 
+010: 02 00 f1 79 53 02 ba 03 
+[rosout][WARNING] 2019-05-31 19:25:47,079: No handler for: 0103
+[rosout][INFO] 2019-05-31 19:25:47,082: 
+Class: 0x1  ID: 0x4  Len:18 [0x12]
+000: b5 62 01 04 12 00 48 e6  6b 1f e8 00 c6 00 79 00 
+010: a3 00 70 00 55 00 49 00  a7 f9 
+[rosout][WARNING] 2019-05-31 19:25:47,083: No handler for: 0104
+[rosout][INFO] 2019-05-31 19:25:47,089: 
+Class: 0x1  ID: 0x3b  Len:40 [0x28]
+000: b5 62 01 3b 28 00 00 00  00 00 48 e6 6b 1f 00 00 
+010: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00 
+020: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 1c 6c 
+[rosout][WARNING] 2019-05-31 19:25:47,090: No handler for: 013B
+[rosout][WARNING] 2019-05-31 19:25:47,096: No handler for: $GNGGA
+[rosout][INFO] 2019-05-31 19:25:48,071: 
+Class: 0x1  ID: 0x6  Len:52 [0x34]
+000: b5 62 01 06 34 00 30 ea  6b 1f a7 2d ff ff 07 08 
+010: 03 dd 50 b8 9d ef 1e 68  89 e7 8f 12 f8 17 3e 06 
+020: 00 00 00 00 00 00 fe ff  ff ff 00 00 00 00 34 00 
+030: 00 00 c6 00 02 0a 12 19  b6 03 03 c3 
+[rosout][WARNING] 2019-05-31 19:25:48,072: No handler for: 0106
+[rosout][INFO] 2019-05-31 19:25:48,081: 
+Class: 0x1  ID: 0x7  Len:92 [0x5c]
+000: b5 62 01 07 5c 00 30 ea  6b 1f e3 07 06 01 02 19 
+010: 30 37 1c 00 00 00 a7 2d  ff ff 03 01 ea 0a ac d8 
+020: 33 b6 75 5d 72 17 f4 1c  00 00 fc 8e 00 00 cf 20 
+030: 00 00 15 35 00 00 f9 ff  ff ff 05 00 00 00 f2 ff 
+040: ff ff 08 00 00 00 5d 8b  db 00 0c 02 00 00 fa 5f 
+050: 46 00 c6 00 00 00 12 19  26 3b 00 00 00 00 00 00 
+060: 00 00 b0 3c 
+[rosout][WARNING] 2019-05-31 19:25:48,082: No handler for: 0107
+[rosout][INFO] 2019-05-31 19:25:48,085: 
+Class: 0x1  ID: 0x3  Len:16 [0x10]
+000: b5 62 01 03 10 00 30 ea  6b 1f 03 dd 00 08 7e c7 
+010: 02 00 d9 7d 53 02 92 6b 
+[rosout][WARNING] 2019-05-31 19:25:48,086: No handler for: 0103
+[rosout][INFO] 2019-05-31 19:25:48,090: 
+Class: 0x1  ID: 0x4  Len:18 [0x12]
+000: b5 62 01 04 12 00 30 ea  6b 1f e8 00 c6 00 79 00 
+010: a3 00 70 00 55 00 49 00  93 8d 
+[rosout][WARNING] 2019-05-31 19:25:48,091: No handler for: 0104
+[rosout][INFO] 2019-05-31 19:25:48,096: 
+Class: 0x1  ID: 0x3b  Len:40 [0x28]
+000: b5 62 01 3b 28 00 00 00  00 00 30 ea 6b 1f 00 00 
+010: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00 
+020: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 08 98 
+[rosout][WARNING] 2019-05-31 19:25:48,097: No handler for: 013B
+[rosout][WARNING] 2019-05-31 19:25:48,104: No handler for: $GNGGA
+[rosout][INFO] 2019-05-31 19:25:49,071: 
+Class: 0x1  ID: 0x6  Len:52 [0x34]
+000: b5 62 01 06 34 00 18 ee  6b 1f 47 2e ff ff 07 08 
+010: 03 dd 26 b8 9d ef 09 68  89 e7 a8 12 f8 17 24 06 
+020: 00 00 fb ff ff ff fd ff  ff ff 04 00 00 00 37 00 
+030: 00 00 c6 00 02 0a 12 19  b6 03 4e 38 
+[rosout][WARNING] 2019-05-31 19:25:49,072: No handler for: 0106
+[rosout][INFO] 2019-05-31 19:25:49,082: 
+Class: 0x1  ID: 0x7  Len:92 [0x5c]
+000: b5 62 01 07 5c 00 18 ee  6b 1f e3 07 06 01 02 19 
+010: 31 37 1c 00 00 00 47 2e  ff ff 03 01 ea 0a 91 d8 
+020: 33 b6 70 5d 72 17 cc 1e  00 00 d3 90 00 00 3e 20 
+030: 00 00 41 34 00 00 00 00  00 00 e8 ff ff ff bf ff 
+040: ff ff 18 00 00 00 5d 8b  db 00 24 02 00 00 e0 74 
+050: 46 00 c6 00 00 00 12 19  26 3b 00 00 00 00 00 00 
+060: 00 00 45 35 
+[rosout][WARNING] 2019-05-31 19:25:49,083: No handler for: 0107
+[rosout][INFO] 2019-05-31 19:25:49,086: 
+Class: 0x1  ID: 0x3  Len:16 [0x10]
+000: b5 62 01 03 10 00 18 ee  6b 1f 03 dd 00 08 7e c7 
+010: 02 00 c1 81 53 02 6a d3 
+[rosout][WARNING] 2019-05-31 19:25:49,087: No handler for: 0103
+[rosout][INFO] 2019-05-31 19:25:49,090: 
+Class: 0x1  ID: 0x4  Len:18 [0x12]
+000: b5 62 01 04 12 00 18 ee  6b 1f e8 00 c6 00 79 00 
+010: a3 00 70 00 55 00 49 00  7f 21 
+[rosout][WARNING] 2019-05-31 19:25:49,091: No handler for: 0104
+[rosout][INFO] 2019-05-31 19:25:49,097: 
+Class: 0x1  ID: 0x3b  Len:40 [0x28]
+000: b5 62 01 3b 28 00 00 00  00 00 18 ee 6b 1f 00 00 
+010: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00 
+020: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 f4 c4 
+[rosout][WARNING] 2019-05-31 19:25:49,098: No handler for: 013B
+[rosout][WARNING] 2019-05-31 19:25:49,105: No handler for: $GNGGA
+[rosout][INFO] 2019-05-31 19:25:50,074: 
+Class: 0x1  ID: 0x6  Len:52 [0x34]
+000: b5 62 01 06 34 00 00 f2  6b 1f e6 2e ff ff 07 08 
+010: 03 dd fa b7 9d ef ee 67  89 e7 c1 12 f8 17 0c 06 
+020: 00 00 01 00 00 00 f8 ff  ff ff 04 00 00 00 2f 00 
+030: 00 00 c6 00 02 0a 12 19  b6 03 8d 8c 
+[rosout][WARNING] 2019-05-31 19:25:50,075: No handler for: 0106
+[rosout][INFO] 2019-05-31 19:25:50,084: 
+Class: 0x1  ID: 0x7  Len:92 [0x5c]
+000: b5 62 01 07 5c 00 00 f2  6b 1f e3 07 06 01 02 19 
+010: 32 37 1b 00 00 00 e7 2e  ff ff 03 01 ea 0a 78 d8 
+020: 33 b6 67 5d 72 17 d6 20  00 00 de 92 00 00 b7 1f 
+030: 00 00 7d 33 00 00 f7 ff  ff ff 30 00 00 00 ba ff 
+040: ff ff 31 00 00 00 5d 8b  db 00 d8 01 00 00 da 86 
+050: 46 00 c6 00 00 00 12 19  26 3b 00 00 00 00 00 00 
+060: 00 00 8d 70 
+[rosout][WARNING] 2019-05-31 19:25:50,085: No handler for: 0107
+[rosout][INFO] 2019-05-31 19:25:50,088: 
+Class: 0x1  ID: 0x3  Len:16 [0x10]
+000: b5 62 01 03 10 00 00 f2  6b 1f 03 dd 00 08 7e c7 
+010: 02 00 a9 85 53 02 42 3b 
+[rosout][WARNING] 2019-05-31 19:25:50,090: No handler for: 0103
+[rosout][INFO] 2019-05-31 19:25:50,093: 
+Class: 0x1  ID: 0x4  Len:18 [0x12]
+000: b5 62 01 04 12 00 00 f2  6b 1f e8 00 c6 00 79 00 
+010: a3 00 70 00 55 00 49 00  6b b5 
+[rosout][WARNING] 2019-05-31 19:25:50,094: No handler for: 0104
+[rosout][INFO] 2019-05-31 19:25:50,099: 
+Class: 0x1  ID: 0x3b  Len:40 [0x28]
+000: b5 62 01 3b 28 00 00 00  00 00 00 f2 6b 1f 00 00 
+010: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00 
+020: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 e0 f0 
+[rosout][WARNING] 2019-05-31 19:25:50,100: No handler for: 013B
+[rosout][WARNING] 2019-05-31 19:25:50,107: No handler for: $GNGGA
+[rosout][INFO] 2019-05-31 19:25:51,074: 
+Class: 0x1  ID: 0x6  Len:52 [0x34]
+000: b5 62 01 06 34 00 e8 f5  6b 1f 87 2f ff ff 07 08 
+010: 03 dd e4 b7 9d ef e6 67  89 e7 c8 12 f8 17 f6 05 
+020: 00 00 fd ff ff ff fb ff  ff ff 01 00 00 00 33 00 
+030: 00 00 c6 00 02 0a 12 19  b6 03 e9 0b 
+[rosout][WARNING] 2019-05-31 19:25:51,075: No handler for: 0106
+[rosout][INFO] 2019-05-31 19:25:51,089: 
+Class: 0x1  ID: 0x7  Len:92 [0x5c]
+000: b5 62 01 07 5c 00 e8 f5  6b 1f e3 07 06 01 02 19 
+010: 33 37 1b 00 00 00 87 2f  ff ff 03 01 ea 0a 68 d8 
+020: 33 b6 61 5d 72 17 91 21  00 00 99 93 00 00 3a 1f 
+030: 00 00 c5 32 00 00 de ff  ff ff 02 00 00 00 c8 ff 
+040: ff ff 22 00 00 00 5d 8b  db 00 00 02 00 00 4f 9a 
+050: 46 00 c6 00 00 00 12 19  26 3b 00 00 00 00 00 00 
+060: 00 00 b0 6c 
+[rosout][WARNING] 2019-05-31 19:25:51,090: No handler for: 0107
+[rosout][INFO] 2019-05-31 19:25:51,093: 
+Class: 0x1  ID: 0x3  Len:16 [0x10]
+000: b5 62 01 03 10 00 e8 f5  6b 1f 03 dd 00 08 7e c7 
+010: 02 00 91 89 53 02 19 94 
+[rosout][WARNING] 2019-05-31 19:25:51,095: No handler for: 0103
+[rosout][INFO] 2019-05-31 19:25:51,098: 
+Class: 0x1  ID: 0x4  Len:18 [0x12]
+000: b5 62 01 04 12 00 e8 f5  6b 1f e8 00 c6 00 79 00 
+010: a3 00 70 00 55 00 49 00  56 38 
+[rosout][WARNING] 2019-05-31 19:25:51,100: No handler for: 0104
+[rosout][INFO] 2019-05-31 19:25:51,104: 
+Class: 0x1  ID: 0x3b  Len:40 [0x28]
+000: b5 62 01 3b 28 00 00 00  00 00 e8 f5 6b 1f 00 00 
+010: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00 
+020: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 cb f9 
+[rosout][WARNING] 2019-05-31 19:25:51,105: No handler for: 013B
+[rosout][WARNING] 2019-05-31 19:25:51,112: No handler for: $GNGGA
+[rosout][INFO] 2019-05-31 19:25:52,076: 
+Class: 0x1  ID: 0x6  Len:52 [0x34]
+000: b5 62 01 06 34 00 d0 f9  6b 1f 27 30 ff ff 07 08 
+010: 03 dd d8 b7 9d ef e7 67  89 e7 cb 12 f8 17 e1 05 
+020: 00 00 ff ff ff ff ff ff  ff ff 04 00 00 00 39 00 
+030: 00 00 c6 00 02 0a 12 19  b6 03 68 76 
+[rosout][WARNING] 2019-05-31 19:25:52,077: No handler for: 0106
+[rosout][INFO] 2019-05-31 19:25:52,087: 
+Class: 0x1  ID: 0x7  Len:92 [0x5c]
+000: b5 62 01 07 5c 00 d0 f9  6b 1f e3 07 06 01 02 19 
+010: 34 37 1b 00 00 00 28 30  ff ff 03 01 ea 0a 5b d8 
+020: 33 b6 5f 5d 72 17 d9 21  00 00 e0 93 00 00 c4 1e 
+030: 00 00 16 32 00 00 16 00  00 00 02 00 00 00 df ff 
+040: ff ff 16 00 00 00 5d 8b  db 00 3e 02 00 00 1f b0 
+050: 46 00 c6 00 00 00 12 19  26 3b 00 00 00 00 00 00 
+060: 00 00 03 a6 
+[rosout][WARNING] 2019-05-31 19:25:52,088: No handler for: 0107
+[rosout][INFO] 2019-05-31 19:25:52,092: 
+Class: 0x1  ID: 0x3  Len:16 [0x10]
+000: b5 62 01 03 10 00 d0 f9  6b 1f 03 dd 00 08 7e c7 
+010: 02 00 79 8d 53 02 f1 fc 
+[rosout][WARNING] 2019-05-31 19:25:52,093: No handler for: 0103
+[rosout][INFO] 2019-05-31 19:25:52,096: 
+Class: 0x1  ID: 0x4  Len:18 [0x12]
+000: b5 62 01 04 12 00 d0 f9  6b 1f e8 00 c6 00 79 00 
+010: a3 00 70 00 55 00 49 00  42 cc 
+[rosout][WARNING] 2019-05-31 19:25:52,097: No handler for: 0104
+[rosout][INFO] 2019-05-31 19:25:52,102: 
+Class: 0x1  ID: 0x3b  Len:40 [0x28]
+000: b5 62 01 3b 28 00 00 00  00 00 d0 f9 6b 1f 00 00 
+010: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00 
+020: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 b7 25 
+[rosout][WARNING] 2019-05-31 19:25:52,103: No handler for: 013B
+[rosout][WARNING] 2019-05-31 19:25:52,110: No handler for: $GNGGA
+[rosout][INFO] 2019-05-31 19:25:53,072: 
+Class: 0x1  ID: 0x6  Len:52 [0x34]
+000: b5 62 01 06 34 00 b8 fd  6b 1f c8 30 ff ff 07 08 
+010: 03 dd c8 b7 9d ef dd 67  89 e7 db 12 f8 17 cc 05 
+020: 00 00 00 00 00 00 f9 ff  ff ff 05 00 00 00 30 00 
+030: 00 00 c6 00 02 0a 12 19  b6 03 cc e4 
+[rosout][WARNING] 2019-05-31 19:25:53,073: No handler for: 0106
+[rosout][INFO] 2019-05-31 19:25:53,082: 
+Class: 0x1  ID: 0x7  Len:92 [0x5c]
+000: b5 62 01 07 5c 00 b8 fd  6b 1f e3 07 06 01 02 19 
+010: 35 37 1a 00 00 00 c8 30  ff ff 03 01 ea 0a 53 d8 
+020: 33 b6 60 5d 72 17 bf 22  00 00 c7 94 00 00 57 1e 
+030: 00 00 6a 31 00 00 fd ff  ff ff 2b 00 00 00 b4 ff 
+040: ff ff 2b 00 00 00 5d 8b  db 00 e0 01 00 00 59 c2 
+050: 46 00 c6 00 00 00 12 19  26 3b 00 00 00 00 00 00 
+060: 00 00 21 8c 
+[rosout][WARNING] 2019-05-31 19:25:53,083: No handler for: 0107
+[rosout][INFO] 2019-05-31 19:25:53,086: 
+Class: 0x1  ID: 0x3  Len:16 [0x10]
+000: b5 62 01 03 10 00 b8 fd  6b 1f 03 dd 00 08 7e c7 
+010: 02 00 61 91 53 02 c9 64 
+[rosout][WARNING] 2019-05-31 19:25:53,087: No handler for: 0103
+[rosout][INFO] 2019-05-31 19:25:53,090: 
+Class: 0x1  ID: 0x4  Len:18 [0x12]
+000: b5 62 01 04 12 00 b8 fd  6b 1f e8 00 c6 00 79 00 
+010: a3 00 70 00 55 00 49 00  2e 60 
+[rosout][WARNING] 2019-05-31 19:25:53,091: No handler for: 0104
+[rosout][INFO] 2019-05-31 19:25:53,098: 
+Class: 0x1  ID: 0x3b  Len:40 [0x28]
+000: b5 62 01 3b 28 00 00 00  00 00 b8 fd 6b 1f 00 00 
+010: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00 
+020: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 a3 51 
+[rosout][WARNING] 2019-05-31 19:25:53,099: No handler for: 013B
+[rosout][WARNING] 2019-05-31 19:25:53,107: No handler for: $GNGGA
+[rosout][INFO] 2019-05-31 19:25:54,077: 
+Class: 0x1  ID: 0x6  Len:52 [0x34]
+000: b5 62 01 06 34 00 a0 01  6c 1f 69 31 ff ff 07 08 
+010: 03 dd bd b7 9d ef df 67  89 e7 e2 12 f8 17 b7 05 
+020: 00 00 fc ff ff ff 00 00  00 00 01 00 00 00 2e 00 
+030: 00 00 c6 00 02 0a 12 19  b6 03 41 4d 
+[rosout][WARNING] 2019-05-31 19:25:54,078: No handler for: 0106
+[rosout][INFO] 2019-05-31 19:25:54,087: 
+Class: 0x1  ID: 0x7  Len:92 [0x5c]
+000: b5 62 01 07 5c 00 a0 01  6c 1f e3 07 06 01 02 19 
+010: 36 37 1a 00 00 00 69 31  ff ff 03 01 ea 0a 47 d8 
+020: 33 b6 62 5d 72 17 0c 23  00 00 13 95 00 00 ef 1d 
+030: 00 00 ad 30 00 00 fc ff  ff ff df ff ff ff ea ff 
+040: ff ff 21 00 00 00 5d 8b  db 00 ce 01 00 00 da d3 
+050: 46 00 c6 00 00 00 12 19  26 3b 00 00 00 00 00 00 
+060: 00 00 77 18 
+[rosout][WARNING] 2019-05-31 19:25:54,088: No handler for: 0107
+[rosout][INFO] 2019-05-31 19:25:54,091: 
+Class: 0x1  ID: 0x3  Len:16 [0x10]
+000: b5 62 01 03 10 00 a0 01  6c 1f 03 dd 00 08 7e c7 
+010: 02 00 49 95 53 02 a2 da 
+[rosout][WARNING] 2019-05-31 19:25:54,092: No handler for: 0103
+[rosout][INFO] 2019-05-31 19:25:54,095: 
+Class: 0x1  ID: 0x4  Len:18 [0x12]
+000: b5 62 01 04 12 00 a0 01  6c 1f e8 00 c6 00 79 00 
+010: a3 00 70 00 55 00 49 00  1b 04 
+[rosout][WARNING] 2019-05-31 19:25:54,096: No handler for: 0104
+[rosout][INFO] 2019-05-31 19:25:54,101: 
+Class: 0x1  ID: 0x3b  Len:40 [0x28]
+000: b5 62 01 3b 28 00 00 00  00 00 a0 01 6c 1f 00 00 
+010: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00 
+020: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 90 9f 
+[rosout][WARNING] 2019-05-31 19:25:54,102: No handler for: 013B
+[rosout][WARNING] 2019-05-31 19:25:54,108: No handler for: $GNGGA
+[rosout][INFO] 2019-05-31 19:25:55,074: 
+Class: 0x1  ID: 0x6  Len:52 [0x34]
+000: b5 62 01 06 34 00 88 05  6c 1f 09 32 ff ff 07 08 
+010: 03 dd af b7 9d ef dd 67  89 e7 e6 12 f8 17 a3 05 
+020: 00 00 02 00 00 00 00 00  00 00 fd ff ff ff 30 00 
+030: 00 00 c6 00 02 0a 12 19  b6 03 b2 c0 
+[rosout][WARNING] 2019-05-31 19:25:55,075: No handler for: 0106
+[rosout][INFO] 2019-05-31 19:25:55,084: 
+Class: 0x1  ID: 0x7  Len:92 [0x5c]
+000: b5 62 01 07 5c 00 88 05  6c 1f e3 07 06 01 02 19 
+010: 37 37 19 00 00 00 0a 32  ff ff 03 01 ea 0a 3a d8 
+020: 33 b6 60 5d 72 17 73 23  00 00 7a 95 00 00 8d 1d 
+030: 00 00 fd 2f 00 00 ef ff  ff ff 0f 00 00 00 18 00 
+040: 00 00 17 00 00 00 5d 8b  db 00 de 01 00 00 f0 e5 
+050: 46 00 c6 00 00 00 12 19  26 3b 00 00 00 00 00 00 
+060: 00 00 36 80 
+[rosout][WARNING] 2019-05-31 19:25:55,085: No handler for: 0107
+[rosout][INFO] 2019-05-31 19:25:55,088: 
+Class: 0x1  ID: 0x3  Len:16 [0x10]
+000: b5 62 01 03 10 00 88 05  6c 1f 03 dd 00 08 7e c7 
+010: 02 00 31 99 53 02 7a 42 
+[rosout][WARNING] 2019-05-31 19:25:55,089: No handler for: 0103
+[rosout][INFO] 2019-05-31 19:25:55,092: 
+Class: 0x1  ID: 0x4  Len:18 [0x12]
+000: b5 62 01 04 12 00 88 05  6c 1f e8 00 c6 00 79 00 
+010: a3 00 70 00 55 00 49 00  07 98 
+[rosout][WARNING] 2019-05-31 19:25:55,093: No handler for: 0104
+[rosout][INFO] 2019-05-31 19:25:55,098: 
+Class: 0x1  ID: 0x3b  Len:40 [0x28]
+000: b5 62 01 3b 28 00 00 00  00 00 88 05 6c 1f 00 00 
+010: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00 
+020: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 7c cb 
+[rosout][WARNING] 2019-05-31 19:25:55,099: No handler for: 013B
+[rosout][WARNING] 2019-05-31 19:25:55,105: No handler for: $GNGGA
+[rosout][ERROR] 2019-05-31 19:25:55,575: Exception <class 'ConnectionRefusedError'> on stream: /STM1
+[rosout][INFO] 2019-05-31 19:25:56,076: 
+Class: 0x1  ID: 0x6  Len:52 [0x34]
+000: b5 62 01 06 34 00 70 09  6c 1f aa 32 ff ff 07 08 
+010: 03 dd 9f b7 9d ef de 67  89 e7 f1 12 f8 17 8e 05 
+020: 00 00 fd ff ff ff 06 00  00 00 fe ff ff ff 27 00 
+030: 00 00 c6 00 02 0a 12 19  b6 03 1c f6 
+[rosout][WARNING] 2019-05-31 19:25:56,077: No handler for: 0106
+[rosout][INFO] 2019-05-31 19:25:56,092: 
+Class: 0x1  ID: 0x7  Len:92 [0x5c]
+000: b5 62 01 07 5c 00 70 09  6c 1f e3 07 06 01 02 19 
+010: 38 37 19 00 00 00 aa 32  ff ff 03 01 ea 0a 2a d8 
+020: 33 b6 63 5d 72 17 f0 23  00 00 f8 95 00 00 25 1d 
+030: 00 00 4f 2f 00 00 09 00  00 00 c6 ff ff ff 27 00 
+040: 00 00 3b 00 00 00 5d 8b  db 00 89 01 00 00 cb f4 
+050: 46 00 c6 00 00 00 12 19  26 3b 00 00 00 00 00 00 
+060: 00 00 34 b3 
+[rosout][WARNING] 2019-05-31 19:25:56,093: No handler for: 0107
+[rosout][INFO] 2019-05-31 19:25:56,096: 
+Class: 0x1  ID: 0x3  Len:16 [0x10]
+000: b5 62 01 03 10 00 70 09  6c 1f 03 dd 00 08 7e c7 
+010: 02 00 19 9d 53 02 52 aa 
+[rosout][WARNING] 2019-05-31 19:25:56,097: No handler for: 0103
+[rosout][INFO] 2019-05-31 19:25:56,101: 
+Class: 0x1  ID: 0x4  Len:18 [0x12]
+000: b5 62 01 04 12 00 70 09  6c 1f e8 00 c6 00 79 00 
+010: a3 00 70 00 55 00 49 00  f3 2c 
+[rosout][WARNING] 2019-05-31 19:25:56,102: No handler for: 0104
+[rosout][INFO] 2019-05-31 19:25:56,107: 
+Class: 0x1  ID: 0x3b  Len:40 [0x28]
+000: b5 62 01 3b 28 00 00 00  00 00 70 09 6c 1f 00 00 
+010: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00 
+020: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 68 f7 
+[rosout][WARNING] 2019-05-31 19:25:56,108: No handler for: 013B
+[rosout][WARNING] 2019-05-31 19:25:56,115: No handler for: $GNGGA
+[rospy.core][INFO] 2019-05-31 19:25:56,382: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2019-05-31 19:25:56,515: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2019-05-31 19:25:56,516: signal-2
+[rosout][WARNING] 2019-05-31 19:26:05,592: Exiting  NTrip client
+[rosout][WARNING] 2019-05-31 19:26:06,574: Exiting  UBX device client
+[rospy.core][INFO] 2019-05-31 19:26:11,454: signal_shutdown [signal-15]
+[rospy.core][INFO] 2019-05-31 19:26:11,806: signal_shutdown [atexit]

@@ -10,3 +10,4 @@ yaml https://raw.githubusercontent.com/ros/rosdistro/master/indigo/distribution.
 yaml https://raw.githubusercontent.com/ros/rosdistro/master/jade/distribution.yaml jade
 yaml https://raw.githubusercontent.com/ros/rosdistro/master/kinetic/distribution.yaml kinetic
 yaml https://raw.githubusercontent.com/ros/rosdistro/master/lunar/distribution.yaml lunar
+yaml https://raw.githubusercontent.com/ros/rosdistro/master/melodic/distribution.yaml melodic

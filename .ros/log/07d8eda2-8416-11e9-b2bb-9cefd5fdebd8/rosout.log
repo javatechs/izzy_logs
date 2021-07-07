@@ -1,0 +1,4 @@
+
+
+1559356579.499703703  Node Startup
+1559356581.527787685 WARN [StreamWrapper.py:100(connect) [topics: /STM4, /STM2, /mavlink/to, /rosout, /gnss_control, /STM1, /gnss_status] Listening for connection on port: 2104

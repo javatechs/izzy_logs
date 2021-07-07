@@ -1,0 +1,225 @@
+[INFO] [1559356370.372919]: Serial connected: /dev/c94-m8p
+Transmitting
+06 01
+[INFO] [1559356370.405522]: Sent Disable U-blox RTCM 1005
+Transmitting
+06 01
+[INFO] [1559356370.419192]: Sent Enable U-blox NAV-SOL
+Transmitting
+06 01
+[INFO] [1559356370.428341]: Sent Enable U-blox NAV-PVT
+Transmitting
+06 01
+[INFO] [1559356370.437008]: Sent Enable U-blox NAV-DOP
+Transmitting
+06 01
+[INFO] [1559356370.444078]: Sent Enable U-blox NAV-STATUS
+Transmitting
+06 01
+[INFO] [1559356370.450851]: Sent Enable U-blox NAV-SVIN
+Transmitting
+06 01
+[INFO] [1559356370.457868]: Sent Enable GGA
+Transmitting
+06 01
+[INFO] [1559356370.464861]: Sent Disable GLL
+Transmitting
+06 01
+[INFO] [1559356370.471621]: Sent Disable GSA
+Transmitting
+06 01
+[INFO] [1559356370.478095]: Sent Disable GSV
+Transmitting
+06 01
+[INFO] [1559356370.484680]: Sent Disable RMC
+Transmitting
+06 01
+[INFO] [1559356370.491282]: Sent Disable VTG
+Transmitting
+06 01
+[INFO] [1559356370.498354]: Sent Disable DTM
+Transmitting
+06 01
+[INFO] [1559356370.505303]: Sent Disable GNS
+Transmitting
+06 01
+[INFO] [1559356370.512916]: Sent Disable GRS
+Transmitting
+06 01
+[INFO] [1559356370.520511]: Sent Disable GST
+Transmitting
+06 01
+[INFO] [1559356370.527452]: Sent Disable ZDA
+Transmitting
+06 01
+[INFO] [1559356370.534561]: Sent Disable GBS
+Transmitting
+06 01
+[INFO] [1559356370.541487]: Sent Disable VLW
+Transmitting
+06 01
+[INFO] [1559356370.548588]: Sent F5-05 RTCM 1005
+Transmitting
+06 01
+[INFO] [1559356370.556319]: Sent F5-4D RTCM 1077
+Transmitting
+06 01
+[INFO] [1559356370.563051]: Sent F5-57 RTCM 1087
+Transmitting
+06 01
+[INFO] [1559356370.569701]: Sent F5-E6 RTCM 1230
+Transmitting
+06 00
+[INFO] [1559356370.576896]: Sent UBX-CFG-PRT
+[INFO] [1559356370.581556]: Payload missing
+[INFO] [1559356370.586343]: Payload missing
+[INFO] [1559356370.590866]: Payload missing
+[INFO] [1559356370.596220]: Payload missing
+[INFO] [1559356370.600958]: Payload missing
+[INFO] [1559356370.606232]: Payload missing
+[INFO] [1559356370.611200]: Payload missing
+[INFO] [1559356370.615953]: Payload missing
+[INFO] [1559356370.620538]: Payload missing
+[INFO] [1559356370.625573]: Payload missing
+[INFO] [1559356370.630857]: Payload missing
+[INFO] [1559356370.635507]: Payload missing
+[INFO] [1559356370.640659]: Payload missing
+[INFO] [1559356370.646256]: Payload missing
+[INFO] [1559356370.651127]: Payload missing
+[INFO] [1559356370.656067]: Payload missing
+[INFO] [1559356370.661108]: Payload missing
+[INFO] [1559356370.666412]: Payload missing
+[INFO] [1559356370.671273]: Payload missing
+[INFO] [1559356370.676273]: Payload missing
+[INFO] [1559356370.681498]: Payload missing
+[INFO] [1559356370.686502]: Payload missing
+[INFO] [1559356370.691112]: Payload missing
+[INFO] [1559356370.696712]: Payload missing
+[INFO] [1559356370.699059]: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[INFO] [1559356370.702591]: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[INFO] [1559356370.705793]: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[INFO] [1559356370.709159]: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[INFO] [1559356370.712675]: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[INFO] [1559356370.716246]: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[INFO] [1559356370.719513]: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[INFO] [1559356370.722797]: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[INFO] [1559356370.726303]: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[INFO] [1559356370.729412]: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[INFO] [1559356370.733078]: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[INFO] [1559356370.736497]: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[INFO] [1559356370.739855]: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[INFO] [1559356370.743364]: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[INFO] [1559356370.746596]: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[INFO] [1559356370.749851]: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[INFO] [1559356370.752985]: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[INFO] [1559356370.756377]: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[INFO] [1559356370.759963]: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[INFO] [1559356370.763640]: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[INFO] [1559356370.767213]: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[INFO] [1559356370.770674]: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[INFO] [1559356370.774261]: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[INFO] [1559356370.777746]: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 00  0e 37 
+[INFO] [1559356371.068287]: 
+Class: 0x1  ID: 0x6  Len:52 [0x34]
+000: b5 62 01 06 34 00 88 5e  72 1f 92 41 00 00 07 08 
+010: 03 dd 1e b3 9d ef 37 62  89 e7 a3 15 f8 17 e1 08 
+020: 00 00 04 00 00 00 f4 ff  ff ff fd ff ff ff 44 00 
+030: 00 00 ff 00 03 08 12 19  b6 03 ab fc 
+[INFO] [1559356371.078183]: 
+Class: 0x1  ID: 0x7  Len:92 [0x5c]
+000: b5 62 01 07 5c 00 88 5e  72 1f e3 07 06 01 02 20 
+010: 33 37 28 00 00 00 91 41  00 00 03 01 eb 08 7a d7 
+020: 33 b6 27 5b 72 17 c0 6c  00 00 c8 de 00 00 ac 2c 
+030: 00 00 b6 4c 00 00 b7 ff  ff ff 65 00 00 00 d5 ff 
+040: ff ff 7c 00 00 00 5d 8b  db 00 a4 02 00 00 84 63 
+050: 6a 00 ff 00 00 00 12 19  26 3b 00 00 00 00 00 00 
+060: 00 00 e6 e4 
+[INFO] [1559356371.082423]: 
+Class: 0x1  ID: 0x3  Len:16 [0x10]
+000: b5 62 01 03 10 00 88 5e  72 1f 03 dd 00 08 7e c7 
+010: 02 00 31 f2 59 02 38 e4 
+[INFO] [1559356371.086951]: 
+Class: 0x1  ID: 0x4  Len:18 [0x12]
+000: b5 62 01 04 12 00 88 5e  72 1f 2e 01 ff 00 a2 00 
+010: e0 00 7a 00 63 00 48 00  63 62 
+[INFO] [1559356371.092698]: 
+Class: 0x1  ID: 0x3b  Len:40 [0x28]
+000: b5 62 01 3b 28 00 00 00  00 00 88 5e 72 1f 00 00 
+010: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00 
+020: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 db c2 
+[INFO] [1559356372.069821]: 
+Class: 0x1  ID: 0x6  Len:52 [0x34]
+000: b5 62 01 06 34 00 70 62  72 1f 3c 42 00 00 07 08 
+010: 03 dd 23 b3 9d ef 3a 62  89 e7 a1 15 f8 17 e5 08 
+020: 00 00 03 00 00 00 fc ff  ff ff 04 00 00 00 2b 00 
+030: 00 00 ff 00 03 08 12 19  b6 03 44 51 
+[INFO] [1559356372.079508]: 
+Class: 0x1  ID: 0x7  Len:92 [0x5c]
+000: b5 62 01 07 5c 00 70 62  72 1f e3 07 06 01 02 20 
+010: 34 37 28 00 00 00 3b 42  00 00 03 01 eb 08 7c d7 
+020: 33 b6 29 5b 72 17 8c 6c  00 00 94 de 00 00 8e 2c 
+030: 00 00 fc 4c 00 00 16 00  00 00 35 00 00 00 d6 ff 
+040: ff ff 39 00 00 00 5d 8b  db 00 aa 01 00 00 43 6e 
+050: 6a 00 ff 00 00 00 12 19  26 3b 00 00 00 00 00 00 
+060: 00 00 01 91 
+[INFO] [1559356372.083347]: 
+Class: 0x1  ID: 0x3  Len:16 [0x10]
+000: b5 62 01 03 10 00 70 62  72 1f 03 dd 00 08 7e c7 
+010: 02 00 19 f6 59 02 10 4c 
+[INFO] [1559356372.087386]: 
+Class: 0x1  ID: 0x4  Len:18 [0x12]
+000: b5 62 01 04 12 00 70 62  72 1f 2e 01 ff 00 a2 00 
+010: e0 00 7a 00 63 00 48 00  4f f6 
+[INFO] [1559356372.093273]: 
+Class: 0x1  ID: 0x3b  Len:40 [0x28]
+000: b5 62 01 3b 28 00 00 00  00 00 70 62 72 1f 00 00 
+010: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00 
+020: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 c7 ee 

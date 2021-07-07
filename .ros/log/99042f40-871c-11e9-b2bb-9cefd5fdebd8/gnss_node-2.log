@@ -1,0 +1,201 @@
+[rospy.client][INFO] 2019-06-04 16:00:55,227: init_node, name[/gnss_node], pid[30653]
+[xmlrpc][INFO] 2019-06-04 16:00:55,229: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-06-04 16:00:55,230: Started XML-RPC server [http://10.0.0.166:33989/]
+[rospy.impl.masterslave][INFO] 2019-06-04 16:00:55,231: _ready: http://10.0.0.166:33989/
+[rospy.init][INFO] 2019-06-04 16:00:55,232: ROS Slave URI: [http://10.0.0.166:33989/]
+[rospy.registration][INFO] 2019-06-04 16:00:55,233: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2019-06-04 16:00:55,234: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2019-06-04 16:00:55,333: registered with master
+[rospy.rosout][INFO] 2019-06-04 16:00:55,333: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-06-04 16:00:55,351: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-06-04 16:00:55,356: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][WARNING] 2019-06-04 16:00:55,436: 
+[rosout][ERROR] 2019-06-04 16:00:55,438: stream_name_data: {'GNSS': {'type': 'rtcm', 'lock': <unlocked _thread.lock object at 0x7f95498592d8>, 'queue': deque([], maxlen=10)}, 'RTCM2': {'type': 'rtcm', 'lock': <unlocked _thread.lock object at 0x7f9549859440>, 'queue': deque([], maxlen=10)}, 'RTCM1': {'type': 'rtcm', 'lock': <unlocked _thread.lock object at 0x7f9549859148>, 'queue': deque([], maxlen=10)}}
+[rosout][WARNING] 2019-06-04 16:00:55,438: 
+[rosout][ERROR] 2019-06-04 16:00:55,439: stream_queues: {'STM1/QUEUE2': {'rw': 'write', 'name': 'RTCM2'}, 'STM2/QUEUE1': {'rw': 'read', 'name': 'RTCM1'}, 'STM1/QUEUE1': {'rw': 'write', 'name': 'RTCM1'}, 'STM3/QUEUE1': {'rw': 'read', 'name': 'RTCM2'}, 'STM2/QUEUE2': {'rw': 'write', 'name': 'GNSS'}, 'STM3/QUEUE2': {'rw': 'read', 'name': 'GNSS'}}
+[rosout][WARNING] 2019-06-04 16:00:55,439: 
+[rosout][ERROR] 2019-06-04 16:00:55,440: queues: {'/STM2/QUEUE2': {'queue': deque([], maxlen=10), 'rw': 'write', 'lock': <unlocked _thread.lock object at 0x7f9549859288>, 'type': 'nmea', 'name': 'GNSS'}, '/STM2/QUEUE1': {'queue': deque([], maxlen=10), 'rw': 'read', 'lock': <unlocked _thread.lock object at 0x7f9549859328>, 'type': 'rtcm', 'name': 'RTCM1'}, '/STM1/QUEUE2': {'queue': deque([], maxlen=10), 'rw': 'write', 'lock': <unlocked _thread.lock object at 0x7f9549859378>, 'type': 'rtcm', 'name': 'RTCM2'}, '/STM1/QUEUE1': {'queue': deque([], maxlen=10), 'rw': 'write', 'lock': <unlocked _thread.lock object at 0x7f95498591e8>, 'type': 'rtcm', 'name': 'RTCM1'}}
+[rosout][WARNING] 2019-06-04 16:00:55,454: Starting NTrip client [/STM1]
+[rosout][WARNING] 2019-06-04 16:00:55,472: Starting UBX device client [/STM2]
+[rosout][INFO] 2019-06-04 16:00:55,510: Serial connected: /dev/c94-m8p
+[rosout][WARNING] 2019-06-04 16:00:55,516: Starting IP Listener connects UBlox device to client, e.g. u-center. [/STM4]
+[rosout][ERROR] 2019-06-04 16:00:55,520: Exception <class 'ConnectionRefusedError'> on stream: /STM1
+[rosout][WARNING] 2019-06-04 16:00:55,539: {'desc': 'Disable U-blox RTCM 1005', 'class': '06', 'id': '01', 'msgId': 5, 'ioPorts': [0, 0, 0, 0, 0, 0], 'msgClass': 245}
+[rosout][INFO] 2019-06-04 16:00:55,541: Sent Disable U-blox RTCM 1005
+[rosout][WARNING] 2019-06-04 16:00:55,550: {'desc': 'Enable U-blox NAV-SOL', 'class': '06', 'id': '01', 'msgId': 6, 'ioPorts': [0, 0, 0, 1, 0, 0], 'msgClass': 1}
+[rosout][INFO] 2019-06-04 16:00:55,552: Sent Enable U-blox NAV-SOL
+[rosout][WARNING] 2019-06-04 16:00:55,564: {'desc': 'Enable U-blox NAV-PVT', 'class': '06', 'id': '01', 'msgId': 7, 'ioPorts': [0, 0, 0, 1, 0, 0], 'msgClass': 1}
+[rosout][INFO] 2019-06-04 16:00:55,566: Sent Enable U-blox NAV-PVT
+[rosout][WARNING] 2019-06-04 16:00:55,569: Listening for connection on port: 2104
+[rosout][WARNING] 2019-06-04 16:00:55,573: {'desc': 'Enable U-blox NAV-DOP', 'class': '06', 'id': '01', 'msgId': 4, 'ioPorts': [0, 0, 0, 1, 0, 0], 'msgClass': 1}
+[rosout][INFO] 2019-06-04 16:00:55,574: Sent Enable U-blox NAV-DOP
+[rosout][WARNING] 2019-06-04 16:00:55,580: {'desc': 'Enable U-blox NAV-STATUS', 'class': '06', 'id': '01', 'msgId': 3, 'ioPorts': [0, 0, 0, 1, 0, 0], 'msgClass': 1}
+[rosout][INFO] 2019-06-04 16:00:55,581: Sent Enable U-blox NAV-STATUS
+[rosout][WARNING] 2019-06-04 16:00:55,587: {'desc': 'Enable U-blox NAV-SVIN', 'class': '06', 'id': '01', 'msgId': 59, 'ioPorts': [0, 0, 0, 1, 0, 0], 'msgClass': 1}
+[rosout][INFO] 2019-06-04 16:00:55,589: Sent Enable U-blox NAV-SVIN
+[rosout][WARNING] 2019-06-04 16:00:55,594: {'desc': 'Enable GGA', 'class': '06', 'id': '01', 'msgId': 0, 'ioPorts': [0, 0, 0, 1, 0, 0], 'msgClass': 240}
+[rosout][INFO] 2019-06-04 16:00:55,595: Sent Enable GGA
+[rosout][WARNING] 2019-06-04 16:00:55,600: {'desc': 'Disable GLL', 'class': '06', 'id': '01', 'msgId': 1, 'ioPorts': [0, 0, 0, 0, 0, 0], 'msgClass': 240}
+[rosout][INFO] 2019-06-04 16:00:55,601: Sent Disable GLL
+[rosout][WARNING] 2019-06-04 16:00:55,607: {'desc': 'Disable GSA', 'class': '06', 'id': '01', 'msgId': 2, 'ioPorts': [0, 0, 0, 0, 0, 0], 'msgClass': 240}
+[rosout][INFO] 2019-06-04 16:00:55,608: Sent Disable GSA
+[rospy.internal][INFO] 2019-06-04 16:00:55,612: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][WARNING] 2019-06-04 16:00:55,614: {'desc': 'Disable GSV', 'class': '06', 'id': '01', 'msgId': 3, 'ioPorts': [0, 0, 0, 0, 0, 0], 'msgClass': 240}
+[rosout][INFO] 2019-06-04 16:00:55,616: Sent Disable GSV
+[rosout][WARNING] 2019-06-04 16:00:55,622: {'desc': 'Disable RMC', 'class': '06', 'id': '01', 'msgId': 4, 'ioPorts': [0, 0, 0, 0, 0, 0], 'msgClass': 240}
+[rosout][INFO] 2019-06-04 16:00:55,624: Sent Disable RMC
+[rosout][WARNING] 2019-06-04 16:00:55,630: {'desc': 'Disable VTG', 'class': '06', 'id': '01', 'msgId': 5, 'ioPorts': [0, 0, 0, 0, 0, 0], 'msgClass': 240}
+[rosout][INFO] 2019-06-04 16:00:55,631: Sent Disable VTG
+[rosout][WARNING] 2019-06-04 16:00:55,637: {'desc': 'Disable DTM', 'class': '06', 'id': '01', 'msgId': 10, 'ioPorts': [0, 0, 0, 0, 0, 0], 'msgClass': 240}
+[rosout][INFO] 2019-06-04 16:00:55,639: Sent Disable DTM
+[rosout][WARNING] 2019-06-04 16:00:55,644: {'desc': 'Disable GNS', 'class': '06', 'id': '01', 'msgId': 13, 'ioPorts': [0, 0, 0, 0, 0, 0], 'msgClass': 240}
+[rosout][INFO] 2019-06-04 16:00:55,645: Sent Disable GNS
+[rosout][WARNING] 2019-06-04 16:00:55,651: {'desc': 'Disable GRS', 'class': '06', 'id': '01', 'msgId': 6, 'ioPorts': [0, 0, 0, 0, 0, 0], 'msgClass': 240}
+[rosout][INFO] 2019-06-04 16:00:55,653: Sent Disable GRS
+[rosout][WARNING] 2019-06-04 16:00:55,659: {'desc': 'Disable GST', 'class': '06', 'id': '01', 'msgId': 7, 'ioPorts': [0, 0, 0, 0, 0, 0], 'msgClass': 240}
+[rosout][INFO] 2019-06-04 16:00:55,660: Sent Disable GST
+[rosout][WARNING] 2019-06-04 16:00:55,665: {'desc': 'Disable ZDA', 'class': '06', 'id': '01', 'msgId': 8, 'ioPorts': [0, 0, 0, 0, 0, 0], 'msgClass': 240}
+[rosout][INFO] 2019-06-04 16:00:55,667: Sent Disable ZDA
+[rosout][WARNING] 2019-06-04 16:00:55,672: {'desc': 'Disable GBS', 'class': '06', 'id': '01', 'msgId': 9, 'ioPorts': [0, 0, 0, 0, 0, 0], 'msgClass': 240}
+[rosout][INFO] 2019-06-04 16:00:55,673: Sent Disable GBS
+[rosout][WARNING] 2019-06-04 16:00:55,679: {'desc': 'Disable VLW', 'class': '06', 'id': '01', 'msgId': 15, 'ioPorts': [0, 0, 0, 0, 0, 0], 'msgClass': 240}
+[rosout][INFO] 2019-06-04 16:00:55,680: Sent Disable VLW
+[rosout][WARNING] 2019-06-04 16:00:55,685: {'desc': 'F5-05 RTCM 1005', 'class': '06', 'id': '01', 'msgId': 5, 'ioPorts': [0, 0, 0, 0, 0, 0], 'msgClass': 245}
+[rosout][INFO] 2019-06-04 16:00:55,687: Sent F5-05 RTCM 1005
+[rosout][WARNING] 2019-06-04 16:00:55,693: {'desc': 'F5-4D RTCM 1077', 'class': '06', 'id': '01', 'msgId': 77, 'ioPorts': [0, 0, 0, 0, 0, 0], 'msgClass': 245}
+[rosout][INFO] 2019-06-04 16:00:55,694: Sent F5-4D RTCM 1077
+[rosout][WARNING] 2019-06-04 16:00:55,700: {'desc': 'F5-57 RTCM 1087', 'class': '06', 'id': '01', 'msgId': 87, 'ioPorts': [0, 0, 0, 0, 0, 0], 'msgClass': 245}
+[rosout][INFO] 2019-06-04 16:00:55,701: Sent F5-57 RTCM 1087
+[rosout][WARNING] 2019-06-04 16:00:55,707: {'desc': 'F5-E6 RTCM 1230', 'class': '06', 'id': '01', 'msgId': 230, 'ioPorts': [0, 0, 0, 0, 0, 0], 'msgClass': 245}
+[rosout][INFO] 2019-06-04 16:00:55,708: Sent F5-E6 RTCM 1230
+[rosout][WARNING] 2019-06-04 16:00:55,714: {'prot_out': 0, 'class': '06', 'rate': 19200, 'id': '00', 'prot_in': 32, 'desc': 'UBX-CFG-PRT'}
+[rosout][INFO] 2019-06-04 16:00:55,715: Sent UBX-CFG-PRT
+[rosout][INFO] 2019-06-04 16:00:55,720: Payload missing
+[rosout][INFO] 2019-06-04 16:00:55,725: Payload missing
+[rosout][INFO] 2019-06-04 16:00:55,729: Payload missing
+[rosout][INFO] 2019-06-04 16:00:55,734: Payload missing
+[rosout][INFO] 2019-06-04 16:00:55,739: Payload missing
+[rosout][INFO] 2019-06-04 16:00:55,743: Payload missing
+[rosout][INFO] 2019-06-04 16:00:55,748: Payload missing
+[rosout][INFO] 2019-06-04 16:00:55,752: Payload missing
+[rosout][INFO] 2019-06-04 16:00:55,757: Payload missing
+[rosout][INFO] 2019-06-04 16:00:55,762: Payload missing
+[rosout][INFO] 2019-06-04 16:00:55,766: Payload missing
+[rosout][INFO] 2019-06-04 16:00:55,771: Payload missing
+[rosout][INFO] 2019-06-04 16:00:55,776: Payload missing
+[rosout][INFO] 2019-06-04 16:00:55,781: Payload missing
+[rosout][INFO] 2019-06-04 16:00:55,786: Payload missing
+[rosout][INFO] 2019-06-04 16:00:55,791: Payload missing
+[rosout][INFO] 2019-06-04 16:00:55,796: Payload missing
+[rosout][INFO] 2019-06-04 16:00:55,801: Payload missing
+[rosout][INFO] 2019-06-04 16:00:55,805: Payload missing
+[rosout][INFO] 2019-06-04 16:00:55,811: Payload missing
+[rosout][INFO] 2019-06-04 16:00:55,815: Payload missing
+[rosout][INFO] 2019-06-04 16:00:55,821: Payload missing
+[rosout][INFO] 2019-06-04 16:00:55,826: Payload missing
+[rosout][INFO] 2019-06-04 16:00:55,831: Payload missing
+[rosout][ERROR] 2019-06-04 16:00:55,834: Exception <class 'NameError'> on stream: /STM2
+Traceback (most recent call last):
+  File "/home/robot/catkin_ws/src/c94m8p/src/c94m8p/switch_thread.py", line 62, in run
+    self.run_ubx(strm, self.cfg_rtn)
+  File "/home/robot/catkin_ws/src/c94m8p/src/c94m8p/switch_thread.py", line 129, in run_ubx
+    rdr.read_msg(strm)
+  File "/home/robot/catkin_ws/src/c94m8p/src/c94m8p/gnss_message_parser.py", line 137, in read_msg
+    self.read_msg_ubx(abyte, thebyte)
+  File "/home/robot/catkin_ws/src/c94m8p/src/c94m8p/gnss_message_parser.py", line 292, in read_msg_ubx
+    + "\n" + tools.format_bytes(self.PARSED_BYTES)
+NameError: name 'tools' is not defined
+
+[rosout][ERROR] 2019-06-04 16:01:05,533: Exception <class 'ConnectionRefusedError'> on stream: /STM1
+[rosout][INFO] 2019-06-04 16:01:05,885: Serial connected: /dev/c94-m8p
+[rosout][WARNING] 2019-06-04 16:01:05,919: {'desc': 'Disable U-blox RTCM 1005', 'class': '06', 'id': '01', 'msgId': 5, 'ioPorts': [0, 0, 0, 0, 0, 0], 'msgClass': 245}
+[rosout][INFO] 2019-06-04 16:01:05,920: Sent Disable U-blox RTCM 1005
+[rosout][WARNING] 2019-06-04 16:01:05,927: {'desc': 'Enable U-blox NAV-SOL', 'class': '06', 'id': '01', 'msgId': 6, 'ioPorts': [0, 0, 0, 1, 0, 0], 'msgClass': 1}
+[rosout][INFO] 2019-06-04 16:01:05,929: Sent Enable U-blox NAV-SOL
+[rosout][WARNING] 2019-06-04 16:01:05,935: {'desc': 'Enable U-blox NAV-PVT', 'class': '06', 'id': '01', 'msgId': 7, 'ioPorts': [0, 0, 0, 1, 0, 0], 'msgClass': 1}
+[rosout][INFO] 2019-06-04 16:01:05,937: Sent Enable U-blox NAV-PVT
+[rosout][WARNING] 2019-06-04 16:01:05,942: {'desc': 'Enable U-blox NAV-DOP', 'class': '06', 'id': '01', 'msgId': 4, 'ioPorts': [0, 0, 0, 1, 0, 0], 'msgClass': 1}
+[rosout][INFO] 2019-06-04 16:01:05,944: Sent Enable U-blox NAV-DOP
+[rosout][WARNING] 2019-06-04 16:01:05,949: {'desc': 'Enable U-blox NAV-STATUS', 'class': '06', 'id': '01', 'msgId': 3, 'ioPorts': [0, 0, 0, 1, 0, 0], 'msgClass': 1}
+[rosout][INFO] 2019-06-04 16:01:05,951: Sent Enable U-blox NAV-STATUS
+[rosout][WARNING] 2019-06-04 16:01:05,957: {'desc': 'Enable U-blox NAV-SVIN', 'class': '06', 'id': '01', 'msgId': 59, 'ioPorts': [0, 0, 0, 1, 0, 0], 'msgClass': 1}
+[rosout][INFO] 2019-06-04 16:01:05,959: Sent Enable U-blox NAV-SVIN
+[rosout][WARNING] 2019-06-04 16:01:05,964: {'desc': 'Enable GGA', 'class': '06', 'id': '01', 'msgId': 0, 'ioPorts': [0, 0, 0, 1, 0, 0], 'msgClass': 240}
+[rosout][INFO] 2019-06-04 16:01:05,966: Sent Enable GGA
+[rosout][WARNING] 2019-06-04 16:01:05,971: {'desc': 'Disable GLL', 'class': '06', 'id': '01', 'msgId': 1, 'ioPorts': [0, 0, 0, 0, 0, 0], 'msgClass': 240}
+[rosout][INFO] 2019-06-04 16:01:05,973: Sent Disable GLL
+[rosout][WARNING] 2019-06-04 16:01:05,979: {'desc': 'Disable GSA', 'class': '06', 'id': '01', 'msgId': 2, 'ioPorts': [0, 0, 0, 0, 0, 0], 'msgClass': 240}
+[rosout][INFO] 2019-06-04 16:01:05,980: Sent Disable GSA
+[rosout][WARNING] 2019-06-04 16:01:05,986: {'desc': 'Disable GSV', 'class': '06', 'id': '01', 'msgId': 3, 'ioPorts': [0, 0, 0, 0, 0, 0], 'msgClass': 240}
+[rosout][INFO] 2019-06-04 16:01:05,988: Sent Disable GSV
+[rosout][WARNING] 2019-06-04 16:01:05,994: {'desc': 'Disable RMC', 'class': '06', 'id': '01', 'msgId': 4, 'ioPorts': [0, 0, 0, 0, 0, 0], 'msgClass': 240}
+[rosout][INFO] 2019-06-04 16:01:05,995: Sent Disable RMC
+[rosout][WARNING] 2019-06-04 16:01:06,001: {'desc': 'Disable VTG', 'class': '06', 'id': '01', 'msgId': 5, 'ioPorts': [0, 0, 0, 0, 0, 0], 'msgClass': 240}
+[rosout][INFO] 2019-06-04 16:01:06,003: Sent Disable VTG
+[rosout][WARNING] 2019-06-04 16:01:06,008: {'desc': 'Disable DTM', 'class': '06', 'id': '01', 'msgId': 10, 'ioPorts': [0, 0, 0, 0, 0, 0], 'msgClass': 240}
+[rosout][INFO] 2019-06-04 16:01:06,010: Sent Disable DTM
+[rosout][WARNING] 2019-06-04 16:01:06,014: {'desc': 'Disable GNS', 'class': '06', 'id': '01', 'msgId': 13, 'ioPorts': [0, 0, 0, 0, 0, 0], 'msgClass': 240}
+[rosout][INFO] 2019-06-04 16:01:06,016: Sent Disable GNS
+[rosout][WARNING] 2019-06-04 16:01:06,021: {'desc': 'Disable GRS', 'class': '06', 'id': '01', 'msgId': 6, 'ioPorts': [0, 0, 0, 0, 0, 0], 'msgClass': 240}
+[rosout][INFO] 2019-06-04 16:01:06,023: Sent Disable GRS
+[rosout][WARNING] 2019-06-04 16:01:06,028: {'desc': 'Disable GST', 'class': '06', 'id': '01', 'msgId': 7, 'ioPorts': [0, 0, 0, 0, 0, 0], 'msgClass': 240}
+[rosout][INFO] 2019-06-04 16:01:06,030: Sent Disable GST
+[rosout][WARNING] 2019-06-04 16:01:06,035: {'desc': 'Disable ZDA', 'class': '06', 'id': '01', 'msgId': 8, 'ioPorts': [0, 0, 0, 0, 0, 0], 'msgClass': 240}
+[rosout][INFO] 2019-06-04 16:01:06,036: Sent Disable ZDA
+[rosout][WARNING] 2019-06-04 16:01:06,042: {'desc': 'Disable GBS', 'class': '06', 'id': '01', 'msgId': 9, 'ioPorts': [0, 0, 0, 0, 0, 0], 'msgClass': 240}
+[rosout][INFO] 2019-06-04 16:01:06,044: Sent Disable GBS
+[rosout][WARNING] 2019-06-04 16:01:06,049: {'desc': 'Disable VLW', 'class': '06', 'id': '01', 'msgId': 15, 'ioPorts': [0, 0, 0, 0, 0, 0], 'msgClass': 240}
+[rosout][INFO] 2019-06-04 16:01:06,051: Sent Disable VLW
+[rosout][WARNING] 2019-06-04 16:01:06,058: {'desc': 'F5-05 RTCM 1005', 'class': '06', 'id': '01', 'msgId': 5, 'ioPorts': [0, 0, 0, 0, 0, 0], 'msgClass': 245}
+[rosout][INFO] 2019-06-04 16:01:06,059: Sent F5-05 RTCM 1005
+[rosout][WARNING] 2019-06-04 16:01:06,065: {'desc': 'F5-4D RTCM 1077', 'class': '06', 'id': '01', 'msgId': 77, 'ioPorts': [0, 0, 0, 0, 0, 0], 'msgClass': 245}
+[rosout][INFO] 2019-06-04 16:01:06,066: Sent F5-4D RTCM 1077
+[rosout][WARNING] 2019-06-04 16:01:06,072: {'desc': 'F5-57 RTCM 1087', 'class': '06', 'id': '01', 'msgId': 87, 'ioPorts': [0, 0, 0, 0, 0, 0], 'msgClass': 245}
+[rosout][INFO] 2019-06-04 16:01:06,073: Sent F5-57 RTCM 1087
+[rosout][WARNING] 2019-06-04 16:01:06,079: {'desc': 'F5-E6 RTCM 1230', 'class': '06', 'id': '01', 'msgId': 230, 'ioPorts': [0, 0, 0, 0, 0, 0], 'msgClass': 245}
+[rosout][INFO] 2019-06-04 16:01:06,081: Sent F5-E6 RTCM 1230
+[rosout][WARNING] 2019-06-04 16:01:06,086: {'prot_out': 0, 'class': '06', 'rate': 19200, 'id': '00', 'prot_in': 32, 'desc': 'UBX-CFG-PRT'}
+[rosout][INFO] 2019-06-04 16:01:06,088: Sent UBX-CFG-PRT
+[rosout][INFO] 2019-06-04 16:01:06,093: Payload missing
+[rosout][INFO] 2019-06-04 16:01:06,098: Payload missing
+[rosout][INFO] 2019-06-04 16:01:06,102: Payload missing
+[rosout][INFO] 2019-06-04 16:01:06,107: Payload missing
+[rosout][INFO] 2019-06-04 16:01:06,112: Payload missing
+[rosout][INFO] 2019-06-04 16:01:06,117: Payload missing
+[rosout][INFO] 2019-06-04 16:01:06,122: Payload missing
+[rosout][INFO] 2019-06-04 16:01:06,126: Payload missing
+[rosout][INFO] 2019-06-04 16:01:06,130: Payload missing
+[rosout][INFO] 2019-06-04 16:01:06,134: Payload missing
+[rosout][INFO] 2019-06-04 16:01:06,139: Payload missing
+[rosout][INFO] 2019-06-04 16:01:06,144: Payload missing
+[rosout][INFO] 2019-06-04 16:01:06,149: Payload missing
+[rosout][INFO] 2019-06-04 16:01:06,154: Payload missing
+[rosout][INFO] 2019-06-04 16:01:06,160: Payload missing
+[rosout][INFO] 2019-06-04 16:01:06,165: Payload missing
+[rosout][INFO] 2019-06-04 16:01:06,170: Payload missing
+[rosout][INFO] 2019-06-04 16:01:06,174: Payload missing
+[rosout][INFO] 2019-06-04 16:01:06,180: Payload missing
+[rosout][INFO] 2019-06-04 16:01:06,185: Payload missing
+[rosout][INFO] 2019-06-04 16:01:06,190: Payload missing
+[rosout][INFO] 2019-06-04 16:01:06,195: Payload missing
+[rosout][INFO] 2019-06-04 16:01:06,200: Payload missing
+[rosout][INFO] 2019-06-04 16:01:06,205: Payload missing
+[rosout][ERROR] 2019-06-04 16:01:06,208: Exception <class 'NameError'> on stream: /STM2
+Traceback (most recent call last):
+  File "/home/robot/catkin_ws/src/c94m8p/src/c94m8p/switch_thread.py", line 62, in run
+    self.run_ubx(strm, self.cfg_rtn)
+  File "/home/robot/catkin_ws/src/c94m8p/src/c94m8p/switch_thread.py", line 129, in run_ubx
+    rdr.read_msg(strm)
+  File "/home/robot/catkin_ws/src/c94m8p/src/c94m8p/gnss_message_parser.py", line 137, in read_msg
+    self.read_msg_ubx(abyte, thebyte)
+  File "/home/robot/catkin_ws/src/c94m8p/src/c94m8p/gnss_message_parser.py", line 292, in read_msg_ubx
+    + "\n" + tools.format_bytes(self.PARSED_BYTES)
+NameError: name 'tools' is not defined
+
+[rospy.core][INFO] 2019-06-04 16:01:08,331: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2019-06-04 16:01:08,350: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2019-06-04 16:01:08,351: signal-2
+[rosout][WARNING] 2019-06-04 16:01:15,543: Exiting  NTrip client
+[rosout][WARNING] 2019-06-04 16:01:16,220: Exiting  UBX device client
+[rospy.core][INFO] 2019-06-04 16:01:23,406: signal_shutdown [signal-15]
+[rospy.core][INFO] 2019-06-04 16:01:23,605: signal_shutdown [atexit]

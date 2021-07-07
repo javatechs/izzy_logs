@@ -1,0 +1,501 @@
+[rospy.client][INFO] 2019-06-06 08:47:55,496: init_node, name[/gnss_node], pid[13087]
+[xmlrpc][INFO] 2019-06-06 08:47:55,498: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-06-06 08:47:55,500: Started XML-RPC server [http://10.0.0.166:41166/]
+[rospy.impl.masterslave][INFO] 2019-06-06 08:47:55,504: _ready: http://10.0.0.166:41166/
+[rospy.init][INFO] 2019-06-06 08:47:55,505: ROS Slave URI: [http://10.0.0.166:41166/]
+[rospy.registration][INFO] 2019-06-06 08:47:55,508: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2019-06-06 08:47:55,509: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2019-06-06 08:47:55,610: registered with master
+[rospy.rosout][INFO] 2019-06-06 08:47:55,611: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-06-06 08:47:55,633: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-06-06 08:47:55,639: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][WARNING] 2019-06-06 08:47:55,724: 
+[rosout][ERROR] 2019-06-06 08:47:55,725: stream_name_data: {'GNSS': {'queue': deque([], maxlen=10), 'lock': <unlocked _thread.lock object at 0x7fd4c2e8a3f0>, 'type': 'rtcm'}, 'RTCM2': {'queue': deque([], maxlen=10), 'lock': <unlocked _thread.lock object at 0x7fd4c2e8a468>, 'type': 'rtcm'}, 'RTCM1': {'queue': deque([], maxlen=10), 'lock': <unlocked _thread.lock object at 0x7fd4c2e8a2d8>, 'type': 'rtcm'}}
+[rosout][WARNING] 2019-06-06 08:47:55,726: 
+[rosout][ERROR] 2019-06-06 08:47:55,727: stream_queues: {'STM2/QUEUE2': {'name': 'GNSS', 'rw': 'write'}, 'STM2/QUEUE1': {'name': 'RTCM1', 'rw': 'read'}, 'STM3/QUEUE1': {'name': 'RTCM2', 'rw': 'read'}, 'STM1/QUEUE2': {'name': 'RTCM2', 'rw': 'write'}, 'STM1/QUEUE1': {'name': 'RTCM1', 'rw': 'write'}, 'STM3/QUEUE2': {'name': 'GNSS', 'rw': 'read'}}
+[rosout][WARNING] 2019-06-06 08:47:55,728: 
+[rosout][ERROR] 2019-06-06 08:47:55,728: queues: {'/STM1/QUEUE1': {'name': 'RTCM1', 'queue': deque([], maxlen=10), 'rw': 'write', 'lock': <unlocked _thread.lock object at 0x7fd4c2e8a2b0>, 'type': 'rtcm'}, '/STM1/QUEUE2': {'name': 'RTCM2', 'queue': deque([], maxlen=10), 'rw': 'write', 'lock': <unlocked _thread.lock object at 0x7fd4c2e8a378>, 'type': 'rtcm'}, '/STM2/QUEUE1': {'name': 'RTCM1', 'queue': deque([], maxlen=10), 'rw': 'read', 'lock': <unlocked _thread.lock object at 0x7fd4c2e8a418>, 'type': 'rtcm'}, '/STM2/QUEUE2': {'name': 'GNSS', 'queue': deque([], maxlen=10), 'rw': 'write', 'lock': <unlocked _thread.lock object at 0x7fd4c2e8a440>, 'type': 'nmea'}}
+[rosout][WARNING] 2019-06-06 08:47:55,745: Starting NTrip client [/STM1]
+[rosout][WARNING] 2019-06-06 08:47:55,768: Starting UBX device client [/STM2]
+[rosout][WARNING] 2019-06-06 08:47:55,798: Starting IP Listener connects UBlox device to client, e.g. u-center. [/STM4]
+[rosout][ERROR] 2019-06-06 08:47:55,807: Exception <class 'ConnectionRefusedError'> on stream: /STM1
+[rosout][INFO] 2019-06-06 08:47:55,825: Serial connected: /dev/c94-m8p
+[rosout][ERROR] 2019-06-06 08:47:55,841: !!! param_names !!!
+[rosout][ERROR] 2019-06-06 08:47:55,842: ['/STM2-CFG42/msgClass', '/STM2-CFG42/msgId', '/STM2-CFG42/id', '/STM2-CFG42/ioPorts', '/STM2-CFG42/class', '/STM2-CFG42/desc', '/STM2-CFG41/msgClass', '/STM2-CFG41/msgId', '/STM2-CFG41/id', '/STM2-CFG41/ioPorts', '/STM2-CFG41/class', '/STM2-CFG41/desc', '/STM2-CFG40/msgClass', '/STM2-CFG40/msgId', '/STM2-CFG40/id', '/STM2-CFG40/ioPorts', '/STM2-CFG40/class', '/STM2-CFG40/desc', '/run_id', '/STM2-CFG61/msgClass', '/STM2-CFG61/msgId', '/STM2-CFG61/id', '/STM2-CFG61/ioPorts', '/STM2-CFG61/class', '/STM2-CFG61/desc', '/STM2-CFG60/msgClass', '/STM2-CFG60/msgId', '/STM2-CFG60/id', '/STM2-CFG60/ioPorts', '/STM2-CFG60/class', '/STM2-CFG60/desc', '/STM2-CFG63/msgClass', '/STM2-CFG63/msgId', '/STM2-CFG63/id', '/STM2-CFG63/ioPorts', '/STM2-CFG63/class', '/STM2-CFG63/desc', '/STM2-CFG62/msgClass', '/STM2-CFG62/msgId', '/STM2-CFG62/id', '/STM2-CFG62/ioPorts', '/STM2-CFG62/class', '/STM2-CFG62/desc', '/STM2-CFG36/msgClass', '/STM2-CFG36/msgId', '/STM2-CFG36/class', '/STM2-CFG36/ioPorts', '/STM2-CFG36/id', '/STM2-CFG36/desc', '/STM2-CFG37/msgClass', '/STM2-CFG37/msgId', '/STM2-CFG37/id', '/STM2-CFG37/ioPorts', '/STM2-CFG37/class', '/STM2-CFG37/desc', '/STM2-CFG34/msgClass', '/STM2-CFG34/msgId', '/STM2-CFG34/class', '/STM2-CFG34/ioPorts', '/STM2-CFG34/id', '/STM2-CFG34/desc', '/STM2-CFG35/msgClass', '/STM2-CFG35/msgId', '/STM2-CFG35/class', '/STM2-CFG35/ioPorts', '/STM2-CFG35/id', '/STM2-CFG35/desc', '/STM2-CFG32/msgClass', '/STM2-CFG32/msgId', '/STM2-CFG32/id', '/STM2-CFG32/ioPorts', '/STM2-CFG32/class', '/STM2-CFG32/desc', '/STM2-CFG33/msgClass', '/STM2-CFG33/msgId', '/STM2-CFG33/id', '/STM2-CFG33/ioPorts', '/STM2-CFG33/class', '/STM2-CFG33/desc', '/STM2-CFG30/msgClass', '/STM2-CFG30/msgId', '/STM2-CFG30/class', '/STM2-CFG30/ioPorts', '/STM2-CFG30/id', '/STM2-CFG30/desc', '/STM2-CFG31/msgClass', '/STM2-CFG31/msgId', '/STM2-CFG31/class', '/STM2-CFG31/ioPorts', '/STM2-CFG31/id', '/STM2-CFG31/desc', '/STM2-CFG38/msgClass', '/STM2-CFG38/msgId', '/STM2-CFG38/id', '/STM2-CFG38/ioPorts', '/STM2-CFG38/class', '/STM2-CFG38/desc', '/STM2-CFG39/msgClass', '/STM2-CFG39/msgId', '/STM2-CFG39/id', '/STM2-CFG39/ioPorts', '/STM2-CFG39/class', '/STM2-CFG39/desc', '/rosdistro', '/roslaunch/uris/host_10_0_0_166__43719', '/rosversion', '/STM2-CFG81/prot_out', '/STM2-CFG81/class', '/STM2-CFG81/rate', '/STM2-CFG81/prot_in', '/STM2-CFG81/id', '/STM2-CFG81/desc', '/STM2/baudrate', '/STM2/retry', '/STM2/QUEUE1/rw', '/STM2/QUEUE1/type', '/STM2/QUEUE1/name', '/STM2/QUEUE2/rw', '/STM2/QUEUE2/type', '/STM2/QUEUE2/name', '/STM2/timeout', '/STM2/type', '/STM2/port', '/STM2/desc', '/STM1/retry', '/STM1/QUEUE1/rw', '/STM1/QUEUE1/type', '/STM1/QUEUE1/name', '/STM1/QUEUE2/rw', '/STM1/QUEUE2/type', '/STM1/QUEUE2/name', '/STM1/host', '/STM1/type', '/STM1/port', '/STM1/desc', '/STM4/retry', '/STM4/listener', '/STM4/host', '/STM4/type', '/STM4/port', '/STM4/desc', '/STM2-CFG08/msgClass', '/STM2-CFG08/msgId', '/STM2-CFG08/id', '/STM2-CFG08/ioPorts', '/STM2-CFG08/class', '/STM2-CFG08/desc', '/STM2-CFG07/msgClass', '/STM2-CFG07/msgId', '/STM2-CFG07/class', '/STM2-CFG07/ioPorts', '/STM2-CFG07/id', '/STM2-CFG07/desc', '/STM2-CFG06/msgClass', '/STM2-CFG06/msgId', '/STM2-CFG06/id', '/STM2-CFG06/ioPorts', '/STM2-CFG06/class', '/STM2-CFG06/desc', '/STM2-CFG05/msgClass', '/STM2-CFG05/msgId', '/STM2-CFG05/id', '/STM2-CFG05/ioPorts', '/STM2-CFG05/class', '/STM2-CFG05/desc', '/STM2-CFG04/msgClass', '/STM2-CFG04/msgId', '/STM2-CFG04/id', '/STM2-CFG04/ioPorts', '/STM2-CFG04/class', '/STM2-CFG04/desc', '/STM2-CFG03/msgClass', '/STM2-CFG03/msgId', '/STM2-CFG03/class', '/STM2-CFG03/ioPorts', '/STM2-CFG03/id', '/STM2-CFG03/desc']
+[rosout][ERROR] 2019-06-06 08:47:55,844: !!! param_names !!!
+[rosout][ERROR] 2019-06-06 08:47:55,845: /STM2-CFG42/msgClass
+[rosout][ERROR] 2019-06-06 08:47:55,846: /STM2-CFG42/msgId
+[rosout][ERROR] 2019-06-06 08:47:55,847: /STM2-CFG42/id
+[rosout][ERROR] 2019-06-06 08:47:55,848: /STM2-CFG42/ioPorts
+[rosout][ERROR] 2019-06-06 08:47:55,849: /STM2-CFG42/class
+[rosout][ERROR] 2019-06-06 08:47:55,851: /STM2-CFG42/desc
+[rosout][ERROR] 2019-06-06 08:47:55,853: /STM2-CFG41/msgClass
+[rosout][ERROR] 2019-06-06 08:47:55,854: /STM2-CFG41/msgId
+[rosout][ERROR] 2019-06-06 08:47:55,855: /STM2-CFG41/id
+[rosout][ERROR] 2019-06-06 08:47:55,856: /STM2-CFG41/ioPorts
+[rosout][ERROR] 2019-06-06 08:47:55,857: /STM2-CFG41/class
+[rosout][ERROR] 2019-06-06 08:47:55,859: /STM2-CFG41/desc
+[rosout][ERROR] 2019-06-06 08:47:55,861: /STM2-CFG40/msgClass
+[rosout][ERROR] 2019-06-06 08:47:55,862: /STM2-CFG40/msgId
+[rosout][ERROR] 2019-06-06 08:47:55,863: /STM2-CFG40/id
+[rosout][ERROR] 2019-06-06 08:47:55,864: /STM2-CFG40/ioPorts
+[rosout][WARNING] 2019-06-06 08:47:55,867: Listening for connection on port: 2104
+[rosout][ERROR] 2019-06-06 08:47:55,867: /STM2-CFG40/class
+[rosout][ERROR] 2019-06-06 08:47:55,869: /STM2-CFG40/desc
+[rosout][ERROR] 2019-06-06 08:47:55,869: /STM2-CFG61/msgClass
+[rosout][ERROR] 2019-06-06 08:47:55,870: /STM2-CFG61/msgId
+[rosout][ERROR] 2019-06-06 08:47:55,871: /STM2-CFG61/id
+[rosout][ERROR] 2019-06-06 08:47:55,872: /STM2-CFG61/ioPorts
+[rosout][ERROR] 2019-06-06 08:47:55,873: /STM2-CFG61/class
+[rosout][ERROR] 2019-06-06 08:47:55,873: /STM2-CFG61/desc
+[rosout][ERROR] 2019-06-06 08:47:55,874: /STM2-CFG60/msgClass
+[rosout][ERROR] 2019-06-06 08:47:55,875: /STM2-CFG60/msgId
+[rosout][ERROR] 2019-06-06 08:47:55,875: /STM2-CFG60/id
+[rosout][ERROR] 2019-06-06 08:47:55,876: /STM2-CFG60/ioPorts
+[rosout][ERROR] 2019-06-06 08:47:55,876: /STM2-CFG60/class
+[rosout][ERROR] 2019-06-06 08:47:55,877: /STM2-CFG60/desc
+[rosout][ERROR] 2019-06-06 08:47:55,879: /STM2-CFG63/msgClass
+[rospy.internal][INFO] 2019-06-06 08:47:55,880: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][ERROR] 2019-06-06 08:47:55,880: /STM2-CFG63/msgId
+[rosout][ERROR] 2019-06-06 08:47:55,883: /STM2-CFG63/id
+[rosout][ERROR] 2019-06-06 08:47:55,884: /STM2-CFG63/ioPorts
+[rosout][ERROR] 2019-06-06 08:47:55,885: /STM2-CFG63/class
+[rosout][ERROR] 2019-06-06 08:47:55,887: /STM2-CFG63/desc
+[rosout][ERROR] 2019-06-06 08:47:55,888: /STM2-CFG62/msgClass
+[rosout][ERROR] 2019-06-06 08:47:55,890: /STM2-CFG62/msgId
+[rosout][ERROR] 2019-06-06 08:47:55,891: /STM2-CFG62/id
+[rosout][ERROR] 2019-06-06 08:47:55,892: /STM2-CFG62/ioPorts
+[rosout][ERROR] 2019-06-06 08:47:55,894: /STM2-CFG62/class
+[rosout][ERROR] 2019-06-06 08:47:55,895: /STM2-CFG62/desc
+[rosout][ERROR] 2019-06-06 08:47:55,896: /STM2-CFG36/msgClass
+[rosout][ERROR] 2019-06-06 08:47:55,898: /STM2-CFG36/msgId
+[rosout][ERROR] 2019-06-06 08:47:55,899: /STM2-CFG36/class
+[rosout][ERROR] 2019-06-06 08:47:55,900: /STM2-CFG36/ioPorts
+[rosout][ERROR] 2019-06-06 08:47:55,901: /STM2-CFG36/id
+[rosout][ERROR] 2019-06-06 08:47:55,903: /STM2-CFG36/desc
+[rosout][ERROR] 2019-06-06 08:47:55,904: /STM2-CFG37/msgClass
+[rosout][ERROR] 2019-06-06 08:47:55,905: /STM2-CFG37/msgId
+[rosout][ERROR] 2019-06-06 08:47:55,906: /STM2-CFG37/id
+[rosout][ERROR] 2019-06-06 08:47:55,908: /STM2-CFG37/ioPorts
+[rosout][ERROR] 2019-06-06 08:47:55,909: /STM2-CFG37/class
+[rosout][ERROR] 2019-06-06 08:47:55,910: /STM2-CFG37/desc
+[rosout][ERROR] 2019-06-06 08:47:55,912: /STM2-CFG34/msgClass
+[rosout][ERROR] 2019-06-06 08:47:55,913: /STM2-CFG34/msgId
+[rosout][ERROR] 2019-06-06 08:47:55,914: /STM2-CFG34/class
+[rosout][ERROR] 2019-06-06 08:47:55,915: /STM2-CFG34/ioPorts
+[rosout][ERROR] 2019-06-06 08:47:55,917: /STM2-CFG34/id
+[rosout][ERROR] 2019-06-06 08:47:55,918: /STM2-CFG34/desc
+[rosout][ERROR] 2019-06-06 08:47:55,919: /STM2-CFG35/msgClass
+[rosout][ERROR] 2019-06-06 08:47:55,920: /STM2-CFG35/msgId
+[rosout][ERROR] 2019-06-06 08:47:55,922: /STM2-CFG35/class
+[rosout][ERROR] 2019-06-06 08:47:55,923: /STM2-CFG35/ioPorts
+[rosout][ERROR] 2019-06-06 08:47:55,924: /STM2-CFG35/id
+[rosout][ERROR] 2019-06-06 08:47:55,926: /STM2-CFG35/desc
+[rosout][ERROR] 2019-06-06 08:47:55,927: /STM2-CFG32/msgClass
+[rosout][ERROR] 2019-06-06 08:47:55,928: /STM2-CFG32/msgId
+[rosout][ERROR] 2019-06-06 08:47:55,930: /STM2-CFG32/id
+[rosout][ERROR] 2019-06-06 08:47:55,931: /STM2-CFG32/ioPorts
+[rosout][ERROR] 2019-06-06 08:47:55,932: /STM2-CFG32/class
+[rosout][ERROR] 2019-06-06 08:47:55,934: /STM2-CFG32/desc
+[rosout][ERROR] 2019-06-06 08:47:55,935: /STM2-CFG33/msgClass
+[rosout][ERROR] 2019-06-06 08:47:55,937: /STM2-CFG33/msgId
+[rosout][ERROR] 2019-06-06 08:47:55,938: /STM2-CFG33/id
+[rosout][ERROR] 2019-06-06 08:47:55,939: /STM2-CFG33/ioPorts
+[rosout][ERROR] 2019-06-06 08:47:55,940: /STM2-CFG33/class
+[rosout][ERROR] 2019-06-06 08:47:55,942: /STM2-CFG33/desc
+[rosout][ERROR] 2019-06-06 08:47:55,943: /STM2-CFG30/msgClass
+[rosout][ERROR] 2019-06-06 08:47:55,944: /STM2-CFG30/msgId
+[rosout][ERROR] 2019-06-06 08:47:55,945: /STM2-CFG30/class
+[rosout][ERROR] 2019-06-06 08:47:55,946: /STM2-CFG30/ioPorts
+[rosout][ERROR] 2019-06-06 08:47:55,947: /STM2-CFG30/id
+[rosout][ERROR] 2019-06-06 08:47:55,948: /STM2-CFG30/desc
+[rosout][ERROR] 2019-06-06 08:47:55,949: /STM2-CFG31/msgClass
+[rosout][ERROR] 2019-06-06 08:47:55,951: /STM2-CFG31/msgId
+[rosout][ERROR] 2019-06-06 08:47:55,952: /STM2-CFG31/class
+[rosout][ERROR] 2019-06-06 08:47:55,953: /STM2-CFG31/ioPorts
+[rosout][ERROR] 2019-06-06 08:47:55,954: /STM2-CFG31/id
+[rosout][ERROR] 2019-06-06 08:47:55,955: /STM2-CFG31/desc
+[rosout][ERROR] 2019-06-06 08:47:55,956: /STM2-CFG38/msgClass
+[rosout][ERROR] 2019-06-06 08:47:55,957: /STM2-CFG38/msgId
+[rosout][ERROR] 2019-06-06 08:47:55,959: /STM2-CFG38/id
+[rosout][ERROR] 2019-06-06 08:47:55,960: /STM2-CFG38/ioPorts
+[rosout][ERROR] 2019-06-06 08:47:55,961: /STM2-CFG38/class
+[rosout][ERROR] 2019-06-06 08:47:55,962: /STM2-CFG38/desc
+[rosout][ERROR] 2019-06-06 08:47:55,963: /STM2-CFG39/msgClass
+[rosout][ERROR] 2019-06-06 08:47:55,965: /STM2-CFG39/msgId
+[rosout][ERROR] 2019-06-06 08:47:55,966: /STM2-CFG39/id
+[rosout][ERROR] 2019-06-06 08:47:55,967: /STM2-CFG39/ioPorts
+[rosout][ERROR] 2019-06-06 08:47:55,968: /STM2-CFG39/class
+[rosout][ERROR] 2019-06-06 08:47:55,970: /STM2-CFG39/desc
+[rosout][ERROR] 2019-06-06 08:47:55,971: /STM2-CFG81/prot_out
+[rosout][ERROR] 2019-06-06 08:47:55,972: /STM2-CFG81/class
+[rosout][ERROR] 2019-06-06 08:47:55,973: /STM2-CFG81/rate
+[rosout][ERROR] 2019-06-06 08:47:55,975: /STM2-CFG81/prot_in
+[rosout][ERROR] 2019-06-06 08:47:55,976: /STM2-CFG81/id
+[rosout][ERROR] 2019-06-06 08:47:55,977: /STM2-CFG81/desc
+[rosout][ERROR] 2019-06-06 08:47:55,979: /STM2-CFG08/msgClass
+[rosout][ERROR] 2019-06-06 08:47:55,980: /STM2-CFG08/msgId
+[rosout][ERROR] 2019-06-06 08:47:55,981: /STM2-CFG08/id
+[rosout][ERROR] 2019-06-06 08:47:55,982: /STM2-CFG08/ioPorts
+[rosout][ERROR] 2019-06-06 08:47:55,984: /STM2-CFG08/class
+[rosout][ERROR] 2019-06-06 08:47:55,985: /STM2-CFG08/desc
+[rosout][ERROR] 2019-06-06 08:47:55,986: /STM2-CFG07/msgClass
+[rosout][ERROR] 2019-06-06 08:47:55,987: /STM2-CFG07/msgId
+[rosout][ERROR] 2019-06-06 08:47:55,988: /STM2-CFG07/class
+[rosout][ERROR] 2019-06-06 08:47:55,989: /STM2-CFG07/ioPorts
+[rosout][ERROR] 2019-06-06 08:47:55,990: /STM2-CFG07/id
+[rosout][ERROR] 2019-06-06 08:47:55,991: /STM2-CFG07/desc
+[rosout][ERROR] 2019-06-06 08:47:55,992: /STM2-CFG06/msgClass
+[rosout][ERROR] 2019-06-06 08:47:55,993: /STM2-CFG06/msgId
+[rosout][ERROR] 2019-06-06 08:47:55,995: /STM2-CFG06/id
+[rosout][ERROR] 2019-06-06 08:47:55,996: /STM2-CFG06/ioPorts
+[rosout][ERROR] 2019-06-06 08:47:55,997: /STM2-CFG06/class
+[rosout][ERROR] 2019-06-06 08:47:55,998: /STM2-CFG06/desc
+[rosout][ERROR] 2019-06-06 08:47:55,999: /STM2-CFG05/msgClass
+[rosout][ERROR] 2019-06-06 08:47:56,000: /STM2-CFG05/msgId
+[rosout][ERROR] 2019-06-06 08:47:56,002: /STM2-CFG05/id
+[rosout][ERROR] 2019-06-06 08:47:56,003: /STM2-CFG05/ioPorts
+[rosout][ERROR] 2019-06-06 08:47:56,004: /STM2-CFG05/class
+[rosout][ERROR] 2019-06-06 08:47:56,005: /STM2-CFG05/desc
+[rosout][ERROR] 2019-06-06 08:47:56,007: /STM2-CFG04/msgClass
+[rosout][ERROR] 2019-06-06 08:47:56,008: /STM2-CFG04/msgId
+[rosout][ERROR] 2019-06-06 08:47:56,009: /STM2-CFG04/id
+[rosout][ERROR] 2019-06-06 08:47:56,010: /STM2-CFG04/ioPorts
+[rosout][ERROR] 2019-06-06 08:47:56,012: /STM2-CFG04/class
+[rosout][ERROR] 2019-06-06 08:47:56,013: /STM2-CFG04/desc
+[rosout][ERROR] 2019-06-06 08:47:56,014: /STM2-CFG03/msgClass
+[rosout][ERROR] 2019-06-06 08:47:56,015: /STM2-CFG03/msgId
+[rosout][ERROR] 2019-06-06 08:47:56,017: /STM2-CFG03/class
+[rosout][ERROR] 2019-06-06 08:47:56,018: /STM2-CFG03/ioPorts
+[rosout][ERROR] 2019-06-06 08:47:56,019: /STM2-CFG03/id
+[rosout][ERROR] 2019-06-06 08:47:56,020: /STM2-CFG03/desc
+[rosout][ERROR] 2019-06-06 08:47:56,022: !!! send_config !!!
+[rosout][ERROR] 2019-06-06 08:47:56,023: ['STM2-CFG03', 'STM2-CFG04', 'STM2-CFG05', 'STM2-CFG06', 'STM2-CFG07', 'STM2-CFG08', 'STM2-CFG30', 'STM2-CFG31', 'STM2-CFG32', 'STM2-CFG33', 'STM2-CFG34', 'STM2-CFG35', 'STM2-CFG36', 'STM2-CFG37', 'STM2-CFG38', 'STM2-CFG39', 'STM2-CFG40', 'STM2-CFG41', 'STM2-CFG42', 'STM2-CFG60', 'STM2-CFG61', 'STM2-CFG62', 'STM2-CFG63', 'STM2-CFG81']
+[rosout][ERROR] 2019-06-06 08:47:56,024: cfg_name
+[rosout][WARNING] 2019-06-06 08:47:56,030: {'ioPorts': [0, 0, 0, 0, 0, 0], 'msgId': 5, 'class': '06', 'msgClass': 245, 'desc': 'Disable U-blox RTCM 1005', 'id': '01'}
+[rosout][INFO] 2019-06-06 08:47:56,032: Sent Disable U-blox RTCM 1005
+[rosout][ERROR] 2019-06-06 08:47:56,033: cfg_name
+[rosout][WARNING] 2019-06-06 08:47:56,039: {'ioPorts': [0, 0, 0, 1, 0, 0], 'msgId': 6, 'class': '06', 'msgClass': 1, 'desc': 'Enable U-blox NAV-SOL', 'id': '01'}
+[rosout][INFO] 2019-06-06 08:47:56,041: Sent Enable U-blox NAV-SOL
+[rosout][ERROR] 2019-06-06 08:47:56,042: cfg_name
+[rosout][WARNING] 2019-06-06 08:47:56,048: {'ioPorts': [0, 0, 0, 1, 0, 0], 'msgId': 7, 'class': '06', 'msgClass': 1, 'desc': 'Enable U-blox NAV-PVT', 'id': '01'}
+[rosout][INFO] 2019-06-06 08:47:56,049: Sent Enable U-blox NAV-PVT
+[rosout][ERROR] 2019-06-06 08:47:56,050: cfg_name
+[rosout][WARNING] 2019-06-06 08:47:56,058: {'ioPorts': [0, 0, 0, 1, 0, 0], 'msgId': 4, 'class': '06', 'msgClass': 1, 'desc': 'Enable U-blox NAV-DOP', 'id': '01'}
+[rosout][INFO] 2019-06-06 08:47:56,060: Sent Enable U-blox NAV-DOP
+[rosout][ERROR] 2019-06-06 08:47:56,061: cfg_name
+[rosout][WARNING] 2019-06-06 08:47:56,066: {'ioPorts': [0, 0, 0, 1, 0, 0], 'msgId': 3, 'class': '06', 'msgClass': 1, 'desc': 'Enable U-blox NAV-STATUS', 'id': '01'}
+[rosout][INFO] 2019-06-06 08:47:56,068: Sent Enable U-blox NAV-STATUS
+[rosout][ERROR] 2019-06-06 08:47:56,069: cfg_name
+[rosout][WARNING] 2019-06-06 08:47:56,076: {'ioPorts': [0, 0, 0, 1, 0, 0], 'msgId': 59, 'class': '06', 'msgClass': 1, 'desc': 'Enable U-blox NAV-SVIN', 'id': '01'}
+[rosout][INFO] 2019-06-06 08:47:56,077: Sent Enable U-blox NAV-SVIN
+[rosout][ERROR] 2019-06-06 08:47:56,078: cfg_name
+[rosout][WARNING] 2019-06-06 08:47:56,084: {'ioPorts': [0, 0, 0, 1, 0, 0], 'msgId': 0, 'class': '06', 'msgClass': 240, 'desc': 'Enable GGA', 'id': '01'}
+[rosout][INFO] 2019-06-06 08:47:56,086: Sent Enable GGA
+[rosout][ERROR] 2019-06-06 08:47:56,087: cfg_name
+[rosout][WARNING] 2019-06-06 08:47:56,093: {'ioPorts': [0, 0, 0, 0, 0, 0], 'msgId': 1, 'class': '06', 'msgClass': 240, 'desc': 'Disable GLL', 'id': '01'}
+[rosout][INFO] 2019-06-06 08:47:56,095: Sent Disable GLL
+[rosout][ERROR] 2019-06-06 08:47:56,096: cfg_name
+[rosout][WARNING] 2019-06-06 08:47:56,102: {'ioPorts': [0, 0, 0, 0, 0, 0], 'msgId': 2, 'class': '06', 'msgClass': 240, 'desc': 'Disable GSA', 'id': '01'}
+[rosout][INFO] 2019-06-06 08:47:56,104: Sent Disable GSA
+[rosout][ERROR] 2019-06-06 08:47:56,105: cfg_name
+[rosout][WARNING] 2019-06-06 08:47:56,111: {'ioPorts': [0, 0, 0, 0, 0, 0], 'msgId': 3, 'class': '06', 'msgClass': 240, 'desc': 'Disable GSV', 'id': '01'}
+[rosout][INFO] 2019-06-06 08:47:56,112: Sent Disable GSV
+[rosout][ERROR] 2019-06-06 08:47:56,113: cfg_name
+[rosout][WARNING] 2019-06-06 08:47:56,120: {'ioPorts': [0, 0, 0, 0, 0, 0], 'msgId': 4, 'class': '06', 'msgClass': 240, 'desc': 'Disable RMC', 'id': '01'}
+[rosout][INFO] 2019-06-06 08:47:56,121: Sent Disable RMC
+[rosout][ERROR] 2019-06-06 08:47:56,122: cfg_name
+[rosout][WARNING] 2019-06-06 08:47:56,128: {'ioPorts': [0, 0, 0, 0, 0, 0], 'msgId': 5, 'class': '06', 'msgClass': 240, 'desc': 'Disable VTG', 'id': '01'}
+[rosout][INFO] 2019-06-06 08:47:56,129: Sent Disable VTG
+[rosout][ERROR] 2019-06-06 08:47:56,131: cfg_name
+[rosout][WARNING] 2019-06-06 08:47:56,136: {'ioPorts': [0, 0, 0, 0, 0, 0], 'msgId': 10, 'class': '06', 'msgClass': 240, 'desc': 'Disable DTM', 'id': '01'}
+[rosout][INFO] 2019-06-06 08:47:56,138: Sent Disable DTM
+[rosout][ERROR] 2019-06-06 08:47:56,139: cfg_name
+[rosout][WARNING] 2019-06-06 08:47:56,145: {'ioPorts': [0, 0, 0, 0, 0, 0], 'msgId': 13, 'class': '06', 'msgClass': 240, 'desc': 'Disable GNS', 'id': '01'}
+[rosout][INFO] 2019-06-06 08:47:56,147: Sent Disable GNS
+[rosout][ERROR] 2019-06-06 08:47:56,147: cfg_name
+[rosout][WARNING] 2019-06-06 08:47:56,154: {'ioPorts': [0, 0, 0, 0, 0, 0], 'msgId': 6, 'class': '06', 'msgClass': 240, 'desc': 'Disable GRS', 'id': '01'}
+[rosout][INFO] 2019-06-06 08:47:56,156: Sent Disable GRS
+[rosout][ERROR] 2019-06-06 08:47:56,157: cfg_name
+[rosout][WARNING] 2019-06-06 08:47:56,163: {'ioPorts': [0, 0, 0, 0, 0, 0], 'msgId': 7, 'class': '06', 'msgClass': 240, 'desc': 'Disable GST', 'id': '01'}
+[rosout][INFO] 2019-06-06 08:47:56,164: Sent Disable GST
+[rosout][ERROR] 2019-06-06 08:47:56,166: cfg_name
+[rosout][WARNING] 2019-06-06 08:47:56,171: {'ioPorts': [0, 0, 0, 0, 0, 0], 'msgId': 8, 'class': '06', 'msgClass': 240, 'desc': 'Disable ZDA', 'id': '01'}
+[rosout][INFO] 2019-06-06 08:47:56,173: Sent Disable ZDA
+[rosout][ERROR] 2019-06-06 08:47:56,174: cfg_name
+[rosout][WARNING] 2019-06-06 08:47:56,180: {'ioPorts': [0, 0, 0, 0, 0, 0], 'msgId': 9, 'class': '06', 'msgClass': 240, 'desc': 'Disable GBS', 'id': '01'}
+[rosout][INFO] 2019-06-06 08:47:56,182: Sent Disable GBS
+[rosout][ERROR] 2019-06-06 08:47:56,183: cfg_name
+[rosout][WARNING] 2019-06-06 08:47:56,189: {'ioPorts': [0, 0, 0, 0, 0, 0], 'msgId': 15, 'class': '06', 'msgClass': 240, 'desc': 'Disable VLW', 'id': '01'}
+[rosout][INFO] 2019-06-06 08:47:56,191: Sent Disable VLW
+[rosout][ERROR] 2019-06-06 08:47:56,192: cfg_name
+[rosout][WARNING] 2019-06-06 08:47:56,198: {'ioPorts': [0, 0, 0, 0, 0, 0], 'msgId': 5, 'class': '06', 'msgClass': 245, 'desc': 'F5-05 RTCM 1005', 'id': '01'}
+[rosout][INFO] 2019-06-06 08:47:56,199: Sent F5-05 RTCM 1005
+[rosout][ERROR] 2019-06-06 08:47:56,200: cfg_name
+[rosout][WARNING] 2019-06-06 08:47:56,206: {'ioPorts': [0, 0, 0, 0, 0, 0], 'msgId': 77, 'class': '06', 'msgClass': 245, 'desc': 'F5-4D RTCM 1077', 'id': '01'}
+[rosout][INFO] 2019-06-06 08:47:56,207: Sent F5-4D RTCM 1077
+[rosout][ERROR] 2019-06-06 08:47:56,208: cfg_name
+[rosout][WARNING] 2019-06-06 08:47:56,217: {'ioPorts': [0, 0, 0, 0, 0, 0], 'msgId': 87, 'class': '06', 'msgClass': 245, 'desc': 'F5-57 RTCM 1087', 'id': '01'}
+[rosout][INFO] 2019-06-06 08:47:56,219: Sent F5-57 RTCM 1087
+[rosout][ERROR] 2019-06-06 08:47:56,221: cfg_name
+[rosout][WARNING] 2019-06-06 08:47:56,227: {'ioPorts': [0, 0, 0, 0, 0, 0], 'msgId': 230, 'class': '06', 'msgClass': 245, 'desc': 'F5-E6 RTCM 1230', 'id': '01'}
+[rosout][INFO] 2019-06-06 08:47:56,228: Sent F5-E6 RTCM 1230
+[rosout][ERROR] 2019-06-06 08:47:56,229: cfg_name
+[rosout][WARNING] 2019-06-06 08:47:56,235: {'prot_in': 32, 'class': '06', 'prot_out': 0, 'rate': 19200, 'desc': 'UBX-CFG-PRT', 'id': '00'}
+[rosout][INFO] 2019-06-06 08:47:56,237: Sent UBX-CFG-PRT
+[rosout][ERROR] 2019-06-06 08:47:56,238: cfg_name
+[rosout][INFO] 2019-06-06 08:47:56,244: Payload missing
+[rosout][ERROR] 2019-06-06 08:47:56,245: cfg_name
+[rosout][INFO] 2019-06-06 08:47:56,250: Payload missing
+[rosout][ERROR] 2019-06-06 08:47:56,251: cfg_name
+[rosout][INFO] 2019-06-06 08:47:56,257: Payload missing
+[rosout][ERROR] 2019-06-06 08:47:56,258: cfg_name
+[rosout][INFO] 2019-06-06 08:47:56,264: Payload missing
+[rosout][ERROR] 2019-06-06 08:47:56,265: cfg_name
+[rosout][INFO] 2019-06-06 08:47:56,270: Payload missing
+[rosout][ERROR] 2019-06-06 08:47:56,271: cfg_name
+[rosout][INFO] 2019-06-06 08:47:56,276: Payload missing
+[rosout][ERROR] 2019-06-06 08:47:56,278: cfg_name
+[rosout][INFO] 2019-06-06 08:47:56,283: Payload missing
+[rosout][ERROR] 2019-06-06 08:47:56,284: cfg_name
+[rosout][INFO] 2019-06-06 08:47:56,289: Payload missing
+[rosout][ERROR] 2019-06-06 08:47:56,291: cfg_name
+[rosout][INFO] 2019-06-06 08:47:56,296: Payload missing
+[rosout][ERROR] 2019-06-06 08:47:56,297: cfg_name
+[rosout][INFO] 2019-06-06 08:47:56,302: Payload missing
+[rosout][ERROR] 2019-06-06 08:47:56,303: cfg_name
+[rosout][INFO] 2019-06-06 08:47:56,308: Payload missing
+[rosout][ERROR] 2019-06-06 08:47:56,309: cfg_name
+[rosout][INFO] 2019-06-06 08:47:56,315: Payload missing
+[rosout][ERROR] 2019-06-06 08:47:56,316: cfg_name
+[rosout][INFO] 2019-06-06 08:47:56,321: Payload missing
+[rosout][ERROR] 2019-06-06 08:47:56,322: cfg_name
+[rosout][INFO] 2019-06-06 08:47:56,327: Payload missing
+[rosout][ERROR] 2019-06-06 08:47:56,329: cfg_name
+[rosout][INFO] 2019-06-06 08:47:56,334: Payload missing
+[rosout][ERROR] 2019-06-06 08:47:56,335: cfg_name
+[rosout][INFO] 2019-06-06 08:47:56,340: Payload missing
+[rosout][ERROR] 2019-06-06 08:47:56,341: cfg_name
+[rosout][INFO] 2019-06-06 08:47:56,347: Payload missing
+[rosout][ERROR] 2019-06-06 08:47:56,348: cfg_name
+[rosout][INFO] 2019-06-06 08:47:56,353: Payload missing
+[rosout][ERROR] 2019-06-06 08:47:56,354: cfg_name
+[rosout][INFO] 2019-06-06 08:47:56,359: Payload missing
+[rosout][ERROR] 2019-06-06 08:47:56,360: cfg_name
+[rosout][INFO] 2019-06-06 08:47:56,365: Payload missing
+[rosout][ERROR] 2019-06-06 08:47:56,366: cfg_name
+[rosout][INFO] 2019-06-06 08:47:56,372: Payload missing
+[rosout][ERROR] 2019-06-06 08:47:56,373: cfg_name
+[rosout][INFO] 2019-06-06 08:47:56,379: Payload missing
+[rosout][ERROR] 2019-06-06 08:47:56,380: cfg_name
+[rosout][INFO] 2019-06-06 08:47:56,386: Payload missing
+[rosout][ERROR] 2019-06-06 08:47:56,387: cfg_name
+[rosout][INFO] 2019-06-06 08:47:56,392: Payload missing
+[rosout][INFO] 2019-06-06 08:47:56,395: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[rosout][INFO] 2019-06-06 08:47:56,396: ACK. Class: 0x6  Message ID: 0x1
+[rosout][INFO] 2019-06-06 08:47:56,398: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[rosout][INFO] 2019-06-06 08:47:56,399: ACK. Class: 0x6  Message ID: 0x1
+[rosout][INFO] 2019-06-06 08:47:56,401: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[rosout][INFO] 2019-06-06 08:47:56,402: ACK. Class: 0x6  Message ID: 0x1
+[rosout][INFO] 2019-06-06 08:47:56,405: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[rosout][INFO] 2019-06-06 08:47:56,406: ACK. Class: 0x6  Message ID: 0x1
+[rosout][INFO] 2019-06-06 08:47:56,408: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[rosout][INFO] 2019-06-06 08:47:56,409: ACK. Class: 0x6  Message ID: 0x1
+[rosout][INFO] 2019-06-06 08:47:56,411: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[rosout][INFO] 2019-06-06 08:47:56,412: ACK. Class: 0x6  Message ID: 0x1
+[rosout][INFO] 2019-06-06 08:47:56,414: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[rosout][INFO] 2019-06-06 08:47:56,416: ACK. Class: 0x6  Message ID: 0x1
+[rosout][INFO] 2019-06-06 08:47:56,422: 
+Class: 0x1  ID: 0x6  Len:52 [0x34]
+000: b5 62 01 06 34 00 30 92  fd 17 c8 cd 04 00 08 08 
+010: 03 dd 95 b5 9d ef 82 61  89 e7 b8 19 f8 17 b1 03 
+020: 00 00 f6 ff ff ff f5 ff  ff ff 00 00 00 00 43 00 
+030: 00 00 da 00 02 0a 12 19  b6 03 49 1e 
+[rosout][INFO] 2019-06-06 08:47:56,423: !!!NEW CYCLE!!!
+[rosout][INFO] 2019-06-06 08:47:56,424: {'week': 2056}
+[rosout][INFO] 2019-06-06 08:47:56,433: 
+Class: 0x1  ID: 0x7  Len:92 [0x5c]
+000: b5 62 01 07 5c 00 30 92  fd 17 e3 07 06 06 0f 2f 
+010: 38 37 11 00 00 00 ca cd  04 00 03 01 ea 0a 4e da 
+020: 33 b6 71 5e 72 17 8a 80  00 00 91 f2 00 00 14 14 
+030: 00 00 fd 1e 00 00 a3 ff  ff ff ee ff ff ff 91 ff 
+040: ff ff 5f 00 00 00 c7 38  03 00 9b 02 00 00 b3 39 
+050: 76 00 da 00 00 00 12 19  26 3b 00 00 00 00 00 00 
+060: 00 00 99 a5 
+[rosout][INFO] 2019-06-06 08:47:56,434: {'year': 2019, 'velD': -0.111, 'velE': -0.018000000000000002, 'iTOW': 402494000, 'week': 2056, 'lon': -1238115762, 'hAcc': 5.14, 'vAcc': 7.933, 'lat': 393371249, 'sAcc': 0.667, 'velN': -0.093, 'fixType': 3}
+[rosout][INFO] 2019-06-06 08:47:56,437: 
+Class: 0x1  ID: 0x3  Len:16 [0x10]
+000: b5 62 01 03 10 00 30 92  fd 17 03 dd 00 08 71 4f 
+010: 06 00 b1 59 53 05 fa 36 
+[rosout][INFO] 2019-06-06 08:47:56,439: {'diffSoln': 0, 'diffCorr': 0, 'gpsFix': 3}
+[rosout][INFO] 2019-06-06 08:47:56,442: 
+Class: 0x1  ID: 0x4  Len:18 [0x12]
+000: b5 62 01 04 12 00 30 92  fd 17 fb 00 da 00 7b 00 
+010: c0 00 68 00 59 00 35 00  f3 0b 
+[rosout][INFO] 2019-06-06 08:47:56,443: {'year': 2019, 'velD': -0.111, 'hDop': 1.04, 'velE': -0.018000000000000002, 'iTOW': 402494000, 'week': 2056, 'lon': -1238115762, 'hAcc': 5.14, 'vAcc': 7.933, 'lat': 393371249, 'sAcc': 0.667, 'vDop': 1.92, 'velN': -0.093, 'fixType': 3}
+[rosout][INFO] 2019-06-06 08:47:56,448: 
+Class: 0x1  ID: 0x3b  Len:40 [0x28]
+000: b5 62 01 3b 28 00 00 00  00 00 30 92 fd 17 00 00 
+010: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00 
+020: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 3a ec 
+[rosout][INFO] 2019-06-06 08:47:56,450: {'valid': 0, 'meanAcc': 0.0, 'active': 0}
+[rosout][INFO] 2019-06-06 08:47:56,456: undef $GNRMC
+[rosout][INFO] 2019-06-06 08:47:56,459: undef $GNVTG
+[rosout][INFO] 2019-06-06 08:47:56,466: 
+{'year': 2019, 'alt': 62.1, 'velD': -0.111, 'hDop': 1.04, 'velE': -0.018000000000000002, 'iTOW': 402494000, 'week': 2056, 'lon': -1238115762, 'hAcc': 5.14, 'sats': 11, 'vAcc': 7.933, 'lat': 393371249, 'sAcc': 0.667, 'vDop': 1.92, 'velN': -0.093, 'fixType': 3}
+[rosout][INFO] 2019-06-06 08:47:56,468: {'year': 2019, 'alt': 62.1, 'velD': -0.111, 'hDop': 1.04, 'velE': -0.018000000000000002, 'iTOW': 402494000, 'week': 2056, 'lon': -1238115762, 'hAcc': 5.14, 'sats': 11, 'vAcc': 7.933, 'lat': 393371249, 'sAcc': 0.667, 'vDop': 1.92, 'velN': -0.093, 'fixType': 3}
+[rosout][INFO] 2019-06-06 08:47:56,469: Wrote GPS_INPUT message
+
+[rosout][INFO] 2019-06-06 08:47:56,474: undef $GNGSA
+[rosout][INFO] 2019-06-06 08:47:56,479: undef $GNGSA
+[rosout][INFO] 2019-06-06 08:47:56,485: undef $GPGSV
+[rosout][INFO] 2019-06-06 08:47:56,491: undef $GPGSV
+[rosout][INFO] 2019-06-06 08:47:56,496: undef $GPGSV
+[rosout][INFO] 2019-06-06 08:47:56,501: undef $GPGSV
+[rosout][INFO] 2019-06-06 08:47:56,507: undef $GLGSV
+[rosout][INFO] 2019-06-06 08:47:56,513: undef $GLGSV
+[rosout][INFO] 2019-06-06 08:47:56,517: undef $GLGSV
+[rosout][INFO] 2019-06-06 08:47:56,522: undef $GNGLL
+[rosout][INFO] 2019-06-06 08:47:56,524: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[rosout][INFO] 2019-06-06 08:47:56,525: ACK. Class: 0x6  Message ID: 0x1
+[rosout][INFO] 2019-06-06 08:47:56,527: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[rosout][INFO] 2019-06-06 08:47:56,528: ACK. Class: 0x6  Message ID: 0x1
+[rosout][INFO] 2019-06-06 08:47:56,530: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[rosout][INFO] 2019-06-06 08:47:56,531: ACK. Class: 0x6  Message ID: 0x1
+[rosout][INFO] 2019-06-06 08:47:56,533: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[rosout][INFO] 2019-06-06 08:47:56,535: ACK. Class: 0x6  Message ID: 0x1
+[rosout][INFO] 2019-06-06 08:47:56,536: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[rosout][INFO] 2019-06-06 08:47:56,538: ACK. Class: 0x6  Message ID: 0x1
+[rosout][INFO] 2019-06-06 08:47:56,540: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[rosout][INFO] 2019-06-06 08:47:56,541: ACK. Class: 0x6  Message ID: 0x1
+[rosout][INFO] 2019-06-06 08:47:56,543: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[rosout][INFO] 2019-06-06 08:47:56,544: ACK. Class: 0x6  Message ID: 0x1
+[rosout][INFO] 2019-06-06 08:47:56,546: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[rosout][INFO] 2019-06-06 08:47:56,547: ACK. Class: 0x6  Message ID: 0x1
+[rosout][INFO] 2019-06-06 08:47:56,549: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[rosout][INFO] 2019-06-06 08:47:56,551: ACK. Class: 0x6  Message ID: 0x1
+[rosout][INFO] 2019-06-06 08:47:56,553: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[rosout][INFO] 2019-06-06 08:47:56,554: ACK. Class: 0x6  Message ID: 0x1
+[rosout][INFO] 2019-06-06 08:47:56,556: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[rosout][INFO] 2019-06-06 08:47:56,557: ACK. Class: 0x6  Message ID: 0x1
+[rosout][INFO] 2019-06-06 08:47:56,559: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[rosout][INFO] 2019-06-06 08:47:56,560: ACK. Class: 0x6  Message ID: 0x1
+[rosout][INFO] 2019-06-06 08:47:56,562: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[rosout][INFO] 2019-06-06 08:47:56,563: ACK. Class: 0x6  Message ID: 0x1
+[rosout][INFO] 2019-06-06 08:47:56,565: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[rosout][INFO] 2019-06-06 08:47:56,567: ACK. Class: 0x6  Message ID: 0x1
+[rosout][INFO] 2019-06-06 08:47:56,570: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[rosout][INFO] 2019-06-06 08:47:56,571: ACK. Class: 0x6  Message ID: 0x1
+[rosout][INFO] 2019-06-06 08:47:56,574: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[rosout][INFO] 2019-06-06 08:47:56,575: ACK. Class: 0x6  Message ID: 0x1
+[rosout][INFO] 2019-06-06 08:47:56,578: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 00  0e 37 
+[rosout][INFO] 2019-06-06 08:47:56,579: ACK. Class: 0x6  Message ID: 0x0
+[rosout][INFO] 2019-06-06 08:47:56,583: $GNTXT,01,01,02,u-blox AG - www.u-blox.com*4E
+[rosout][INFO] 2019-06-06 08:47:56,587: $GNTXT,01,01,02,HW UBX-M8030 00080000*60
+[rosout][INFO] 2019-06-06 08:47:56,591: $GNTXT,01,01,02,EXT CORE 3.01 (db0c89)*68
+[rosout][INFO] 2019-06-06 08:47:56,596: $GNTXT,01,01,02,ROM BASE 3.01 (107888)*25
+[rosout][INFO] 2019-06-06 08:47:56,600: $GNTXT,01,01,02,FWVER=HPG 1.40REF*0B
+[rosout][INFO] 2019-06-06 08:47:56,603: $GNTXT,01,01,02,PROTVER=20.30*19
+[rosout][INFO] 2019-06-06 08:47:56,607: $GNTXT,01,01,02,MOD=NEO-M8P-2*7B
+[rosout][INFO] 2019-06-06 08:47:56,611: $GNTXT,01,01,02,FIS=0xEF4015 (100111)*58
+[rosout][INFO] 2019-06-06 08:47:56,614: $GNTXT,01,01,02,GPS;GLO;BDS*06
+[rosout][INFO] 2019-06-06 08:47:56,617: $GNTXT,01,01,02,QZSS*58
+[rosout][INFO] 2019-06-06 08:47:56,621: $GNTXT,01,01,02,GNSS OTP=GPS;GLO*37
+[rosout][INFO] 2019-06-06 08:47:56,627: $GNTXT,01,01,02,LLC=FFFFFFFF-FFFFFFED-FFFFFFFF-FFFFF79E-FFFFFF69*2E
+[rosout][INFO] 2019-06-06 08:47:56,631: $GNTXT,01,01,02,ANTSUPERV=AC SD PDoS SR*3E
+[rosout][INFO] 2019-06-06 08:47:56,635: $GNTXT,01,01,02,ANTSTATUS=OK*25
+[rosout][INFO] 2019-06-06 08:47:56,638: $GNTXT,01,01,02,PF=300*4B
+[rospy.core][INFO] 2019-06-06 08:47:57,071: signal_shutdown [signal-2]
+[rosout][INFO] 2019-06-06 08:47:57,097: 
+Class: 0x1  ID: 0x6  Len:52 [0x34]
+000: b5 62 01 06 34 00 18 96  fd 17 77 ce 04 00 08 08 
+010: 03 dd 8e b5 9d ef 77 61  89 e7 ba 19 f8 17 cd 03 
+020: 00 00 fa ff ff ff f4 ff  ff ff 04 00 00 00 47 00 
+030: 00 00 da 00 02 0a 12 19  b6 03 fc 71 
+[rosout][INFO] 2019-06-06 08:47:57,098: !!!NEW CYCLE!!!
+[rosout][INFO] 2019-06-06 08:47:57,099: {'week': 2056}
+[rospy.internal][INFO] 2019-06-06 08:47:57,110: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2019-06-06 08:47:57,111: signal-2
+[rosout][INFO] 2019-06-06 08:47:57,113: 
+Class: 0x1  ID: 0x7  Len:92 [0x5c]
+000: b5 62 01 07 5c 00 18 96  fd 17 e3 07 06 06 0f 2f 
+010: 39 37 12 00 00 00 79 ce  04 00 03 01 ea 0a 4f da 
+020: 33 b6 6b 5e 72 17 06 81  00 00 0e f3 00 00 a6 14 
+030: 00 00 ef 1f 00 00 c7 ff  ff ff 12 00 00 00 83 ff 
+040: ff ff 3c 00 00 00 c7 38  03 00 c4 02 00 00 c1 49 
+050: 76 00 da 00 00 00 12 19  26 3b 00 00 00 00 00 00 
+060: 00 00 13 31 
+[rosout][INFO] 2019-06-06 08:47:57,114: {'year': 2019, 'velD': -0.125, 'velE': 0.018000000000000002, 'iTOW': 402495000, 'week': 2056, 'lon': -1238115761, 'hAcc': 5.2860000000000005, 'vAcc': 8.175, 'lat': 393371243, 'sAcc': 0.708, 'velN': -0.057, 'fixType': 3}
+[rosout][INFO] 2019-06-06 08:47:57,117: 
+Class: 0x1  ID: 0x3  Len:16 [0x10]
+000: b5 62 01 03 10 00 18 96  fd 17 03 dd 00 08 71 4f 
+010: 06 00 99 5d 53 05 d2 9e 
+[rosout][INFO] 2019-06-06 08:47:57,118: {'diffSoln': 0, 'diffCorr': 0, 'gpsFix': 3}
+[rosout][INFO] 2019-06-06 08:47:57,120: 
+Class: 0x1  ID: 0x4  Len:18 [0x12]
+000: b5 62 01 04 12 00 18 96  fd 17 fa 00 da 00 7b 00 
+010: c0 00 68 00 59 00 35 00  de 91 
+[rosout][INFO] 2019-06-06 08:47:57,121: {'year': 2019, 'velD': -0.125, 'hDop': 1.04, 'velE': 0.018000000000000002, 'iTOW': 402495000, 'week': 2056, 'lon': -1238115761, 'hAcc': 5.2860000000000005, 'vAcc': 8.175, 'lat': 393371243, 'sAcc': 0.708, 'vDop': 1.92, 'velN': -0.057, 'fixType': 3}
+[rosout][INFO] 2019-06-06 08:47:57,125: 
+Class: 0x1  ID: 0x3b  Len:40 [0x28]
+000: b5 62 01 3b 28 00 00 00  00 00 18 96 fd 17 00 00 
+010: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00 
+020: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 26 18 
+[rosout][INFO] 2019-06-06 08:47:57,126: {'valid': 0, 'meanAcc': 0.0, 'active': 0}
+[rosout][INFO] 2019-06-06 08:47:57,132: 
+{'year': 2019, 'alt': 62.2, 'velD': -0.125, 'hDop': 1.04, 'velE': 0.018000000000000002, 'iTOW': 402495000, 'week': 2056, 'lon': -1238115761, 'hAcc': 5.2860000000000005, 'sats': 11, 'vAcc': 8.175, 'lat': 393371243, 'sAcc': 0.708, 'vDop': 1.92, 'velN': -0.057, 'fixType': 3}
+[rosout][INFO] 2019-06-06 08:47:57,133: {'year': 2019, 'alt': 62.2, 'velD': -0.125, 'hDop': 1.04, 'velE': 0.018000000000000002, 'iTOW': 402495000, 'week': 2056, 'lon': -1238115761, 'hAcc': 5.2860000000000005, 'sats': 11, 'vAcc': 8.175, 'lat': 393371243, 'sAcc': 0.708, 'vDop': 1.92, 'velN': -0.057, 'fixType': 3}
+[rosout][INFO] 2019-06-06 08:47:57,134: Wrote GPS_INPUT message
+
+[rosout][WARNING] 2019-06-06 08:48:05,811: Exiting  NTrip client
+[rosout][WARNING] 2019-06-06 08:48:07,234: Exiting  UBX device client
+[rospy.core][INFO] 2019-06-06 08:48:12,128: signal_shutdown [signal-15]
+[rospy.core][INFO] 2019-06-06 08:48:12,289: signal_shutdown [atexit]

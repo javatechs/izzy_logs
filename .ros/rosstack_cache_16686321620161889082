@@ -26,8 +26,8 @@
 /opt/ros/kinetic/share/desktop
 /opt/ros/kinetic/share/desktop_full
 /opt/ros/kinetic/share/laser_pipeline
-/opt/ros/kinetic/share/rosjava
 /opt/ros/kinetic/share/viz
 /opt/ros/kinetic/share/rqt_robot_plugins
 /opt/ros/kinetic/share/perception_pcl
 /opt/ros/kinetic/share/common_tutorials
+/home/robot/catkin_ws/src/ros_arduino_bridge/ros_arduino_bridge

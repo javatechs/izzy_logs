@@ -1,0 +1,1990 @@
+[rospy.client][INFO] 2019-06-06 09:02:05,248: init_node, name[/gnss_node], pid[13511]
+[xmlrpc][INFO] 2019-06-06 09:02:05,249: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-06-06 09:02:05,251: Started XML-RPC server [http://10.0.0.166:41252/]
+[rospy.init][INFO] 2019-06-06 09:02:05,253: ROS Slave URI: [http://10.0.0.166:41252/]
+[rospy.impl.masterslave][INFO] 2019-06-06 09:02:05,254: _ready: http://10.0.0.166:41252/
+[rospy.registration][INFO] 2019-06-06 09:02:05,261: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2019-06-06 09:02:05,263: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2019-06-06 09:02:05,356: registered with master
+[rospy.rosout][INFO] 2019-06-06 09:02:05,357: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-06-06 09:02:05,380: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-06-06 09:02:05,389: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][WARNING] 2019-06-06 09:02:05,469: 
+[rosout][ERROR] 2019-06-06 09:02:05,471: stream_name_data: {'RTCM1': {'queue': deque([], maxlen=10), 'type': 'rtcm', 'lock': <unlocked _thread.lock object at 0x7f8058ac7378>}, 'GNSS': {'queue': deque([], maxlen=10), 'type': 'rtcm', 'lock': <unlocked _thread.lock object at 0x7f8058ac73c8>}, 'RTCM2': {'queue': deque([], maxlen=10), 'type': 'rtcm', 'lock': <unlocked _thread.lock object at 0x7f8058ac7468>}}
+[rosout][WARNING] 2019-06-06 09:02:05,472: 
+[rosout][ERROR] 2019-06-06 09:02:05,473: stream_queues: {'STM3/QUEUE2': {'rw': 'read', 'name': 'GNSS'}, 'STM2/QUEUE2': {'rw': 'write', 'name': 'GNSS'}, 'STM1/QUEUE2': {'rw': 'write', 'name': 'RTCM2'}, 'STM3/QUEUE1': {'rw': 'read', 'name': 'RTCM2'}, 'STM1/QUEUE1': {'rw': 'write', 'name': 'RTCM1'}, 'STM2/QUEUE1': {'rw': 'read', 'name': 'RTCM1'}}
+[rosout][WARNING] 2019-06-06 09:02:05,473: 
+[rosout][ERROR] 2019-06-06 09:02:05,474: queues: {'/STM1/QUEUE1': {'rw': 'write', 'queue': deque([], maxlen=10), 'name': 'RTCM1', 'type': 'rtcm', 'lock': <unlocked _thread.lock object at 0x7f8058ac72b0>}, '/STM1/QUEUE2': {'rw': 'write', 'queue': deque([], maxlen=10), 'name': 'RTCM2', 'type': 'rtcm', 'lock': <unlocked _thread.lock object at 0x7f8058ac7300>}, '/STM2/QUEUE1': {'rw': 'read', 'queue': deque([], maxlen=10), 'name': 'RTCM1', 'type': 'rtcm', 'lock': <unlocked _thread.lock object at 0x7f8058ac7418>}, '/STM2/QUEUE2': {'rw': 'write', 'queue': deque([], maxlen=10), 'name': 'GNSS', 'type': 'nmea', 'lock': <unlocked _thread.lock object at 0x7f8058ac7440>}}
+[rosout][WARNING] 2019-06-06 09:02:05,492: Starting NTrip client [/STM1]
+[rosout][WARNING] 2019-06-06 09:02:05,517: Starting UBX device client [/STM2]
+[rosout][ERROR] 2019-06-06 09:02:05,551: Exception <class 'ConnectionRefusedError'> on stream: /STM1
+[rosout][INFO] 2019-06-06 09:02:05,560: Serial connected: /dev/c94-m8p
+[rosout][WARNING] 2019-06-06 09:02:05,565: Starting IP Listener connects UBlox device to client, e.g. u-center. [/STM4]
+[rosout][WARNING] 2019-06-06 09:02:05,588: {'class': '06', 'msgId': 5, 'id': '01', 'msgClass': 245, 'ioPorts': [0, 0, 0, 0, 0, 0], 'desc': 'Disable U-blox RTCM 1005'}
+[rospy.internal][INFO] 2019-06-06 09:02:05,593: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2019-06-06 09:02:05,595: Sent Disable U-blox RTCM 1005
+[rosout][WARNING] 2019-06-06 09:02:05,605: {'class': '06', 'msgId': 6, 'id': '01', 'msgClass': 1, 'ioPorts': [0, 0, 0, 1, 0, 0], 'desc': 'Enable U-blox NAV-SOL'}
+[rosout][INFO] 2019-06-06 09:02:05,608: Sent Enable U-blox NAV-SOL
+[rosout][WARNING] 2019-06-06 09:02:05,617: Listening for connection on port: 2104
+[rosout][WARNING] 2019-06-06 09:02:05,621: {'class': '06', 'msgId': 7, 'id': '01', 'msgClass': 1, 'ioPorts': [0, 0, 0, 1, 0, 0], 'desc': 'Enable U-blox NAV-PVT'}
+[rosout][INFO] 2019-06-06 09:02:05,623: Sent Enable U-blox NAV-PVT
+[rosout][WARNING] 2019-06-06 09:02:05,629: {'class': '06', 'msgId': 4, 'id': '01', 'msgClass': 1, 'ioPorts': [0, 0, 0, 1, 0, 0], 'desc': 'Enable U-blox NAV-DOP'}
+[rosout][INFO] 2019-06-06 09:02:05,631: Sent Enable U-blox NAV-DOP
+[rosout][WARNING] 2019-06-06 09:02:05,637: {'class': '06', 'msgId': 3, 'id': '01', 'msgClass': 1, 'ioPorts': [0, 0, 0, 1, 0, 0], 'desc': 'Enable U-blox NAV-STATUS'}
+[rosout][INFO] 2019-06-06 09:02:05,639: Sent Enable U-blox NAV-STATUS
+[rosout][WARNING] 2019-06-06 09:02:05,645: {'class': '06', 'msgId': 59, 'id': '01', 'msgClass': 1, 'ioPorts': [0, 0, 0, 1, 0, 0], 'desc': 'Enable U-blox NAV-SVIN'}
+[rosout][INFO] 2019-06-06 09:02:05,646: Sent Enable U-blox NAV-SVIN
+[rosout][WARNING] 2019-06-06 09:02:05,652: {'class': '06', 'msgId': 0, 'id': '01', 'msgClass': 240, 'ioPorts': [0, 0, 0, 1, 0, 0], 'desc': 'Enable GGA'}
+[rosout][INFO] 2019-06-06 09:02:05,654: Sent Enable GGA
+[rosout][WARNING] 2019-06-06 09:02:05,660: {'class': '06', 'msgId': 1, 'id': '01', 'msgClass': 240, 'ioPorts': [0, 0, 0, 0, 0, 0], 'desc': 'Disable GLL'}
+[rosout][INFO] 2019-06-06 09:02:05,662: Sent Disable GLL
+[rosout][WARNING] 2019-06-06 09:02:05,667: {'class': '06', 'msgId': 2, 'id': '01', 'msgClass': 240, 'ioPorts': [0, 0, 0, 0, 0, 0], 'desc': 'Disable GSA'}
+[rosout][INFO] 2019-06-06 09:02:05,669: Sent Disable GSA
+[rosout][WARNING] 2019-06-06 09:02:05,675: {'class': '06', 'msgId': 3, 'id': '01', 'msgClass': 240, 'ioPorts': [0, 0, 0, 0, 0, 0], 'desc': 'Disable GSV'}
+[rosout][INFO] 2019-06-06 09:02:05,677: Sent Disable GSV
+[rosout][WARNING] 2019-06-06 09:02:05,682: {'class': '06', 'msgId': 4, 'id': '01', 'msgClass': 240, 'ioPorts': [0, 0, 0, 0, 0, 0], 'desc': 'Disable RMC'}
+[rosout][INFO] 2019-06-06 09:02:05,684: Sent Disable RMC
+[rosout][WARNING] 2019-06-06 09:02:05,690: {'class': '06', 'msgId': 5, 'id': '01', 'msgClass': 240, 'ioPorts': [0, 0, 0, 0, 0, 0], 'desc': 'Disable VTG'}
+[rosout][INFO] 2019-06-06 09:02:05,692: Sent Disable VTG
+[rosout][WARNING] 2019-06-06 09:02:05,698: {'class': '06', 'msgId': 10, 'id': '01', 'msgClass': 240, 'ioPorts': [0, 0, 0, 0, 0, 0], 'desc': 'Disable DTM'}
+[rosout][INFO] 2019-06-06 09:02:05,699: Sent Disable DTM
+[rosout][WARNING] 2019-06-06 09:02:05,706: {'class': '06', 'msgId': 13, 'id': '01', 'msgClass': 240, 'ioPorts': [0, 0, 0, 0, 0, 0], 'desc': 'Disable GNS'}
+[rosout][INFO] 2019-06-06 09:02:05,707: Sent Disable GNS
+[rosout][WARNING] 2019-06-06 09:02:05,713: {'class': '06', 'msgId': 6, 'id': '01', 'msgClass': 240, 'ioPorts': [0, 0, 0, 0, 0, 0], 'desc': 'Disable GRS'}
+[rosout][INFO] 2019-06-06 09:02:05,715: Sent Disable GRS
+[rosout][WARNING] 2019-06-06 09:02:05,721: {'class': '06', 'msgId': 7, 'id': '01', 'msgClass': 240, 'ioPorts': [0, 0, 0, 0, 0, 0], 'desc': 'Disable GST'}
+[rosout][INFO] 2019-06-06 09:02:05,722: Sent Disable GST
+[rosout][WARNING] 2019-06-06 09:02:05,736: {'class': '06', 'msgId': 8, 'id': '01', 'msgClass': 240, 'ioPorts': [0, 0, 0, 0, 0, 0], 'desc': 'Disable ZDA'}
+[rosout][INFO] 2019-06-06 09:02:05,738: Sent Disable ZDA
+[rosout][WARNING] 2019-06-06 09:02:05,744: {'class': '06', 'msgId': 9, 'id': '01', 'msgClass': 240, 'ioPorts': [0, 0, 0, 0, 0, 0], 'desc': 'Disable GBS'}
+[rosout][INFO] 2019-06-06 09:02:05,746: Sent Disable GBS
+[rosout][WARNING] 2019-06-06 09:02:05,751: {'class': '06', 'msgId': 15, 'id': '01', 'msgClass': 240, 'ioPorts': [0, 0, 0, 0, 0, 0], 'desc': 'Disable VLW'}
+[rosout][INFO] 2019-06-06 09:02:05,753: Sent Disable VLW
+[rosout][WARNING] 2019-06-06 09:02:05,760: {'class': '06', 'msgId': 5, 'id': '01', 'msgClass': 245, 'ioPorts': [0, 0, 0, 0, 0, 0], 'desc': 'F5-05 RTCM 1005'}
+[rosout][INFO] 2019-06-06 09:02:05,761: Sent F5-05 RTCM 1005
+[rosout][WARNING] 2019-06-06 09:02:05,767: {'class': '06', 'msgId': 77, 'id': '01', 'msgClass': 245, 'ioPorts': [0, 0, 0, 0, 0, 0], 'desc': 'F5-4D RTCM 1077'}
+[rosout][INFO] 2019-06-06 09:02:05,769: Sent F5-4D RTCM 1077
+[rosout][WARNING] 2019-06-06 09:02:05,775: {'class': '06', 'msgId': 87, 'id': '01', 'msgClass': 245, 'ioPorts': [0, 0, 0, 0, 0, 0], 'desc': 'F5-57 RTCM 1087'}
+[rosout][INFO] 2019-06-06 09:02:05,777: Sent F5-57 RTCM 1087
+[rosout][WARNING] 2019-06-06 09:02:05,783: {'class': '06', 'msgId': 230, 'id': '01', 'msgClass': 245, 'ioPorts': [0, 0, 0, 0, 0, 0], 'desc': 'F5-E6 RTCM 1230'}
+[rosout][INFO] 2019-06-06 09:02:05,785: Sent F5-E6 RTCM 1230
+[rosout][WARNING] 2019-06-06 09:02:05,792: {'class': '06', 'id': '00', 'prot_out': 0, 'rate': 19200, 'desc': 'UBX-CFG-PRT', 'prot_in': 32}
+[rosout][INFO] 2019-06-06 09:02:05,794: Sent UBX-CFG-PRT
+[rosout][INFO] 2019-06-06 09:02:05,799: Payload missing
+[rosout][INFO] 2019-06-06 09:02:05,805: Payload missing
+[rosout][INFO] 2019-06-06 09:02:05,810: Payload missing
+[rosout][INFO] 2019-06-06 09:02:05,815: Payload missing
+[rosout][INFO] 2019-06-06 09:02:05,820: Payload missing
+[rosout][INFO] 2019-06-06 09:02:05,825: Payload missing
+[rosout][INFO] 2019-06-06 09:02:05,830: Payload missing
+[rosout][INFO] 2019-06-06 09:02:05,836: Payload missing
+[rosout][INFO] 2019-06-06 09:02:05,842: Payload missing
+[rosout][INFO] 2019-06-06 09:02:05,847: Payload missing
+[rosout][INFO] 2019-06-06 09:02:05,853: Payload missing
+[rosout][INFO] 2019-06-06 09:02:05,858: Payload missing
+[rosout][INFO] 2019-06-06 09:02:05,863: Payload missing
+[rosout][INFO] 2019-06-06 09:02:05,868: Payload missing
+[rosout][INFO] 2019-06-06 09:02:05,874: Payload missing
+[rosout][INFO] 2019-06-06 09:02:05,879: Payload missing
+[rosout][INFO] 2019-06-06 09:02:05,884: Payload missing
+[rosout][INFO] 2019-06-06 09:02:05,890: Payload missing
+[rosout][INFO] 2019-06-06 09:02:05,896: Payload missing
+[rosout][INFO] 2019-06-06 09:02:05,902: Payload missing
+[rosout][INFO] 2019-06-06 09:02:05,906: Payload missing
+[rosout][INFO] 2019-06-06 09:02:05,911: Payload missing
+[rosout][INFO] 2019-06-06 09:02:05,916: Payload missing
+[rosout][INFO] 2019-06-06 09:02:05,921: Payload missing
+[rosout][INFO] 2019-06-06 09:02:05,923: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[rosout][INFO] 2019-06-06 09:02:05,924: ACK. Class: 0x6  Message ID: 0x1
+[rosout][INFO] 2019-06-06 09:02:05,927: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[rosout][INFO] 2019-06-06 09:02:05,928: ACK. Class: 0x6  Message ID: 0x1
+[rosout][INFO] 2019-06-06 09:02:05,930: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[rosout][INFO] 2019-06-06 09:02:05,931: ACK. Class: 0x6  Message ID: 0x1
+[rosout][INFO] 2019-06-06 09:02:05,933: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[rosout][INFO] 2019-06-06 09:02:05,934: ACK. Class: 0x6  Message ID: 0x1
+[rosout][INFO] 2019-06-06 09:02:05,936: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[rosout][INFO] 2019-06-06 09:02:05,937: ACK. Class: 0x6  Message ID: 0x1
+[rosout][INFO] 2019-06-06 09:02:05,939: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[rosout][INFO] 2019-06-06 09:02:05,940: ACK. Class: 0x6  Message ID: 0x1
+[rosout][INFO] 2019-06-06 09:02:05,942: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[rosout][INFO] 2019-06-06 09:02:05,943: ACK. Class: 0x6  Message ID: 0x1
+[rosout][INFO] 2019-06-06 09:02:05,945: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[rosout][INFO] 2019-06-06 09:02:05,946: ACK. Class: 0x6  Message ID: 0x1
+[rosout][INFO] 2019-06-06 09:02:05,948: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[rosout][INFO] 2019-06-06 09:02:05,949: ACK. Class: 0x6  Message ID: 0x1
+[rosout][INFO] 2019-06-06 09:02:05,951: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[rosout][INFO] 2019-06-06 09:02:05,952: ACK. Class: 0x6  Message ID: 0x1
+[rosout][INFO] 2019-06-06 09:02:05,954: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[rosout][INFO] 2019-06-06 09:02:05,955: ACK. Class: 0x6  Message ID: 0x1
+[rosout][INFO] 2019-06-06 09:02:05,957: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[rosout][INFO] 2019-06-06 09:02:05,958: ACK. Class: 0x6  Message ID: 0x1
+[rosout][INFO] 2019-06-06 09:02:05,961: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[rosout][INFO] 2019-06-06 09:02:05,962: ACK. Class: 0x6  Message ID: 0x1
+[rosout][INFO] 2019-06-06 09:02:05,964: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[rosout][INFO] 2019-06-06 09:02:05,965: ACK. Class: 0x6  Message ID: 0x1
+[rosout][INFO] 2019-06-06 09:02:05,967: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[rosout][INFO] 2019-06-06 09:02:05,968: ACK. Class: 0x6  Message ID: 0x1
+[rosout][INFO] 2019-06-06 09:02:05,970: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[rosout][INFO] 2019-06-06 09:02:05,971: ACK. Class: 0x6  Message ID: 0x1
+[rosout][INFO] 2019-06-06 09:02:05,973: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[rosout][INFO] 2019-06-06 09:02:05,974: ACK. Class: 0x6  Message ID: 0x1
+[rosout][INFO] 2019-06-06 09:02:05,976: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[rosout][INFO] 2019-06-06 09:02:05,977: ACK. Class: 0x6  Message ID: 0x1
+[rosout][INFO] 2019-06-06 09:02:05,979: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[rosout][INFO] 2019-06-06 09:02:05,980: ACK. Class: 0x6  Message ID: 0x1
+[rosout][INFO] 2019-06-06 09:02:05,982: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[rosout][INFO] 2019-06-06 09:02:05,983: ACK. Class: 0x6  Message ID: 0x1
+[rosout][INFO] 2019-06-06 09:02:05,985: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[rosout][INFO] 2019-06-06 09:02:05,987: ACK. Class: 0x6  Message ID: 0x1
+[rosout][INFO] 2019-06-06 09:02:05,989: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[rosout][INFO] 2019-06-06 09:02:05,990: ACK. Class: 0x6  Message ID: 0x1
+[rosout][INFO] 2019-06-06 09:02:05,992: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 01  0f 38 
+[rosout][INFO] 2019-06-06 09:02:05,993: ACK. Class: 0x6  Message ID: 0x1
+[rosout][INFO] 2019-06-06 09:02:05,995: 
+Class: 0x5  ID: 0x1  Len:2 [0x2]
+000: b5 62 05 01 02 00 06 00  0e 37 
+[rosout][INFO] 2019-06-06 09:02:05,996: ACK. Class: 0x6  Message ID: 0x0
+[rosout][INFO] 2019-06-06 09:02:06,086: 
+Class: 0x1  ID: 0x6  Len:52 [0x34]
+000: b5 62 01 06 34 00 80 8a  0a 18 f8 25 07 00 08 08 
+010: 03 dd ed b3 9d ef 53 63  89 e7 40 1a f8 17 74 04 
+020: 00 00 e5 ff ff ff e3 ff  ff ff 02 00 00 00 45 00 
+030: 00 00 a9 00 02 0b 12 19  b6 03 51 92 
+[rosout][INFO] 2019-06-06 09:02:06,087: !!!NEW CYCLE!!!
+[rosout][INFO] 2019-06-06 09:02:06,088: {'week': 2056}
+[rosout][INFO] 2019-06-06 09:02:06,097: 
+Class: 0x1  ID: 0x7  Len:92 [0x5c]
+000: b5 62 01 07 5c 00 80 8a  0a 18 e3 07 06 06 10 02 
+010: 06 37 13 00 00 00 f9 25  07 00 03 01 ea 0b 8a d7 
+020: 33 b6 26 5f 72 17 5c 7f  00 00 63 f1 00 00 ef 1b 
+030: 00 00 ae 22 00 00 15 ff  ff ff c2 ff ff ff c7 fe 
+040: ff ff f3 00 00 00 c7 38  03 00 b6 02 00 00 16 45 
+050: 99 00 a9 00 00 00 12 19  26 3b 00 00 00 00 00 00 
+060: 00 00 d1 14 
+[rosout][INFO] 2019-06-06 09:02:06,098: {'hAcc': 7.151, 'fixType': 3, 'lon': -1238116470, 'iTOW': 403344000, 'week': 2056, 'velE': -0.062, 'velD': -0.313, 'sAcc': 0.6940000000000001, 'vAcc': 8.878, 'year': 2019, 'lat': 393371430, 'velN': -0.23500000000000001}
+[rosout][INFO] 2019-06-06 09:02:06,102: 
+Class: 0x1  ID: 0x3  Len:16 [0x10]
+000: b5 62 01 03 10 00 80 8a  0a 18 03 dd 00 08 71 4f 
+010: 06 00 01 52 60 05 a6 c6 
+[rosout][INFO] 2019-06-06 09:02:06,103: {'gpsFix': 3, 'diffCorr': 0, 'diffSoln': 0}
+[rosout][INFO] 2019-06-06 09:02:06,107: 
+Class: 0x1  ID: 0x4  Len:18 [0x12]
+000: b5 62 01 04 12 00 80 8a  0a 18 be 00 a9 00 57 00 
+010: 97 00 4c 00 34 00 38 00  50 7a 
+[rosout][INFO] 2019-06-06 09:02:06,108: {'hAcc': 7.151, 'fixType': 3, 'lon': -1238116470, 'iTOW': 403344000, 'week': 2056, 'vDop': 1.51, 'velE': -0.062, 'velD': -0.313, 'sAcc': 0.6940000000000001, 'vAcc': 8.878, 'year': 2019, 'hDop': 0.76, 'lat': 393371430, 'velN': -0.23500000000000001}
+[rosout][INFO] 2019-06-06 09:02:06,113: 
+Class: 0x1  ID: 0x3b  Len:40 [0x28]
+000: b5 62 01 3b 28 00 00 00  00 00 80 8a 0a 18 00 00 
+010: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00 
+020: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 90 ef 
+[rosout][INFO] 2019-06-06 09:02:06,114: {'valid': 0, 'meanAcc': 0.0, 'active': 0}
+[rosout][INFO] 2019-06-06 09:02:06,121: 
+{'hAcc': 7.151, 'fixType': 3, 'lon': -1238116470, 'iTOW': 403344000, 'week': 2056, 'vDop': 1.51, 'velE': -0.062, 'velD': -0.313, 'sAcc': 0.6940000000000001, 'sats': 11, 'vAcc': 8.878, 'year': 2019, 'hDop': 0.76, 'alt': 61.8, 'lat': 393371430, 'velN': -0.23500000000000001}
+[rosout][INFO] 2019-06-06 09:02:06,122: {'hAcc': 7.151, 'fixType': 3, 'lon': -1238116470, 'iTOW': 403344000, 'week': 2056, 'vDop': 1.51, 'velE': -0.062, 'velD': -0.313, 'sAcc': 0.6940000000000001, 'sats': 11, 'vAcc': 8.878, 'year': 2019, 'hDop': 0.76, 'alt': 61.8, 'lat': 393371430, 'velN': -0.23500000000000001}
+[rosout][INFO] 2019-06-06 09:02:06,124: Wrote GPS_INPUT message
+
+[rosout][INFO] 2019-06-06 09:02:07,098: 
+Class: 0x1  ID: 0x6  Len:52 [0x34]
+000: b5 62 01 06 34 00 68 8e  0a 18 ad 26 07 00 08 08 
+010: 03 dd ca b3 9d ef 24 63  89 e7 56 1a f8 17 82 04 
+020: 00 00 e3 ff ff ff eb ff  ff ff 0a 00 00 00 49 00 
+030: 00 00 a9 00 02 0b 12 19  b6 03 d7 f1 
+[rosout][INFO] 2019-06-06 09:02:07,099: !!!NEW CYCLE!!!
+[rosout][INFO] 2019-06-06 09:02:07,100: {'week': 2056}
+[rosout][INFO] 2019-06-06 09:02:07,109: 
+Class: 0x1  ID: 0x7  Len:92 [0x5c]
+000: b5 62 01 07 5c 00 68 8e  0a 18 e3 07 06 06 10 02 
+010: 07 37 14 00 00 00 af 26  07 00 03 01 ea 0b 87 d7 
+020: 33 b6 14 5f 72 17 b4 81  00 00 bb f3 00 00 5a 1c 
+030: 00 00 0b 23 00 00 7d ff  ff ff 83 ff ff ff c0 fe 
+040: ff ff b5 00 00 00 c7 38  03 00 d5 02 00 00 c6 51 
+050: 99 00 a9 00 00 00 12 19  26 3b 00 00 00 00 00 00 
+060: 00 00 9e b3 
+[rosout][INFO] 2019-06-06 09:02:07,110: {'hAcc': 7.258, 'fixType': 3, 'lon': -1238116473, 'iTOW': 403345000, 'week': 2056, 'velE': -0.125, 'velD': -0.32, 'sAcc': 0.725, 'vAcc': 8.971, 'year': 2019, 'lat': 393371412, 'velN': -0.131}
+[rosout][INFO] 2019-06-06 09:02:07,113: 
+Class: 0x1  ID: 0x3  Len:16 [0x10]
+000: b5 62 01 03 10 00 68 8e  0a 18 03 dd 00 08 71 4f 
+010: 06 00 e9 55 60 05 7d 2b 
+[rosout][INFO] 2019-06-06 09:02:07,114: {'gpsFix': 3, 'diffCorr': 0, 'diffSoln': 0}
+[rosout][INFO] 2019-06-06 09:02:07,117: 
+Class: 0x1  ID: 0x4  Len:18 [0x12]
+000: b5 62 01 04 12 00 68 8e  0a 18 be 00 a9 00 57 00 
+010: 97 00 4c 00 34 00 38 00  3c 0e 
+[rosout][INFO] 2019-06-06 09:02:07,119: {'hAcc': 7.258, 'fixType': 3, 'lon': -1238116473, 'iTOW': 403345000, 'week': 2056, 'vDop': 1.51, 'velE': -0.125, 'velD': -0.32, 'sAcc': 0.725, 'vAcc': 8.971, 'year': 2019, 'hDop': 0.76, 'lat': 393371412, 'velN': -0.131}
+[rosout][INFO] 2019-06-06 09:02:07,124: 
+Class: 0x1  ID: 0x3b  Len:40 [0x28]
+000: b5 62 01 3b 28 00 00 00  00 00 68 8e 0a 18 00 00 
+010: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00 
+020: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 7c 1b 
+[rosout][INFO] 2019-06-06 09:02:07,125: {'valid': 0, 'meanAcc': 0.0, 'active': 0}
+[rosout][INFO] 2019-06-06 09:02:07,131: 
+{'hAcc': 7.258, 'fixType': 3, 'lon': -1238116473, 'iTOW': 403345000, 'week': 2056, 'vDop': 1.51, 'velE': -0.125, 'velD': -0.32, 'sAcc': 0.725, 'sats': 11, 'vAcc': 8.971, 'year': 2019, 'hDop': 0.76, 'alt': 62.4, 'lat': 393371412, 'velN': -0.131}
+[rosout][INFO] 2019-06-06 09:02:07,133: {'hAcc': 7.258, 'fixType': 3, 'lon': -1238116473, 'iTOW': 403345000, 'week': 2056, 'vDop': 1.51, 'velE': -0.125, 'velD': -0.32, 'sAcc': 0.725, 'sats': 11, 'vAcc': 8.971, 'year': 2019, 'hDop': 0.76, 'alt': 62.4, 'lat': 393371412, 'velN': -0.131}
+[rosout][INFO] 2019-06-06 09:02:07,134: Wrote GPS_INPUT message
+
+[rosout][INFO] 2019-06-06 09:02:08,086: 
+Class: 0x1  ID: 0x6  Len:52 [0x34]
+000: b5 62 01 06 34 00 50 92  0a 18 66 27 07 00 08 08 
+010: 03 dd 2e b4 9d ef 32 63  89 e7 4c 1a f8 17 87 04 
+020: 00 00 08 00 00 00 e9 ff  ff ff 09 00 00 00 48 00 
+030: 00 00 a9 00 02 0b 12 19  b6 03 0f 3d 
+[rosout][INFO] 2019-06-06 09:02:08,088: !!!NEW CYCLE!!!
+[rosout][INFO] 2019-06-06 09:02:08,089: {'week': 2056}
+[rosout][INFO] 2019-06-06 09:02:08,100: 
+Class: 0x1  ID: 0x7  Len:92 [0x5c]
+000: b5 62 01 07 5c 00 50 92  0a 18 e3 07 06 06 10 02 
+010: 08 37 14 00 00 00 67 27  07 00 03 01 ea 0b dd d7 
+020: 33 b6 34 5f 72 17 69 7f  00 00 70 f1 00 00 86 1c 
+030: 00 00 27 23 00 00 e3 ff  ff ff c3 00 00 00 55 ff 
+040: ff ff c6 00 00 00 c7 38  03 00 cd 02 00 00 50 5e 
+050: 99 00 a9 00 00 00 12 19  26 3b 00 00 00 00 00 00 
+060: 00 00 47 14 
+[rosout][INFO] 2019-06-06 09:02:08,101: {'hAcc': 7.3020000000000005, 'fixType': 3, 'lon': -1238116387, 'iTOW': 403346000, 'week': 2056, 'velE': 0.195, 'velD': -0.171, 'sAcc': 0.717, 'vAcc': 8.999, 'year': 2019, 'lat': 393371444, 'velN': -0.029}
+[rosout][INFO] 2019-06-06 09:02:08,104: 
+Class: 0x1  ID: 0x3  Len:16 [0x10]
+000: b5 62 01 03 10 00 50 92  0a 18 03 dd 00 08 71 4f 
+010: 06 00 d1 59 60 05 55 93 
+[rosout][INFO] 2019-06-06 09:02:08,105: {'gpsFix': 3, 'diffCorr': 0, 'diffSoln': 0}
+[rosout][INFO] 2019-06-06 09:02:08,108: 
+Class: 0x1  ID: 0x4  Len:18 [0x12]
+000: b5 62 01 04 12 00 50 92  0a 18 be 00 a9 00 57 00 
+010: 97 00 4c 00 34 00 38 00  28 a2 
+[rosout][INFO] 2019-06-06 09:02:08,110: {'hAcc': 7.3020000000000005, 'fixType': 3, 'lon': -1238116387, 'iTOW': 403346000, 'week': 2056, 'vDop': 1.51, 'velE': 0.195, 'velD': -0.171, 'sAcc': 0.717, 'vAcc': 8.999, 'year': 2019, 'hDop': 0.76, 'lat': 393371444, 'velN': -0.029}
+[rosout][INFO] 2019-06-06 09:02:08,115: 
+Class: 0x1  ID: 0x3b  Len:40 [0x28]
+000: b5 62 01 3b 28 00 00 00  00 00 50 92 0a 18 00 00 
+010: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00 
+020: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 68 47 
+[rosout][INFO] 2019-06-06 09:02:08,116: {'valid': 0, 'meanAcc': 0.0, 'active': 0}
+[rosout][INFO] 2019-06-06 09:02:08,122: 
+{'hAcc': 7.3020000000000005, 'fixType': 3, 'lon': -1238116387, 'iTOW': 403346000, 'week': 2056, 'vDop': 1.51, 'velE': 0.195, 'velD': -0.171, 'sAcc': 0.717, 'sats': 11, 'vAcc': 8.999, 'year': 2019, 'hDop': 0.76, 'alt': 61.8, 'lat': 393371444, 'velN': -0.029}
+[rosout][INFO] 2019-06-06 09:02:08,124: {'hAcc': 7.3020000000000005, 'fixType': 3, 'lon': -1238116387, 'iTOW': 403346000, 'week': 2056, 'vDop': 1.51, 'velE': 0.195, 'velD': -0.171, 'sAcc': 0.717, 'sats': 11, 'vAcc': 8.999, 'year': 2019, 'hDop': 0.76, 'alt': 61.8, 'lat': 393371444, 'velN': -0.029}
+[rosout][INFO] 2019-06-06 09:02:08,125: Wrote GPS_INPUT message
+
+[rosout][INFO] 2019-06-06 09:02:09,092: 
+Class: 0x1  ID: 0x6  Len:52 [0x34]
+000: b5 62 01 06 34 00 38 96  0a 18 1e 28 07 00 08 08 
+010: 03 dd 74 b4 9d ef 3f 63  89 e7 43 1a f8 17 89 04 
+020: 00 00 09 00 00 00 fa ff  ff ff 07 00 00 00 48 00 
+030: 00 00 a9 00 02 0b 12 19  b6 03 10 00 
+[rosout][INFO] 2019-06-06 09:02:09,093: !!!NEW CYCLE!!!
+[rosout][INFO] 2019-06-06 09:02:09,094: {'week': 2056}
+[rosout][INFO] 2019-06-06 09:02:09,103: 
+Class: 0x1  ID: 0x7  Len:92 [0x5c]
+000: b5 62 01 07 5c 00 38 96  0a 18 e3 07 06 06 10 02 
+010: 09 37 14 00 00 00 20 28  07 00 03 01 ea 0b 18 d8 
+020: 33 b6 4a 5f 72 17 b4 7d  00 00 bc ef 00 00 95 1c 
+030: 00 00 34 23 00 00 32 00  00 00 72 00 00 00 d6 ff 
+040: ff ff 7c 00 00 00 c7 38  03 00 d4 02 00 00 fa 6a 
+050: 99 00 a9 00 00 00 12 19  26 3b 00 00 00 00 00 00 
+060: 00 00 e4 c6 
+[rosout][INFO] 2019-06-06 09:02:09,105: {'hAcc': 7.317, 'fixType': 3, 'lon': -1238116328, 'iTOW': 403347000, 'week': 2056, 'velE': 0.114, 'velD': -0.042, 'sAcc': 0.724, 'vAcc': 9.012, 'year': 2019, 'lat': 393371466, 'velN': 0.05}
+[rosout][INFO] 2019-06-06 09:02:09,108: 
+Class: 0x1  ID: 0x3  Len:16 [0x10]
+000: b5 62 01 03 10 00 38 96  0a 18 03 dd 00 08 71 4f 
+010: 06 00 b9 5d 60 05 2d fb 
+[rosout][INFO] 2019-06-06 09:02:09,109: {'gpsFix': 3, 'diffCorr': 0, 'diffSoln': 0}
+[rosout][INFO] 2019-06-06 09:02:09,113: 
+Class: 0x1  ID: 0x4  Len:18 [0x12]
+000: b5 62 01 04 12 00 38 96  0a 18 be 00 a9 00 57 00 
+010: 97 00 4c 00 34 00 38 00  14 36 
+[rosout][INFO] 2019-06-06 09:02:09,113: {'hAcc': 7.317, 'fixType': 3, 'lon': -1238116328, 'iTOW': 403347000, 'week': 2056, 'vDop': 1.51, 'velE': 0.114, 'velD': -0.042, 'sAcc': 0.724, 'vAcc': 9.012, 'year': 2019, 'hDop': 0.76, 'lat': 393371466, 'velN': 0.05}
+[rosout][INFO] 2019-06-06 09:02:09,119: 
+Class: 0x1  ID: 0x3b  Len:40 [0x28]
+000: b5 62 01 3b 28 00 00 00  00 00 38 96 0a 18 00 00 
+010: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00 
+020: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 54 73 
+[rosout][INFO] 2019-06-06 09:02:09,120: {'valid': 0, 'meanAcc': 0.0, 'active': 0}
+[rosout][INFO] 2019-06-06 09:02:09,126: 
+{'hAcc': 7.317, 'fixType': 3, 'lon': -1238116328, 'iTOW': 403347000, 'week': 2056, 'vDop': 1.51, 'velE': 0.114, 'velD': -0.042, 'sAcc': 0.724, 'sats': 11, 'vAcc': 9.012, 'year': 2019, 'hDop': 0.76, 'alt': 61.4, 'lat': 393371466, 'velN': 0.05}
+[rosout][INFO] 2019-06-06 09:02:09,127: {'hAcc': 7.317, 'fixType': 3, 'lon': -1238116328, 'iTOW': 403347000, 'week': 2056, 'vDop': 1.51, 'velE': 0.114, 'velD': -0.042, 'sAcc': 0.724, 'sats': 11, 'vAcc': 9.012, 'year': 2019, 'hDop': 0.76, 'alt': 61.4, 'lat': 393371466, 'velN': 0.05}
+[rosout][INFO] 2019-06-06 09:02:09,129: Wrote GPS_INPUT message
+
+[rosout][INFO] 2019-06-06 09:02:10,092: 
+Class: 0x1  ID: 0x6  Len:52 [0x34]
+000: b5 62 01 06 34 00 20 9a  0a 18 d6 28 07 00 08 08 
+010: 03 dd a6 b4 9d ef 3b 63  89 e7 3d 1a f8 17 88 04 
+020: 00 00 12 00 00 00 f6 ff  ff ff 00 00 00 00 50 00 
+030: 00 00 a9 00 02 0b 12 19  b6 03 e1 48 
+[rosout][INFO] 2019-06-06 09:02:10,093: !!!NEW CYCLE!!!
+[rosout][INFO] 2019-06-06 09:02:10,094: {'week': 2056}
+[rosout][INFO] 2019-06-06 09:02:10,103: 
+Class: 0x1  ID: 0x7  Len:92 [0x5c]
+000: b5 62 01 07 5c 00 20 9a  0a 18 e3 07 06 06 10 02 
+010: 0a 37 14 00 00 00 d8 28  07 00 03 01 ea 0b 4b d8 
+020: 33 b6 53 5f 72 17 cc 7c  00 00 d3 ee 00 00 8a 1c 
+030: 00 00 35 23 00 00 0a 00  00 00 cc 00 00 00 10 00 
+040: 00 00 cc 00 00 00 c7 38  03 00 1b 03 00 00 e0 78 
+050: 99 00 a9 00 00 00 12 19  26 3b 00 00 00 00 00 00 
+060: 00 00 e3 f9 
+[rosout][INFO] 2019-06-06 09:02:10,104: {'hAcc': 7.306, 'fixType': 3, 'lon': -1238116277, 'iTOW': 403348000, 'week': 2056, 'velE': 0.20400000000000001, 'velD': 0.016, 'sAcc': 0.795, 'vAcc': 9.013, 'year': 2019, 'lat': 393371475, 'velN': 0.01}
+[rosout][INFO] 2019-06-06 09:02:10,107: 
+Class: 0x1  ID: 0x3  Len:16 [0x10]
+000: b5 62 01 03 10 00 20 9a  0a 18 03 dd 00 08 71 4f 
+010: 06 00 a1 61 60 05 05 63 
+[rosout][INFO] 2019-06-06 09:02:10,108: {'gpsFix': 3, 'diffCorr': 0, 'diffSoln': 0}
+[rosout][INFO] 2019-06-06 09:02:10,111: 
+Class: 0x1  ID: 0x4  Len:18 [0x12]
+000: b5 62 01 04 12 00 20 9a  0a 18 be 00 a9 00 57 00 
+010: 97 00 4c 00 34 00 38 00  00 ca 
+[rosout][INFO] 2019-06-06 09:02:10,112: {'hAcc': 7.306, 'fixType': 3, 'lon': -1238116277, 'iTOW': 403348000, 'week': 2056, 'vDop': 1.51, 'velE': 0.20400000000000001, 'velD': 0.016, 'sAcc': 0.795, 'vAcc': 9.013, 'year': 2019, 'hDop': 0.76, 'lat': 393371475, 'velN': 0.01}
+[rosout][INFO] 2019-06-06 09:02:10,117: 
+Class: 0x1  ID: 0x3b  Len:40 [0x28]
+000: b5 62 01 3b 28 00 00 00  00 00 20 9a 0a 18 00 00 
+010: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00 
+020: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 40 9f 
+[rosout][INFO] 2019-06-06 09:02:10,119: {'valid': 0, 'meanAcc': 0.0, 'active': 0}
+[rosout][INFO] 2019-06-06 09:02:10,125: 
+{'hAcc': 7.306, 'fixType': 3, 'lon': -1238116277, 'iTOW': 403348000, 'week': 2056, 'vDop': 1.51, 'velE': 0.20400000000000001, 'velD': 0.016, 'sAcc': 0.795, 'sats': 11, 'vAcc': 9.013, 'year': 2019, 'hDop': 0.76, 'alt': 61.1, 'lat': 393371475, 'velN': 0.01}
+[rosout][INFO] 2019-06-06 09:02:10,127: {'hAcc': 7.306, 'fixType': 3, 'lon': -1238116277, 'iTOW': 403348000, 'week': 2056, 'vDop': 1.51, 'velE': 0.20400000000000001, 'velD': 0.016, 'sAcc': 0.795, 'sats': 11, 'vAcc': 9.013, 'year': 2019, 'hDop': 0.76, 'alt': 61.1, 'lat': 393371475, 'velN': 0.01}
+[rosout][INFO] 2019-06-06 09:02:10,128: Wrote GPS_INPUT message
+
+[rosout][INFO] 2019-06-06 09:02:11,101: 
+Class: 0x1  ID: 0x6  Len:52 [0x34]
+000: b5 62 01 06 34 00 08 9e  0a 18 8c 29 07 00 08 08 
+010: 03 dd 79 b4 9d ef 25 63  89 e7 42 1a f8 17 86 04 
+020: 00 00 fe ff ff ff 03 00  00 00 ff ff ff ff 48 00 
+030: 00 00 a9 00 02 0b 12 19  b6 03 31 49 
+[rosout][INFO] 2019-06-06 09:02:11,102: !!!NEW CYCLE!!!
+[rosout][INFO] 2019-06-06 09:02:11,103: {'week': 2056}
+[rosout][INFO] 2019-06-06 09:02:11,112: 
+Class: 0x1  ID: 0x7  Len:92 [0x5c]
+000: b5 62 01 07 5c 00 08 9e  0a 18 e3 07 06 06 10 02 
+010: 0b 37 14 00 00 00 8e 29  07 00 03 01 ea 0b 2e d8 
+020: 33 b6 3e 5f 72 17 3a 7e  00 00 42 f0 00 00 6c 1c 
+030: 00 00 2c 23 00 00 fd ff  ff ff df ff ff ff 0e 00 
+040: 00 00 21 00 00 00 c7 38  03 00 d5 02 00 00 8c 85 
+050: 99 00 a9 00 00 00 12 19  26 3b 00 00 00 00 00 00 
+060: 00 00 d4 86 
+[rosout][INFO] 2019-06-06 09:02:11,113: {'hAcc': 7.276, 'fixType': 3, 'lon': -1238116306, 'iTOW': 403349000, 'week': 2056, 'velE': -0.033, 'velD': 0.014, 'sAcc': 0.725, 'vAcc': 9.004, 'year': 2019, 'lat': 393371454, 'velN': -0.003}
+[rosout][INFO] 2019-06-06 09:02:11,116: 
+Class: 0x1  ID: 0x3  Len:16 [0x10]
+000: b5 62 01 03 10 00 08 9e  0a 18 03 dd 00 08 71 4f 
+010: 06 00 89 65 60 05 dd cb 
+[rosout][INFO] 2019-06-06 09:02:11,117: {'gpsFix': 3, 'diffCorr': 0, 'diffSoln': 0}
+[rosout][INFO] 2019-06-06 09:02:11,121: 
+Class: 0x1  ID: 0x4  Len:18 [0x12]
+000: b5 62 01 04 12 00 08 9e  0a 18 be 00 a9 00 57 00 
+010: 97 00 4c 00 34 00 38 00  ec 5e 
+[rosout][INFO] 2019-06-06 09:02:11,122: {'hAcc': 7.276, 'fixType': 3, 'lon': -1238116306, 'iTOW': 403349000, 'week': 2056, 'vDop': 1.51, 'velE': -0.033, 'velD': 0.014, 'sAcc': 0.725, 'vAcc': 9.004, 'year': 2019, 'hDop': 0.76, 'lat': 393371454, 'velN': -0.003}
+[rosout][INFO] 2019-06-06 09:02:11,127: 
+Class: 0x1  ID: 0x3b  Len:40 [0x28]
+000: b5 62 01 3b 28 00 00 00  00 00 08 9e 0a 18 00 00 
+010: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00 
+020: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 2c cb 
+[rosout][INFO] 2019-06-06 09:02:11,128: {'valid': 0, 'meanAcc': 0.0, 'active': 0}
+[rosout][INFO] 2019-06-06 09:02:11,134: 
+{'hAcc': 7.276, 'fixType': 3, 'lon': -1238116306, 'iTOW': 403349000, 'week': 2056, 'vDop': 1.51, 'velE': -0.033, 'velD': 0.014, 'sAcc': 0.725, 'sats': 11, 'vAcc': 9.004, 'year': 2019, 'hDop': 0.76, 'alt': 61.5, 'lat': 393371454, 'velN': -0.003}
+[rosout][INFO] 2019-06-06 09:02:11,136: {'hAcc': 7.276, 'fixType': 3, 'lon': -1238116306, 'iTOW': 403349000, 'week': 2056, 'vDop': 1.51, 'velE': -0.033, 'velD': 0.014, 'sAcc': 0.725, 'sats': 11, 'vAcc': 9.004, 'year': 2019, 'hDop': 0.76, 'alt': 61.5, 'lat': 393371454, 'velN': -0.003}
+[rosout][INFO] 2019-06-06 09:02:11,137: Wrote GPS_INPUT message
+
+[rosout][INFO] 2019-06-06 09:02:12,108: 
+Class: 0x1  ID: 0x6  Len:52 [0x34]
+000: b5 62 01 06 34 00 f0 a1  0a 18 42 2a 07 00 08 08 
+010: 03 dd 6f b4 9d ef 2e 63  89 e7 40 1a f8 17 83 04 
+020: 00 00 01 00 00 00 0b 00  00 00 ff ff ff ff 3f 00 
+030: 00 00 a9 00 02 0b 12 19  b6 03 d2 2f 
+[rosout][INFO] 2019-06-06 09:02:12,109: !!!NEW CYCLE!!!
+[rosout][INFO] 2019-06-06 09:02:12,110: {'week': 2056}
+[rosout][INFO] 2019-06-06 09:02:12,120: 
+Class: 0x1  ID: 0x7  Len:92 [0x5c]
+000: b5 62 01 07 5c 00 f0 a1  0a 18 e3 07 06 06 10 02 
+010: 0c 37 13 00 00 00 44 2a  07 00 03 01 ea 0b 1e d8 
+020: 33 b6 3e 5f 72 17 23 7e  00 00 2a f0 00 00 4e 1c 
+030: 00 00 23 23 00 00 31 00  00 00 cc ff ff ff 52 00 
+040: 00 00 48 00 00 00 c7 38  03 00 78 02 00 00 94 90 
+050: 99 00 a9 00 00 00 12 19  26 3b 00 00 00 00 00 00 
+060: 00 00 55 3f 
+[rosout][INFO] 2019-06-06 09:02:12,121: {'hAcc': 7.246, 'fixType': 3, 'lon': -1238116322, 'iTOW': 403350000, 'week': 2056, 'velE': -0.052000000000000005, 'velD': 0.082, 'sAcc': 0.632, 'vAcc': 8.995000000000001, 'year': 2019, 'lat': 393371454, 'velN': 0.049}
+[rosout][INFO] 2019-06-06 09:02:12,125: 
+Class: 0x1  ID: 0x3  Len:16 [0x10]
+000: b5 62 01 03 10 00 f0 a1  0a 18 03 dd 00 08 71 4f 
+010: 06 00 71 69 60 05 b4 24 
+[rosout][INFO] 2019-06-06 09:02:12,126: {'gpsFix': 3, 'diffCorr': 0, 'diffSoln': 0}
+[rosout][INFO] 2019-06-06 09:02:12,130: 
+Class: 0x1  ID: 0x4  Len:18 [0x12]
+000: b5 62 01 04 12 00 f0 a1  0a 18 be 00 a9 00 57 00 
+010: 97 00 4c 00 34 00 38 00  d7 e1 
+[rosout][INFO] 2019-06-06 09:02:12,131: {'hAcc': 7.246, 'fixType': 3, 'lon': -1238116322, 'iTOW': 403350000, 'week': 2056, 'vDop': 1.51, 'velE': -0.052000000000000005, 'velD': 0.082, 'sAcc': 0.632, 'vAcc': 8.995000000000001, 'year': 2019, 'hDop': 0.76, 'lat': 393371454, 'velN': 0.049}
+[rosout][INFO] 2019-06-06 09:02:12,136: 
+Class: 0x1  ID: 0x3b  Len:40 [0x28]
+000: b5 62 01 3b 28 00 00 00  00 00 f0 a1 0a 18 00 00 
+010: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00 
+020: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 17 d4 
+[rosout][INFO] 2019-06-06 09:02:12,137: {'valid': 0, 'meanAcc': 0.0, 'active': 0}
+[rosout][INFO] 2019-06-06 09:02:12,144: 
+{'hAcc': 7.246, 'fixType': 3, 'lon': -1238116322, 'iTOW': 403350000, 'week': 2056, 'vDop': 1.51, 'velE': -0.052000000000000005, 'velD': 0.082, 'sAcc': 0.632, 'sats': 11, 'vAcc': 8.995000000000001, 'year': 2019, 'hDop': 0.76, 'alt': 61.5, 'lat': 393371454, 'velN': 0.049}
+[rosout][INFO] 2019-06-06 09:02:12,145: {'hAcc': 7.246, 'fixType': 3, 'lon': -1238116322, 'iTOW': 403350000, 'week': 2056, 'vDop': 1.51, 'velE': -0.052000000000000005, 'velD': 0.082, 'sAcc': 0.632, 'sats': 11, 'vAcc': 8.995000000000001, 'year': 2019, 'hDop': 0.76, 'alt': 61.5, 'lat': 393371454, 'velN': 0.049}
+[rosout][INFO] 2019-06-06 09:02:12,146: Wrote GPS_INPUT message
+
+[rosout][INFO] 2019-06-06 09:02:13,099: 
+Class: 0x1  ID: 0x6  Len:52 [0x34]
+000: b5 62 01 06 34 00 d8 a5  0a 18 f9 2a 07 00 08 08 
+010: 03 dd 5a b4 9d ef 37 63  89 e7 43 1a f8 17 80 04 
+020: 00 00 02 00 00 00 09 00  00 00 01 00 00 00 3c 00 
+030: 00 00 a9 00 02 0b 12 19  b6 03 6a 89 
+[rosout][INFO] 2019-06-06 09:02:13,100: !!!NEW CYCLE!!!
+[rosout][INFO] 2019-06-06 09:02:13,101: {'week': 2056}
+[rosout][INFO] 2019-06-06 09:02:13,111: 
+Class: 0x1  ID: 0x7  Len:92 [0x5c]
+000: b5 62 01 07 5c 00 d8 a5  0a 18 e3 07 06 06 10 02 
+010: 0d 37 13 00 00 00 fb 2a  07 00 03 01 ea 0b 04 d8 
+020: 33 b6 3e 5f 72 17 55 7e  00 00 5d f0 00 00 30 1c 
+030: 00 00 19 23 00 00 3d 00  00 00 e0 ff ff ff 3d 00 
+040: 00 00 45 00 00 00 c7 38  03 00 55 02 00 00 02 9b 
+050: 99 00 a9 00 00 00 12 19  26 3b 00 00 00 00 00 00 
+060: 00 00 7a ae 
+[rosout][INFO] 2019-06-06 09:02:13,112: {'hAcc': 7.216, 'fixType': 3, 'lon': -1238116348, 'iTOW': 403351000, 'week': 2056, 'velE': -0.032, 'velD': 0.061, 'sAcc': 0.597, 'vAcc': 8.985, 'year': 2019, 'lat': 393371454, 'velN': 0.061}
+[rosout][INFO] 2019-06-06 09:02:13,116: 
+Class: 0x1  ID: 0x3  Len:16 [0x10]
+000: b5 62 01 03 10 00 d8 a5  0a 18 03 dd 00 08 71 4f 
+010: 06 00 59 6d 60 05 8c 8c 
+[rosout][INFO] 2019-06-06 09:02:13,117: {'gpsFix': 3, 'diffCorr': 0, 'diffSoln': 0}
+[rosout][INFO] 2019-06-06 09:02:13,121: 
+Class: 0x1  ID: 0x4  Len:18 [0x12]
+000: b5 62 01 04 12 00 d8 a5  0a 18 be 00 a9 00 57 00 
+010: 96 00 4c 00 34 00 38 00  c2 6d 
+[rosout][INFO] 2019-06-06 09:02:13,122: {'hAcc': 7.216, 'fixType': 3, 'lon': -1238116348, 'iTOW': 403351000, 'week': 2056, 'vDop': 1.5, 'velE': -0.032, 'velD': 0.061, 'sAcc': 0.597, 'vAcc': 8.985, 'year': 2019, 'hDop': 0.76, 'lat': 393371454, 'velN': 0.061}
+[rosout][INFO] 2019-06-06 09:02:13,127: 
+Class: 0x1  ID: 0x3b  Len:40 [0x28]
+000: b5 62 01 3b 28 00 00 00  00 00 d8 a5 0a 18 00 00 
+010: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00 
+020: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 03 00 
+[rosout][INFO] 2019-06-06 09:02:13,128: {'valid': 0, 'meanAcc': 0.0, 'active': 0}
+[rosout][INFO] 2019-06-06 09:02:13,135: 
+{'hAcc': 7.216, 'fixType': 3, 'lon': -1238116348, 'iTOW': 403351000, 'week': 2056, 'vDop': 1.5, 'velE': -0.032, 'velD': 0.061, 'sAcc': 0.597, 'sats': 11, 'vAcc': 8.985, 'year': 2019, 'hDop': 0.76, 'alt': 61.5, 'lat': 393371454, 'velN': 0.061}
+[rosout][INFO] 2019-06-06 09:02:13,136: {'hAcc': 7.216, 'fixType': 3, 'lon': -1238116348, 'iTOW': 403351000, 'week': 2056, 'vDop': 1.5, 'velE': -0.032, 'velD': 0.061, 'sAcc': 0.597, 'sats': 11, 'vAcc': 8.985, 'year': 2019, 'hDop': 0.76, 'alt': 61.5, 'lat': 393371454, 'velN': 0.061}
+[rosout][INFO] 2019-06-06 09:02:13,137: Wrote GPS_INPUT message
+
+[rosout][INFO] 2019-06-06 09:02:14,094: 
+Class: 0x1  ID: 0x6  Len:52 [0x34]
+000: b5 62 01 06 34 00 c0 a9  0a 18 af 2b 07 00 08 08 
+010: 03 dd 52 b4 9d ef 3a 63  89 e7 48 1a f8 17 7e 04 
+020: 00 00 06 00 00 00 04 00  00 00 fe ff ff ff 42 00 
+030: 00 00 a9 00 02 0b 12 19  b6 03 0a 42 
+[rosout][INFO] 2019-06-06 09:02:14,095: !!!NEW CYCLE!!!
+[rosout][INFO] 2019-06-06 09:02:14,096: {'week': 2056}
+[rosout][INFO] 2019-06-06 09:02:14,105: 
+Class: 0x1  ID: 0x7  Len:92 [0x5c]
+000: b5 62 01 07 5c 00 c0 a9  0a 18 e3 07 06 06 10 02 
+010: 0e 37 13 00 00 00 b1 2b  07 00 03 01 ea 0b fb d7 
+020: 33 b6 40 5f 72 17 7f 7e  00 00 86 f0 00 00 0c 1c 
+030: 00 00 18 23 00 00 1e 00  00 00 1a 00 00 00 3c 00 
+040: 00 00 27 00 00 00 c7 38  03 00 98 02 00 00 98 a6 
+050: 99 00 a9 00 00 00 12 19  26 3b 00 00 00 00 00 00 
+060: 00 00 27 63 
+[rosout][INFO] 2019-06-06 09:02:14,106: {'hAcc': 7.18, 'fixType': 3, 'lon': -1238116357, 'iTOW': 403352000, 'week': 2056, 'velE': 0.026000000000000002, 'velD': 0.06, 'sAcc': 0.664, 'vAcc': 8.984, 'year': 2019, 'lat': 393371456, 'velN': 0.03}
+[rosout][INFO] 2019-06-06 09:02:14,110: 
+Class: 0x1  ID: 0x3  Len:16 [0x10]
+000: b5 62 01 03 10 00 c0 a9  0a 18 03 dd 00 08 71 4f 
+010: 06 00 41 71 60 05 64 f4 
+[rosout][INFO] 2019-06-06 09:02:14,111: {'gpsFix': 3, 'diffCorr': 0, 'diffSoln': 0}
+[rosout][INFO] 2019-06-06 09:02:14,115: 
+Class: 0x1  ID: 0x4  Len:18 [0x12]
+000: b5 62 01 04 12 00 c0 a9  0a 18 be 00 a9 00 57 00 
+010: 96 00 4c 00 34 00 38 00  ae 01 
+[rosout][INFO] 2019-06-06 09:02:14,115: {'hAcc': 7.18, 'fixType': 3, 'lon': -1238116357, 'iTOW': 403352000, 'week': 2056, 'vDop': 1.5, 'velE': 0.026000000000000002, 'velD': 0.06, 'sAcc': 0.664, 'vAcc': 8.984, 'year': 2019, 'hDop': 0.76, 'lat': 393371456, 'velN': 0.03}
+[rosout][INFO] 2019-06-06 09:02:14,121: 
+Class: 0x1  ID: 0x3b  Len:40 [0x28]
+000: b5 62 01 3b 28 00 00 00  00 00 c0 a9 0a 18 00 00 
+010: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00 
+020: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 ef 2c 
+[rosout][INFO] 2019-06-06 09:02:14,122: {'valid': 0, 'meanAcc': 0.0, 'active': 0}
+[rosout][INFO] 2019-06-06 09:02:14,129: 
+{'hAcc': 7.18, 'fixType': 3, 'lon': -1238116357, 'iTOW': 403352000, 'week': 2056, 'vDop': 1.5, 'velE': 0.026000000000000002, 'velD': 0.06, 'sAcc': 0.664, 'sats': 11, 'vAcc': 8.984, 'year': 2019, 'hDop': 0.76, 'alt': 61.6, 'lat': 393371456, 'velN': 0.03}
+[rosout][INFO] 2019-06-06 09:02:14,130: {'hAcc': 7.18, 'fixType': 3, 'lon': -1238116357, 'iTOW': 403352000, 'week': 2056, 'vDop': 1.5, 'velE': 0.026000000000000002, 'velD': 0.06, 'sAcc': 0.664, 'sats': 11, 'vAcc': 8.984, 'year': 2019, 'hDop': 0.76, 'alt': 61.6, 'lat': 393371456, 'velN': 0.03}
+[rosout][INFO] 2019-06-06 09:02:14,131: Wrote GPS_INPUT message
+
+[rosout][INFO] 2019-06-06 09:02:15,097: 
+Class: 0x1  ID: 0x6  Len:52 [0x34]
+000: b5 62 01 06 34 00 a8 ad  0a 18 66 2c 07 00 08 08 
+010: 03 dd 4e b4 9d ef 41 63  89 e7 47 1a f8 17 7c 04 
+020: 00 00 04 00 00 00 04 00  00 00 fc ff ff ff 3e 00 
+030: 00 00 a9 00 02 0b 12 19  b6 03 a6 31 
+[rosout][INFO] 2019-06-06 09:02:15,098: !!!NEW CYCLE!!!
+[rosout][INFO] 2019-06-06 09:02:15,099: {'week': 2056}
+[rosout][INFO] 2019-06-06 09:02:15,108: 
+Class: 0x1  ID: 0x7  Len:92 [0x5c]
+000: b5 62 01 07 5c 00 a8 ad  0a 18 e3 07 06 06 10 02 
+010: 0f 37 13 00 00 00 68 2c  07 00 03 01 ea 0b f2 d7 
+020: 33 b6 41 5f 72 17 61 7e  00 00 69 f0 00 00 ed 1b 
+030: 00 00 1b 23 00 00 07 00  00 00 0c 00 00 00 43 00 
+040: 00 00 0e 00 00 00 c7 38  03 00 70 02 00 00 7c b1 
+050: 99 00 a9 00 00 00 12 19  26 3b 00 00 00 00 00 00 
+060: 00 00 fc 46 
+[rosout][INFO] 2019-06-06 09:02:15,109: {'hAcc': 7.149, 'fixType': 3, 'lon': -1238116366, 'iTOW': 403353000, 'week': 2056, 'velE': 0.012, 'velD': 0.067, 'sAcc': 0.624, 'vAcc': 8.987, 'year': 2019, 'lat': 393371457, 'velN': 0.007}
+[rosout][INFO] 2019-06-06 09:02:15,113: 
+Class: 0x1  ID: 0x3  Len:16 [0x10]
+000: b5 62 01 03 10 00 a8 ad  0a 18 03 dd 00 08 71 4f 
+010: 06 00 29 75 60 05 3c 5c 
+[rosout][INFO] 2019-06-06 09:02:15,114: {'gpsFix': 3, 'diffCorr': 0, 'diffSoln': 0}
+[rosout][INFO] 2019-06-06 09:02:15,118: 
+Class: 0x1  ID: 0x4  Len:18 [0x12]
+000: b5 62 01 04 12 00 a8 ad  0a 18 be 00 a9 00 57 00 
+010: 96 00 4c 00 34 00 38 00  9a 95 
+[rosout][INFO] 2019-06-06 09:02:15,119: {'hAcc': 7.149, 'fixType': 3, 'lon': -1238116366, 'iTOW': 403353000, 'week': 2056, 'vDop': 1.5, 'velE': 0.012, 'velD': 0.067, 'sAcc': 0.624, 'vAcc': 8.987, 'year': 2019, 'hDop': 0.76, 'lat': 393371457, 'velN': 0.007}
+[rosout][INFO] 2019-06-06 09:02:15,124: 
+Class: 0x1  ID: 0x3b  Len:40 [0x28]
+000: b5 62 01 3b 28 00 00 00  00 00 a8 ad 0a 18 00 00 
+010: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00 
+020: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 db 58 
+[rosout][INFO] 2019-06-06 09:02:15,126: {'valid': 0, 'meanAcc': 0.0, 'active': 0}
+[rosout][INFO] 2019-06-06 09:02:15,133: 
+{'hAcc': 7.149, 'fixType': 3, 'lon': -1238116366, 'iTOW': 403353000, 'week': 2056, 'vDop': 1.5, 'velE': 0.012, 'velD': 0.067, 'sAcc': 0.624, 'sats': 11, 'vAcc': 8.987, 'year': 2019, 'hDop': 0.76, 'alt': 61.5, 'lat': 393371457, 'velN': 0.007}
+[rosout][INFO] 2019-06-06 09:02:15,134: {'hAcc': 7.149, 'fixType': 3, 'lon': -1238116366, 'iTOW': 403353000, 'week': 2056, 'vDop': 1.5, 'velE': 0.012, 'velD': 0.067, 'sAcc': 0.624, 'sats': 11, 'vAcc': 8.987, 'year': 2019, 'hDop': 0.76, 'alt': 61.5, 'lat': 393371457, 'velN': 0.007}
+[rosout][INFO] 2019-06-06 09:02:15,135: Wrote GPS_INPUT message
+
+[rosout][ERROR] 2019-06-06 09:02:15,565: Exception <class 'ConnectionRefusedError'> on stream: /STM1
+[rosout][INFO] 2019-06-06 09:02:16,101: 
+Class: 0x1  ID: 0x6  Len:52 [0x34]
+000: b5 62 01 06 34 00 90 b1  0a 18 1d 2d 07 00 08 08 
+010: 03 dd 58 b4 9d ef 44 63  89 e7 45 1a f8 17 7a 04 
+020: 00 00 11 00 00 00 00 00  00 00 fc ff ff ff 49 00 
+030: 00 00 a9 00 02 0b 12 19  b6 03 67 8c 
+[rosout][INFO] 2019-06-06 09:02:16,103: !!!NEW CYCLE!!!
+[rosout][INFO] 2019-06-06 09:02:16,110: {'week': 2056}
+[rosout][INFO] 2019-06-06 09:02:16,119: 
+Class: 0x1  ID: 0x7  Len:92 [0x5c]
+000: b5 62 01 07 5c 00 90 b1  0a 18 e3 07 06 06 10 02 
+010: 10 37 13 00 00 00 1f 2d  07 00 03 01 ea 0b fa d7 
+020: 33 b6 44 5f 72 17 14 7e  00 00 1c f0 00 00 cb 1b 
+030: 00 00 13 23 00 00 1e 00  00 00 8a 00 00 00 5e 00 
+040: 00 00 8e 00 00 00 c7 38  03 00 d7 02 00 00 2e be 
+050: 99 00 a9 00 00 00 12 19  26 3b 00 00 00 00 00 00 
+060: 00 00 3e 8e 
+[rosout][INFO] 2019-06-06 09:02:16,120: {'hAcc': 7.115, 'fixType': 3, 'lon': -1238116358, 'iTOW': 403354000, 'week': 2056, 'velE': 0.138, 'velD': 0.094, 'sAcc': 0.727, 'vAcc': 8.979000000000001, 'year': 2019, 'lat': 393371460, 'velN': 0.03}
+[rosout][INFO] 2019-06-06 09:02:16,124: 
+Class: 0x1  ID: 0x3  Len:16 [0x10]
+000: b5 62 01 03 10 00 90 b1  0a 18 03 dd 00 08 71 4f 
+010: 06 00 11 79 60 05 14 c4 
+[rosout][INFO] 2019-06-06 09:02:16,125: {'gpsFix': 3, 'diffCorr': 0, 'diffSoln': 0}
+[rosout][INFO] 2019-06-06 09:02:16,129: 
+Class: 0x1  ID: 0x4  Len:18 [0x12]
+000: b5 62 01 04 12 00 90 b1  0a 18 be 00 a9 00 57 00 
+010: 96 00 4c 00 34 00 38 00  86 29 
+[rosout][INFO] 2019-06-06 09:02:16,130: {'hAcc': 7.115, 'fixType': 3, 'lon': -1238116358, 'iTOW': 403354000, 'week': 2056, 'vDop': 1.5, 'velE': 0.138, 'velD': 0.094, 'sAcc': 0.727, 'vAcc': 8.979000000000001, 'year': 2019, 'hDop': 0.76, 'lat': 393371460, 'velN': 0.03}
+[rosout][INFO] 2019-06-06 09:02:16,136: 
+Class: 0x1  ID: 0x3b  Len:40 [0x28]
+000: b5 62 01 3b 28 00 00 00  00 00 90 b1 0a 18 00 00 
+010: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00 
+020: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 c7 84 
+[rosout][INFO] 2019-06-06 09:02:16,137: {'valid': 0, 'meanAcc': 0.0, 'active': 0}
+[rosout][INFO] 2019-06-06 09:02:16,144: 
+{'hAcc': 7.115, 'fixType': 3, 'lon': -1238116358, 'iTOW': 403354000, 'week': 2056, 'vDop': 1.5, 'velE': 0.138, 'velD': 0.094, 'sAcc': 0.727, 'sats': 11, 'vAcc': 8.979000000000001, 'year': 2019, 'hDop': 0.76, 'alt': 61.5, 'lat': 393371460, 'velN': 0.03}
+[rosout][INFO] 2019-06-06 09:02:16,145: {'hAcc': 7.115, 'fixType': 3, 'lon': -1238116358, 'iTOW': 403354000, 'week': 2056, 'vDop': 1.5, 'velE': 0.138, 'velD': 0.094, 'sAcc': 0.727, 'sats': 11, 'vAcc': 8.979000000000001, 'year': 2019, 'hDop': 0.76, 'alt': 61.5, 'lat': 393371460, 'velN': 0.03}
+[rosout][INFO] 2019-06-06 09:02:16,146: Wrote GPS_INPUT message
+
+[rosout][INFO] 2019-06-06 09:02:17,099: 
+Class: 0x1  ID: 0x6  Len:52 [0x34]
+000: b5 62 01 06 34 00 78 b5  0a 18 d4 2d 07 00 08 08 
+010: 03 dd 61 b4 9d ef 52 63  89 e7 3e 1a f8 17 77 04 
+020: 00 00 0f 00 00 00 06 00  00 00 fe ff ff ff 44 00 
+030: 00 00 a9 00 02 0b 12 19  b6 03 18 20 
+[rosout][INFO] 2019-06-06 09:02:17,100: !!!NEW CYCLE!!!
+[rosout][INFO] 2019-06-06 09:02:17,100: {'week': 2056}
+[rosout][INFO] 2019-06-06 09:02:17,109: 
+Class: 0x1  ID: 0x7  Len:92 [0x5c]
+000: b5 62 01 07 5c 00 78 b5  0a 18 e3 07 06 06 10 02 
+010: 11 37 13 00 00 00 d6 2d  07 00 03 01 ea 0b fa d7 
+020: 33 b6 49 5f 72 17 69 7d  00 00 71 ef 00 00 a8 1b 
+030: 00 00 08 23 00 00 41 00  00 00 59 00 00 00 77 00 
+040: 00 00 6f 00 00 00 c7 38  03 00 a6 02 00 00 00 ca 
+050: 99 00 a9 00 00 00 12 19  26 3b 00 00 00 00 00 00 
+060: 00 00 fa da 
+[rosout][INFO] 2019-06-06 09:02:17,110: {'hAcc': 7.08, 'fixType': 3, 'lon': -1238116358, 'iTOW': 403355000, 'week': 2056, 'velE': 0.089, 'velD': 0.11900000000000001, 'sAcc': 0.678, 'vAcc': 8.968, 'year': 2019, 'lat': 393371465, 'velN': 0.065}
+[rosout][INFO] 2019-06-06 09:02:17,114: 
+Class: 0x1  ID: 0x3  Len:16 [0x10]
+000: b5 62 01 03 10 00 78 b5  0a 18 03 dd 00 08 71 4f 
+010: 06 00 f9 7c 60 05 eb 29 
+[rosout][INFO] 2019-06-06 09:02:17,115: {'gpsFix': 3, 'diffCorr': 0, 'diffSoln': 0}
+[rosout][INFO] 2019-06-06 09:02:17,118: 
+Class: 0x1  ID: 0x4  Len:18 [0x12]
+000: b5 62 01 04 12 00 78 b5  0a 18 be 00 a9 00 57 00 
+010: 96 00 4c 00 34 00 38 00  72 bd 
+[rosout][INFO] 2019-06-06 09:02:17,119: {'hAcc': 7.08, 'fixType': 3, 'lon': -1238116358, 'iTOW': 403355000, 'week': 2056, 'vDop': 1.5, 'velE': 0.089, 'velD': 0.11900000000000001, 'sAcc': 0.678, 'vAcc': 8.968, 'year': 2019, 'hDop': 0.76, 'lat': 393371465, 'velN': 0.065}
+[rosout][INFO] 2019-06-06 09:02:17,124: 
+Class: 0x1  ID: 0x3b  Len:40 [0x28]
+000: b5 62 01 3b 28 00 00 00  00 00 78 b5 0a 18 00 00 
+010: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00 
+020: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 b3 b0 
+[rosout][INFO] 2019-06-06 09:02:17,125: {'valid': 0, 'meanAcc': 0.0, 'active': 0}
+[rosout][INFO] 2019-06-06 09:02:17,132: 
+{'hAcc': 7.08, 'fixType': 3, 'lon': -1238116358, 'iTOW': 403355000, 'week': 2056, 'vDop': 1.5, 'velE': 0.089, 'velD': 0.11900000000000001, 'sAcc': 0.678, 'sats': 11, 'vAcc': 8.968, 'year': 2019, 'hDop': 0.76, 'alt': 61.3, 'lat': 393371465, 'velN': 0.065}
+[rosout][INFO] 2019-06-06 09:02:17,133: {'hAcc': 7.08, 'fixType': 3, 'lon': -1238116358, 'iTOW': 403355000, 'week': 2056, 'vDop': 1.5, 'velE': 0.089, 'velD': 0.11900000000000001, 'sAcc': 0.678, 'sats': 11, 'vAcc': 8.968, 'year': 2019, 'hDop': 0.76, 'alt': 61.3, 'lat': 393371465, 'velN': 0.065}
+[rosout][INFO] 2019-06-06 09:02:17,134: Wrote GPS_INPUT message
+
+[rosout][INFO] 2019-06-06 09:02:18,102: 
+Class: 0x1  ID: 0x6  Len:52 [0x34]
+000: b5 62 01 06 34 00 60 b9  0a 18 8b 2e 07 00 08 08 
+010: 03 dd 63 b4 9d ef 63 63  89 e7 3d 1a f8 17 73 04 
+020: 00 00 0f 00 00 00 0b 00  00 00 fe ff ff ff 40 00 
+030: 00 00 a9 00 02 0b 12 19  b6 03 cb e3 
+[rosout][INFO] 2019-06-06 09:02:18,103: !!!NEW CYCLE!!!
+[rosout][INFO] 2019-06-06 09:02:18,104: {'week': 2056}
+[rosout][INFO] 2019-06-06 09:02:18,112: 
+Class: 0x1  ID: 0x7  Len:92 [0x5c]
+000: b5 62 01 07 5c 00 60 b9  0a 18 e3 07 06 06 10 02 
+010: 12 37 13 00 00 00 8d 2e  07 00 03 01 ea 0b f1 d7 
+020: 33 b6 51 5f 72 17 e8 7c  00 00 ef ee 00 00 8b 1b 
+030: 00 00 f3 22 00 00 5f 00  00 00 3f 00 00 00 90 00 
+040: 00 00 72 00 00 00 c7 38  03 00 7e 02 00 00 22 d5 
+050: 99 00 a9 00 00 00 12 19  26 3b 00 00 00 00 00 00 
+060: 00 00 8b c7 
+[rosout][INFO] 2019-06-06 09:02:18,114: {'hAcc': 7.051, 'fixType': 3, 'lon': -1238116367, 'iTOW': 403356000, 'week': 2056, 'velE': 0.063, 'velD': 0.14400000000000002, 'sAcc': 0.638, 'vAcc': 8.947000000000001, 'year': 2019, 'lat': 393371473, 'velN': 0.095}
+[rosout][INFO] 2019-06-06 09:02:18,117: 
+Class: 0x1  ID: 0x3  Len:16 [0x10]
+000: b5 62 01 03 10 00 60 b9  0a 18 03 dd 00 08 71 4f 
+010: 06 00 e1 80 60 05 c3 91 
+[rosout][INFO] 2019-06-06 09:02:18,118: {'gpsFix': 3, 'diffCorr': 0, 'diffSoln': 0}
+[rosout][INFO] 2019-06-06 09:02:18,121: 
+Class: 0x1  ID: 0x4  Len:18 [0x12]
+000: b5 62 01 04 12 00 60 b9  0a 18 be 00 a9 00 57 00 
+010: 96 00 4c 00 34 00 38 00  5e 51 
+[rosout][INFO] 2019-06-06 09:02:18,123: {'hAcc': 7.051, 'fixType': 3, 'lon': -1238116367, 'iTOW': 403356000, 'week': 2056, 'vDop': 1.5, 'velE': 0.063, 'velD': 0.14400000000000002, 'sAcc': 0.638, 'vAcc': 8.947000000000001, 'year': 2019, 'hDop': 0.76, 'lat': 393371473, 'velN': 0.095}
+[rosout][INFO] 2019-06-06 09:02:18,128: 
+Class: 0x1  ID: 0x3b  Len:40 [0x28]
+000: b5 62 01 3b 28 00 00 00  00 00 60 b9 0a 18 00 00 
+010: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00 
+020: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 9f dc 
+[rosout][INFO] 2019-06-06 09:02:18,129: {'valid': 0, 'meanAcc': 0.0, 'active': 0}
+[rosout][INFO] 2019-06-06 09:02:18,135: 
+{'hAcc': 7.051, 'fixType': 3, 'lon': -1238116367, 'iTOW': 403356000, 'week': 2056, 'vDop': 1.5, 'velE': 0.063, 'velD': 0.14400000000000002, 'sAcc': 0.638, 'sats': 11, 'vAcc': 8.947000000000001, 'year': 2019, 'hDop': 0.76, 'alt': 61.2, 'lat': 393371473, 'velN': 0.095}
+[rosout][INFO] 2019-06-06 09:02:18,137: {'hAcc': 7.051, 'fixType': 3, 'lon': -1238116367, 'iTOW': 403356000, 'week': 2056, 'vDop': 1.5, 'velE': 0.063, 'velD': 0.14400000000000002, 'sAcc': 0.638, 'sats': 11, 'vAcc': 8.947000000000001, 'year': 2019, 'hDop': 0.76, 'alt': 61.2, 'lat': 393371473, 'velN': 0.095}
+[rosout][INFO] 2019-06-06 09:02:18,138: Wrote GPS_INPUT message
+
+[rosout][INFO] 2019-06-06 09:02:19,086: 
+Class: 0x1  ID: 0x6  Len:52 [0x34]
+000: b5 62 01 06 34 00 48 bd  0a 18 42 2f 07 00 08 08 
+010: 03 dd 79 b4 9d ef 75 63  89 e7 31 1a f8 17 72 04 
+020: 00 00 17 00 00 00 05 00  00 00 fb ff ff ff 46 00 
+030: 00 00 ae 00 02 0a 12 19  b6 03 93 2d 
+[rosout][INFO] 2019-06-06 09:02:19,087: !!!NEW CYCLE!!!
+[rosout][INFO] 2019-06-06 09:02:19,088: {'week': 2056}
+[rosout][INFO] 2019-06-06 09:02:19,105: 
+Class: 0x1  ID: 0x7  Len:92 [0x5c]
+000: b5 62 01 07 5c 00 48 bd  0a 18 e3 07 06 06 10 02 
+010: 13 37 13 00 00 00 44 2f  07 00 03 01 ea 0a fa d7 
+020: 33 b6 59 5f 72 17 cf 7b  00 00 d6 ed 00 00 82 1b 
+030: 00 00 eb 22 00 00 44 00  00 00 a5 00 00 00 a3 00 
+040: 00 00 b3 00 00 00 c7 38  03 00 bb 02 00 00 54 e1 
+050: 99 00 ae 00 00 00 12 19  26 3b 00 00 00 00 00 00 
+060: 00 00 1a 75 
+[rosout][INFO] 2019-06-06 09:02:19,106: {'hAcc': 7.042, 'fixType': 3, 'lon': -1238116358, 'iTOW': 403357000, 'week': 2056, 'velE': 0.165, 'velD': 0.163, 'sAcc': 0.6990000000000001, 'vAcc': 8.939, 'year': 2019, 'lat': 393371481, 'velN': 0.068}
+[rosout][INFO] 2019-06-06 09:02:19,111: 
+Class: 0x1  ID: 0x3  Len:16 [0x10]
+000: b5 62 01 03 10 00 48 bd  0a 18 03 dd 00 08 71 4f 
+010: 06 00 c9 84 60 05 9b f9 
+[rosout][INFO] 2019-06-06 09:02:19,112: {'gpsFix': 3, 'diffCorr': 0, 'diffSoln': 0}
+[rosout][INFO] 2019-06-06 09:02:19,115: 
+Class: 0x1  ID: 0x4  Len:18 [0x12]
+000: b5 62 01 04 12 00 48 bd  0a 18 c3 00 ae 00 57 00 
+010: 9a 00 52 00 34 00 3f 00  65 b9 
+[rosout][INFO] 2019-06-06 09:02:19,116: {'hAcc': 7.042, 'fixType': 3, 'lon': -1238116358, 'iTOW': 403357000, 'week': 2056, 'vDop': 1.54, 'velE': 0.165, 'velD': 0.163, 'sAcc': 0.6990000000000001, 'vAcc': 8.939, 'year': 2019, 'hDop': 0.8200000000000001, 'lat': 393371481, 'velN': 0.068}
+[rosout][INFO] 2019-06-06 09:02:19,122: 
+Class: 0x1  ID: 0x3b  Len:40 [0x28]
+000: b5 62 01 3b 28 00 00 00  00 00 48 bd 0a 18 00 00 
+010: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00 
+020: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 8b 08 
+[rosout][INFO] 2019-06-06 09:02:19,123: {'valid': 0, 'meanAcc': 0.0, 'active': 0}
+[rosout][INFO] 2019-06-06 09:02:19,129: 
+{'hAcc': 7.042, 'fixType': 3, 'lon': -1238116358, 'iTOW': 403357000, 'week': 2056, 'vDop': 1.54, 'velE': 0.165, 'velD': 0.163, 'sAcc': 0.6990000000000001, 'sats': 10, 'vAcc': 8.939, 'year': 2019, 'hDop': 0.8200000000000001, 'alt': 60.9, 'lat': 393371481, 'velN': 0.068}
+[rosout][INFO] 2019-06-06 09:02:19,131: {'hAcc': 7.042, 'fixType': 3, 'lon': -1238116358, 'iTOW': 403357000, 'week': 2056, 'vDop': 1.54, 'velE': 0.165, 'velD': 0.163, 'sAcc': 0.6990000000000001, 'sats': 10, 'vAcc': 8.939, 'year': 2019, 'hDop': 0.8200000000000001, 'alt': 60.9, 'lat': 393371481, 'velN': 0.068}
+[rosout][INFO] 2019-06-06 09:02:19,132: Wrote GPS_INPUT message
+
+[rosout][INFO] 2019-06-06 09:02:20,100: 
+Class: 0x1  ID: 0x6  Len:52 [0x34]
+000: b5 62 01 06 34 00 30 c1  0a 18 fa 2f 07 00 08 08 
+010: 03 dd 93 b4 9d ef 89 63  89 e7 22 1a f8 17 70 04 
+020: 00 00 19 00 00 00 04 00  00 00 fa ff ff ff 46 00 
+030: 00 00 ae 00 02 0a 12 19  b6 03 54 6d 
+[rosout][INFO] 2019-06-06 09:02:20,101: !!!NEW CYCLE!!!
+[rosout][INFO] 2019-06-06 09:02:20,102: {'week': 2056}
+[rosout][INFO] 2019-06-06 09:02:20,112: 
+Class: 0x1  ID: 0x7  Len:92 [0x5c]
+000: b5 62 01 07 5c 00 30 c1  0a 18 e3 07 06 06 10 02 
+010: 14 37 13 00 00 00 fc 2f  07 00 03 01 ea 0a 07 d8 
+020: 33 b6 60 5f 72 17 7f 7a  00 00 87 ec 00 00 74 1b 
+030: 00 00 de 22 00 00 3b 00  00 00 be 00 00 00 ab 00 
+040: 00 00 c7 00 00 00 c7 38  03 00 bb 02 00 00 84 ed 
+050: 99 00 ae 00 00 00 12 19  26 3b 00 00 00 00 00 00 
+060: 00 00 80 88 
+[rosout][INFO] 2019-06-06 09:02:20,114: {'hAcc': 7.0280000000000005, 'fixType': 3, 'lon': -1238116345, 'iTOW': 403358000, 'week': 2056, 'velE': 0.19, 'velD': 0.171, 'sAcc': 0.6990000000000001, 'vAcc': 8.926, 'year': 2019, 'lat': 393371488, 'velN': 0.059000000000000004}
+[rosout][INFO] 2019-06-06 09:02:20,118: 
+Class: 0x1  ID: 0x3  Len:16 [0x10]
+000: b5 62 01 03 10 00 30 c1  0a 18 03 dd 00 08 71 4f 
+010: 06 00 b1 88 60 05 73 61 
+[rosout][INFO] 2019-06-06 09:02:20,120: {'gpsFix': 3, 'diffCorr': 0, 'diffSoln': 0}
+[rosout][INFO] 2019-06-06 09:02:20,124: 
+Class: 0x1  ID: 0x4  Len:18 [0x12]
+000: b5 62 01 04 12 00 30 c1  0a 18 c3 00 ae 00 57 00 
+010: 9a 00 52 00 34 00 3f 00  51 4d 
+[rosout][INFO] 2019-06-06 09:02:20,125: {'hAcc': 7.0280000000000005, 'fixType': 3, 'lon': -1238116345, 'iTOW': 403358000, 'week': 2056, 'vDop': 1.54, 'velE': 0.19, 'velD': 0.171, 'sAcc': 0.6990000000000001, 'vAcc': 8.926, 'year': 2019, 'hDop': 0.8200000000000001, 'lat': 393371488, 'velN': 0.059000000000000004}
+[rosout][INFO] 2019-06-06 09:02:20,131: 
+Class: 0x1  ID: 0x3b  Len:40 [0x28]
+000: b5 62 01 3b 28 00 00 00  00 00 30 c1 0a 18 00 00 
+010: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00 
+020: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 77 34 
+[rosout][INFO] 2019-06-06 09:02:20,132: {'valid': 0, 'meanAcc': 0.0, 'active': 0}
+[rosout][INFO] 2019-06-06 09:02:20,139: 
+{'hAcc': 7.0280000000000005, 'fixType': 3, 'lon': -1238116345, 'iTOW': 403358000, 'week': 2056, 'vDop': 1.54, 'velE': 0.19, 'velD': 0.171, 'sAcc': 0.6990000000000001, 'sats': 10, 'vAcc': 8.926, 'year': 2019, 'hDop': 0.8200000000000001, 'alt': 60.6, 'lat': 393371488, 'velN': 0.059000000000000004}
+[rosout][INFO] 2019-06-06 09:02:20,141: {'hAcc': 7.0280000000000005, 'fixType': 3, 'lon': -1238116345, 'iTOW': 403358000, 'week': 2056, 'vDop': 1.54, 'velE': 0.19, 'velD': 0.171, 'sAcc': 0.6990000000000001, 'sats': 10, 'vAcc': 8.926, 'year': 2019, 'hDop': 0.8200000000000001, 'alt': 60.6, 'lat': 393371488, 'velN': 0.059000000000000004}
+[rosout][INFO] 2019-06-06 09:02:20,142: Wrote GPS_INPUT message
+
+[rosout][INFO] 2019-06-06 09:02:21,102: 
+Class: 0x1  ID: 0x6  Len:52 [0x34]
+000: b5 62 01 06 34 00 18 c5  0a 18 b1 30 07 00 08 08 
+010: 03 dd 90 b4 9d ef a2 63  89 e7 15 1a f8 17 73 04 
+020: 00 00 0e 00 00 00 0c 00  00 00 fc ff ff ff 3f 00 
+030: 00 00 ca 00 02 0a 12 19  b6 03 18 dc 
+[rosout][INFO] 2019-06-06 09:02:21,103: !!!NEW CYCLE!!!
+[rosout][INFO] 2019-06-06 09:02:21,112: {'week': 2056}
+[rosout][INFO] 2019-06-06 09:02:21,121: 
+Class: 0x1  ID: 0x7  Len:92 [0x5c]
+000: b5 62 01 07 5c 00 18 c5  0a 18 e3 07 06 06 10 02 
+010: 15 37 13 00 00 00 b3 30  07 00 03 01 ea 0a f3 d7 
+020: 33 b6 62 5f 72 17 98 79  00 00 9f eb 00 00 8a 1b 
+030: 00 00 ed 22 00 00 4d 00  00 00 38 00 00 00 a5 00 
+040: 00 00 60 00 00 00 c7 38  03 00 75 02 00 00 78 f8 
+050: 99 00 ca 00 00 00 12 19  26 3b 00 00 00 00 00 00 
+060: 00 00 5a a5 
+[rosout][INFO] 2019-06-06 09:02:21,122: {'hAcc': 7.05, 'fixType': 3, 'lon': -1238116365, 'iTOW': 403359000, 'week': 2056, 'velE': 0.056, 'velD': 0.165, 'sAcc': 0.629, 'vAcc': 8.941, 'year': 2019, 'lat': 393371490, 'velN': 0.077}
+[rosout][INFO] 2019-06-06 09:02:21,125: 
+Class: 0x1  ID: 0x3  Len:16 [0x10]
+000: b5 62 01 03 10 00 18 c5  0a 18 03 dd 00 08 71 4f 
+010: 06 00 99 8c 60 05 4b c9 
+[rosout][INFO] 2019-06-06 09:02:21,126: {'gpsFix': 3, 'diffCorr': 0, 'diffSoln': 0}
+[rosout][INFO] 2019-06-06 09:02:21,130: 
+Class: 0x1  ID: 0x4  Len:18 [0x12]
+000: b5 62 01 04 12 00 18 c5  0a 18 e6 00 ca 00 6e 00 
+010: b4 00 5a 00 43 00 3d 00  c2 39 
+[rosout][INFO] 2019-06-06 09:02:21,131: {'hAcc': 7.05, 'fixType': 3, 'lon': -1238116365, 'iTOW': 403359000, 'week': 2056, 'vDop': 1.8, 'velE': 0.056, 'velD': 0.165, 'sAcc': 0.629, 'vAcc': 8.941, 'year': 2019, 'hDop': 0.9, 'lat': 393371490, 'velN': 0.077}
+[rosout][INFO] 2019-06-06 09:02:21,136: 
+Class: 0x1  ID: 0x3b  Len:40 [0x28]
+000: b5 62 01 3b 28 00 00 00  00 00 18 c5 0a 18 00 00 
+010: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00 
+020: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 63 60 
+[rosout][INFO] 2019-06-06 09:02:21,137: {'valid': 0, 'meanAcc': 0.0, 'active': 0}
+[rosout][INFO] 2019-06-06 09:02:21,144: 
+{'hAcc': 7.05, 'fixType': 3, 'lon': -1238116365, 'iTOW': 403359000, 'week': 2056, 'vDop': 1.8, 'velE': 0.056, 'velD': 0.165, 'sAcc': 0.629, 'sats': 10, 'vAcc': 8.941, 'year': 2019, 'hDop': 0.9, 'alt': 60.3, 'lat': 393371490, 'velN': 0.077}
+[rosout][INFO] 2019-06-06 09:02:21,145: {'hAcc': 7.05, 'fixType': 3, 'lon': -1238116365, 'iTOW': 403359000, 'week': 2056, 'vDop': 1.8, 'velE': 0.056, 'velD': 0.165, 'sAcc': 0.629, 'sats': 10, 'vAcc': 8.941, 'year': 2019, 'hDop': 0.9, 'alt': 60.3, 'lat': 393371490, 'velN': 0.077}
+[rosout][INFO] 2019-06-06 09:02:21,146: Wrote GPS_INPUT message
+
+[rosout][INFO] 2019-06-06 09:02:22,101: 
+Class: 0x1  ID: 0x6  Len:52 [0x34]
+000: b5 62 01 06 34 00 00 c9  0a 18 67 31 07 00 08 08 
+010: 03 dd 57 b4 9d ef 8a 63  89 e7 1e 1a f8 17 78 04 
+020: 00 00 04 00 00 00 fc ff  ff ff fd ff ff ff 44 00 
+030: 00 00 ca 00 02 0a 12 19  b6 03 61 61 
+[rosout][INFO] 2019-06-06 09:02:22,102: !!!NEW CYCLE!!!
+[rosout][INFO] 2019-06-06 09:02:22,103: {'week': 2056}
+[rosout][INFO] 2019-06-06 09:02:22,112: 
+Class: 0x1  ID: 0x7  Len:92 [0x5c]
+000: b5 62 01 07 5c 00 00 c9  0a 18 e3 07 06 06 10 02 
+010: 16 37 13 00 00 00 68 31  07 00 03 01 ea 0a cc d7 
+020: 33 b6 4b 5f 72 17 5c 7b  00 00 63 ed 00 00 a4 1b 
+030: 00 00 1b 23 00 00 e6 ff  ff ff 38 00 00 00 08 00 
+040: 00 00 3e 00 00 00 c7 38  03 00 a8 02 00 00 52 04 
+050: 9a 00 ca 00 00 00 12 19  26 3b 00 00 00 00 00 00 
+060: 00 00 85 b9 
+[rosout][INFO] 2019-06-06 09:02:22,115: {'hAcc': 7.0760000000000005, 'fixType': 3, 'lon': -1238116404, 'iTOW': 403360000, 'week': 2056, 'velE': 0.056, 'velD': 0.008, 'sAcc': 0.68, 'vAcc': 8.987, 'year': 2019, 'lat': 393371467, 'velN': -0.026000000000000002}
+[rosout][INFO] 2019-06-06 09:02:22,118: 
+Class: 0x1  ID: 0x3  Len:16 [0x10]
+000: b5 62 01 03 10 00 00 c9  0a 18 03 dd 00 08 71 4f 
+010: 06 00 81 90 60 05 23 31 
+[rosout][INFO] 2019-06-06 09:02:22,120: {'gpsFix': 3, 'diffCorr': 0, 'diffSoln': 0}
+[rosout][INFO] 2019-06-06 09:02:22,123: 
+Class: 0x1  ID: 0x4  Len:18 [0x12]
+000: b5 62 01 04 12 00 00 c9  0a 18 e6 00 ca 00 6f 00 
+010: b4 00 5a 00 43 00 3d 00  af d7 
+[rosout][INFO] 2019-06-06 09:02:22,124: {'hAcc': 7.0760000000000005, 'fixType': 3, 'lon': -1238116404, 'iTOW': 403360000, 'week': 2056, 'vDop': 1.8, 'velE': 0.056, 'velD': 0.008, 'sAcc': 0.68, 'vAcc': 8.987, 'year': 2019, 'hDop': 0.9, 'lat': 393371467, 'velN': -0.026000000000000002}
+[rosout][INFO] 2019-06-06 09:02:22,129: 
+Class: 0x1  ID: 0x3b  Len:40 [0x28]
+000: b5 62 01 3b 28 00 00 00  00 00 00 c9 0a 18 00 00 
+010: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00 
+020: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 4f 8c 
+[rosout][INFO] 2019-06-06 09:02:22,130: {'valid': 0, 'meanAcc': 0.0, 'active': 0}
+[rosout][INFO] 2019-06-06 09:02:22,136: 
+{'hAcc': 7.0760000000000005, 'fixType': 3, 'lon': -1238116404, 'iTOW': 403360000, 'week': 2056, 'vDop': 1.8, 'velE': 0.056, 'velD': 0.008, 'sAcc': 0.68, 'sats': 10, 'vAcc': 8.987, 'year': 2019, 'hDop': 0.9, 'alt': 60.8, 'lat': 393371467, 'velN': -0.026000000000000002}
+[rosout][INFO] 2019-06-06 09:02:22,138: {'hAcc': 7.0760000000000005, 'fixType': 3, 'lon': -1238116404, 'iTOW': 403360000, 'week': 2056, 'vDop': 1.8, 'velE': 0.056, 'velD': 0.008, 'sAcc': 0.68, 'sats': 10, 'vAcc': 8.987, 'year': 2019, 'hDop': 0.9, 'alt': 60.8, 'lat': 393371467, 'velN': -0.026000000000000002}
+[rosout][INFO] 2019-06-06 09:02:22,139: Wrote GPS_INPUT message
+
+[rosout][INFO] 2019-06-06 09:02:23,085: 
+Class: 0x1  ID: 0x6  Len:52 [0x34]
+000: b5 62 01 06 34 00 e8 cc  0a 18 1d 32 07 00 08 08 
+010: 03 dd 43 b4 9d ef a2 63  89 e7 14 1a f8 17 7e 04 
+020: 00 00 fd ff ff ff 07 00  00 00 00 00 00 00 47 00 
+030: 00 00 ca 00 02 0a 12 19  b6 03 10 b7 
+[rosout][INFO] 2019-06-06 09:02:23,087: !!!NEW CYCLE!!!
+[rosout][INFO] 2019-06-06 09:02:23,088: {'week': 2056}
+[rosout][INFO] 2019-06-06 09:02:23,096: 
+Class: 0x1  ID: 0x7  Len:92 [0x5c]
+000: b5 62 01 07 5c 00 e8 cc  0a 18 e3 07 06 06 10 02 
+010: 17 37 13 00 00 00 1f 32  07 00 03 01 ea 0a aa d7 
+020: 33 b6 49 5f 72 17 dd 7a  00 00 e4 ec 00 00 c7 1b 
+030: 00 00 4e 23 00 00 16 00  00 00 bf ff ff ff 1e 00 
+040: 00 00 45 00 00 00 c7 38  03 00 c3 02 00 00 a0 10 
+050: 9a 00 ca 00 00 00 12 19  26 3b 00 00 00 00 00 00 
+060: 00 00 a4 21 
+[rosout][INFO] 2019-06-06 09:02:23,097: {'hAcc': 7.111, 'fixType': 3, 'lon': -1238116438, 'iTOW': 403361000, 'week': 2056, 'velE': -0.065, 'velD': 0.03, 'sAcc': 0.707, 'vAcc': 9.038, 'year': 2019, 'lat': 393371465, 'velN': 0.022}
+[rosout][INFO] 2019-06-06 09:02:23,101: 
+Class: 0x1  ID: 0x3  Len:16 [0x10]
+000: b5 62 01 03 10 00 e8 cc  0a 18 03 dd 00 08 71 4f 
+010: 06 00 69 94 60 05 fa 8a 
+[rosout][INFO] 2019-06-06 09:02:23,102: {'gpsFix': 3, 'diffCorr': 0, 'diffSoln': 0}
+[rosout][INFO] 2019-06-06 09:02:23,106: 
+Class: 0x1  ID: 0x4  Len:18 [0x12]
+000: b5 62 01 04 12 00 e8 cc  0a 18 e6 00 ca 00 6f 00 
+010: b4 00 5a 00 43 00 3d 00  9a 5a 
+[rosout][INFO] 2019-06-06 09:02:23,108: {'hAcc': 7.111, 'fixType': 3, 'lon': -1238116438, 'iTOW': 403361000, 'week': 2056, 'vDop': 1.8, 'velE': -0.065, 'velD': 0.03, 'sAcc': 0.707, 'vAcc': 9.038, 'year': 2019, 'hDop': 0.9, 'lat': 393371465, 'velN': 0.022}
+[rosout][INFO] 2019-06-06 09:02:23,114: 
+Class: 0x1  ID: 0x3b  Len:40 [0x28]
+000: b5 62 01 3b 28 00 00 00  00 00 e8 cc 0a 18 00 00 
+010: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00 
+020: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 3a 95 
+[rosout][INFO] 2019-06-06 09:02:23,115: {'valid': 0, 'meanAcc': 0.0, 'active': 0}
+[rosout][INFO] 2019-06-06 09:02:23,122: 
+{'hAcc': 7.111, 'fixType': 3, 'lon': -1238116438, 'iTOW': 403361000, 'week': 2056, 'vDop': 1.8, 'velE': -0.065, 'velD': 0.03, 'sAcc': 0.707, 'sats': 10, 'vAcc': 9.038, 'year': 2019, 'hDop': 0.9, 'alt': 60.6, 'lat': 393371465, 'velN': 0.022}
+[rosout][INFO] 2019-06-06 09:02:23,124: {'hAcc': 7.111, 'fixType': 3, 'lon': -1238116438, 'iTOW': 403361000, 'week': 2056, 'vDop': 1.8, 'velE': -0.065, 'velD': 0.03, 'sAcc': 0.707, 'sats': 10, 'vAcc': 9.038, 'year': 2019, 'hDop': 0.9, 'alt': 60.6, 'lat': 393371465, 'velN': 0.022}
+[rosout][INFO] 2019-06-06 09:02:23,125: Wrote GPS_INPUT message
+
+[rosout][INFO] 2019-06-06 09:02:24,111: 
+Class: 0x1  ID: 0x6  Len:52 [0x34]
+000: b5 62 01 06 34 00 d0 d0  0a 18 d4 32 07 00 08 08 
+010: 03 dd 37 b4 9d ef a8 63  89 e7 13 1a f8 17 85 04 
+020: 00 00 04 00 00 00 ff ff  ff ff 00 00 00 00 4d 00 
+030: 00 00 ca 00 02 0a 12 19  b6 03 b8 eb 
+[rosout][INFO] 2019-06-06 09:02:24,112: !!!NEW CYCLE!!!
+[rosout][INFO] 2019-06-06 09:02:24,113: {'week': 2056}
+[rosout][INFO] 2019-06-06 09:02:24,136: 
+Class: 0x1  ID: 0x7  Len:92 [0x5c]
+000: b5 62 01 07 5c 00 d0 d0  0a 18 e3 07 06 06 10 02 
+010: 18 37 14 00 00 00 d6 32  07 00 03 01 ea 0a 9a d7 
+020: 33 b6 47 5f 72 17 e5 7a  00 00 ec ec 00 00 f5 1b 
+030: 00 00 84 23 00 00 07 00  00 00 25 00 00 00 0c 00 
+040: 00 00 26 00 00 00 c7 38  03 00 04 03 00 00 14 1e 
+050: 9a 00 ca 00 00 00 12 19  26 3b 00 00 00 00 00 00 
+060: 00 00 98 ea 
+[rosout][INFO] 2019-06-06 09:02:24,138: {'hAcc': 7.157, 'fixType': 3, 'lon': -1238116454, 'iTOW': 403362000, 'week': 2056, 'velE': 0.037, 'velD': 0.012, 'sAcc': 0.772, 'vAcc': 9.092, 'year': 2019, 'lat': 393371463, 'velN': 0.007}
+[rosout][INFO] 2019-06-06 09:02:24,143: 
+Class: 0x1  ID: 0x3  Len:16 [0x10]
+000: b5 62 01 03 10 00 d0 d0  0a 18 03 dd 00 08 71 4f 
+010: 06 00 51 98 60 05 d2 f2 
+[rosout][INFO] 2019-06-06 09:02:24,144: {'gpsFix': 3, 'diffCorr': 0, 'diffSoln': 0}
+[rosout][INFO] 2019-06-06 09:02:24,149: 
+Class: 0x1  ID: 0x4  Len:18 [0x12]
+000: b5 62 01 04 12 00 d0 d0  0a 18 e6 00 ca 00 6f 00 
+010: b4 00 5a 00 43 00 3d 00  86 ee 
+[rosout][INFO] 2019-06-06 09:02:24,150: {'hAcc': 7.157, 'fixType': 3, 'lon': -1238116454, 'iTOW': 403362000, 'week': 2056, 'vDop': 1.8, 'velE': 0.037, 'velD': 0.012, 'sAcc': 0.772, 'vAcc': 9.092, 'year': 2019, 'hDop': 0.9, 'lat': 393371463, 'velN': 0.007}
+[rosout][INFO] 2019-06-06 09:02:24,156: 
+Class: 0x1  ID: 0x3b  Len:40 [0x28]
+000: b5 62 01 3b 28 00 00 00  00 00 d0 d0 0a 18 00 00 
+010: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00 
+020: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 26 c1 
+[rosout][INFO] 2019-06-06 09:02:24,157: {'valid': 0, 'meanAcc': 0.0, 'active': 0}
+[rosout][INFO] 2019-06-06 09:02:24,164: 
+{'hAcc': 7.157, 'fixType': 3, 'lon': -1238116454, 'iTOW': 403362000, 'week': 2056, 'vDop': 1.8, 'velE': 0.037, 'velD': 0.012, 'sAcc': 0.772, 'sats': 10, 'vAcc': 9.092, 'year': 2019, 'hDop': 0.9, 'alt': 60.7, 'lat': 393371463, 'velN': 0.007}
+[rosout][INFO] 2019-06-06 09:02:24,166: {'hAcc': 7.157, 'fixType': 3, 'lon': -1238116454, 'iTOW': 403362000, 'week': 2056, 'vDop': 1.8, 'velE': 0.037, 'velD': 0.012, 'sAcc': 0.772, 'sats': 10, 'vAcc': 9.092, 'year': 2019, 'hDop': 0.9, 'alt': 60.7, 'lat': 393371463, 'velN': 0.007}
+[rosout][INFO] 2019-06-06 09:02:24,167: Wrote GPS_INPUT message
+
+[rosout][INFO] 2019-06-06 09:02:25,100: 
+Class: 0x1  ID: 0x6  Len:52 [0x34]
+000: b5 62 01 06 34 00 b8 d4  0a 18 89 33 07 00 08 08 
+010: 03 dd d9 b3 9d ef a1 63  89 e7 21 1a f8 17 85 04 
+020: 00 00 f3 ff ff ff 09 00  00 00 01 00 00 00 4b 00 
+030: 00 00 a9 00 02 0b 12 19  b6 03 da fc 
+[rosout][INFO] 2019-06-06 09:02:25,101: !!!NEW CYCLE!!!
+[rosout][INFO] 2019-06-06 09:02:25,102: {'week': 2056}
+[rosout][INFO] 2019-06-06 09:02:25,111: 
+Class: 0x1  ID: 0x7  Len:92 [0x5c]
+000: b5 62 01 07 5c 00 b8 d4  0a 18 e3 07 06 06 10 02 
+010: 19 37 14 00 00 00 8a 33  07 00 03 01 ea 0b 44 d7 
+020: 33 b6 30 5f 72 17 01 7d  00 00 09 ef 00 00 f0 1b 
+030: 00 00 81 23 00 00 09 00  00 00 5c ff ff ff fc ff 
+040: ff ff a4 00 00 00 c7 38  03 00 ec 02 00 00 18 2b 
+050: 9a 00 a9 00 00 00 12 19  26 3b 00 00 00 00 00 00 
+060: 00 00 7d 92 
+[rosout][INFO] 2019-06-06 09:02:25,112: {'hAcc': 7.152, 'fixType': 3, 'lon': -1238116540, 'iTOW': 403363000, 'week': 2056, 'velE': -0.164, 'velD': -0.004, 'sAcc': 0.748, 'vAcc': 9.089, 'year': 2019, 'lat': 393371440, 'velN': 0.009000000000000001}
+[rosout][INFO] 2019-06-06 09:02:25,116: 
+Class: 0x1  ID: 0x3  Len:16 [0x10]
+000: b5 62 01 03 10 00 b8 d4  0a 18 03 dd 00 08 71 4f 
+010: 06 00 39 9c 60 05 aa 5a 
+[rosout][INFO] 2019-06-06 09:02:25,117: {'gpsFix': 3, 'diffCorr': 0, 'diffSoln': 0}
+[rosout][INFO] 2019-06-06 09:02:25,121: 
+Class: 0x1  ID: 0x4  Len:18 [0x12]
+000: b5 62 01 04 12 00 b8 d4  0a 18 be 00 a9 00 57 00 
+010: 96 00 4c 00 34 00 38 00  d1 4c 
+[rosout][INFO] 2019-06-06 09:02:25,122: {'hAcc': 7.152, 'fixType': 3, 'lon': -1238116540, 'iTOW': 403363000, 'week': 2056, 'vDop': 1.5, 'velE': -0.164, 'velD': -0.004, 'sAcc': 0.748, 'vAcc': 9.089, 'year': 2019, 'hDop': 0.76, 'lat': 393371440, 'velN': 0.009000000000000001}
+[rosout][INFO] 2019-06-06 09:02:25,130: 
+Class: 0x1  ID: 0x3b  Len:40 [0x28]
+000: b5 62 01 3b 28 00 00 00  00 00 b8 d4 0a 18 00 00 
+010: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00 
+020: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 12 ed 
+[rosout][INFO] 2019-06-06 09:02:25,131: {'valid': 0, 'meanAcc': 0.0, 'active': 0}
+[rosout][INFO] 2019-06-06 09:02:25,141: 
+{'hAcc': 7.152, 'fixType': 3, 'lon': -1238116540, 'iTOW': 403363000, 'week': 2056, 'vDop': 1.5, 'velE': -0.164, 'velD': -0.004, 'sAcc': 0.748, 'sats': 11, 'vAcc': 9.089, 'year': 2019, 'hDop': 0.76, 'alt': 61.2, 'lat': 393371440, 'velN': 0.009000000000000001}
+[rosout][INFO] 2019-06-06 09:02:25,143: {'hAcc': 7.152, 'fixType': 3, 'lon': -1238116540, 'iTOW': 403363000, 'week': 2056, 'vDop': 1.5, 'velE': -0.164, 'velD': -0.004, 'sAcc': 0.748, 'sats': 11, 'vAcc': 9.089, 'year': 2019, 'hDop': 0.76, 'alt': 61.2, 'lat': 393371440, 'velN': 0.009000000000000001}
+[rosout][INFO] 2019-06-06 09:02:25,144: Wrote GPS_INPUT message
+
+[rosout][ERROR] 2019-06-06 09:02:25,580: Exception <class 'ConnectionRefusedError'> on stream: /STM1
+[rosout][INFO] 2019-06-06 09:02:26,086: 
+Class: 0x1  ID: 0x6  Len:52 [0x34]
+000: b5 62 01 06 34 00 a0 d8  0a 18 3e 34 07 00 08 08 
+010: 03 dd 94 b3 9d ef 96 63  89 e7 2e 1a f8 17 85 04 
+020: 00 00 fe ff ff ff 03 00  00 00 01 00 00 00 45 00 
+030: 00 00 a9 00 02 0b 12 19  b6 03 38 9b 
+[rosout][INFO] 2019-06-06 09:02:26,087: !!!NEW CYCLE!!!
+[rosout][INFO] 2019-06-06 09:02:26,088: {'week': 2056}
+[rosout][INFO] 2019-06-06 09:02:26,097: 
+Class: 0x1  ID: 0x7  Len:92 [0x5c]
+000: b5 62 01 07 5c 00 a0 d8  0a 18 e3 07 06 06 10 02 
+010: 1a 37 14 00 00 00 3f 34  07 00 03 01 ea 0b 08 d7 
+020: 33 b6 1d 5f 72 17 bb 7e  00 00 c3 f0 00 00 f7 1b 
+030: 00 00 85 23 00 00 11 00  00 00 de ff ff ff fe ff 
+040: ff ff 26 00 00 00 c7 38  03 00 b5 02 00 00 24 37 
+050: 9a 00 a9 00 00 00 12 19  26 3b 00 00 00 00 00 00 
+060: 00 00 41 d1 
+[rosout][INFO] 2019-06-06 09:02:26,098: {'hAcc': 7.159, 'fixType': 3, 'lon': -1238116600, 'iTOW': 403364000, 'week': 2056, 'velE': -0.034, 'velD': -0.002, 'sAcc': 0.6930000000000001, 'vAcc': 9.093, 'year': 2019, 'lat': 393371421, 'velN': 0.017}
+[rosout][INFO] 2019-06-06 09:02:26,102: 
+Class: 0x1  ID: 0x3  Len:16 [0x10]
+000: b5 62 01 03 10 00 a0 d8  0a 18 03 dd 00 08 71 4f 
+010: 06 00 21 a0 60 05 82 c2 
+[rosout][INFO] 2019-06-06 09:02:26,103: {'gpsFix': 3, 'diffCorr': 0, 'diffSoln': 0}
+[rosout][INFO] 2019-06-06 09:02:26,112: 
+Class: 0x1  ID: 0x4  Len:18 [0x12]
+000: b5 62 01 04 12 00 a0 d8  0a 18 be 00 a9 00 57 00 
+010: 96 00 4c 00 34 00 38 00  bd e0 
+[rosout][INFO] 2019-06-06 09:02:26,113: {'hAcc': 7.159, 'fixType': 3, 'lon': -1238116600, 'iTOW': 403364000, 'week': 2056, 'vDop': 1.5, 'velE': -0.034, 'velD': -0.002, 'sAcc': 0.6930000000000001, 'vAcc': 9.093, 'year': 2019, 'hDop': 0.76, 'lat': 393371421, 'velN': 0.017}
+[rosout][INFO] 2019-06-06 09:02:26,118: 
+Class: 0x1  ID: 0x3b  Len:40 [0x28]
+000: b5 62 01 3b 28 00 00 00  00 00 a0 d8 0a 18 00 00 
+010: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00 
+020: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 fe 19 
+[rosout][INFO] 2019-06-06 09:02:26,119: {'valid': 0, 'meanAcc': 0.0, 'active': 0}
+[rosout][INFO] 2019-06-06 09:02:26,126: 
+{'hAcc': 7.159, 'fixType': 3, 'lon': -1238116600, 'iTOW': 403364000, 'week': 2056, 'vDop': 1.5, 'velE': -0.034, 'velD': -0.002, 'sAcc': 0.6930000000000001, 'sats': 11, 'vAcc': 9.093, 'year': 2019, 'hDop': 0.76, 'alt': 61.6, 'lat': 393371421, 'velN': 0.017}
+[rosout][INFO] 2019-06-06 09:02:26,127: {'hAcc': 7.159, 'fixType': 3, 'lon': -1238116600, 'iTOW': 403364000, 'week': 2056, 'vDop': 1.5, 'velE': -0.034, 'velD': -0.002, 'sAcc': 0.6930000000000001, 'sats': 11, 'vAcc': 9.093, 'year': 2019, 'hDop': 0.76, 'alt': 61.6, 'lat': 393371421, 'velN': 0.017}
+[rosout][INFO] 2019-06-06 09:02:26,129: Wrote GPS_INPUT message
+
+[rosout][INFO] 2019-06-06 09:02:27,088: 
+Class: 0x1  ID: 0x6  Len:52 [0x34]
+000: b5 62 01 06 34 00 88 dc  0a 18 f2 34 07 00 08 08 
+010: 03 dd 58 b3 9d ef 83 63  89 e7 3a 1a f8 17 84 04 
+020: 00 00 ff ff ff ff fd ff  ff ff ff ff ff ff 38 00 
+030: 00 00 a9 00 02 0b 12 19  b6 03 7a 23 
+[rosout][INFO] 2019-06-06 09:02:27,089: !!!NEW CYCLE!!!
+[rosout][INFO] 2019-06-06 09:02:27,090: {'week': 2056}
+[rosout][INFO] 2019-06-06 09:02:27,099: 
+Class: 0x1  ID: 0x7  Len:92 [0x5c]
+000: b5 62 01 07 5c 00 88 dc  0a 18 e3 07 06 06 10 02 
+010: 1b 37 14 00 00 00 f4 34  07 00 03 01 ea 0b db d6 
+020: 33 b6 09 5f 72 17 88 80  00 00 90 f2 00 00 ee 1b 
+030: 00 00 81 23 00 00 e6 ff  ff ff 0a 00 00 00 eb ff 
+040: ff ff 1c 00 00 00 c7 38  03 00 2f 02 00 00 e0 40 
+050: 9a 00 a9 00 00 00 12 19  26 3b 00 00 00 00 00 00 
+060: 00 00 55 f7 
+[rosout][INFO] 2019-06-06 09:02:27,100: {'hAcc': 7.15, 'fixType': 3, 'lon': -1238116645, 'iTOW': 403365000, 'week': 2056, 'velE': 0.01, 'velD': -0.021, 'sAcc': 0.559, 'vAcc': 9.089, 'year': 2019, 'lat': 393371401, 'velN': -0.026000000000000002}
+[rosout][INFO] 2019-06-06 09:02:27,103: 
+Class: 0x1  ID: 0x3  Len:16 [0x10]
+000: b5 62 01 03 10 00 88 dc  0a 18 03 dd 00 08 71 4f 
+010: 06 00 09 a4 60 05 5a 2a 
+[rosout][INFO] 2019-06-06 09:02:27,104: {'gpsFix': 3, 'diffCorr': 0, 'diffSoln': 0}
+[rosout][INFO] 2019-06-06 09:02:27,108: 
+Class: 0x1  ID: 0x4  Len:18 [0x12]
+000: b5 62 01 04 12 00 88 dc  0a 18 be 00 a9 00 57 00 
+010: 96 00 4c 00 34 00 38 00  a9 74 
+[rosout][INFO] 2019-06-06 09:02:27,109: {'hAcc': 7.15, 'fixType': 3, 'lon': -1238116645, 'iTOW': 403365000, 'week': 2056, 'vDop': 1.5, 'velE': 0.01, 'velD': -0.021, 'sAcc': 0.559, 'vAcc': 9.089, 'year': 2019, 'hDop': 0.76, 'lat': 393371401, 'velN': -0.026000000000000002}
+[rosout][INFO] 2019-06-06 09:02:27,114: 
+Class: 0x1  ID: 0x3b  Len:40 [0x28]
+000: b5 62 01 3b 28 00 00 00  00 00 88 dc 0a 18 00 00 
+010: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00 
+020: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 ea 45 
+[rosout][INFO] 2019-06-06 09:02:27,115: {'valid': 0, 'meanAcc': 0.0, 'active': 0}
+[rosout][INFO] 2019-06-06 09:02:27,122: 
+{'hAcc': 7.15, 'fixType': 3, 'lon': -1238116645, 'iTOW': 403365000, 'week': 2056, 'vDop': 1.5, 'velE': 0.01, 'velD': -0.021, 'sAcc': 0.559, 'sats': 11, 'vAcc': 9.089, 'year': 2019, 'hDop': 0.76, 'alt': 62.1, 'lat': 393371401, 'velN': -0.026000000000000002}
+[rosout][INFO] 2019-06-06 09:02:27,123: {'hAcc': 7.15, 'fixType': 3, 'lon': -1238116645, 'iTOW': 403365000, 'week': 2056, 'vDop': 1.5, 'velE': 0.01, 'velD': -0.021, 'sAcc': 0.559, 'sats': 11, 'vAcc': 9.089, 'year': 2019, 'hDop': 0.76, 'alt': 62.1, 'lat': 393371401, 'velN': -0.026000000000000002}
+[rosout][INFO] 2019-06-06 09:02:27,124: Wrote GPS_INPUT message
+
+[rosout][INFO] 2019-06-06 09:02:28,096: 
+Class: 0x1  ID: 0x6  Len:52 [0x34]
+000: b5 62 01 06 34 00 70 e0  0a 18 a8 35 07 00 08 08 
+010: 03 dd 28 b3 9d ef 72 63  89 e7 41 1a f8 17 85 04 
+020: 00 00 f9 ff ff ff 00 00  00 00 01 00 00 00 48 00 
+030: 00 00 a9 00 02 0b 12 19  b6 03 f9 62 
+[rosout][INFO] 2019-06-06 09:02:28,097: !!!NEW CYCLE!!!
+[rosout][INFO] 2019-06-06 09:02:28,098: {'week': 2056}
+[rosout][INFO] 2019-06-06 09:02:28,107: 
+Class: 0x1  ID: 0x7  Len:92 [0x5c]
+000: b5 62 01 07 5c 00 70 e0  0a 18 e3 07 06 06 10 02 
+010: 1c 37 14 00 00 00 aa 35  07 00 03 01 ea 0b b8 d6 
+020: 33 b6 f7 5e 72 17 f1 81  00 00 f8 f3 00 00 de 1b 
+030: 00 00 90 23 00 00 f4 ff  ff ff c2 ff ff ff db ff 
+040: ff ff 3f 00 00 00 c7 38  03 00 cc 02 00 00 52 4d 
+050: 9a 00 a9 00 00 00 12 19  26 3b 00 00 00 00 00 00 
+060: 00 00 87 28 
+[rosout][INFO] 2019-06-06 09:02:28,108: {'hAcc': 7.134, 'fixType': 3, 'lon': -1238116680, 'iTOW': 403366000, 'week': 2056, 'velE': -0.062, 'velD': -0.037, 'sAcc': 0.716, 'vAcc': 9.104000000000001, 'year': 2019, 'lat': 393371383, 'velN': -0.012}
+[rosout][INFO] 2019-06-06 09:02:28,112: 
+Class: 0x1  ID: 0x3  Len:16 [0x10]
+000: b5 62 01 03 10 00 70 e0  0a 18 03 dd 00 08 71 4f 
+010: 06 00 f1 a7 60 05 31 8f 
+[rosout][INFO] 2019-06-06 09:02:28,113: {'gpsFix': 3, 'diffCorr': 0, 'diffSoln': 0}
+[rosout][INFO] 2019-06-06 09:02:28,116: 
+Class: 0x1  ID: 0x4  Len:18 [0x12]
+000: b5 62 01 04 12 00 70 e0  0a 18 be 00 a9 00 57 00 
+010: 96 00 4c 00 34 00 38 00  95 08 
+[rosout][INFO] 2019-06-06 09:02:28,117: {'hAcc': 7.134, 'fixType': 3, 'lon': -1238116680, 'iTOW': 403366000, 'week': 2056, 'vDop': 1.5, 'velE': -0.062, 'velD': -0.037, 'sAcc': 0.716, 'vAcc': 9.104000000000001, 'year': 2019, 'hDop': 0.76, 'lat': 393371383, 'velN': -0.012}
+[rosout][INFO] 2019-06-06 09:02:28,122: 
+Class: 0x1  ID: 0x3b  Len:40 [0x28]
+000: b5 62 01 3b 28 00 00 00  00 00 70 e0 0a 18 00 00 
+010: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00 
+020: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 d6 71 
+[rosout][INFO] 2019-06-06 09:02:28,123: {'valid': 0, 'meanAcc': 0.0, 'active': 0}
+[rosout][INFO] 2019-06-06 09:02:28,130: 
+{'hAcc': 7.134, 'fixType': 3, 'lon': -1238116680, 'iTOW': 403366000, 'week': 2056, 'vDop': 1.5, 'velE': -0.062, 'velD': -0.037, 'sAcc': 0.716, 'sats': 11, 'vAcc': 9.104000000000001, 'year': 2019, 'hDop': 0.76, 'alt': 62.5, 'lat': 393371383, 'velN': -0.012}
+[rosout][INFO] 2019-06-06 09:02:28,131: {'hAcc': 7.134, 'fixType': 3, 'lon': -1238116680, 'iTOW': 403366000, 'week': 2056, 'vDop': 1.5, 'velE': -0.062, 'velD': -0.037, 'sAcc': 0.716, 'sats': 11, 'vAcc': 9.104000000000001, 'year': 2019, 'hDop': 0.76, 'alt': 62.5, 'lat': 393371383, 'velN': -0.012}
+[rosout][INFO] 2019-06-06 09:02:28,132: Wrote GPS_INPUT message
+
+[rosout][INFO] 2019-06-06 09:02:29,105: 
+Class: 0x1  ID: 0x6  Len:52 [0x34]
+000: b5 62 01 06 34 00 58 e4  0a 18 5d 36 07 00 08 08 
+010: 03 dd f2 b2 9d ef 5d 63  89 e7 48 1a f8 17 84 04 
+020: 00 00 f1 ff ff ff ff ff  ff ff ff ff ff ff 44 00 
+030: 00 00 a9 00 02 0b 12 19  b6 03 40 22 
+[rosout][INFO] 2019-06-06 09:02:29,106: !!!NEW CYCLE!!!
+[rosout][INFO] 2019-06-06 09:02:29,107: {'week': 2056}
+[rosout][INFO] 2019-06-06 09:02:29,116: 
+Class: 0x1  ID: 0x7  Len:92 [0x5c]
+000: b5 62 01 07 5c 00 58 e4  0a 18 e3 07 06 06 10 02 
+010: 1d 37 14 00 00 00 5f 36  07 00 03 01 ea 0b 92 d6 
+020: 33 b6 e1 5e 72 17 8c 83  00 00 94 f5 00 00 c4 1b 
+030: 00 00 9f 23 00 00 bd ff  ff ff 8e ff ff ff be ff 
+040: ff ff 84 00 00 00 c7 38  03 00 aa 02 00 00 2e 59 
+050: 9a 00 a9 00 00 00 12 19  26 3b 00 00 00 00 00 00 
+060: 00 00 a1 71 
+[rosout][INFO] 2019-06-06 09:02:29,117: {'hAcc': 7.1080000000000005, 'fixType': 3, 'lon': -1238116718, 'iTOW': 403367000, 'week': 2056, 'velE': -0.114, 'velD': -0.066, 'sAcc': 0.682, 'vAcc': 9.119, 'year': 2019, 'lat': 393371361, 'velN': -0.067}
+[rosout][INFO] 2019-06-06 09:02:29,121: 
+Class: 0x1  ID: 0x3  Len:16 [0x10]
+000: b5 62 01 03 10 00 58 e4  0a 18 03 dd 00 08 71 4f 
+010: 06 00 d9 ab 60 05 09 f7 
+[rosout][INFO] 2019-06-06 09:02:29,122: {'gpsFix': 3, 'diffCorr': 0, 'diffSoln': 0}
+[rosout][INFO] 2019-06-06 09:02:29,125: 
+Class: 0x1  ID: 0x4  Len:18 [0x12]
+000: b5 62 01 04 12 00 58 e4  0a 18 be 00 a9 00 57 00 
+010: 96 00 4c 00 34 00 38 00  81 9c 
+[rosout][INFO] 2019-06-06 09:02:29,126: {'hAcc': 7.1080000000000005, 'fixType': 3, 'lon': -1238116718, 'iTOW': 403367000, 'week': 2056, 'vDop': 1.5, 'velE': -0.114, 'velD': -0.066, 'sAcc': 0.682, 'vAcc': 9.119, 'year': 2019, 'hDop': 0.76, 'lat': 393371361, 'velN': -0.067}
+[rosout][INFO] 2019-06-06 09:02:29,132: 
+Class: 0x1  ID: 0x3b  Len:40 [0x28]
+000: b5 62 01 3b 28 00 00 00  00 00 58 e4 0a 18 00 00 
+010: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00 
+020: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 c2 9d 
+[rosout][INFO] 2019-06-06 09:02:29,133: {'valid': 0, 'meanAcc': 0.0, 'active': 0}
+[rosout][INFO] 2019-06-06 09:02:29,140: 
+{'hAcc': 7.1080000000000005, 'fixType': 3, 'lon': -1238116718, 'iTOW': 403367000, 'week': 2056, 'vDop': 1.5, 'velE': -0.114, 'velD': -0.066, 'sAcc': 0.682, 'sats': 11, 'vAcc': 9.119, 'year': 2019, 'hDop': 0.76, 'alt': 62.9, 'lat': 393371361, 'velN': -0.067}
+[rosout][INFO] 2019-06-06 09:02:29,141: {'hAcc': 7.1080000000000005, 'fixType': 3, 'lon': -1238116718, 'iTOW': 403367000, 'week': 2056, 'vDop': 1.5, 'velE': -0.114, 'velD': -0.066, 'sAcc': 0.682, 'sats': 11, 'vAcc': 9.119, 'year': 2019, 'hDop': 0.76, 'alt': 62.9, 'lat': 393371361, 'velN': -0.067}
+[rosout][INFO] 2019-06-06 09:02:29,142: Wrote GPS_INPUT message
+
+[rosout][INFO] 2019-06-06 09:02:30,107: 
+Class: 0x1  ID: 0x6  Len:52 [0x34]
+000: b5 62 01 06 34 00 40 e8  0a 18 11 37 07 00 08 08 
+010: 03 dd ac b2 9d ef 3d 63  89 e7 58 1a f8 17 83 04 
+020: 00 00 e5 ff ff ff fd ff  ff ff 04 00 00 00 45 00 
+030: 00 00 a9 00 02 0b 12 19  b6 03 85 af 
+[rosout][INFO] 2019-06-06 09:02:30,108: !!!NEW CYCLE!!!
+[rosout][INFO] 2019-06-06 09:02:30,109: {'week': 2056}
+[rosout][INFO] 2019-06-06 09:02:30,134: 
+Class: 0x1  ID: 0x7  Len:92 [0x5c]
+000: b5 62 01 07 5c 00 40 e8  0a 18 e3 07 06 06 10 02 
+010: 1e 37 14 00 00 00 13 37  07 00 03 01 ea 0b 62 d6 
+020: 33 b6 c7 5e 72 17 f2 85  00 00 f9 f7 00 00 9b 1b 
+030: 00 00 ae 23 00 00 b4 ff  ff ff 2d ff ff ff 5f ff 
+040: ff ff e0 00 00 00 c7 38  03 00 ad 02 00 00 16 65 
+050: 9a 00 a9 00 00 00 12 19  26 3b 00 00 00 00 00 00 
+060: 00 00 38 26 
+[rosout][INFO] 2019-06-06 09:02:30,136: {'hAcc': 7.067, 'fixType': 3, 'lon': -1238116766, 'iTOW': 403368000, 'week': 2056, 'velE': -0.211, 'velD': -0.161, 'sAcc': 0.685, 'vAcc': 9.134, 'year': 2019, 'lat': 393371335, 'velN': -0.076}
+[rosout][INFO] 2019-06-06 09:02:30,142: 
+Class: 0x1  ID: 0x3  Len:16 [0x10]
+000: b5 62 01 03 10 00 40 e8  0a 18 03 dd 00 08 71 4f 
+010: 06 00 c1 af 60 05 e1 5f 
+[rosout][INFO] 2019-06-06 09:02:30,143: {'gpsFix': 3, 'diffCorr': 0, 'diffSoln': 0}
+[rosout][INFO] 2019-06-06 09:02:30,148: 
+Class: 0x1  ID: 0x4  Len:18 [0x12]
+000: b5 62 01 04 12 00 40 e8  0a 18 be 00 a9 00 57 00 
+010: 96 00 4c 00 34 00 38 00  6d 30 
+[rosout][INFO] 2019-06-06 09:02:30,149: {'hAcc': 7.067, 'fixType': 3, 'lon': -1238116766, 'iTOW': 403368000, 'week': 2056, 'vDop': 1.5, 'velE': -0.211, 'velD': -0.161, 'sAcc': 0.685, 'vAcc': 9.134, 'year': 2019, 'hDop': 0.76, 'lat': 393371335, 'velN': -0.076}
+[rosout][INFO] 2019-06-06 09:02:30,156: 
+Class: 0x1  ID: 0x3b  Len:40 [0x28]
+000: b5 62 01 3b 28 00 00 00  00 00 40 e8 0a 18 00 00 
+010: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00 
+020: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 ae c9 
+[rosout][INFO] 2019-06-06 09:02:30,157: {'valid': 0, 'meanAcc': 0.0, 'active': 0}
+[rosout][INFO] 2019-06-06 09:02:30,164: 
+{'hAcc': 7.067, 'fixType': 3, 'lon': -1238116766, 'iTOW': 403368000, 'week': 2056, 'vDop': 1.5, 'velE': -0.211, 'velD': -0.161, 'sAcc': 0.685, 'sats': 11, 'vAcc': 9.134, 'year': 2019, 'hDop': 0.76, 'alt': 63.5, 'lat': 393371335, 'velN': -0.076}
+[rosout][INFO] 2019-06-06 09:02:30,165: {'hAcc': 7.067, 'fixType': 3, 'lon': -1238116766, 'iTOW': 403368000, 'week': 2056, 'vDop': 1.5, 'velE': -0.211, 'velD': -0.161, 'sAcc': 0.685, 'sats': 11, 'vAcc': 9.134, 'year': 2019, 'hDop': 0.76, 'alt': 63.5, 'lat': 393371335, 'velN': -0.076}
+[rosout][INFO] 2019-06-06 09:02:30,166: Wrote GPS_INPUT message
+
+[rosout][INFO] 2019-06-06 09:02:31,098: 
+Class: 0x1  ID: 0x6  Len:52 [0x34]
+000: b5 62 01 06 34 00 28 ec  0a 18 c6 37 07 00 08 08 
+010: 03 dd 66 b2 9d ef 1a 63  89 e7 6a 1a f8 17 82 04 
+020: 00 00 e6 ff ff ff f7 ff  ff ff 06 00 00 00 42 00 
+030: 00 00 a9 00 02 0b 12 19  b6 03 c8 6f 
+[rosout][INFO] 2019-06-06 09:02:31,099: !!!NEW CYCLE!!!
+[rosout][INFO] 2019-06-06 09:02:31,100: {'week': 2056}
+[rosout][INFO] 2019-06-06 09:02:31,109: 
+Class: 0x1  ID: 0x7  Len:92 [0x5c]
+000: b5 62 01 07 5c 00 28 ec  0a 18 e3 07 06 06 10 02 
+010: 1f 37 14 00 00 00 c8 37  07 00 03 01 ea 0b 35 d6 
+020: 33 b6 ac 5e 72 17 6d 88  00 00 74 fa 00 00 70 1b 
+030: 00 00 bf 23 00 00 a4 ff  ff ff 5c ff ff ff 32 ff 
+040: ff ff bc 00 00 00 c7 38  03 00 95 02 00 00 92 70 
+050: 9a 00 a9 00 00 00 12 19  26 3b 00 00 00 00 00 00 
+060: 00 00 b1 d7 
+[rosout][INFO] 2019-06-06 09:02:31,110: {'hAcc': 7.024, 'fixType': 3, 'lon': -1238116811, 'iTOW': 403369000, 'week': 2056, 'velE': -0.164, 'velD': -0.20600000000000002, 'sAcc': 0.661, 'vAcc': 9.151, 'year': 2019, 'lat': 393371308, 'velN': -0.092}
+[rosout][INFO] 2019-06-06 09:02:31,118: 
+Class: 0x1  ID: 0x3  Len:16 [0x10]
+000: b5 62 01 03 10 00 28 ec  0a 18 03 dd 00 08 71 4f 
+010: 06 00 a9 b3 60 05 b9 c7 
+[rosout][INFO] 2019-06-06 09:02:31,120: {'gpsFix': 3, 'diffCorr': 0, 'diffSoln': 0}
+[rosout][INFO] 2019-06-06 09:02:31,123: 
+Class: 0x1  ID: 0x4  Len:18 [0x12]
+000: b5 62 01 04 12 00 28 ec  0a 18 be 00 a9 00 57 00 
+010: 96 00 4c 00 34 00 38 00  59 c4 
+[rosout][INFO] 2019-06-06 09:02:31,124: {'hAcc': 7.024, 'fixType': 3, 'lon': -1238116811, 'iTOW': 403369000, 'week': 2056, 'vDop': 1.5, 'velE': -0.164, 'velD': -0.20600000000000002, 'sAcc': 0.661, 'vAcc': 9.151, 'year': 2019, 'hDop': 0.76, 'lat': 393371308, 'velN': -0.092}
+[rosout][INFO] 2019-06-06 09:02:31,129: 
+Class: 0x1  ID: 0x3b  Len:40 [0x28]
+000: b5 62 01 3b 28 00 00 00  00 00 28 ec 0a 18 00 00 
+010: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00 
+020: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 9a f5 
+[rosout][INFO] 2019-06-06 09:02:31,130: {'valid': 0, 'meanAcc': 0.0, 'active': 0}
+[rosout][INFO] 2019-06-06 09:02:31,137: 
+{'hAcc': 7.024, 'fixType': 3, 'lon': -1238116811, 'iTOW': 403369000, 'week': 2056, 'vDop': 1.5, 'velE': -0.164, 'velD': -0.20600000000000002, 'sAcc': 0.661, 'sats': 11, 'vAcc': 9.151, 'year': 2019, 'hDop': 0.76, 'alt': 64.1, 'lat': 393371308, 'velN': -0.092}
+[rosout][INFO] 2019-06-06 09:02:31,138: {'hAcc': 7.024, 'fixType': 3, 'lon': -1238116811, 'iTOW': 403369000, 'week': 2056, 'vDop': 1.5, 'velE': -0.164, 'velD': -0.20600000000000002, 'sAcc': 0.661, 'sats': 11, 'vAcc': 9.151, 'year': 2019, 'hDop': 0.76, 'alt': 64.1, 'lat': 393371308, 'velN': -0.092}
+[rosout][INFO] 2019-06-06 09:02:31,139: Wrote GPS_INPUT message
+
+[rosout][INFO] 2019-06-06 09:02:32,101: 
+Class: 0x1  ID: 0x6  Len:52 [0x34]
+000: b5 62 01 06 34 00 10 f0  0a 18 7b 38 07 00 08 08 
+010: 03 dd 3c b2 9d ef fe 62  89 e7 77 1a f8 17 7d 04 
+020: 00 00 ed ff ff ff ed ff  ff ff 07 00 00 00 3e 00 
+030: 00 00 a9 00 02 0b 12 19  b6 03 25 ab 
+[rosout][INFO] 2019-06-06 09:02:32,102: !!!NEW CYCLE!!!
+[rosout][INFO] 2019-06-06 09:02:32,103: {'week': 2056}
+[rosout][INFO] 2019-06-06 09:02:32,113: 
+Class: 0x1  ID: 0x7  Len:92 [0x5c]
+000: b5 62 01 07 5c 00 10 f0  0a 18 e3 07 06 06 10 02 
+010: 20 37 14 00 00 00 7d 38  07 00 03 01 ea 0b 1f d6 
+020: 33 b6 9b 5e 72 17 2b 8a  00 00 32 fc 00 00 22 1b 
+030: 00 00 c0 23 00 00 8e ff  ff ff ce ff ff ff 0d ff 
+040: ff ff 7d 00 00 00 c7 38  03 00 6d 02 00 00 5a 7b 
+050: 9a 00 a9 00 00 00 12 19  26 3b 00 00 00 00 00 00 
+060: 00 00 03 dd 
+[rosout][INFO] 2019-06-06 09:02:32,114: {'hAcc': 6.946, 'fixType': 3, 'lon': -1238116833, 'iTOW': 403370000, 'week': 2056, 'velE': -0.05, 'velD': -0.243, 'sAcc': 0.621, 'vAcc': 9.152000000000001, 'year': 2019, 'lat': 393371291, 'velN': -0.114}
+[rosout][INFO] 2019-06-06 09:02:32,119: 
+Class: 0x1  ID: 0x3  Len:16 [0x10]
+000: b5 62 01 03 10 00 10 f0  0a 18 03 dd 00 08 71 4f 
+010: 06 00 91 b7 60 05 91 2f 
+[rosout][INFO] 2019-06-06 09:02:32,121: {'gpsFix': 3, 'diffCorr': 0, 'diffSoln': 0}
+[rosout][INFO] 2019-06-06 09:02:32,128: 
+Class: 0x1  ID: 0x4  Len:18 [0x12]
+000: b5 62 01 04 12 00 10 f0  0a 18 be 00 a9 00 57 00 
+010: 96 00 4c 00 34 00 38 00  45 58 
+[rosout][INFO] 2019-06-06 09:02:32,130: {'hAcc': 6.946, 'fixType': 3, 'lon': -1238116833, 'iTOW': 403370000, 'week': 2056, 'vDop': 1.5, 'velE': -0.05, 'velD': -0.243, 'sAcc': 0.621, 'vAcc': 9.152000000000001, 'year': 2019, 'hDop': 0.76, 'lat': 393371291, 'velN': -0.114}
+[rosout][INFO] 2019-06-06 09:02:32,137: 
+Class: 0x1  ID: 0x3b  Len:40 [0x28]
+000: b5 62 01 3b 28 00 00 00  00 00 10 f0 0a 18 00 00 
+010: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00 
+020: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 86 21 
+[rosout][INFO] 2019-06-06 09:02:32,138: {'valid': 0, 'meanAcc': 0.0, 'active': 0}
+[rosout][INFO] 2019-06-06 09:02:32,146: 
+{'hAcc': 6.946, 'fixType': 3, 'lon': -1238116833, 'iTOW': 403370000, 'week': 2056, 'vDop': 1.5, 'velE': -0.05, 'velD': -0.243, 'sAcc': 0.621, 'sats': 11, 'vAcc': 9.152000000000001, 'year': 2019, 'hDop': 0.76, 'alt': 64.6, 'lat': 393371291, 'velN': -0.114}
+[rosout][INFO] 2019-06-06 09:02:32,147: {'hAcc': 6.946, 'fixType': 3, 'lon': -1238116833, 'iTOW': 403370000, 'week': 2056, 'vDop': 1.5, 'velE': -0.05, 'velD': -0.243, 'sAcc': 0.621, 'sats': 11, 'vAcc': 9.152000000000001, 'year': 2019, 'hDop': 0.76, 'alt': 64.6, 'lat': 393371291, 'velN': -0.114}
+[rosout][INFO] 2019-06-06 09:02:32,148: Wrote GPS_INPUT message
+
+[rosout][INFO] 2019-06-06 09:02:33,086: 
+Class: 0x1  ID: 0x6  Len:52 [0x34]
+000: b5 62 01 06 34 00 f8 f3  0a 18 30 39 07 00 08 08 
+010: 03 dd fd b1 9d ef d3 62  89 e7 8e 1a f8 17 79 04 
+020: 00 00 eb ff ff ff ec ff  ff ff 07 00 00 00 3e 00 
+030: 00 00 a9 00 02 0b 12 19  b6 03 6b a4 
+[rosout][INFO] 2019-06-06 09:02:33,087: !!!NEW CYCLE!!!
+[rosout][INFO] 2019-06-06 09:02:33,090: {'week': 2056}
+[rosout][INFO] 2019-06-06 09:02:33,104: 
+Class: 0x1  ID: 0x7  Len:92 [0x5c]
+000: b5 62 01 07 5c 00 f8 f3  0a 18 e3 07 06 06 10 02 
+010: 21 37 13 00 00 00 32 39  07 00 03 01 ea 0b fe d5 
+020: 33 b6 82 5e 72 17 e1 8c  00 00 e8 fe 00 00 d4 1a 
+030: 00 00 cc 23 00 00 84 ff  ff ff bf ff ff ff f4 fe 
+040: ff ff 8c 00 00 00 c7 38  03 00 68 02 00 00 0c 86 
+050: 9a 00 a9 00 00 00 12 19  26 3b 00 00 00 00 00 00 
+060: 00 00 2a 0b 
+[rosout][INFO] 2019-06-06 09:02:33,106: {'hAcc': 6.868, 'fixType': 3, 'lon': -1238116866, 'iTOW': 403371000, 'week': 2056, 'velE': -0.065, 'velD': -0.268, 'sAcc': 0.616, 'vAcc': 9.164, 'year': 2019, 'lat': 393371266, 'velN': -0.124}
+[rosout][INFO] 2019-06-06 09:02:33,109: 
+Class: 0x1  ID: 0x3  Len:16 [0x10]
+000: b5 62 01 03 10 00 f8 f3  0a 18 03 dd 00 08 71 4f 
+010: 06 00 79 bb 60 05 68 88 
+[rosout][INFO] 2019-06-06 09:02:33,110: {'gpsFix': 3, 'diffCorr': 0, 'diffSoln': 0}
+[rosout][INFO] 2019-06-06 09:02:33,113: 
+Class: 0x1  ID: 0x4  Len:18 [0x12]
+000: b5 62 01 04 12 00 f8 f3  0a 18 be 00 a9 00 57 00 
+010: 96 00 4c 00 34 00 38 00  30 db 
+[rosout][INFO] 2019-06-06 09:02:33,115: {'hAcc': 6.868, 'fixType': 3, 'lon': -1238116866, 'iTOW': 403371000, 'week': 2056, 'vDop': 1.5, 'velE': -0.065, 'velD': -0.268, 'sAcc': 0.616, 'vAcc': 9.164, 'year': 2019, 'hDop': 0.76, 'lat': 393371266, 'velN': -0.124}
+[rosout][INFO] 2019-06-06 09:02:33,119: 
+Class: 0x1  ID: 0x3b  Len:40 [0x28]
+000: b5 62 01 3b 28 00 00 00  00 00 f8 f3 0a 18 00 00 
+010: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00 
+020: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 71 2a 
+[rosout][INFO] 2019-06-06 09:02:33,121: {'valid': 0, 'meanAcc': 0.0, 'active': 0}
+[rosout][INFO] 2019-06-06 09:02:33,127: 
+{'hAcc': 6.868, 'fixType': 3, 'lon': -1238116866, 'iTOW': 403371000, 'week': 2056, 'vDop': 1.5, 'velE': -0.065, 'velD': -0.268, 'sAcc': 0.616, 'sats': 11, 'vAcc': 9.164, 'year': 2019, 'hDop': 0.76, 'alt': 65.3, 'lat': 393371266, 'velN': -0.124}
+[rosout][INFO] 2019-06-06 09:02:33,129: {'hAcc': 6.868, 'fixType': 3, 'lon': -1238116866, 'iTOW': 403371000, 'week': 2056, 'vDop': 1.5, 'velE': -0.065, 'velD': -0.268, 'sAcc': 0.616, 'sats': 11, 'vAcc': 9.164, 'year': 2019, 'hDop': 0.76, 'alt': 65.3, 'lat': 393371266, 'velN': -0.124}
+[rosout][INFO] 2019-06-06 09:02:33,130: Wrote GPS_INPUT message
+
+[rosout][WARNING] 2019-06-06 09:02:33,892: Accepted connection from: ('10.0.0.190', 57122)
+[rosout][INFO] 2019-06-06 09:02:33,958: Message from remote: ('10.0.0.190', 57122)
+000: b5 62 0a 04 00 00 0e 34 
+[rosout][INFO] 2019-06-06 09:02:33,965: MSG sent to ubx device
+[rosout][INFO] 2019-06-06 09:02:33,967: Message from remote: ('10.0.0.190', 57122)
+000: b5 62 0a 04 00 00 0e 34 
+[rosout][INFO] 2019-06-06 09:02:33,974: Message from remote: ('10.0.0.190', 57122)
+000: b5 62 0a 04 00 00 0e 34 
+[rosout][INFO] 2019-06-06 09:02:34,005: 
+Class: 0xa  ID: 0x4  Len:250 [0xfa]
+000: b5 62 0a 04 fa 00 45 58  54 20 43 4f 52 45 20 33 
+010: 2e 30 31 20 28 64 62 30  63 38 39 29 00 00 00 00 
+020: 00 00 00 00 30 30 30 38  30 30 30 30 00 00 52 4f 
+030: 4d 20 42 41 53 45 20 33  2e 30 31 20 28 31 30 37 
+040: 38 38 38 29 00 00 00 00  00 00 00 00 46 57 56 45 
+050: 52 3d 48 50 47 20 31 2e  34 30 52 45 46 00 00 00 
+060: 00 00 00 00 00 00 00 00  00 00 50 52 4f 54 56 45 
+070: 52 3d 32 30 2e 33 30 00  00 00 00 00 00 00 00 00 
+080: 00 00 00 00 00 00 00 00  4d 4f 44 3d 4e 45 4f 2d 
+090: 4d 38 50 2d 32 00 00 00  00 00 00 00 00 00 00 00 
+0a0: 00 00 00 00 00 00 46 49  53 3d 30 78 45 46 34 30 
+0b0: 31 35 20 28 31 30 30 31  31 31 29 00 00 00 00 00 
+0c0: 00 00 00 00 47 50 53 3b  47 4c 4f 3b 42 44 53 00 
+0d0: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00 
+0e0: 00 00 51 5a 53 53 00 00  00 00 00 00 00 00 00 00 
+0f0: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00 
+100: e8 1f 
+[rosout][WARNING] 2019-06-06 09:02:34,010: No handler for: 0A04
+[rosout][INFO] 2019-06-06 09:02:34,014: MSG sent to ubx device
+[rosout][INFO] 2019-06-06 09:02:34,100: 
+Class: 0xa  ID: 0x4  Len:250 [0xfa]
+000: b5 62 0a 04 fa 00 45 58  54 20 43 4f 52 45 20 33 
+010: 2e 30 31 20 28 64 62 30  63 38 39 29 00 00 00 00 
+020: 00 00 00 00 30 30 30 38  30 30 30 30 00 00 52 4f 
+030: 4d 20 42 41 53 45 20 33  2e 30 31 20 28 31 30 37 
+040: 38 38 38 29 00 00 00 00  00 00 00 00 46 57 56 45 
+050: 52 3d 48 50 47 20 31 2e  34 30 52 45 46 00 00 00 
+060: 00 00 00 00 00 00 00 00  00 00 50 52 4f 54 56 45 
+070: 52 3d 32 30 2e 33 30 00  00 00 00 00 00 00 00 00 
+080: 00 00 00 00 00 00 00 00  4d 4f 44 3d 4e 45 4f 2d 
+090: 4d 38 50 2d 32 00 00 00  00 00 00 00 00 00 00 00 
+0a0: 00 00 00 00 00 00 46 49  53 3d 30 78 45 46 34 30 
+0b0: 31 35 20 28 31 30 30 31  31 31 29 00 00 00 00 00 
+0c0: 00 00 00 00 47 50 53 3b  47 4c 4f 3b 42 44 53 00 
+0d0: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00 
+0e0: 00 00 51 5a 53 53 00 00  00 00 00 00 00 00 00 00 
+0f0: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00 
+100: e8 1f 
+[rosout][WARNING] 2019-06-06 09:02:34,101: No handler for: 0A04
+[rosout][INFO] 2019-06-06 09:02:34,103: MSG sent to ubx device
+[rosout][INFO] 2019-06-06 09:02:34,138: 
+Class: 0x1  ID: 0x6  Len:52 [0x34]
+000: b5 62 01 06 34 00 e0 f7  0a 18 e4 39 07 00 08 08 
+010: 03 dd b8 b1 9d ef 92 62  89 e7 b2 1a f8 17 77 04 
+020: 00 00 f2 ff ff ff e3 ff  ff ff 08 00 00 00 3d 00 
+030: 00 00 a9 00 02 0b 12 19  b6 03 a5 a4 
+[rosout][INFO] 2019-06-06 09:02:34,190: !!!NEW CYCLE!!!
+[rosout][INFO] 2019-06-06 09:02:34,191: {'week': 2056}
+[rosout][INFO] 2019-06-06 09:02:34,242: 
+Class: 0xa  ID: 0x4  Len:250 [0xfa]
+000: b5 62 0a 04 fa 00 45 58  54 20 43 4f 52 45 20 33 
+010: 2e 30 31 20 28 64 62 30  63 38 39 29 00 00 00 00 
+020: 00 00 00 00 30 30 30 38  30 30 30 30 00 00 52 4f 
+030: 4d 20 42 41 53 45 20 33  2e 30 31 20 28 31 30 37 
+040: 38 38 38 29 00 00 00 00  00 00 00 00 46 57 56 45 
+050: 52 3d 48 50 47 20 31 2e  34 30 52 45 46 00 00 00 
+060: 00 00 00 00 00 00 00 00  00 00 50 52 4f 54 56 45 
+070: 52 3d 32 30 2e 33 30 00  00 00 00 00 00 00 00 00 
+080: 00 00 00 00 00 00 00 00  4d 4f 44 3d 4e 45 4f 2d 
+090: 4d 38 50 2d 32 00 00 00  00 00 00 00 00 00 00 00 
+0a0: 00 00 00 00 00 00 46 49  53 3d 30 78 45 46 34 30 
+0b0: 31 35 20 28 31 30 30 31  31 31 29 00 00 00 00 00 
+0c0: 00 00 00 00 47 50 53 3b  47 4c 4f 3b 42 44 53 00 
+0d0: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00 
+0e0: 00 00 51 5a 53 53 00 00  00 00 00 00 00 00 00 00 
+0f0: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00 
+100: e8 1f 
+[rosout][WARNING] 2019-06-06 09:02:34,286: No handler for: 0A04
+[rosout][INFO] 2019-06-06 09:02:34,347: 
+Class: 0x1  ID: 0x7  Len:92 [0x5c]
+000: b5 62 01 07 5c 00 e0 f7  0a 18 e3 07 06 06 10 02 
+010: 22 37 13 00 00 00 e6 39  07 00 03 01 ea 0b e6 d5 
+020: 33 b6 67 5e 72 17 89 90  00 00 90 02 01 00 8f 1a 
+030: 00 00 e8 23 00 00 76 ff  ff ff 2e 00 00 00 d8 fe 
+040: ff ff 91 00 00 00 c7 38  03 00 60 02 00 00 9a 90 
+050: 9a 00 a9 00 00 00 12 19  26 3b 00 00 00 00 00 00 
+060: 00 00 a5 fb 
+[rosout][INFO] 2019-06-06 09:02:34,382: {'hAcc': 6.799, 'fixType': 3, 'lon': -1238116890, 'iTOW': 403372000, 'week': 2056, 'velE': 0.046, 'velD': -0.296, 'sAcc': 0.608, 'vAcc': 9.192, 'year': 2019, 'lat': 393371239, 'velN': -0.138}
+[rosout][INFO] 2019-06-06 09:02:34,392: 
+Class: 0x1  ID: 0x3  Len:16 [0x10]
+000: b5 62 01 03 10 00 e0 f7  0a 18 03 dd 00 08 71 4f 
+010: 06 00 61 bf 60 05 40 f0 
+[rosout][INFO] 2019-06-06 09:02:34,394: {'gpsFix': 3, 'diffCorr': 0, 'diffSoln': 0}
+[rosout][INFO] 2019-06-06 09:02:34,456: 
+Class: 0x1  ID: 0x4  Len:18 [0x12]
+000: b5 62 01 04 12 00 e0 f7  0a 18 be 00 a9 00 57 00 
+010: 96 00 4c 00 34 00 38 00  1c 6f 
+[rosout][INFO] 2019-06-06 09:02:34,486: {'hAcc': 6.799, 'fixType': 3, 'lon': -1238116890, 'iTOW': 403372000, 'week': 2056, 'vDop': 1.5, 'velE': 0.046, 'velD': -0.296, 'sAcc': 0.608, 'vAcc': 9.192, 'year': 2019, 'hDop': 0.76, 'lat': 393371239, 'velN': -0.138}
+[rosout][INFO] 2019-06-06 09:02:34,534: 
+Class: 0x1  ID: 0x3b  Len:40 [0x28]
+000: b5 62 01 3b 28 00 00 00  00 00 e0 f7 0a 18 00 00 
+010: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00 
+020: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 5d 56 
+[rosout][INFO] 2019-06-06 09:02:34,536: {'valid': 0, 'meanAcc': 0.0, 'active': 0}
+[rosout][INFO] 2019-06-06 09:02:34,550: 
+{'hAcc': 6.799, 'fixType': 3, 'lon': -1238116890, 'iTOW': 403372000, 'week': 2056, 'vDop': 1.5, 'velE': 0.046, 'velD': -0.296, 'sAcc': 0.608, 'sats': 11, 'vAcc': 9.192, 'year': 2019, 'hDop': 0.76, 'alt': 66.2, 'lat': 393371239, 'velN': -0.138}
+[rosout][INFO] 2019-06-06 09:02:34,563: {'hAcc': 6.799, 'fixType': 3, 'lon': -1238116890, 'iTOW': 403372000, 'week': 2056, 'vDop': 1.5, 'velE': 0.046, 'velD': -0.296, 'sAcc': 0.608, 'sats': 11, 'vAcc': 9.192, 'year': 2019, 'hDop': 0.76, 'alt': 66.2, 'lat': 393371239, 'velN': -0.138}
+[rosout][INFO] 2019-06-06 09:02:34,564: Wrote GPS_INPUT message
+
+[rosout][INFO] 2019-06-06 09:02:35,171: 
+Class: 0x1  ID: 0x6  Len:52 [0x34]
+000: b5 62 01 06 34 00 c8 fb  0a 18 9b 3a 07 00 08 08 
+010: 03 dd bc b1 9d ef 82 62  89 e7 bf 1a f8 17 7c 04 
+020: 00 00 f7 ff ff ff e7 ff  ff ff 0b 00 00 00 3d 00 
+030: 00 00 ca 00 02 0a 12 19  b6 03 7b 96 
+[rosout][INFO] 2019-06-06 09:02:35,172: !!!NEW CYCLE!!!
+[rosout][INFO] 2019-06-06 09:02:35,183: {'week': 2056}
+[rosout][INFO] 2019-06-06 09:02:35,238: 
+Class: 0x1  ID: 0x7  Len:92 [0x5c]
+000: b5 62 01 07 5c 00 c8 fb  0a 18 e3 07 06 06 10 02 
+010: 23 37 14 00 00 00 9d 3a  07 00 03 01 ea 0a f4 d5 
+020: 33 b6 6a 5e 72 17 36 91  00 00 3d 03 01 00 75 1a 
+030: 00 00 37 24 00 00 b3 ff  ff ff 3e 00 00 00 ee fe 
+040: ff ff 63 00 00 00 c7 38  03 00 5d 02 00 00 1a 9b 
+050: 9a 00 ca 00 00 00 12 19  26 3b 00 00 00 00 00 00 
+060: 00 00 cb b5 
+[rosout][INFO] 2019-06-06 09:02:35,240: {'hAcc': 6.773000000000001, 'fixType': 3, 'lon': -1238116876, 'iTOW': 403373000, 'week': 2056, 'velE': 0.062, 'velD': -0.274, 'sAcc': 0.605, 'vAcc': 9.271, 'year': 2019, 'lat': 393371242, 'velN': -0.077}
+[rosout][INFO] 2019-06-06 09:02:35,315: 
+Class: 0x1  ID: 0x3  Len:16 [0x10]
+000: b5 62 01 03 10 00 c8 fb  0a 18 03 dd 00 08 71 4f 
+010: 06 00 49 c3 60 05 18 58 
+[rosout][INFO] 2019-06-06 09:02:35,316: {'gpsFix': 3, 'diffCorr': 0, 'diffSoln': 0}
+[rosout][INFO] 2019-06-06 09:02:35,371: 
+Class: 0x1  ID: 0x4  Len:18 [0x12]
+000: b5 62 01 04 12 00 c8 fb  0a 18 e6 00 ca 00 6f 00 
+010: b4 00 5a 00 43 00 3d 00  a9 39 
+[rosout][INFO] 2019-06-06 09:02:35,372: {'hAcc': 6.773000000000001, 'fixType': 3, 'lon': -1238116876, 'iTOW': 403373000, 'week': 2056, 'vDop': 1.8, 'velE': 0.062, 'velD': -0.274, 'sAcc': 0.605, 'vAcc': 9.271, 'year': 2019, 'hDop': 0.9, 'lat': 393371242, 'velN': -0.077}
+[rosout][INFO] 2019-06-06 09:02:35,531: 
+Class: 0x1  ID: 0x3b  Len:40 [0x28]
+000: b5 62 01 3b 28 00 00 00  00 00 c8 fb 0a 18 00 00 
+010: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00 
+020: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 49 82 
+[rosout][INFO] 2019-06-06 09:02:35,532: {'valid': 0, 'meanAcc': 0.0, 'active': 0}
+[rosout][ERROR] 2019-06-06 09:02:35,628: Exception <class 'ConnectionRefusedError'> on stream: /STM1
+[rosout][INFO] 2019-06-06 09:02:35,759: 
+{'hAcc': 6.773000000000001, 'fixType': 3, 'lon': -1238116876, 'iTOW': 403373000, 'week': 2056, 'vDop': 1.8, 'velE': 0.062, 'velD': -0.274, 'sAcc': 0.605, 'sats': 11, 'vAcc': 9.271, 'year': 2019, 'hDop': 0.9, 'alt': 66.4, 'lat': 393371242, 'velN': -0.077}
+[rosout][INFO] 2019-06-06 09:02:35,770: {'hAcc': 6.773000000000001, 'fixType': 3, 'lon': -1238116876, 'iTOW': 403373000, 'week': 2056, 'vDop': 1.8, 'velE': 0.062, 'velD': -0.274, 'sAcc': 0.605, 'sats': 11, 'vAcc': 9.271, 'year': 2019, 'hDop': 0.9, 'alt': 66.4, 'lat': 393371242, 'velN': -0.077}
+[rosout][INFO] 2019-06-06 09:02:35,772: Wrote GPS_INPUT message
+
+[rosout][INFO] 2019-06-06 09:02:36,099: 
+Class: 0x1  ID: 0x6  Len:52 [0x34]
+000: b5 62 01 06 34 00 b0 ff  0a 18 52 3b 07 00 08 08 
+010: 03 dd c2 b1 9d ef 83 62  89 e7 c1 1a f8 17 81 04 
+020: 00 00 f1 ff ff ff f0 ff  ff ff 06 00 00 00 3e 00 
+030: 00 00 ca 00 02 0a 12 19  b6 03 2c c1 
+[rosout][INFO] 2019-06-06 09:02:36,127: !!!NEW CYCLE!!!
+[rosout][INFO] 2019-06-06 09:02:36,129: {'week': 2056}
+[rosout][INFO] 2019-06-06 09:02:36,168: 
+Class: 0x1  ID: 0x7  Len:92 [0x5c]
+000: b5 62 01 07 5c 00 b0 ff  0a 18 e3 07 06 06 10 02 
+010: 24 37 14 00 00 00 53 3b  07 00 03 01 ea 0a f9 d5 
+020: 33 b6 6d 5e 72 17 1e 91  00 00 26 03 01 00 5b 1a 
+030: 00 00 86 24 00 00 a3 ff  ff ff d9 ff ff ff 33 ff 
+040: ff ff 65 00 00 00 c7 38  03 00 70 02 00 00 f0 a5 
+050: 9a 00 ca 00 00 00 12 19  26 3b 00 00 00 00 00 00 
+060: 00 00 40 75 
+[rosout][INFO] 2019-06-06 09:02:36,186: {'hAcc': 6.747, 'fixType': 3, 'lon': -1238116871, 'iTOW': 403374000, 'week': 2056, 'velE': -0.039, 'velD': -0.20500000000000002, 'sAcc': 0.624, 'vAcc': 9.35, 'year': 2019, 'lat': 393371245, 'velN': -0.093}
+[rosout][INFO] 2019-06-06 09:02:36,288: 
+Class: 0x1  ID: 0x3  Len:16 [0x10]
+000: b5 62 01 03 10 00 b0 ff  0a 18 03 dd 00 08 71 4f 
+010: 06 00 31 c7 60 05 f0 c0 
+[rosout][INFO] 2019-06-06 09:02:36,289: {'gpsFix': 3, 'diffCorr': 0, 'diffSoln': 0}
+[rosout][INFO] 2019-06-06 09:02:36,460: 
+Class: 0x1  ID: 0x4  Len:18 [0x12]
+000: b5 62 01 04 12 00 b0 ff  0a 18 e6 00 ca 00 6f 00 
+010: b4 00 5a 00 43 00 3d 00  95 cd 
+[rosout][INFO] 2019-06-06 09:02:36,466: {'hAcc': 6.747, 'fixType': 3, 'lon': -1238116871, 'iTOW': 403374000, 'week': 2056, 'vDop': 1.8, 'velE': -0.039, 'velD': -0.20500000000000002, 'sAcc': 0.624, 'vAcc': 9.35, 'year': 2019, 'hDop': 0.9, 'lat': 393371245, 'velN': -0.093}
+[rosout][INFO] 2019-06-06 09:02:36,566: 
+Class: 0x1  ID: 0x3b  Len:40 [0x28]
+000: b5 62 01 3b 28 00 00 00  00 00 b0 ff 0a 18 00 00 
+010: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00 
+020: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 35 ae 
+[rosout][INFO] 2019-06-06 09:02:36,586: {'valid': 0, 'meanAcc': 0.0, 'active': 0}
+[rosout][INFO] 2019-06-06 09:02:36,692: 
+{'hAcc': 6.747, 'fixType': 3, 'lon': -1238116871, 'iTOW': 403374000, 'week': 2056, 'vDop': 1.8, 'velE': -0.039, 'velD': -0.20500000000000002, 'sAcc': 0.624, 'sats': 11, 'vAcc': 9.35, 'year': 2019, 'hDop': 0.9, 'alt': 66.3, 'lat': 393371245, 'velN': -0.093}
+[rosout][INFO] 2019-06-06 09:02:36,726: {'hAcc': 6.747, 'fixType': 3, 'lon': -1238116871, 'iTOW': 403374000, 'week': 2056, 'vDop': 1.8, 'velE': -0.039, 'velD': -0.20500000000000002, 'sAcc': 0.624, 'sats': 11, 'vAcc': 9.35, 'year': 2019, 'hDop': 0.9, 'alt': 66.3, 'lat': 393371245, 'velN': -0.093}
+[rosout][INFO] 2019-06-06 09:02:36,746: Wrote GPS_INPUT message
+
+[rosout][INFO] 2019-06-06 09:02:37,135: 
+Class: 0x1  ID: 0x6  Len:52 [0x34]
+000: b5 62 01 06 34 00 98 03  0b 18 08 3c 07 00 08 08 
+010: 03 dd bd b1 9d ef 6b 62  89 e7 cc 1a f8 17 88 04 
+020: 00 00 fa ff ff ff e9 ff  ff ff 07 00 00 00 3e 00 
+030: 00 00 ca 00 02 0a 12 19  b6 03 c8 86 
+[rosout][INFO] 2019-06-06 09:02:37,136: !!!NEW CYCLE!!!
+[rosout][INFO] 2019-06-06 09:02:37,238: {'week': 2056}
+[rosout][INFO] 2019-06-06 09:02:37,311: 
+Class: 0x1  ID: 0x7  Len:92 [0x5c]
+000: b5 62 01 07 5c 00 98 03  0b 18 e3 07 06 06 10 02 
+010: 25 37 14 00 00 00 0a 3c  07 00 03 01 ea 0a 03 d6 
+020: 33 b6 68 5e 72 17 14 92  00 00 1c 04 01 00 57 1a 
+030: 00 00 de 24 00 00 a5 ff  ff ff 53 00 00 00 28 ff 
+040: ff ff 7b 00 00 00 c7 38  03 00 71 02 00 00 c6 b0 
+050: 9a 00 ca 00 00 00 12 19  26 3b 00 00 00 00 00 00 
+060: 00 00 9a 80 
+[rosout][INFO] 2019-06-06 09:02:37,334: {'hAcc': 6.743, 'fixType': 3, 'lon': -1238116861, 'iTOW': 403375000, 'week': 2056, 'velE': 0.083, 'velD': -0.216, 'sAcc': 0.625, 'vAcc': 9.438, 'year': 2019, 'lat': 393371240, 'velN': -0.091}
+[rosout][INFO] 2019-06-06 09:02:37,440: 
+Class: 0x1  ID: 0x3  Len:16 [0x10]
+000: b5 62 01 03 10 00 98 03  0b 18 03 dd 00 08 71 4f 
+010: 06 00 19 cb 60 05 c9 36 
+[rosout][INFO] 2019-06-06 09:02:37,441: {'gpsFix': 3, 'diffCorr': 0, 'diffSoln': 0}
+[rosout][INFO] 2019-06-06 09:02:37,445: 
+Class: 0x1  ID: 0x4  Len:18 [0x12]
+000: b5 62 01 04 12 00 98 03  0b 18 e6 00 ca 00 6f 00 
+010: b4 00 5a 00 43 00 3d 00  82 71 
+[rosout][INFO] 2019-06-06 09:02:37,447: {'hAcc': 6.743, 'fixType': 3, 'lon': -1238116861, 'iTOW': 403375000, 'week': 2056, 'vDop': 1.8, 'velE': 0.083, 'velD': -0.216, 'sAcc': 0.625, 'vAcc': 9.438, 'year': 2019, 'hDop': 0.9, 'lat': 393371240, 'velN': -0.091}
+[rosout][INFO] 2019-06-06 09:02:37,491: 
+Class: 0x1  ID: 0x3b  Len:40 [0x28]
+000: b5 62 01 3b 28 00 00 00  00 00 98 03 0b 18 00 00 
+010: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00 
+020: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 22 fc 
+[rosout][INFO] 2019-06-06 09:02:37,492: {'valid': 0, 'meanAcc': 0.0, 'active': 0}
+[rosout][INFO] 2019-06-06 09:02:37,644: 
+{'hAcc': 6.743, 'fixType': 3, 'lon': -1238116861, 'iTOW': 403375000, 'week': 2056, 'vDop': 1.8, 'velE': 0.083, 'velD': -0.216, 'sAcc': 0.625, 'sats': 11, 'vAcc': 9.438, 'year': 2019, 'hDop': 0.9, 'alt': 66.6, 'lat': 393371240, 'velN': -0.091}
+[rosout][INFO] 2019-06-06 09:02:37,733: {'hAcc': 6.743, 'fixType': 3, 'lon': -1238116861, 'iTOW': 403375000, 'week': 2056, 'vDop': 1.8, 'velE': 0.083, 'velD': -0.216, 'sAcc': 0.625, 'sats': 11, 'vAcc': 9.438, 'year': 2019, 'hDop': 0.9, 'alt': 66.6, 'lat': 393371240, 'velN': -0.091}
+[rosout][INFO] 2019-06-06 09:02:37,735: Wrote GPS_INPUT message
+
+[rosout][INFO] 2019-06-06 09:02:38,105: 
+Class: 0x1  ID: 0x6  Len:52 [0x34]
+000: b5 62 01 06 34 00 80 07  0b 18 bc 3c 07 00 08 08 
+010: 03 dd 95 b1 9d ef 2d 62  89 e7 e9 1a f8 17 8f 04 
+020: 00 00 f5 ff ff ff e1 ff  ff ff 07 00 00 00 3e 00 
+030: 00 00 ca 00 02 0a 12 19  b6 03 19 86 
+[rosout][INFO] 2019-06-06 09:02:38,132: !!!NEW CYCLE!!!
+[rosout][INFO] 2019-06-06 09:02:38,185: {'week': 2056}
+[rosout][INFO] 2019-06-06 09:02:38,255: 
+Class: 0x1  ID: 0x7  Len:92 [0x5c]
+000: b5 62 01 07 5c 00 80 07  0b 18 e3 07 06 06 10 02 
+010: 26 37 14 00 00 00 be 3c  07 00 03 01 ea 0a 05 d6 
+020: 33 b6 52 5e 72 17 07 95  00 00 0e 07 01 00 56 1a 
+030: 00 00 38 25 00 00 6f ff  ff ff 51 00 00 00 de fe 
+040: ff ff a6 00 00 00 c7 38  03 00 70 02 00 00 98 bb 
+050: 9a 00 ca 00 00 00 12 19  26 3b 00 00 00 00 00 00 
+060: 00 00 f0 89 
+[rosout][INFO] 2019-06-06 09:02:38,454: {'hAcc': 6.742, 'fixType': 3, 'lon': -1238116859, 'iTOW': 403376000, 'week': 2056, 'velE': 0.081, 'velD': -0.29, 'sAcc': 0.624, 'vAcc': 9.528, 'year': 2019, 'lat': 393371218, 'velN': -0.145}
+[rosout][INFO] 2019-06-06 09:02:38,503: 
+Class: 0x1  ID: 0x3  Len:16 [0x10]
+000: b5 62 01 03 10 00 80 07  0b 18 03 dd 00 08 71 4f 
+010: 06 00 01 cf 60 05 a1 9e 
+[rosout][INFO] 2019-06-06 09:02:38,517: {'gpsFix': 3, 'diffCorr': 0, 'diffSoln': 0}
+[rosout][INFO] 2019-06-06 09:02:38,530: 
+Class: 0x1  ID: 0x4  Len:18 [0x12]
+000: b5 62 01 04 12 00 80 07  0b 18 e6 00 ca 00 6f 00 
+010: b4 00 5a 00 43 00 3d 00  6e 05 
+[rosout][INFO] 2019-06-06 09:02:38,535: {'hAcc': 6.742, 'fixType': 3, 'lon': -1238116859, 'iTOW': 403376000, 'week': 2056, 'vDop': 1.8, 'velE': 0.081, 'velD': -0.29, 'sAcc': 0.624, 'vAcc': 9.528, 'year': 2019, 'hDop': 0.9, 'lat': 393371218, 'velN': -0.145}
+[rosout][INFO] 2019-06-06 09:02:38,565: 
+Class: 0x1  ID: 0x3b  Len:40 [0x28]
+000: b5 62 01 3b 28 00 00 00  00 00 80 07 0b 18 00 00 
+010: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00 
+020: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 0e 28 
+[rosout][INFO] 2019-06-06 09:02:38,567: {'valid': 0, 'meanAcc': 0.0, 'active': 0}
+[rosout][INFO] 2019-06-06 09:02:38,596: 
+{'hAcc': 6.742, 'fixType': 3, 'lon': -1238116859, 'iTOW': 403376000, 'week': 2056, 'vDop': 1.8, 'velE': 0.081, 'velD': -0.29, 'sAcc': 0.624, 'sats': 10, 'vAcc': 9.528, 'year': 2019, 'hDop': 0.9, 'alt': 67.3, 'lat': 393371218, 'velN': -0.145}
+[rosout][INFO] 2019-06-06 09:02:38,671: {'hAcc': 6.742, 'fixType': 3, 'lon': -1238116859, 'iTOW': 403376000, 'week': 2056, 'vDop': 1.8, 'velE': 0.081, 'velD': -0.29, 'sAcc': 0.624, 'sats': 10, 'vAcc': 9.528, 'year': 2019, 'hDop': 0.9, 'alt': 67.3, 'lat': 393371218, 'velN': -0.145}
+[rosout][INFO] 2019-06-06 09:02:38,685: Wrote GPS_INPUT message
+
+[rosout][INFO] 2019-06-06 09:02:39,291: 
+Class: 0x1  ID: 0x6  Len:52 [0x34]
+000: b5 62 01 06 34 00 68 0b  0b 18 73 3d 07 00 08 08 
+010: 03 dd a9 b1 9d ef 1e 62  89 e7 ef 1a f8 17 91 04 
+020: 00 00 f3 ff ff ff e8 ff  ff ff 07 00 00 00 3f 00 
+030: 00 00 ca 00 02 0a 12 19  b6 03 d0 55 
+[rosout][INFO] 2019-06-06 09:02:39,292: !!!NEW CYCLE!!!
+[rosout][INFO] 2019-06-06 09:02:39,294: {'week': 2056}
+[rosout][INFO] 2019-06-06 09:02:39,358: 
+Class: 0x1  ID: 0x7  Len:92 [0x5c]
+000: b5 62 01 07 5c 00 68 0b  0b 18 e3 07 06 06 10 02 
+010: 27 37 14 00 00 00 75 3d  07 00 03 01 ea 0a 21 d6 
+020: 33 b6 55 5e 72 17 37 95  00 00 3f 07 01 00 2b 1a 
+030: 00 00 72 25 00 00 89 ff  ff ff 1a 00 00 00 03 ff 
+040: ff ff 7a 00 00 00 c7 38  03 00 77 02 00 00 88 c6 
+050: 9a 00 ca 00 00 00 12 19  26 3b 00 00 00 00 00 00 
+060: 00 00 03 82 
+[rosout][INFO] 2019-06-06 09:02:39,394: {'hAcc': 6.699, 'fixType': 3, 'lon': -1238116831, 'iTOW': 403377000, 'week': 2056, 'velE': 0.026000000000000002, 'velD': -0.253, 'sAcc': 0.631, 'vAcc': 9.586, 'year': 2019, 'lat': 393371221, 'velN': -0.11900000000000001}
+[rosout][INFO] 2019-06-06 09:02:39,420: 
+Class: 0x1  ID: 0x3  Len:16 [0x10]
+000: b5 62 01 03 10 00 68 0b  0b 18 03 dd 00 08 71 4f 
+010: 06 00 e9 d2 60 05 78 03 
+[rosout][INFO] 2019-06-06 09:02:39,426: {'gpsFix': 3, 'diffCorr': 0, 'diffSoln': 0}
+[rosout][INFO] 2019-06-06 09:02:39,483: 
+Class: 0x1  ID: 0x4  Len:18 [0x12]
+000: b5 62 01 04 12 00 68 0b  0b 18 e6 00 ca 00 6f 00 
+010: b4 00 5a 00 43 00 3d 00  5a 99 
+[rosout][INFO] 2019-06-06 09:02:39,492: {'hAcc': 6.699, 'fixType': 3, 'lon': -1238116831, 'iTOW': 403377000, 'week': 2056, 'vDop': 1.8, 'velE': 0.026000000000000002, 'velD': -0.253, 'sAcc': 0.631, 'vAcc': 9.586, 'year': 2019, 'hDop': 0.9, 'lat': 393371221, 'velN': -0.11900000000000001}
+[rosout][INFO] 2019-06-06 09:02:39,602: 
+Class: 0x1  ID: 0x3b  Len:40 [0x28]
+000: b5 62 01 3b 28 00 00 00  00 00 68 0b 0b 18 00 00 
+010: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00 
+020: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 fa 54 
+[rosout][INFO] 2019-06-06 09:02:39,622: {'valid': 0, 'meanAcc': 0.0, 'active': 0}
+[rosout][INFO] 2019-06-06 09:02:39,672: 
+{'hAcc': 6.699, 'fixType': 3, 'lon': -1238116831, 'iTOW': 403377000, 'week': 2056, 'vDop': 1.8, 'velE': 0.026000000000000002, 'velD': -0.253, 'sAcc': 0.631, 'sats': 10, 'vAcc': 9.586, 'year': 2019, 'hDop': 0.9, 'alt': 67.4, 'lat': 393371221, 'velN': -0.11900000000000001}
+[rosout][INFO] 2019-06-06 09:02:39,706: {'hAcc': 6.699, 'fixType': 3, 'lon': -1238116831, 'iTOW': 403377000, 'week': 2056, 'vDop': 1.8, 'velE': 0.026000000000000002, 'velD': -0.253, 'sAcc': 0.631, 'sats': 10, 'vAcc': 9.586, 'year': 2019, 'hDop': 0.9, 'alt': 67.4, 'lat': 393371221, 'velN': -0.11900000000000001}
+[rosout][INFO] 2019-06-06 09:02:39,707: Wrote GPS_INPUT message
+
+[rosout][INFO] 2019-06-06 09:02:40,107: 
+Class: 0x1  ID: 0x6  Len:52 [0x34]
+000: b5 62 01 06 34 00 50 0f  0b 18 2a 3e 07 00 08 08 
+010: 03 dd cb b1 9d ef 2e 62  89 e7 ea 1a f8 17 93 04 
+020: 00 00 f1 ff ff ff ef ff  ff ff 06 00 00 00 3f 00 
+030: 00 00 ca 00 02 0a 12 19  b6 03 a7 34 
+[rosout][INFO] 2019-06-06 09:02:40,108: !!!NEW CYCLE!!!
+[rosout][INFO] 2019-06-06 09:02:40,109: {'week': 2056}
+[rosout][INFO] 2019-06-06 09:02:40,140: 
+Class: 0x1  ID: 0x7  Len:92 [0x5c]
+000: b5 62 01 07 5c 00 50 0f  0b 18 e3 07 06 06 10 02 
+010: 28 37 14 00 00 00 2c 3e  07 00 03 01 ea 0a 39 d6 
+020: 33 b6 64 5e 72 17 20 94  00 00 27 06 01 00 f5 19 
+030: 00 00 ae 25 00 00 9f ff  ff ff e2 ff ff ff 31 ff 
+040: ff ff 65 00 00 00 c7 38  03 00 75 02 00 00 6e d1 
+050: 9a 00 ca 00 00 00 12 19  26 3b 00 00 00 00 00 00 
+060: 00 00 86 65 
+[rosout][INFO] 2019-06-06 09:02:40,158: {'hAcc': 6.6450000000000005, 'fixType': 3, 'lon': -1238116807, 'iTOW': 403378000, 'week': 2056, 'velE': -0.03, 'velD': -0.20700000000000002, 'sAcc': 0.629, 'vAcc': 9.646, 'year': 2019, 'lat': 393371236, 'velN': -0.097}
+[rosout][INFO] 2019-06-06 09:02:40,213: 
+Class: 0x1  ID: 0x3  Len:16 [0x10]
+000: b5 62 01 03 10 00 50 0f  0b 18 03 dd 00 08 71 4f 
+010: 06 00 d1 d6 60 05 50 6b 
+[rosout][INFO] 2019-06-06 09:02:40,238: {'gpsFix': 3, 'diffCorr': 0, 'diffSoln': 0}
+[rosout][INFO] 2019-06-06 09:02:40,241: 
+Class: 0x1  ID: 0x4  Len:18 [0x12]
+000: b5 62 01 04 12 00 50 0f  0b 18 e6 00 ca 00 6f 00 
+010: b4 00 5a 00 43 00 3d 00  46 2d 
+[rosout][INFO] 2019-06-06 09:02:40,270: {'hAcc': 6.6450000000000005, 'fixType': 3, 'lon': -1238116807, 'iTOW': 403378000, 'week': 2056, 'vDop': 1.8, 'velE': -0.03, 'velD': -0.20700000000000002, 'sAcc': 0.629, 'vAcc': 9.646, 'year': 2019, 'hDop': 0.9, 'lat': 393371236, 'velN': -0.097}
+[rosout][INFO] 2019-06-06 09:02:40,287: 
+Class: 0x1  ID: 0x3b  Len:40 [0x28]
+000: b5 62 01 3b 28 00 00 00  00 00 50 0f 0b 18 00 00 
+010: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00 
+020: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 e6 80 
+[rosout][INFO] 2019-06-06 09:02:40,288: {'valid': 0, 'meanAcc': 0.0, 'active': 0}
+[rosout][INFO] 2019-06-06 09:02:40,332: 
+{'hAcc': 6.6450000000000005, 'fixType': 3, 'lon': -1238116807, 'iTOW': 403378000, 'week': 2056, 'vDop': 1.8, 'velE': -0.03, 'velD': -0.20700000000000002, 'sAcc': 0.629, 'sats': 10, 'vAcc': 9.646, 'year': 2019, 'hDop': 0.9, 'alt': 67.1, 'lat': 393371236, 'velN': -0.097}
+[rosout][INFO] 2019-06-06 09:02:40,334: {'hAcc': 6.6450000000000005, 'fixType': 3, 'lon': -1238116807, 'iTOW': 403378000, 'week': 2056, 'vDop': 1.8, 'velE': -0.03, 'velD': -0.20700000000000002, 'sAcc': 0.629, 'sats': 10, 'vAcc': 9.646, 'year': 2019, 'hDop': 0.9, 'alt': 67.1, 'lat': 393371236, 'velN': -0.097}
+[rosout][INFO] 2019-06-06 09:02:40,336: Wrote GPS_INPUT message
+
+[rosout][INFO] 2019-06-06 09:02:41,163: 
+Class: 0x1  ID: 0x6  Len:52 [0x34]
+000: b5 62 01 06 34 00 38 13  0b 18 e2 3e 07 00 08 08 
+010: 03 dd df b1 9d ef 38 62  89 e7 e7 1a f8 17 96 04 
+020: 00 00 f6 ff ff ff f3 ff  ff ff 05 00 00 00 3f 00 
+030: 00 00 c7 00 02 0b 12 19  b6 03 6f c1 
+[rosout][INFO] 2019-06-06 09:02:41,164: !!!NEW CYCLE!!!
+[rosout][INFO] 2019-06-06 09:02:41,175: {'week': 2056}
+[rosout][INFO] 2019-06-06 09:02:42,398: 
+Class: 0x1  ID: 0x7  Len:92 [0x5c]
+000: b5 62 01 07 5c 00 38 13  0b 18 e3 07 06 06 10 02 
+010: 29 37 14 00 00 00 e4 3e  07 00 03 01 ea 0b 45 d6 
+020: 33 b6 6d 5e 72 17 77 93  00 00 7e 05 01 00 c5 19 
+030: 00 00 eb 25 00 00 c1 ff  ff ff f5 ff ff ff 65 ff 
+040: ff ff 40 00 00 00 c7 38  03 00 76 02 00 00 5a dc 
+050: 9a 00 c7 00 00 00 12 19  26 3b 00 00 00 00 00 00 
+060: 00 00 33 2b 
+[rosout][INFO] 2019-06-06 09:02:42,400: {'hAcc': 6.597, 'fixType': 3, 'lon': -1238116795, 'iTOW': 403379000, 'week': 2056, 'velE': -0.011, 'velD': -0.155, 'sAcc': 0.63, 'vAcc': 9.707, 'year': 2019, 'lat': 393371245, 'velN': -0.063}
+[rosout][INFO] 2019-06-06 09:02:42,842: 
+Class: 0x1  ID: 0x3  Len:16 [0x10]
+000: b5 62 01 03 10 00 38 13  0b 18 03 dd 00 08 71 4f 
+010: 06 00 b9 da 60 05 28 d3 
+[rosout][INFO] 2019-06-06 09:02:42,930: {'gpsFix': 3, 'diffCorr': 0, 'diffSoln': 0}
+[rosout][INFO] 2019-06-06 09:02:43,253: 
+Class: 0x1  ID: 0x4  Len:18 [0x12]
+000: b5 62 01 04 12 00 38 13  0b 18 e4 00 c7 00 6f 00 
+010: b3 00 57 00 42 00 38 00  23 59 
+[rosout][INFO] 2019-06-06 09:02:43,255: {'hAcc': 6.597, 'fixType': 3, 'lon': -1238116795, 'iTOW': 403379000, 'week': 2056, 'vDop': 1.79, 'velE': -0.011, 'velD': -0.155, 'sAcc': 0.63, 'vAcc': 9.707, 'year': 2019, 'hDop': 0.87, 'lat': 393371245, 'velN': -0.063}
+[rosout][INFO] 2019-06-06 09:02:44,302: 
+Class: 0x1  ID: 0x3b  Len:40 [0x28]
+000: b5 62 01 3b 28 00 00 00  00 00 38 13 0b 18 00 00 
+010: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00 
+020: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 d2 ac 
+[rosout][INFO] 2019-06-06 09:02:44,304: {'valid': 0, 'meanAcc': 0.0, 'active': 0}
+[rosout][WARNING] 2019-06-06 09:02:44,940: Socket closed
+[rosout][INFO] 2019-06-06 09:02:44,945: 
+{'hAcc': 6.597, 'fixType': 3, 'lon': -1238116795, 'iTOW': 403379000, 'week': 2056, 'vDop': 1.79, 'velE': -0.011, 'velD': -0.155, 'sAcc': 0.63, 'sats': 11, 'vAcc': 9.707, 'year': 2019, 'hDop': 0.87, 'alt': 66.9, 'lat': 393371245, 'velN': -0.063}
+[rosout][INFO] 2019-06-06 09:02:44,947: {'hAcc': 6.597, 'fixType': 3, 'lon': -1238116795, 'iTOW': 403379000, 'week': 2056, 'vDop': 1.79, 'velE': -0.011, 'velD': -0.155, 'sAcc': 0.63, 'sats': 11, 'vAcc': 9.707, 'year': 2019, 'hDop': 0.87, 'alt': 66.9, 'lat': 393371245, 'velN': -0.063}
+[rosout][INFO] 2019-06-06 09:02:44,948: Wrote GPS_INPUT message
+
+[rosout][INFO] 2019-06-06 09:02:44,954: 
+Class: 0x1  ID: 0x6  Len:52 [0x34]
+000: b5 62 01 06 34 00 20 17  0b 18 99 3f 07 00 08 08 
+010: 03 dd e2 b1 9d ef 2a 62  89 e7 ed 1a f8 17 98 04 
+020: 00 00 f3 ff ff ff f3 ff  ff ff 03 00 00 00 3e 00 
+030: 00 00 c7 00 02 0b 12 19  b6 03 0a 30 
+[rosout][INFO] 2019-06-06 09:02:44,955: !!!NEW CYCLE!!!
+[rosout][INFO] 2019-06-06 09:02:44,956: {'week': 2056}
+[rosout][INFO] 2019-06-06 09:02:44,964: 
+Class: 0x1  ID: 0x7  Len:92 [0x5c]
+000: b5 62 01 07 5c 00 20 17  0b 18 e3 07 06 06 10 02 
+010: 2a 37 14 00 00 00 9b 3f  07 00 03 01 ea 0b 51 d6 
+020: 33 b6 6c 5e 72 17 e6 93  00 00 ee 05 01 00 92 19 
+030: 00 00 24 26 00 00 a4 ff  ff ff db ff ff ff 5e ff 
+040: ff ff 63 00 00 00 c7 38  03 00 6b 02 00 00 14 e7 
+050: 9a 00 c7 00 00 00 12 19  26 3b 00 00 00 00 00 00 
+060: 00 00 68 88 
+[rosout][INFO] 2019-06-06 09:02:44,965: {'hAcc': 6.546, 'fixType': 3, 'lon': -1238116783, 'iTOW': 403380000, 'week': 2056, 'velE': -0.037, 'velD': -0.162, 'sAcc': 0.619, 'vAcc': 9.764, 'year': 2019, 'lat': 393371244, 'velN': -0.092}
+[rosout][INFO] 2019-06-06 09:02:44,969: 
+Class: 0x1  ID: 0x3  Len:16 [0x10]
+000: b5 62 01 03 10 00 20 17  0b 18 03 dd 00 08 71 4f 
+010: 06 00 a1 de 60 05 00 3b 
+[rosout][INFO] 2019-06-06 09:02:44,970: {'gpsFix': 3, 'diffCorr': 0, 'diffSoln': 0}
+[rosout][INFO] 2019-06-06 09:02:44,973: 
+Class: 0x1  ID: 0x4  Len:18 [0x12]
+000: b5 62 01 04 12 00 20 17  0b 18 e4 00 c7 00 6f 00 
+010: b3 00 57 00 42 00 38 00  0f ed 
+[rosout][INFO] 2019-06-06 09:02:44,974: {'hAcc': 6.546, 'fixType': 3, 'lon': -1238116783, 'iTOW': 403380000, 'week': 2056, 'vDop': 1.79, 'velE': -0.037, 'velD': -0.162, 'sAcc': 0.619, 'vAcc': 9.764, 'year': 2019, 'hDop': 0.87, 'lat': 393371244, 'velN': -0.092}
+[rosout][INFO] 2019-06-06 09:02:44,979: 
+Class: 0x1  ID: 0x3b  Len:40 [0x28]
+000: b5 62 01 3b 28 00 00 00  00 00 20 17 0b 18 00 00 
+010: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00 
+020: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 be d8 
+[rosout][INFO] 2019-06-06 09:02:44,980: {'valid': 0, 'meanAcc': 0.0, 'active': 0}
+[rosout][INFO] 2019-06-06 09:02:44,987: 
+{'hAcc': 6.546, 'fixType': 3, 'lon': -1238116783, 'iTOW': 403380000, 'week': 2056, 'vDop': 1.79, 'velE': -0.037, 'velD': -0.162, 'sAcc': 0.619, 'sats': 11, 'vAcc': 9.764, 'year': 2019, 'hDop': 0.87, 'alt': 67.1, 'lat': 393371244, 'velN': -0.092}
+[rosout][INFO] 2019-06-06 09:02:44,988: {'hAcc': 6.546, 'fixType': 3, 'lon': -1238116783, 'iTOW': 403380000, 'week': 2056, 'vDop': 1.79, 'velE': -0.037, 'velD': -0.162, 'sAcc': 0.619, 'sats': 11, 'vAcc': 9.764, 'year': 2019, 'hDop': 0.87, 'alt': 67.1, 'lat': 393371244, 'velN': -0.092}
+[rosout][INFO] 2019-06-06 09:02:44,989: Wrote GPS_INPUT message
+
+[rosout][INFO] 2019-06-06 09:02:44,995: 
+Class: 0x1  ID: 0x6  Len:52 [0x34]
+000: b5 62 01 06 34 00 08 1b  0b 18 50 40 07 00 08 08 
+010: 03 dd e5 b1 9d ef 30 62  89 e7 ef 1a f8 17 97 04 
+020: 00 00 f4 ff ff ff f9 ff  ff ff 05 00 00 00 3c 00 
+030: 00 00 c7 00 02 0b 12 19  b6 03 bf a7 
+[rosout][INFO] 2019-06-06 09:02:44,996: !!!NEW CYCLE!!!
+[rosout][INFO] 2019-06-06 09:02:44,997: {'week': 2056}
+[rosout][INFO] 2019-06-06 09:02:45,006: 
+Class: 0x1  ID: 0x7  Len:92 [0x5c]
+000: b5 62 01 07 5c 00 08 1b  0b 18 e3 07 06 06 10 02 
+010: 2b 37 14 00 00 00 52 40  07 00 03 01 ea 0b 50 d6 
+020: 33 b6 71 5e 72 17 c1 93  00 00 c8 05 01 00 4f 19 
+030: 00 00 47 26 00 00 d6 ff  ff ff c5 ff ff ff 85 ff 
+040: ff ff 49 00 00 00 c7 38  03 00 53 02 00 00 64 f1 
+050: 9a 00 c7 00 00 00 12 19  26 3b 00 00 00 00 00 00 
+060: 00 00 11 5b 
+[rosout][INFO] 2019-06-06 09:02:45,007: {'hAcc': 6.479, 'fixType': 3, 'lon': -1238116784, 'iTOW': 403381000, 'week': 2056, 'velE': -0.059000000000000004, 'velD': -0.123, 'sAcc': 0.595, 'vAcc': 9.799, 'year': 2019, 'lat': 393371249, 'velN': -0.042}
+[rosout][INFO] 2019-06-06 09:02:45,010: 
+Class: 0x1  ID: 0x3  Len:16 [0x10]
+000: b5 62 01 03 10 00 08 1b  0b 18 03 dd 00 08 71 4f 
+010: 06 00 89 e2 60 05 d8 a3 
+[rosout][INFO] 2019-06-06 09:02:45,011: {'gpsFix': 3, 'diffCorr': 0, 'diffSoln': 0}
+[rosout][INFO] 2019-06-06 09:02:45,014: 
+Class: 0x1  ID: 0x4  Len:18 [0x12]
+000: b5 62 01 04 12 00 08 1b  0b 18 e4 00 c7 00 6f 00 
+010: b3 00 57 00 42 00 38 00  fb 81 
+[rosout][INFO] 2019-06-06 09:02:45,015: {'hAcc': 6.479, 'fixType': 3, 'lon': -1238116784, 'iTOW': 403381000, 'week': 2056, 'vDop': 1.79, 'velE': -0.059000000000000004, 'velD': -0.123, 'sAcc': 0.595, 'vAcc': 9.799, 'year': 2019, 'hDop': 0.87, 'lat': 393371249, 'velN': -0.042}
+[rosout][INFO] 2019-06-06 09:02:45,020: 
+Class: 0x1  ID: 0x3b  Len:40 [0x28]
+000: b5 62 01 3b 28 00 00 00  00 00 08 1b 0b 18 00 00 
+010: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00 
+020: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 aa 04 
+[rosout][INFO] 2019-06-06 09:02:45,021: {'valid': 0, 'meanAcc': 0.0, 'active': 0}
+[rosout][INFO] 2019-06-06 09:02:45,028: 
+{'hAcc': 6.479, 'fixType': 3, 'lon': -1238116784, 'iTOW': 403381000, 'week': 2056, 'vDop': 1.79, 'velE': -0.059000000000000004, 'velD': -0.123, 'sAcc': 0.595, 'sats': 11, 'vAcc': 9.799, 'year': 2019, 'hDop': 0.87, 'alt': 67.0, 'lat': 393371249, 'velN': -0.042}
+[rosout][INFO] 2019-06-06 09:02:45,029: {'hAcc': 6.479, 'fixType': 3, 'lon': -1238116784, 'iTOW': 403381000, 'week': 2056, 'vDop': 1.79, 'velE': -0.059000000000000004, 'velD': -0.123, 'sAcc': 0.595, 'sats': 11, 'vAcc': 9.799, 'year': 2019, 'hDop': 0.87, 'alt': 67.0, 'lat': 393371249, 'velN': -0.042}
+[rosout][INFO] 2019-06-06 09:02:45,030: Wrote GPS_INPUT message
+
+[rosout][INFO] 2019-06-06 09:02:45,036: 
+Class: 0x1  ID: 0x6  Len:52 [0x34]
+000: b5 62 01 06 34 00 f0 1e  0b 18 07 41 07 00 08 08 
+010: 03 dd f2 b1 9d ef 3f 62  89 e7 ec 1a f8 17 98 04 
+020: 00 00 f7 ff ff ff fe ff  ff ff 01 00 00 00 37 00 
+030: 00 00 c7 00 02 0b 12 19  b6 03 7b ef 
+[rosout][INFO] 2019-06-06 09:02:45,037: !!!NEW CYCLE!!!
+[rosout][INFO] 2019-06-06 09:02:45,038: {'week': 2056}
+[rosout][INFO] 2019-06-06 09:02:45,046: 
+Class: 0x1  ID: 0x7  Len:92 [0x5c]
+000: b5 62 01 07 5c 00 f0 1e  0b 18 e3 07 06 06 10 02 
+010: 2c 37 14 00 00 00 09 41  07 00 03 01 ea 0b 53 d6 
+020: 33 b6 7a 5e 72 17 16 93  00 00 1e 05 01 00 21 19 
+030: 00 00 79 26 00 00 de ff  ff ff c3 ff ff ff c0 ff 
+040: ff ff 45 00 00 00 c7 38  03 00 27 02 00 00 ee fa 
+050: 9a 00 c7 00 00 00 12 19  26 3b 00 00 00 00 00 00 
+060: 00 00 14 bc 
+[rosout][INFO] 2019-06-06 09:02:45,048: {'hAcc': 6.433, 'fixType': 3, 'lon': -1238116781, 'iTOW': 403382000, 'week': 2056, 'velE': -0.061, 'velD': -0.064, 'sAcc': 0.551, 'vAcc': 9.849, 'year': 2019, 'lat': 393371258, 'velN': -0.034}
+[rosout][INFO] 2019-06-06 09:02:45,051: 
+Class: 0x1  ID: 0x3  Len:16 [0x10]
+000: b5 62 01 03 10 00 f0 1e  0b 18 03 dd 00 08 71 4f 
+010: 06 00 71 e6 60 05 af fc 
+[rosout][INFO] 2019-06-06 09:02:45,052: {'gpsFix': 3, 'diffCorr': 0, 'diffSoln': 0}
+[rosout][INFO] 2019-06-06 09:02:45,055: 
+Class: 0x1  ID: 0x4  Len:18 [0x12]
+000: b5 62 01 04 12 00 f0 1e  0b 18 e4 00 c7 00 6f 00 
+010: b3 00 57 00 42 00 38 00  e6 04 
+[rosout][INFO] 2019-06-06 09:02:45,057: {'hAcc': 6.433, 'fixType': 3, 'lon': -1238116781, 'iTOW': 403382000, 'week': 2056, 'vDop': 1.79, 'velE': -0.061, 'velD': -0.064, 'sAcc': 0.551, 'vAcc': 9.849, 'year': 2019, 'hDop': 0.87, 'lat': 393371258, 'velN': -0.034}
+[rosout][INFO] 2019-06-06 09:02:45,062: 
+Class: 0x1  ID: 0x3b  Len:40 [0x28]
+000: b5 62 01 3b 28 00 00 00  00 00 f0 1e 0b 18 00 00 
+010: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00 
+020: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 95 0d 
+[rosout][INFO] 2019-06-06 09:02:45,063: {'valid': 0, 'meanAcc': 0.0, 'active': 0}
+[rosout][INFO] 2019-06-06 09:02:45,069: 
+{'hAcc': 6.433, 'fixType': 3, 'lon': -1238116781, 'iTOW': 403382000, 'week': 2056, 'vDop': 1.79, 'velE': -0.061, 'velD': -0.064, 'sAcc': 0.551, 'sats': 11, 'vAcc': 9.849, 'year': 2019, 'hDop': 0.87, 'alt': 66.8, 'lat': 393371258, 'velN': -0.034}
+[rosout][INFO] 2019-06-06 09:02:45,071: {'hAcc': 6.433, 'fixType': 3, 'lon': -1238116781, 'iTOW': 403382000, 'week': 2056, 'vDop': 1.79, 'velE': -0.061, 'velD': -0.064, 'sAcc': 0.551, 'sats': 11, 'vAcc': 9.849, 'year': 2019, 'hDop': 0.87, 'alt': 66.8, 'lat': 393371258, 'velN': -0.034}
+[rosout][INFO] 2019-06-06 09:02:45,072: Wrote GPS_INPUT message
+
+[rosout][INFO] 2019-06-06 09:02:45,096: 
+Class: 0x1  ID: 0x6  Len:52 [0x34]
+000: b5 62 01 06 34 00 d8 22  0b 18 be 41 07 00 08 08 
+010: 03 dd f6 b1 9d ef 47 62  89 e7 f1 1a f8 17 9a 04 
+020: 00 00 03 00 00 00 fb ff  ff ff 05 00 00 00 2f 00 
+030: 00 00 c7 00 02 0b 12 19  b6 03 39 c9 
+[rosout][INFO] 2019-06-06 09:02:45,098: !!!NEW CYCLE!!!
+[rosout][INFO] 2019-06-06 09:02:45,099: {'week': 2056}
+[rosout][INFO] 2019-06-06 09:02:45,107: 
+Class: 0x1  ID: 0x7  Len:92 [0x5c]
+000: b5 62 01 07 5c 00 d8 22  0b 18 e3 07 06 06 10 02 
+010: 2d 37 15 00 00 00 c0 41  07 00 03 01 ea 0b 52 d6 
+020: 33 b6 83 5e 72 17 f3 92  00 00 fa 04 01 00 f0 18 
+030: 00 00 a9 26 00 00 18 00  00 00 36 00 00 00 c7 ff 
+040: ff ff 3b 00 00 00 c7 38  03 00 d3 01 00 00 02 03 
+050: 9b 00 c7 00 00 00 12 19  26 3b 00 00 00 00 00 00 
+060: 00 00 ef bf 
+[rosout][INFO] 2019-06-06 09:02:45,108: {'hAcc': 6.384, 'fixType': 3, 'lon': -1238116782, 'iTOW': 403383000, 'week': 2056, 'velE': 0.054, 'velD': -0.057, 'sAcc': 0.467, 'vAcc': 9.897, 'year': 2019, 'lat': 393371267, 'velN': 0.024}
+[rosout][INFO] 2019-06-06 09:02:45,111: 
+Class: 0x1  ID: 0x3  Len:16 [0x10]
+000: b5 62 01 03 10 00 d8 22  0b 18 03 dd 00 08 71 4f 
+010: 06 00 59 ea 60 05 87 64 
+[rosout][INFO] 2019-06-06 09:02:45,113: {'gpsFix': 3, 'diffCorr': 0, 'diffSoln': 0}
+[rosout][INFO] 2019-06-06 09:02:45,116: 
+Class: 0x1  ID: 0x4  Len:18 [0x12]
+000: b5 62 01 04 12 00 d8 22  0b 18 e4 00 c7 00 6f 00 
+010: b3 00 57 00 42 00 38 00  d2 98 
+[rosout][INFO] 2019-06-06 09:02:45,117: {'hAcc': 6.384, 'fixType': 3, 'lon': -1238116782, 'iTOW': 403383000, 'week': 2056, 'vDop': 1.79, 'velE': 0.054, 'velD': -0.057, 'sAcc': 0.467, 'vAcc': 9.897, 'year': 2019, 'hDop': 0.87, 'lat': 393371267, 'velN': 0.024}
+[rosout][INFO] 2019-06-06 09:02:45,122: 
+Class: 0x1  ID: 0x3b  Len:40 [0x28]
+000: b5 62 01 3b 28 00 00 00  00 00 d8 22 0b 18 00 00 
+010: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00 
+020: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 81 39 
+[rosout][INFO] 2019-06-06 09:02:45,123: {'valid': 0, 'meanAcc': 0.0, 'active': 0}
+[rosout][INFO] 2019-06-06 09:02:45,130: 
+{'hAcc': 6.384, 'fixType': 3, 'lon': -1238116782, 'iTOW': 403383000, 'week': 2056, 'vDop': 1.79, 'velE': 0.054, 'velD': -0.057, 'sAcc': 0.467, 'sats': 11, 'vAcc': 9.897, 'year': 2019, 'hDop': 0.87, 'alt': 66.8, 'lat': 393371267, 'velN': 0.024}
+[rosout][INFO] 2019-06-06 09:02:45,131: {'hAcc': 6.384, 'fixType': 3, 'lon': -1238116782, 'iTOW': 403383000, 'week': 2056, 'vDop': 1.79, 'velE': 0.054, 'velD': -0.057, 'sAcc': 0.467, 'sats': 11, 'vAcc': 9.897, 'year': 2019, 'hDop': 0.87, 'alt': 66.8, 'lat': 393371267, 'velN': 0.024}
+[rosout][INFO] 2019-06-06 09:02:45,132: Wrote GPS_INPUT message
+
+[rosout][ERROR] 2019-06-06 09:02:45,810: Exception <class 'ConnectionRefusedError'> on stream: /STM1
+[rosout][INFO] 2019-06-06 09:02:46,087: 
+Class: 0x1  ID: 0x6  Len:52 [0x34]
+000: b5 62 01 06 34 00 c0 26  0b 18 75 42 07 00 08 08 
+010: 03 dd e2 b1 9d ef 44 62  89 e7 fb 1a f8 17 9a 04 
+020: 00 00 fd ff ff ff fb ff  ff ff 01 00 00 00 3c 00 
+030: 00 00 c7 00 02 0b 12 19  b6 03 d0 72 
+[rosout][INFO] 2019-06-06 09:02:46,088: !!!NEW CYCLE!!!
+[rosout][INFO] 2019-06-06 09:02:46,089: {'week': 2056}
+[rosout][INFO] 2019-06-06 09:02:46,098: 
+Class: 0x1  ID: 0x7  Len:92 [0x5c]
+000: b5 62 01 07 5c 00 c0 26  0b 18 e3 07 06 06 10 02 
+010: 2e 37 15 00 00 00 76 42  07 00 03 01 ea 0b 41 d6 
+020: 33 b6 82 5e 72 17 9a 93  00 00 a1 05 01 00 b1 18 
+030: 00 00 cf 26 00 00 dc ff  ff ff 02 00 00 00 ca ff 
+040: ff ff 24 00 00 00 c7 38  03 00 59 02 00 00 68 0d 
+050: 9b 00 c7 00 00 00 12 19  26 3b 00 00 00 00 00 00 
+060: 00 00 28 d9 
+[rosout][INFO] 2019-06-06 09:02:46,099: {'hAcc': 6.321, 'fixType': 3, 'lon': -1238116799, 'iTOW': 403384000, 'week': 2056, 'velE': 0.002, 'velD': -0.054, 'sAcc': 0.601, 'vAcc': 9.935, 'year': 2019, 'lat': 393371266, 'velN': -0.036000000000000004}
+[rosout][INFO] 2019-06-06 09:02:46,102: 
+Class: 0x1  ID: 0x3  Len:16 [0x10]
+000: b5 62 01 03 10 00 c0 26  0b 18 03 dd 00 08 71 4f 
+010: 06 00 41 ee 60 05 5f cc 
+[rosout][INFO] 2019-06-06 09:02:46,103: {'gpsFix': 3, 'diffCorr': 0, 'diffSoln': 0}
+[rosout][INFO] 2019-06-06 09:02:46,106: 
+Class: 0x1  ID: 0x4  Len:18 [0x12]
+000: b5 62 01 04 12 00 c0 26  0b 18 e4 00 c7 00 6f 00 
+010: b3 00 57 00 42 00 38 00  be 2c 
+[rosout][INFO] 2019-06-06 09:02:46,107: {'hAcc': 6.321, 'fixType': 3, 'lon': -1238116799, 'iTOW': 403384000, 'week': 2056, 'vDop': 1.79, 'velE': 0.002, 'velD': -0.054, 'sAcc': 0.601, 'vAcc': 9.935, 'year': 2019, 'hDop': 0.87, 'lat': 393371266, 'velN': -0.036000000000000004}
+[rosout][INFO] 2019-06-06 09:02:46,112: 
+Class: 0x1  ID: 0x3b  Len:40 [0x28]
+000: b5 62 01 3b 28 00 00 00  00 00 c0 26 0b 18 00 00 
+010: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00 
+020: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 6d 65 
+[rosout][INFO] 2019-06-06 09:02:46,113: {'valid': 0, 'meanAcc': 0.0, 'active': 0}
+[rosout][INFO] 2019-06-06 09:02:46,120: 
+{'hAcc': 6.321, 'fixType': 3, 'lon': -1238116799, 'iTOW': 403384000, 'week': 2056, 'vDop': 1.79, 'velE': 0.002, 'velD': -0.054, 'sAcc': 0.601, 'sats': 11, 'vAcc': 9.935, 'year': 2019, 'hDop': 0.87, 'alt': 67.0, 'lat': 393371266, 'velN': -0.036000000000000004}
+[rosout][INFO] 2019-06-06 09:02:46,121: {'hAcc': 6.321, 'fixType': 3, 'lon': -1238116799, 'iTOW': 403384000, 'week': 2056, 'vDop': 1.79, 'velE': 0.002, 'velD': -0.054, 'sAcc': 0.601, 'sats': 11, 'vAcc': 9.935, 'year': 2019, 'hDop': 0.87, 'alt': 67.0, 'lat': 393371266, 'velN': -0.036000000000000004}
+[rosout][INFO] 2019-06-06 09:02:46,122: Wrote GPS_INPUT message
+
+[rosout][INFO] 2019-06-06 09:02:47,091: 
+Class: 0x1  ID: 0x6  Len:52 [0x34]
+000: b5 62 01 06 34 00 a8 2a  0b 18 2c 43 07 00 08 08 
+010: 03 dd ee b1 9d ef 58 62  89 e7 fd 1a f8 17 98 04 
+020: 00 00 02 00 00 00 00 00  00 00 04 00 00 00 23 00 
+030: 00 00 c7 00 02 0b 12 19  b6 03 8e ed 
+[rosout][INFO] 2019-06-06 09:02:47,092: !!!NEW CYCLE!!!
+[rosout][INFO] 2019-06-06 09:02:47,093: {'week': 2056}
+[rosout][INFO] 2019-06-06 09:02:47,102: 
+Class: 0x1  ID: 0x7  Len:92 [0x5c]
+000: b5 62 01 07 5c 00 a8 2a  0b 18 e3 07 06 06 10 02 
+010: 2f 37 15 00 00 00 2e 43  07 00 03 01 ea 0b 3f d6 
+020: 33 b6 90 5e 72 17 ee 92  00 00 f6 04 01 00 71 18 
+030: 00 00 eb 26 00 00 24 00  00 00 11 00 00 00 ef ff 
+040: ff ff 27 00 00 00 c7 38  03 00 5d 01 00 00 72 13 
+050: 9b 00 c7 00 00 00 12 19  26 3b 00 00 00 00 00 00 
+060: 00 00 f2 3d 
+[rosout][INFO] 2019-06-06 09:02:47,103: {'hAcc': 6.257000000000001, 'fixType': 3, 'lon': -1238116801, 'iTOW': 403385000, 'week': 2056, 'velE': 0.017, 'velD': -0.017, 'sAcc': 0.34900000000000003, 'vAcc': 9.963000000000001, 'year': 2019, 'lat': 393371280, 'velN': 0.036000000000000004}
+[rosout][INFO] 2019-06-06 09:02:47,106: 
+Class: 0x1  ID: 0x3  Len:16 [0x10]
+000: b5 62 01 03 10 00 a8 2a  0b 18 03 dd 00 08 71 4f 
+010: 06 00 29 f2 60 05 37 34 
+[rosout][INFO] 2019-06-06 09:02:47,108: {'gpsFix': 3, 'diffCorr': 0, 'diffSoln': 0}
+[rosout][INFO] 2019-06-06 09:02:47,111: 
+Class: 0x1  ID: 0x4  Len:18 [0x12]
+000: b5 62 01 04 12 00 a8 2a  0b 18 e4 00 c7 00 6f 00 
+010: b3 00 57 00 42 00 38 00  aa c0 
+[rosout][INFO] 2019-06-06 09:02:47,111: {'hAcc': 6.257000000000001, 'fixType': 3, 'lon': -1238116801, 'iTOW': 403385000, 'week': 2056, 'vDop': 1.79, 'velE': 0.017, 'velD': -0.017, 'sAcc': 0.34900000000000003, 'vAcc': 9.963000000000001, 'year': 2019, 'hDop': 0.87, 'lat': 393371280, 'velN': 0.036000000000000004}
+[rosout][INFO] 2019-06-06 09:02:47,116: 
+Class: 0x1  ID: 0x3b  Len:40 [0x28]
+000: b5 62 01 3b 28 00 00 00  00 00 a8 2a 0b 18 00 00 
+010: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00 
+020: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 59 91 
+[rosout][INFO] 2019-06-06 09:02:47,117: {'valid': 0, 'meanAcc': 0.0, 'active': 0}
+[rosout][INFO] 2019-06-06 09:02:47,124: 
+{'hAcc': 6.257000000000001, 'fixType': 3, 'lon': -1238116801, 'iTOW': 403385000, 'week': 2056, 'vDop': 1.79, 'velE': 0.017, 'velD': -0.017, 'sAcc': 0.34900000000000003, 'sats': 11, 'vAcc': 9.963000000000001, 'year': 2019, 'hDop': 0.87, 'alt': 66.8, 'lat': 393371280, 'velN': 0.036000000000000004}
+[rosout][INFO] 2019-06-06 09:02:47,126: {'hAcc': 6.257000000000001, 'fixType': 3, 'lon': -1238116801, 'iTOW': 403385000, 'week': 2056, 'vDop': 1.79, 'velE': 0.017, 'velD': -0.017, 'sAcc': 0.34900000000000003, 'sats': 11, 'vAcc': 9.963000000000001, 'year': 2019, 'hDop': 0.87, 'alt': 66.8, 'lat': 393371280, 'velN': 0.036000000000000004}
+[rosout][INFO] 2019-06-06 09:02:47,127: Wrote GPS_INPUT message
+
+[rosout][INFO] 2019-06-06 09:02:48,101: 
+Class: 0x1  ID: 0x6  Len:52 [0x34]
+000: b5 62 01 06 34 00 90 2e  0b 18 e2 43 07 00 08 08 
+010: 03 dd ef b1 9d ef 58 62  89 e7 0b 1b f8 17 98 04 
+020: 00 00 00 00 00 00 00 00  00 00 04 00 00 00 28 00 
+030: 00 00 c7 00 02 0b 12 19  b6 03 43 0c 
+[rosout][INFO] 2019-06-06 09:02:48,102: !!!NEW CYCLE!!!
+[rosout][INFO] 2019-06-06 09:02:48,103: {'week': 2056}
+[rosout][INFO] 2019-06-06 09:02:48,111: 
+Class: 0x1  ID: 0x7  Len:92 [0x5c]
+000: b5 62 01 07 5c 00 90 2e  0b 18 e3 07 06 06 10 02 
+010: 30 37 15 00 00 00 e4 43  07 00 03 01 ea 0b 40 d6 
+020: 33 b6 9a 5e 72 17 47 93  00 00 4e 05 01 00 37 18 
+030: 00 00 09 27 00 00 18 00  00 00 00 00 00 00 e5 ff 
+040: ff ff 18 00 00 00 c7 38  03 00 8e 01 00 00 52 1a 
+050: 9b 00 c7 00 00 00 12 19  26 3b 00 00 00 00 00 00 
+060: 00 00 1a 59 
+[rosout][INFO] 2019-06-06 09:02:48,112: {'hAcc': 6.199, 'fixType': 3, 'lon': -1238116800, 'iTOW': 403386000, 'week': 2056, 'velE': 0.0, 'velD': -0.027, 'sAcc': 0.398, 'vAcc': 9.993, 'year': 2019, 'lat': 393371290, 'velN': 0.024}
+[rosout][INFO] 2019-06-06 09:02:48,116: 
+Class: 0x1  ID: 0x3  Len:16 [0x10]
+000: b5 62 01 03 10 00 90 2e  0b 18 03 dd 00 08 71 4f 
+010: 06 00 11 f6 60 05 0f 9c 
+[rosout][INFO] 2019-06-06 09:02:48,117: {'gpsFix': 3, 'diffCorr': 0, 'diffSoln': 0}
+[rosout][INFO] 2019-06-06 09:02:48,120: 
+Class: 0x1  ID: 0x4  Len:18 [0x12]
+000: b5 62 01 04 12 00 90 2e  0b 18 e4 00 c7 00 6f 00 
+010: b3 00 57 00 42 00 38 00  96 54 
+[rosout][INFO] 2019-06-06 09:02:48,121: {'hAcc': 6.199, 'fixType': 3, 'lon': -1238116800, 'iTOW': 403386000, 'week': 2056, 'vDop': 1.79, 'velE': 0.0, 'velD': -0.027, 'sAcc': 0.398, 'vAcc': 9.993, 'year': 2019, 'hDop': 0.87, 'lat': 393371290, 'velN': 0.024}
+[rosout][INFO] 2019-06-06 09:02:48,126: 
+Class: 0x1  ID: 0x3b  Len:40 [0x28]
+000: b5 62 01 3b 28 00 00 00  00 00 90 2e 0b 18 00 00 
+010: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00 
+020: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 45 bd 
+[rosout][INFO] 2019-06-06 09:02:48,127: {'valid': 0, 'meanAcc': 0.0, 'active': 0}
+[rosout][INFO] 2019-06-06 09:02:48,134: 
+{'hAcc': 6.199, 'fixType': 3, 'lon': -1238116800, 'iTOW': 403386000, 'week': 2056, 'vDop': 1.79, 'velE': 0.0, 'velD': -0.027, 'sAcc': 0.398, 'sats': 11, 'vAcc': 9.993, 'year': 2019, 'hDop': 0.87, 'alt': 66.9, 'lat': 393371290, 'velN': 0.024}
+[rosout][INFO] 2019-06-06 09:02:48,135: {'hAcc': 6.199, 'fixType': 3, 'lon': -1238116800, 'iTOW': 403386000, 'week': 2056, 'vDop': 1.79, 'velE': 0.0, 'velD': -0.027, 'sAcc': 0.398, 'sats': 11, 'vAcc': 9.993, 'year': 2019, 'hDop': 0.87, 'alt': 66.9, 'lat': 393371290, 'velN': 0.024}
+[rosout][INFO] 2019-06-06 09:02:48,136: Wrote GPS_INPUT message
+
+[rosout][INFO] 2019-06-06 09:02:49,105: 
+Class: 0x1  ID: 0x6  Len:52 [0x34]
+000: b5 62 01 06 34 00 78 32  0b 18 99 44 07 00 08 08 
+010: 03 dd 02 b2 9d ef 54 62  89 e7 1e 1b f8 17 95 04 
+020: 00 00 fe ff ff ff ff ff  ff ff 03 00 00 00 35 00 
+030: 00 00 c7 00 02 0b 12 19  b6 03 0a e2 
+[rosout][INFO] 2019-06-06 09:02:49,107: !!!NEW CYCLE!!!
+[rosout][INFO] 2019-06-06 09:02:49,108: {'week': 2056}
+[rosout][INFO] 2019-06-06 09:02:49,130: 
+Class: 0x1  ID: 0x7  Len:92 [0x5c]
+000: b5 62 01 07 5c 00 78 32  0b 18 e3 07 06 06 10 02 
+010: 31 37 15 00 00 00 9b 44  07 00 03 01 ea 0b 55 d6 
+020: 33 b6 ac 5e 72 17 8b 93  00 00 93 05 01 00 fa 17 
+030: 00 00 09 27 00 00 07 00  00 00 f6 ff ff ff db ff 
+040: ff ff 0c 00 00 00 c7 38  03 00 14 02 00 00 86 23 
+050: 9b 00 c7 00 00 00 12 19  26 3b 00 00 00 00 00 00 
+060: 00 00 c1 27 
+[rosout][INFO] 2019-06-06 09:02:49,131: {'hAcc': 6.138, 'fixType': 3, 'lon': -1238116779, 'iTOW': 403387000, 'week': 2056, 'velE': -0.01, 'velD': -0.037, 'sAcc': 0.532, 'vAcc': 9.993, 'year': 2019, 'lat': 393371308, 'velN': 0.007}
+[rosout][INFO] 2019-06-06 09:02:49,136: 
+Class: 0x1  ID: 0x3  Len:16 [0x10]
+000: b5 62 01 03 10 00 78 32  0b 18 03 dd 00 08 71 4f 
+010: 06 00 f9 f9 60 05 e6 01 
+[rosout][INFO] 2019-06-06 09:02:49,137: {'gpsFix': 3, 'diffCorr': 0, 'diffSoln': 0}
+[rosout][INFO] 2019-06-06 09:02:49,141: 
+Class: 0x1  ID: 0x4  Len:18 [0x12]
+000: b5 62 01 04 12 00 78 32  0b 18 e4 00 c7 00 6f 00 
+010: b3 00 57 00 42 00 38 00  82 e8 
+[rosout][INFO] 2019-06-06 09:02:49,143: {'hAcc': 6.138, 'fixType': 3, 'lon': -1238116779, 'iTOW': 403387000, 'week': 2056, 'vDop': 1.79, 'velE': -0.01, 'velD': -0.037, 'sAcc': 0.532, 'vAcc': 9.993, 'year': 2019, 'hDop': 0.87, 'lat': 393371308, 'velN': 0.007}
+[rosout][INFO] 2019-06-06 09:02:49,148: 
+Class: 0x1  ID: 0x3b  Len:40 [0x28]
+000: b5 62 01 3b 28 00 00 00  00 00 78 32 0b 18 00 00 
+010: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00 
+020: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 31 e9 
+[rosout][INFO] 2019-06-06 09:02:49,149: {'valid': 0, 'meanAcc': 0.0, 'active': 0}
+[rosout][INFO] 2019-06-06 09:02:49,157: 
+{'hAcc': 6.138, 'fixType': 3, 'lon': -1238116779, 'iTOW': 403387000, 'week': 2056, 'vDop': 1.79, 'velE': -0.01, 'velD': -0.037, 'sAcc': 0.532, 'sats': 11, 'vAcc': 9.993, 'year': 2019, 'hDop': 0.87, 'alt': 67.0, 'lat': 393371308, 'velN': 0.007}
+[rosout][INFO] 2019-06-06 09:02:49,159: {'hAcc': 6.138, 'fixType': 3, 'lon': -1238116779, 'iTOW': 403387000, 'week': 2056, 'vDop': 1.79, 'velE': -0.01, 'velD': -0.037, 'sAcc': 0.532, 'sats': 11, 'vAcc': 9.993, 'year': 2019, 'hDop': 0.87, 'alt': 67.0, 'lat': 393371308, 'velN': 0.007}
+[rosout][INFO] 2019-06-06 09:02:49,160: Wrote GPS_INPUT message
+
+[rospy.core][INFO] 2019-06-06 09:02:49,538: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2019-06-06 09:02:49,758: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2019-06-06 09:02:49,759: signal-2
+[rosout][WARNING] 2019-06-06 09:02:54,943: Exiting  IP Listener connects UBlox device to client, e.g. u-center.
+[rosout][WARNING] 2019-06-06 09:02:55,875: Exiting  NTrip client
+[rosout][WARNING] 2019-06-06 09:02:59,814: Exiting  UBX device client
+[rospy.core][INFO] 2019-06-06 09:02:59,817: signal_shutdown [atexit]

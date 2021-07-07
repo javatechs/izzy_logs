@@ -1,0 +1,5 @@
+
+
+1559836539.566694909  Node Startup
+1559836541.662594795 ERROR [switch_thread.py:205(send_config) [topics: /mavlink/to, /STM2, /gnss_status, /rosout, /STM1, /STM4, /gnss_control] ['STM2-CFG03', 'STM2-CFG04', 'STM2-CFG05', 'STM2-CFG06', 'STM2-CFG07', 'STM2-CFG08', 'STM2-CFG30', 'STM2-CFG31', 'STM2-CFG32', 'STM2-CFG33', 'STM2-CFG34', 'STM2-CFG35', 'STM2-CFG36', 'STM2-CFG37', 'STM2-CFG38', 'STM2-CFG39', 'STM2-CFG40', 'STM2-CFG41', 'STM2-CFG42', 'STM2-CFG60', 'STM2-CFG61', 'STM2-CFG62', 'STM2-CFG63', 'STM2-CFG81']
+1559836541.686294317 WARN [StreamWrapper.py:100(connect) [topics: /mavlink/to, /STM2, /gnss_status, /rosout, /STM1, /STM4, /gnss_control] Listening for connection on port: 2104

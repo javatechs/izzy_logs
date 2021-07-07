@@ -1,0 +1,8 @@
+
+
+1455244662.491975237  Node Startup
+1455244665.011677265 WARN [switch_thread.py:51(run) [topics: /gnss_control, /gnss_status, /rosout, /STM4, /mavlink/to, /STM2, /STM1] Starting IP Listener connects UBlox device to client, e.g. u-center. [/STM4]
+1455244665.050980806 ERROR [switch_thread.py:73(run) [topics: /gnss_control, /gnss_status, /rosout, /STM4, /mavlink/to, /STM2, /STM1] Exception <class 'serial.serialutil.SerialException'> on stream: /STM2
+1455244665.061610221 WARN [StreamWrapper.py:100(connect) [topics: /gnss_control, /gnss_status, /rosout, /STM4, /mavlink/to, /STM2, /STM1] Listening for connection on port: 2104
+1455244675.024857521 ERROR [switch_thread.py:73(run) [topics: /gnss_control, /gnss_status, /rosout, /STM4, /mavlink/to, /STM2, /STM1] Exception <class 'ConnectionRefusedError'> on stream: /STM1
+1455244675.055465221 ERROR [switch_thread.py:73(run) [topics: /gnss_control, /gnss_status, /rosout, /STM4, /mavlink/to, /STM2, /STM1] Exception <class 'serial.serialutil.SerialException'> on stream: /STM2

@@ -1,0 +1,194 @@
+[INFO] [1559689255.510448]: Serial connected: /dev/c94-m8p
+Transmitting
+06 01
+[INFO] [1559689255.541362]: Sent Disable U-blox RTCM 1005
+Transmitting
+06 01
+[INFO] [1559689255.552865]: Sent Enable U-blox NAV-SOL
+Transmitting
+06 01
+[INFO] [1559689255.566290]: Sent Enable U-blox NAV-PVT
+Transmitting
+06 01
+[INFO] [1559689255.574989]: Sent Enable U-blox NAV-DOP
+Transmitting
+06 01
+[INFO] [1559689255.581840]: Sent Enable U-blox NAV-STATUS
+Transmitting
+06 01
+[INFO] [1559689255.589414]: Sent Enable U-blox NAV-SVIN
+Transmitting
+06 01
+[INFO] [1559689255.595637]: Sent Enable GGA
+Transmitting
+06 01
+[INFO] [1559689255.602016]: Sent Disable GLL
+Transmitting
+06 01
+[INFO] [1559689255.609049]: Sent Disable GSA
+Transmitting
+06 01
+[INFO] [1559689255.616927]: Sent Disable GSV
+Transmitting
+06 01
+[INFO] [1559689255.624693]: Sent Disable RMC
+Transmitting
+06 01
+[INFO] [1559689255.632024]: Sent Disable VTG
+Transmitting
+06 01
+[INFO] [1559689255.639209]: Sent Disable DTM
+Transmitting
+06 01
+[INFO] [1559689255.646156]: Sent Disable GNS
+Transmitting
+06 01
+[INFO] [1559689255.653576]: Sent Disable GRS
+Transmitting
+06 01
+[INFO] [1559689255.660492]: Sent Disable GST
+Transmitting
+06 01
+[INFO] [1559689255.667330]: Sent Disable ZDA
+Transmitting
+06 01
+[INFO] [1559689255.674004]: Sent Disable GBS
+Transmitting
+06 01
+[INFO] [1559689255.680898]: Sent Disable VLW
+Transmitting
+06 01
+[INFO] [1559689255.687783]: Sent F5-05 RTCM 1005
+Transmitting
+06 01
+[INFO] [1559689255.694724]: Sent F5-4D RTCM 1077
+Transmitting
+06 01
+[INFO] [1559689255.702044]: Sent F5-57 RTCM 1087
+Transmitting
+06 01
+[INFO] [1559689255.708936]: Sent F5-E6 RTCM 1230
+Transmitting
+06 00
+[INFO] [1559689255.715980]: Sent UBX-CFG-PRT
+[INFO] [1559689255.720809]: Payload missing
+[INFO] [1559689255.725392]: Payload missing
+[INFO] [1559689255.730112]: Payload missing
+[INFO] [1559689255.735085]: Payload missing
+[INFO] [1559689255.739404]: Payload missing
+[INFO] [1559689255.744125]: Payload missing
+[INFO] [1559689255.748448]: Payload missing
+[INFO] [1559689255.753168]: Payload missing
+[INFO] [1559689255.757429]: Payload missing
+[INFO] [1559689255.762376]: Payload missing
+[INFO] [1559689255.767070]: Payload missing
+[INFO] [1559689255.772105]: Payload missing
+[INFO] [1559689255.776774]: Payload missing
+[INFO] [1559689255.781516]: Payload missing
+[INFO] [1559689255.786903]: Payload missing
+[INFO] [1559689255.791595]: Payload missing
+[INFO] [1559689255.796312]: Payload missing
+[INFO] [1559689255.801250]: Payload missing
+[INFO] [1559689255.805875]: Payload missing
+[INFO] [1559689255.811319]: Payload missing
+[INFO] [1559689255.816042]: Payload missing
+[INFO] [1559689255.821272]: Payload missing
+[INFO] [1559689255.826368]: Payload missing
+[INFO] [1559689255.831504]: Payload missing
+[INFO] [1559689265.886637]: Serial connected: /dev/c94-m8p
+Transmitting
+06 01
+[INFO] [1559689265.921167]: Sent Disable U-blox RTCM 1005
+Transmitting
+06 01
+[INFO] [1559689265.930220]: Sent Enable U-blox NAV-SOL
+Transmitting
+06 01
+[INFO] [1559689265.937709]: Sent Enable U-blox NAV-PVT
+Transmitting
+06 01
+[INFO] [1559689265.944484]: Sent Enable U-blox NAV-DOP
+Transmitting
+06 01
+[INFO] [1559689265.951516]: Sent Enable U-blox NAV-STATUS
+Transmitting
+06 01
+[INFO] [1559689265.959780]: Sent Enable U-blox NAV-SVIN
+Transmitting
+06 01
+[INFO] [1559689265.966426]: Sent Enable GGA
+Transmitting
+06 01
+[INFO] [1559689265.973277]: Sent Disable GLL
+Transmitting
+06 01
+[INFO] [1559689265.981044]: Sent Disable GSA
+Transmitting
+06 01
+[INFO] [1559689265.988638]: Sent Disable GSV
+Transmitting
+06 01
+[INFO] [1559689265.995873]: Sent Disable RMC
+Transmitting
+06 01
+[INFO] [1559689266.003437]: Sent Disable VTG
+Transmitting
+06 01
+[INFO] [1559689266.010214]: Sent Disable DTM
+Transmitting
+06 01
+[INFO] [1559689266.016830]: Sent Disable GNS
+Transmitting
+06 01
+[INFO] [1559689266.023740]: Sent Disable GRS
+Transmitting
+06 01
+[INFO] [1559689266.030580]: Sent Disable GST
+Transmitting
+06 01
+[INFO] [1559689266.037018]: Sent Disable ZDA
+Transmitting
+06 01
+[INFO] [1559689266.044344]: Sent Disable GBS
+Transmitting
+06 01
+[INFO] [1559689266.051273]: Sent Disable VLW
+Transmitting
+06 01
+[INFO] [1559689266.059871]: Sent F5-05 RTCM 1005
+Transmitting
+06 01
+[INFO] [1559689266.067136]: Sent F5-4D RTCM 1077
+Transmitting
+06 01
+[INFO] [1559689266.074054]: Sent F5-57 RTCM 1087
+Transmitting
+06 01
+[INFO] [1559689266.081370]: Sent F5-E6 RTCM 1230
+Transmitting
+06 00
+[INFO] [1559689266.088312]: Sent UBX-CFG-PRT
+[INFO] [1559689266.093472]: Payload missing
+[INFO] [1559689266.098508]: Payload missing
+[INFO] [1559689266.103203]: Payload missing
+[INFO] [1559689266.108190]: Payload missing
+[INFO] [1559689266.113059]: Payload missing
+[INFO] [1559689266.117871]: Payload missing
+[INFO] [1559689266.122255]: Payload missing
+[INFO] [1559689266.126576]: Payload missing
+[INFO] [1559689266.130869]: Payload missing
+[INFO] [1559689266.135190]: Payload missing
+[INFO] [1559689266.139560]: Payload missing
+[INFO] [1559689266.144742]: Payload missing
+[INFO] [1559689266.149431]: Payload missing
+[INFO] [1559689266.154402]: Payload missing
+[INFO] [1559689266.160656]: Payload missing
+[INFO] [1559689266.165351]: Payload missing
+[INFO] [1559689266.170308]: Payload missing
+[INFO] [1559689266.174854]: Payload missing
+[INFO] [1559689266.180451]: Payload missing
+[INFO] [1559689266.185620]: Payload missing
+[INFO] [1559689266.190943]: Payload missing
+[INFO] [1559689266.195584]: Payload missing
+[INFO] [1559689266.200530]: Payload missing
+[INFO] [1559689266.206022]: Payload missing

@@ -1,0 +1,112 @@
+[roslaunch][INFO] 2019-05-31 19:31:41,296: Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+[roslaunch][INFO] 2019-05-31 19:31:41,307: Done checking log file disk usage. Usage is <1GB.
+[roslaunch][INFO] 2019-05-31 19:31:41,308: roslaunch starting with args ['/opt/ros/kinetic/bin/roslaunch', 'c94m8p', 'gnss.launch']
+[roslaunch][INFO] 2019-05-31 19:31:41,308: roslaunch env is {'ROS_DISTRO': 'kinetic', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'SSH_CLIENT': '10.0.0.190 51766 22', 'LOGNAME': 'robot', 'USER': 'robot', 'PATH': '/home/robot/bin:/home/robot/.local/bin:/home/robot/bin:/home/robot/.local/bin:/opt/ros/kinetic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/robot/.local/bin', 'HOME': '/home/robot', 'CMAKE_PREFIX_PATH': '/home/robot/catkin_ws/devel:/opt/ros/kinetic', 'LD_LIBRARY_PATH': '/home/robot/catkin_ws/devel/lib:/opt/ros/kinetic/lib:/opt/ros/kinetic/lib/x86_64-linux-gnu', 'LANG': 'en_US.UTF-8', 'TERM': 'xterm-256color', 'SHELL': '/bin/bash', 'ROS_LOG_FILENAME': '/home/robot/.ros/log/63885ab2-8415-11e9-b2bb-9cefd5fdebd8/roslaunch-robot-5523.log', 'SHLVL': '1', 'QT_QPA_PLATFORMTHEME': 'appmenu-qt5', 'DISPLAY': 'localhost:10.0', 'ROS_ETC_DIR': '/opt/ros/kinetic/etc/ros', 'XDG_RUNTIME_DIR': '/run/user/1000', 'PYTHONPATH': '/home/robot/catkin_ws/devel/lib/python2.7/dist-packages:/opt/ros/kinetic/lib/python2.7/dist-packages', 'ROS_IP': '10.0.0.166', 'ROS_ROOT': '/opt/ros/kinetic/share/ros', 'PKG_CONFIG_PATH': '/home/robot/catkin_ws/devel/lib/pkgconfig:/opt/ros/kinetic/lib/pkgconfig:/opt/ros/kinetic/lib/x86_64-linux-gnu/pkgconfig', 'ROS_PACKAGE_PATH': '/home/robot/catkin_ws/src:/opt/ros/kinetic/share', 'XDG_SESSION_ID': '11', '_': '/opt/ros/kinetic/bin/roslaunch', 'SSH_CONNECTION': '10.0.0.190 51766 10.0.0.166 22', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'SSH_TTY': '/dev/pts/1', 'OLDPWD': '/home/robot/.ros/log', 'ROSLISP_PACKAGE_DIRECTORIES': '/home/robot/catkin_ws/devel/share/common-lisp', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PWD': '/home/robot/.ros', 'ROS_MASTER_URI': 'http://localhost:11311', 'ROS_VERSION': '1', 'MAIL': '/var/mail/robot', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'}
+[roslaunch][INFO] 2019-05-31 19:31:41,308: starting in server mode
+[roslaunch.parent][INFO] 2019-05-31 19:31:41,309: starting roslaunch parent run
+[roslaunch][INFO] 2019-05-31 19:31:41,309: loading roscore config file /opt/ros/kinetic/etc/ros/roscore.xml
+[roslaunch][INFO] 2019-05-31 19:31:41,916: Added core node of type [rosout/rosout] in namespace [/]
+[roslaunch.config][INFO] 2019-05-31 19:31:41,916: loading config file /home/robot/catkin_ws/src/c94m8p/launch/gnss.launch
+[roslaunch][INFO] 2019-05-31 19:31:42,487: Added node of type [c94m8p/gnss_node] in namespace [/]
+[roslaunch][INFO] 2019-05-31 19:31:42,487: ... selected machine [] for node of type [c94m8p/gnss_node]
+[roslaunch.pmon][INFO] 2019-05-31 19:31:42,489: start_process_monitor: creating ProcessMonitor
+[roslaunch.pmon][INFO] 2019-05-31 19:31:42,489: created process monitor <ProcessMonitor(ProcessMonitor-1, initial daemon)>
+[roslaunch.pmon][INFO] 2019-05-31 19:31:42,491: start_process_monitor: ProcessMonitor started
+[roslaunch.parent][INFO] 2019-05-31 19:31:42,492: starting parent XML-RPC server
+[roslaunch.server][INFO] 2019-05-31 19:31:42,493: starting roslaunch XML-RPC server
+[roslaunch.server][INFO] 2019-05-31 19:31:42,494: waiting for roslaunch XML-RPC server to initialize
+[xmlrpc][INFO] 2019-05-31 19:31:42,495: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-05-31 19:31:42,497: Started XML-RPC server [http://10.0.0.166:38523/]
+[xmlrpc][INFO] 2019-05-31 19:31:42,498: xml rpc node: starting XML-RPC server
+[roslaunch][INFO] 2019-05-31 19:31:42,514: started roslaunch server http://10.0.0.166:38523/
+[roslaunch.parent][INFO] 2019-05-31 19:31:42,514: ... parent XML-RPC server started
+[roslaunch][INFO] 2019-05-31 19:31:42,517: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2019-05-31 19:31:42,519: auto-starting new master
+[roslaunch][INFO] 2019-05-31 19:31:42,519: create_master_process: rosmaster, /opt/ros/kinetic/share/ros, 11311, 3, None
+[roslaunch][INFO] 2019-05-31 19:31:42,519: process[master]: launching with args [['rosmaster', '--core', '-p', '11311', '-w', '3']]
+[roslaunch.pmon][INFO] 2019-05-31 19:31:42,520: ProcessMonitor.register[master]
+[roslaunch.pmon][INFO] 2019-05-31 19:31:42,520: ProcessMonitor.register[master] complete
+[roslaunch][INFO] 2019-05-31 19:31:42,520: process[master]: starting os process
+[roslaunch][INFO] 2019-05-31 19:31:42,520: process[master]: start w/ args [['rosmaster', '--core', '-p', '11311', '-w', '3', '__log:=/home/robot/.ros/log/63885ab2-8415-11e9-b2bb-9cefd5fdebd8/master.log']]
+[roslaunch][INFO] 2019-05-31 19:31:42,521: process[master]: cwd will be [/home/robot/.ros]
+[roslaunch][INFO] 2019-05-31 19:31:42,532: process[master]: started with pid [5533]
+[roslaunch][INFO] 2019-05-31 19:31:42,533: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2019-05-31 19:31:42,634: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2019-05-31 19:31:42,736: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2019-05-31 19:31:42,837: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2019-05-31 19:31:42,938: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2019-05-31 19:31:43,040: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2019-05-31 19:31:43,142: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2019-05-31 19:31:43,244: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2019-05-31 19:31:43,251: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2019-05-31 19:31:43,257: ROS_MASTER_URI=http://localhost:11311
+[roslaunch][INFO] 2019-05-31 19:31:43,264: setting /run_id to 63885ab2-8415-11e9-b2bb-9cefd5fdebd8
+[roslaunch][INFO] 2019-05-31 19:31:43,270: setting /roslaunch/uris/host_10_0_0_166__38523' to http://10.0.0.166:38523/
+[roslaunch][INFO] 2019-05-31 19:31:43,278: ... preparing to launch node of type [rosout/rosout]
+[roslaunch][INFO] 2019-05-31 19:31:43,279: create_node_process: package[rosout] type[rosout] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://localhost:11311]
+[roslaunch][INFO] 2019-05-31 19:31:43,279: process[rosout-1]: env[{'ROS_DISTRO': 'kinetic', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'ROS_IP': '10.0.0.166', 'LOGNAME': 'robot', 'USER': 'robot', 'PATH': '/home/robot/bin:/home/robot/.local/bin:/home/robot/bin:/home/robot/.local/bin:/opt/ros/kinetic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/robot/.local/bin', 'HOME': '/home/robot', 'CMAKE_PREFIX_PATH': '/home/robot/catkin_ws/devel:/opt/ros/kinetic', 'ROS_LOG_FILENAME': '/home/robot/.ros/log/63885ab2-8415-11e9-b2bb-9cefd5fdebd8/roslaunch-robot-5523.log', 'LANG': 'en_US.UTF-8', 'TERM': 'xterm-256color', 'SHELL': '/bin/bash', 'SHLVL': '1', 'QT_QPA_PLATFORMTHEME': 'appmenu-qt5', 'DISPLAY': 'localhost:10.0', 'ROS_MASTER_URI': 'http://localhost:11311', 'XDG_RUNTIME_DIR': '/run/user/1000', 'PYTHONPATH': '/home/robot/catkin_ws/devel/lib/python2.7/dist-packages:/opt/ros/kinetic/lib/python2.7/dist-packages', 'ROS_ROOT': '/opt/ros/kinetic/share/ros', 'PKG_CONFIG_PATH': '/home/robot/catkin_ws/devel/lib/pkgconfig:/opt/ros/kinetic/lib/pkgconfig:/opt/ros/kinetic/lib/x86_64-linux-gnu/pkgconfig', 'ROS_PACKAGE_PATH': '/home/robot/catkin_ws/src:/opt/ros/kinetic/share', 'XDG_SESSION_ID': '11', '_': '/opt/ros/kinetic/bin/roslaunch', 'LD_LIBRARY_PATH': '/home/robot/catkin_ws/devel/lib:/opt/ros/kinetic/lib:/opt/ros/kinetic/lib/x86_64-linux-gnu', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'SSH_TTY': '/dev/pts/1', 'OLDPWD': '/home/robot/.ros/log', 'SSH_CLIENT': '10.0.0.190 51766 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PWD': '/home/robot/.ros', 'ROS_ETC_DIR': '/opt/ros/kinetic/etc/ros', 'ROS_VERSION': '1', 'MAIL': '/var/mail/robot', 'SSH_CONNECTION': '10.0.0.190 51766 10.0.0.166 22', 'ROSLISP_PACKAGE_DIRECTORIES': '/home/robot/catkin_ws/devel/share/common-lisp'}]
+[roslaunch][INFO] 2019-05-31 19:31:43,689: process[rosout-1]: args[[u'/opt/ros/kinetic/lib/rosout/rosout', u'__name:=rosout']]
+[roslaunch][INFO] 2019-05-31 19:31:43,689: ... created process [rosout-1]
+[roslaunch.pmon][INFO] 2019-05-31 19:31:43,690: ProcessMonitor.register[rosout-1]
+[roslaunch.pmon][INFO] 2019-05-31 19:31:43,690: ProcessMonitor.register[rosout-1] complete
+[roslaunch][INFO] 2019-05-31 19:31:43,690: ... registered process [rosout-1]
+[roslaunch][INFO] 2019-05-31 19:31:43,690: process[rosout-1]: starting os process
+[roslaunch][INFO] 2019-05-31 19:31:43,691: process[rosout-1]: start w/ args [[u'/opt/ros/kinetic/lib/rosout/rosout', u'__name:=rosout', u'__log:=/home/robot/.ros/log/63885ab2-8415-11e9-b2bb-9cefd5fdebd8/rosout-1.log']]
+[roslaunch][INFO] 2019-05-31 19:31:43,691: process[rosout-1]: cwd will be [/home/robot/.ros]
+[roslaunch][INFO] 2019-05-31 19:31:43,701: process[rosout-1]: started with pid [5546]
+[roslaunch][INFO] 2019-05-31 19:31:43,702: ... successfully launched [rosout-1]
+[roslaunch][INFO] 2019-05-31 19:31:43,702: load_parameters starting ...
+[roslaunch][INFO] 2019-05-31 19:31:43,926: ... load_parameters complete
+[roslaunch][INFO] 2019-05-31 19:31:43,926: launch_nodes: launching local nodes ...
+[roslaunch][INFO] 2019-05-31 19:31:43,927: ... preparing to launch node of type [c94m8p/gnss_node]
+[roslaunch][INFO] 2019-05-31 19:31:43,927: create_node_process: package[c94m8p] type[gnss_node] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://localhost:11311]
+[roslaunch][INFO] 2019-05-31 19:31:43,927: process[gnss_node-2]: env[{'ROS_DISTRO': 'kinetic', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'ROS_IP': '10.0.0.166', 'LOGNAME': 'robot', 'USER': 'robot', 'PATH': '/home/robot/bin:/home/robot/.local/bin:/home/robot/bin:/home/robot/.local/bin:/opt/ros/kinetic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/robot/.local/bin', 'HOME': '/home/robot', 'CMAKE_PREFIX_PATH': '/home/robot/catkin_ws/devel:/opt/ros/kinetic', 'ROS_LOG_FILENAME': '/home/robot/.ros/log/63885ab2-8415-11e9-b2bb-9cefd5fdebd8/roslaunch-robot-5523.log', 'LANG': 'en_US.UTF-8', 'TERM': 'xterm-256color', 'SHELL': '/bin/bash', 'SHLVL': '1', 'QT_QPA_PLATFORMTHEME': 'appmenu-qt5', 'DISPLAY': 'localhost:10.0', 'ROS_MASTER_URI': 'http://localhost:11311', 'XDG_RUNTIME_DIR': '/run/user/1000', 'PYTHONPATH': '/home/robot/catkin_ws/devel/lib/python2.7/dist-packages:/opt/ros/kinetic/lib/python2.7/dist-packages', 'ROS_ROOT': '/opt/ros/kinetic/share/ros', 'PKG_CONFIG_PATH': '/home/robot/catkin_ws/devel/lib/pkgconfig:/opt/ros/kinetic/lib/pkgconfig:/opt/ros/kinetic/lib/x86_64-linux-gnu/pkgconfig', 'ROS_PACKAGE_PATH': '/home/robot/catkin_ws/src:/opt/ros/kinetic/share', 'XDG_SESSION_ID': '11', '_': '/opt/ros/kinetic/bin/roslaunch', 'LD_LIBRARY_PATH': '/home/robot/catkin_ws/devel/lib:/opt/ros/kinetic/lib:/opt/ros/kinetic/lib/x86_64-linux-gnu', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'SSH_TTY': '/dev/pts/1', 'OLDPWD': '/home/robot/.ros/log', 'SSH_CLIENT': '10.0.0.190 51766 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PWD': '/home/robot/.ros', 'ROS_ETC_DIR': '/opt/ros/kinetic/etc/ros', 'ROS_VERSION': '1', 'MAIL': '/var/mail/robot', 'SSH_CONNECTION': '10.0.0.190 51766 10.0.0.166 22', 'ROSLISP_PACKAGE_DIRECTORIES': '/home/robot/catkin_ws/devel/share/common-lisp'}]
+[roslaunch][INFO] 2019-05-31 19:31:43,932: process[gnss_node-2]: args[[u'/home/robot/catkin_ws/src/c94m8p/nodes/gnss_node', u'__name:=gnss_node']]
+[roslaunch][INFO] 2019-05-31 19:31:43,932: ... created process [gnss_node-2]
+[roslaunch.pmon][INFO] 2019-05-31 19:31:43,933: ProcessMonitor.register[gnss_node-2]
+[roslaunch.pmon][INFO] 2019-05-31 19:31:43,933: ProcessMonitor.register[gnss_node-2] complete
+[roslaunch][INFO] 2019-05-31 19:31:43,933: ... registered process [gnss_node-2]
+[roslaunch][INFO] 2019-05-31 19:31:43,933: process[gnss_node-2]: starting os process
+[roslaunch][INFO] 2019-05-31 19:31:43,934: process[gnss_node-2]: start w/ args [[u'/home/robot/catkin_ws/src/c94m8p/nodes/gnss_node', u'__name:=gnss_node', u'__log:=/home/robot/.ros/log/63885ab2-8415-11e9-b2bb-9cefd5fdebd8/gnss_node-2.log']]
+[roslaunch][INFO] 2019-05-31 19:31:43,934: process[gnss_node-2]: cwd will be [/home/robot/.ros]
+[roslaunch][INFO] 2019-05-31 19:31:43,944: process[gnss_node-2]: started with pid [5563]
+[roslaunch][INFO] 2019-05-31 19:31:43,945: ... successfully launched [gnss_node-2]
+[roslaunch][INFO] 2019-05-31 19:31:43,946: ... launch_nodes complete
+[roslaunch.pmon][INFO] 2019-05-31 19:31:43,946: registrations completed <ProcessMonitor(ProcessMonitor-1, started daemon 140043236710144)>
+[roslaunch.parent][INFO] 2019-05-31 19:31:43,946: ... roslaunch parent running, waiting for process exit
+[roslaunch][INFO] 2019-05-31 19:31:43,946: spin
+[roslaunch.pmon][INFO] 2019-05-31 19:31:50,912: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, started daemon 140043236710144)>
+[roslaunch.pmon][INFO] 2019-05-31 19:31:50,930: ProcessMonitor._post_run <ProcessMonitor(ProcessMonitor-1, started daemon 140043236710144)>
+[roslaunch.pmon][INFO] 2019-05-31 19:31:50,931: ProcessMonitor._post_run <ProcessMonitor(ProcessMonitor-1, started daemon 140043236710144)>: remaining procs are [<roslaunch.nodeprocess.LocalProcess object at 0x7f5e5b8a8fd0>, <roslaunch.nodeprocess.LocalProcess object at 0x7f5e5b8a8410>, <roslaunch.nodeprocess.LocalProcess object at 0x7f5e5b8a8ad0>]
+[roslaunch.pmon][INFO] 2019-05-31 19:31:50,932: ProcessMonitor exit: killing gnss_node-2
+[roslaunch][INFO] 2019-05-31 19:31:50,932: [gnss_node-2] killing on exit
+[roslaunch][INFO] 2019-05-31 19:31:50,933: process[gnss_node-2]: killing os process with pid[5563] pgid[5563]
+[roslaunch][INFO] 2019-05-31 19:31:50,933: [gnss_node-2] sending SIGINT to pgid [5563]
+[roslaunch][INFO] 2019-05-31 19:31:50,933: [gnss_node-2] sent SIGINT to pgid [5563]
+[roslaunch][ERROR] 2019-05-31 19:32:06,000: [gnss_node-2] escalating to SIGTERM
+[roslaunch][INFO] 2019-05-31 19:32:06,000: [gnss_node-2] sent SIGTERM to pgid [5563]
+[roslaunch][INFO] 2019-05-31 19:32:07,003: process[gnss_node-2]: SIGTERM killed with return value 0
+[roslaunch.pmon][INFO] 2019-05-31 19:32:07,003: ProcessMonitor exit: killing rosout-1
+[roslaunch][INFO] 2019-05-31 19:32:07,004: [rosout-1] killing on exit
+[roslaunch][INFO] 2019-05-31 19:32:07,004: process[rosout-1]: killing os process with pid[5546] pgid[5546]
+[roslaunch][INFO] 2019-05-31 19:32:07,005: [rosout-1] sending SIGINT to pgid [5546]
+[roslaunch][INFO] 2019-05-31 19:32:07,005: [rosout-1] sent SIGINT to pgid [5546]
+[roslaunch][INFO] 2019-05-31 19:32:07,306: process[rosout-1]: SIGINT killed with return value 0
+[roslaunch.pmon][INFO] 2019-05-31 19:32:07,307: ProcessMonitor exit: killing master
+[roslaunch][INFO] 2019-05-31 19:32:07,307: [master] killing on exit
+[roslaunch][INFO] 2019-05-31 19:32:07,308: process[master]: killing os process with pid[5533] pgid[5533]
+[roslaunch][INFO] 2019-05-31 19:32:07,308: [master] sending SIGINT to pgid [5533]
+[roslaunch][INFO] 2019-05-31 19:32:07,308: [master] sent SIGINT to pgid [5533]
+[roslaunch][INFO] 2019-05-31 19:32:07,510: process[master]: SIGINT killed with return value 0
+[roslaunch.pmon][INFO] 2019-05-31 19:32:07,511: ProcessMonitor exit: cleaning up data structures and signals
+[roslaunch.pmon][INFO] 2019-05-31 19:32:07,511: ProcessMonitor exit: pmon has shutdown
+[roslaunch][INFO] 2019-05-31 19:32:07,527: process monitor is done spinning, initiating full shutdown
+[roslaunch][INFO] 2019-05-31 19:32:07,528: runner.stop()
+[roslaunch][INFO] 2019-05-31 19:32:07,528: shutting down processing monitor...
+[roslaunch][INFO] 2019-05-31 19:32:07,529: shutting down processing monitor <ProcessMonitor(ProcessMonitor-1, stopped daemon 140043236710144)>
+[roslaunch.pmon][INFO] 2019-05-31 19:32:07,529: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, stopped daemon 140043236710144)>
+[roslaunch][INFO] 2019-05-31 19:32:07,530: ... shutting down processing monitor complete
+[roslaunch][INFO] 2019-05-31 19:32:07,530: done
+[roslaunch.pmon][INFO] 2019-05-31 19:32:07,531: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, stopped daemon 140043236710144)>
+[rospy.core][INFO] 2019-05-31 19:32:07,531: signal_shutdown [atexit]
